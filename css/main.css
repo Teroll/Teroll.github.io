@@ -1,0 +1,11 @@
+.top-block{
+	height: 30vh;
+	background: gray;
+	text-align: center;
+}
+.works{
+	text-align: center;
+}
+.works img{
+	width: 100%;
+}
