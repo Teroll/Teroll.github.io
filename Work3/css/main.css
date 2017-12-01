@@ -211,8 +211,8 @@ h3{
 	position: absolute;
 	bottom: 10px;
 }
-.mb20{
-	margin-bottom: 30px;
+.mb20 a{
+	margin-bottom: 20px;
 }
 .mb20 .pl {
 	padding-left: 48px;
