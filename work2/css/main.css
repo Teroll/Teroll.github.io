@@ -1,7 +1,4 @@
-/*div{
-    border-style: solid;
-	border-color: red;
-}*/
+
 ul{
 	list-style: none;
 }
@@ -387,7 +384,7 @@ a{
 	margin-left: calc(50% - 30px);
 }
 /*Hidden info*/
-.ower:hover .info{
+.ower .info{
 	display: block!important;
 	position: absolute;
 	top: 0;
@@ -401,20 +398,22 @@ a{
 
 /*Hidden info Constanta*/
 
-.info a:first-child{
+.info .but a{
 	color: white;
 	border: solid 3px;
 	padding: 5px 7px;
 	border-radius: 20px;
-	display: inline-block;
+	display: block;
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-bottom: 15px;
-	margin-top: 20%;
+	margin-top: 15%;
 	width: 80%;
 	text-align: center;
 }
-
+.but_2{
+	padding: 0;
+}
 
 /*Hidden info Constanta*/
 
@@ -424,8 +423,7 @@ a{
 }
 .info #reviewStars-input{
 	margin-left: 10%;
-  	*zoom: 1;
-  	  
+  	*zoom: 1;  
 }
 
 #reviewStars-input input {
@@ -436,6 +434,7 @@ a{
   position: absolute;
   top: 0;
   z-index: 0;
+
 }
 
 #reviewStars-input input:checked ~ label {
@@ -449,7 +448,7 @@ a{
   height: 20px;
   width: 22px;
   cursor: pointer;
-  
+  float: right;
   
 /*  position: relative;
 */  z-index: 1;
@@ -461,7 +460,7 @@ a{
   width: 22px;
 }
 
-#reviewStars-input #star-0 {
+/*#reviewStars-input #star-0 {
   left: 0px;
 }
 #reviewStars-input #star-1 {
@@ -478,7 +477,7 @@ a{
 }
 #reviewStars-input #star-5 {
   left: 0px;
-}
+}*/
 /*sprite with stars END*/
 /*#2 Dance style---------------------------*/
 .BgHotel_2 {
@@ -614,8 +613,11 @@ a{
 .info_big #reviewStars-input{
 	margin-top: 30px;	
 }
-#reviewStars-input:after{
+/*#reviewStars-input:after{
 	content: url(../img/InfoIcon.png);
+	position: absolute;
+	right: 0;
+	top: 95px;*/
 }
 /*Hidden info--------------- END*/
 .big{
@@ -890,4 +892,4 @@ a{
 .w110{
 	max-width: 110px;
 }
-/*Footer-----------------------------END*/
+/*Footer-----------------------------END
