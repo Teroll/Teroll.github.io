@@ -111,11 +111,15 @@ h3{
 }
 /*Hover script end*/
 /*Carousel*/
-#myCarousel{
-/*    width: 70%;*/
+.Carousel{
+	height: 300px;
+	max-width: 600px;
+	padding-left: 10px;
 }
 #myCarousel img{
-    height: 100%;
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
 }
 .carousel-indicators li{
     border-radius: 0;
@@ -137,6 +141,7 @@ h3{
     width: 60%;
 }
 /*Carousel end*/
+
 /*Middle Block*/
 .middle-block{
 	background: white;
@@ -147,14 +152,15 @@ h3{
 .flex-block{
 	display: flex;
 }
-.flex-item{
+.box{
 	padding: 25px;
 	margin-top: -65px;
 	background: white;
-	margin-left: 10px;
-	margin-right: 10px;
+/*	margin-left: 10px;
+	margin-right: 10px;*/
+	/*width: calc(25% - 21px);*/
 }
-.flex-item h4{
+.box h4{
 	font-size: 15px;
 	font-weight: bold;
 	color: #171717;
@@ -164,7 +170,7 @@ h3{
 	margin-top: 24px;
 	margin-bottom: 10px;
 }
-.flex-item a{
+.box a{
 	color: #333;
 	font-size: 12px;
 	font-weight: bold;
@@ -173,7 +179,7 @@ h3{
 	display: block;
 	padding-top: 17px;
 }
-.flex-item a:hover{
+.box a:hover{
 	background:url(../img/line.png)repeat-x 0 100% #8e8e8e;
 	color: #fff;
 	border-radius: 10px;
