@@ -100,13 +100,12 @@ a{
 	width: 95%;
 	height: 50px;
 	border-radius: 25px;
-	border: solid 1px gray/* #413d39*/;
+	border: solid 1px gray;
 	color: white;
-	background-color: rgba(147,147,147, 0.2);
+	background:  rgba(147,147,147, 0.2);
 	font-size: 18px;
 	padding-left: 23px;
-	font-family: Myriad Pro;
-
+	font-family: Myriad Pro;	
 }
 .search-block option{
 	color: white;
@@ -119,7 +118,7 @@ a{
 	height: 60px;
 	border-radius: 30px;
 	background-color: rgba(147,147,147, 0.2);
-	border: solid 1px gray /*#413d39*/;
+	border: solid 1px gray ;
 	color: white;
 	font-size: 18px;
 	padding-left: 32px;
@@ -274,13 +273,7 @@ a{
 	margin-right: 18px;
 	margin-left: 2%;
 }
-.Padding0{
-/*	padding-right: 0 !important;
-	padding-left: 0 !important;
-	margin-right: 2%;
-	margin-left: 2%;*/
-	/*width: 210px;*/
-}
+
 /*navi-block*/
 
 /*content-block*/
@@ -450,9 +443,7 @@ a{
   width: 22px;
   cursor: pointer;
   float: right;
-  
-/*  position: relative;
-*/  z-index: 1;
+	z-index: 1;
 }
 
 #reviewStars-input label:hover, 
@@ -462,24 +453,6 @@ a{
   width: 22px;
 }
 
-/*#reviewStars-input #star-0 {
-  left: 0px;
-}
-#reviewStars-input #star-1 {
-  left: 0px;
-}
-#reviewStars-input #star-2 {
-  left: 0px;
-}
-#reviewStars-input #star-3 {
-  left: 0px;
-}
-#reviewStars-input #star-4 {
-  left: 0px;
-}
-#reviewStars-input #star-5 {
-  left: 0px;
-}*/
 /*sprite with stars END*/
 /*#2 Dance style---------------------------*/
 .BgHotel_2 {
@@ -715,7 +688,6 @@ a{
 .nav-tabs a{
 	border: 2px #a2b0b1 solid !important;
 	margin-left: 20%;
-	/*margin-right: 32px;*/
 }
 .nav-tabs li{
 	margin-left: 4.7%;
@@ -768,10 +740,6 @@ a{
 	border: 0px red solid !important;
 	outline: 0px solid red!important;
 }
-/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	border: 2px #1baf5d solid !important;
-	background: url(../img/Tab_icon_11.png) no-repeat center;
-}*/
 /*Page 1 style----------*/
 #panel1 h4{
 	color: #1baf5d;
@@ -817,7 +785,6 @@ a{
 }
 .Email input{
 	width: 100% !important;
-	/*max-width: 500px !important;*/
 	height: 64px;
 	border-radius: 30px;
 	background-color: rgba(147,147,147, 0.2);
@@ -827,8 +794,6 @@ a{
 	float: right;
 	padding-right: 140px;
 	padding-left: calc(6% + 15px);
-/*	padding-left: 32px;
-	margin-top: 23px;*/
 }
 .Email button{
 	width: 126px;
@@ -841,9 +806,6 @@ a{
 	text-transform: uppercase;
 	color: white;
 	border-color: #e94e38;
-/*	margin-left: 34%;
-	margin-top: 30px;
-	margin-bottom: 40px;*/
 	position: absolute;
 	top: 54px;
 	right: 19px;
