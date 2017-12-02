@@ -149,16 +149,15 @@ h3{
 	border-bottom:  4px solid #242424;
 	padding-bottom: 50px;
 }
-.flex-block{
-	display: flex;
-}
 .box{
-	padding: 25px;
+	padding: 10px;
 	margin-top: -65px;
 	background: white;
-/*	margin-left: 10px;
-	margin-right: 10px;*/
-	/*width: calc(25% - 21px);*/
+	background-clip: content-box;
+	margin-bottom: 45px;
+}
+.box_2{
+	padding: 25px 25px 0px 25px;
 }
 .box h4{
 	font-size: 15px;
