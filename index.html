@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Web-Portfolio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -11,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   	<script src="js/wow.min.js"></script>
 	<script>new WOW().init();</script>
+	<script src="js/scroll_anchor.js"></script>
 </head>
 <body>
 	<header>
@@ -26,11 +28,17 @@
 			<p class="animated zoomIn a1">Bootstrap / Css 3 / Html 5 / Sass / Git / jQuery / JavaScript / Photoshop</p>
 
 		</div>
+		<div class="animated flipInX a2 botom">
+			<a href="#works"><img class="animated bounce a3" src="img/arrowDown.png"  alt="scrollDown"></a>
+		</div>
+		
 	</div>
-	<div class="works">
+	<!-- <a name="works"  href="#"></a> -->
+	<div id="works" class="works">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12 ower fadeIn wow">
+			<h2>Портфолио</h2>
+			<div class="row" >
+				<div  class="col-md-4 col-sm-6 col-xs-12 ower fadeIn wow">
 					<div class="hide">
 						<h4>Пром портфолио</h4>
 						<a class="project" href="work1/index.html">Посмотреть</a>
@@ -50,6 +58,59 @@
 						<a class="project" href="Work3/index.html">Посмотреть</a>
 					</div>
 					<img alt="Проект" src="img/work3.png" >
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="aboutMe">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-12">
+					<h2>
+						Обо мне
+					</h2>
+					<ul class="Galochka">
+						<li>
+							Возраст: 27 лет
+						</li>
+						<li>
+							Образование: Высшее - Математика
+						</li>
+						<li>
+							Хорошее знание Английского языка
+						</li>
+						<li>
+							Личный автомобиль
+						</li>
+						<li>
+							Отсутствие вредных привычек
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<h2>
+						Контакты
+					</h2>
+					<ul>
+						<li>
+							<img src="img/kontact3.png">
+							<p>
+								Почта: mekprom@yandex.ru
+							</p>
+						</li>
+						<li>
+							<img src="img/kontact2.png">
+							<p>
+								Телефон: 8-951-7-826-396
+							</p>
+						</li>
+						<li>
+							<img src="img/kontact1.png">
+							<p>
+								Skype: terroll1
+							</p>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
