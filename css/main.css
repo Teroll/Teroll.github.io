@@ -3,6 +3,7 @@ a, a:hover{
 }
 .animated{
 	animation-duration: 1.5s !important;
+	animation-delay: 0.3s;
 }
 .top-block{
 	background: url(../img/BG-1.jpg) center top/cover;
