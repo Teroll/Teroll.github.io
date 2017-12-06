@@ -1,4 +1,4 @@
-
+ 
 ul{
 	list-style: none;
 }
@@ -862,6 +862,7 @@ a{
 	padding-top: 10px;
 	border-radius: 0 20px 20px 0;
 }
+
 /*Модальное окно*/
 .overlay {
     top: 0;

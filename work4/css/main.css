@@ -1,0 +1,70 @@
+body{
+	background: gray;
+}
+.but{
+
+}
+#Capa_1{
+  width: 80px;
+  height: 80px;
+  fill: white;
+  padding: 10px 7px;
+  border-radius: 50%;
+  border: solid 1px white;
+  overflow: hidden;
+}
+#Capa_1:hover{
+	fill: green;
+	background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button--------------------*/
+.mes{
+	margin-top: 200px;
+}
+.mes a{
+	padding: 5px 10px;
+	text-decoration: none;
+	border:1px solid green;
+}
+.button1{
+	background: white;
+	color: green;
+	border-radius: 8px 0 0 8px;
+
+}
+.button2{
+	background: green;
+	color: white;
+	border-radius: 0 8px 8px 0;
+}
+.button1:hover{
+	background: green;
+	color: white;
+}
+/*------------------*/
+div.tres {
+    PADDING-RIGHT: 7px;
+    PADDING-LEFT: 7px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13.2pt;
+    PADDING-BOTTOM: 7px;
+    MARGIN: 3px;
+    PADDING-TOP: 7px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
