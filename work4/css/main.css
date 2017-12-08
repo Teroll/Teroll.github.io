@@ -1,6 +1,175 @@
-body{
-	background: gray;
+@font-face { 
+font-family: "SourceSansPro"; 
+src: url("../fonts/SourceSansPro/SourceSansPro-Regular.woff") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
 }
+@font-face { 
+font-family: "SourceSansPro"; 
+src: url("../fonts/SourceSansPro/SourceSansPro-Bold.woff") format("truetype"); 
+font-style: normal; 
+font-weight: bold; 
+} 
+@font-face { 
+font-family: "SourceSansPro"; 
+src: url("../fonts/SourceSansPro/SourceSansPro-It.woff") format("truetype"); 
+font-style: italic; 
+font-weight: normal; 
+}
+@font-face { 
+font-family: "SourceSansPro"; 
+src: url("../fonts/SourceSansPro/SourceSansPro-Light.woff") format("truetype"); 
+font-style: normal; 
+font-weight: lighter; 
+}
+@font-face { 
+font-family: "Peace Sans"; 
+src: url("../fonts/peace_sans/Peace Sans/Peace Sans Webfont.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+body{
+	background: white;
+	font-family: SourceSansPro;
+	color: #191919;
+}
+a{
+	text-decoration: none!important;
+}
+/*Header--------------------*/
+header{
+	min-width: 120px;
+}
+.mes{
+	margin-top: 10px;
+	text-align: right;
+}
+.mes a{
+	padding: 13px 13px;
+	text-decoration: none;
+	border:1px solid #52b317;
+}
+.mes p{
+	margin-top: 25px;
+}
+.mes p:before{
+	content:url("../img/lock.png");
+	margin-right: 10px;
+}
+.button1{
+	background: white;
+	color: green;
+	border-radius: 8px 0 0 8px;
+}
+.button2{
+	background: #52b317;
+	color: white;
+	border-radius: 0 8px 8px 0;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover{
+	background: #469914;
+	color: white;
+	border:1px solid #469914;
+}
+.tel{
+	margin-top: 10px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+.tel p:before{
+	content:url("../img/phone.png");
+	margin-right: 10px;
+}
+/*nav-bar---------------------*/
+.nav-bar{
+	height: 60px;
+	background: rgba(137,137,137,0.5);
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	top: 60px;
+	left: 0;
+}
+.nav-bar a{
+	color: white;
+	font-size: 16px;
+	margin-right: 4vw;
+}
+.list-inline{
+	margin-top: 20px;
+}
+.nav-bar a:hover,
+.nav-bar a:active{
+	padding-bottom: 17px;
+	border-bottom: 3px solid white;
+}
+/*-------------------------------*/
+/*Slider--*/
+.single-slide{
+	height: 500px;
+	overflow: hidden;
+	z-index: 2;
+	/*width: 600px;*/
+	/*margin: 30px auto;*/
+}
+.single-slide img{
+	max-height: 100%;
+	width: auto;
+}
+/*----------------*/
+/*Middle Block-------------------------------------------*/
+/*About village*/
+.button3{
+	background: #52b317;
+	color: white;
+	border-radius: 8px;
+	border:1px solid #52b317;
+	padding: 13px 20px;
+	position:absolute;
+	top: 150px;
+	left: 40px;
+	 box-shadow: 0px 3px 0px 0px rgba(186,186,186,0.9);
+}
+.middle-block h2{
+	color: #52b317;
+	font-size: 46px;
+	font-family: Peace Sans;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+.middle-block p{
+	color:#191919;
+	font-size: 17px;
+}
+.r1{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.r2{
+	margin-bottom: 60px;
+	text-align: center;
+}
+.r2 h4{
+	font-size: 18px;
+	font-weight: bold;
+	color:#191919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .but{
 
 }
@@ -32,31 +201,7 @@ body{
 
 
 
-/*button--------------------*/
-.mes{
-	margin-top: 200px;
-}
-.mes a{
-	padding: 5px 10px;
-	text-decoration: none;
-	border:1px solid green;
-}
-.button1{
-	background: white;
-	color: green;
-	border-radius: 8px 0 0 8px;
 
-}
-.button2{
-	background: green;
-	color: white;
-	border-radius: 0 8px 8px 0;
-}
-.button1:hover{
-	background: green;
-	color: white;
-}
-/*------------------*/
 div.tres {
     PADDING-RIGHT: 7px;
     PADDING-LEFT: 7px;
