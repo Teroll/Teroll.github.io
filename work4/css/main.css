@@ -28,6 +28,11 @@ src: url("../fonts/peace_sans/Peace Sans/Peace Sans Webfont.ttf") format("truety
 font-style: normal; 
 font-weight: normal; 
 }
+div{
+   /* border-style: solid;
+	border-color: red;*/
+}
+
 body{
 	background: white;
 	font-family: SourceSansPro;
@@ -140,6 +145,7 @@ header{
 	font-family: Peace Sans;
 	margin-bottom: 40px;
 	margin-top: 0;
+	text-align: left;
 }
 .middle-block p{
 	color:#191919;
@@ -149,19 +155,39 @@ header{
 	margin-top: 20px;
 	margin-bottom: 80px;
 }
+.r1 p{
+	max-width: 500px;
+}
 .r2{
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	text-align: center;
+	/*padding-bottom: 50px;*/
 }
 .r2 h4{
 	font-size: 18px;
 	font-weight: bold;
 	color:#191919;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
-
-
-
-
+.r2 div:nth-child(2),
+.r2 div:nth-child(3),
+.r2 div:nth-child(4){
+	border-right: 1px solid #dbdbdb;
+}
+.r2 p{
+	max-width: 200px;
+	margin: auto;
+	margin-bottom: 5px;
+}
+.r2 .col-md-3{
+	min-height: 235px;
+}
+.line {
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #dbdbdb;
+}
 
 
 
