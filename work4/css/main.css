@@ -194,9 +194,6 @@ header{
 	padding: 9px 12px;
 	border: 1px solid #dbdbdb;
 	border-radius: 5px;
-/*	position: relative;
-	top: 7px;
-	left: -30px;*/
 	color: #878787;
 }
 .mt{
@@ -206,9 +203,6 @@ header{
 .pers1{
 	font-weight: lighter;
 	margin-bottom: 60px;
-}
-.pers1 p{
-	
 }
 .pers1 p:first-child{
 	margin-top: 10px;
@@ -237,11 +231,43 @@ header{
 	bottom: -15px;
 	right: 55px;
 }
-/*.ml{
-	padding-left: 75px;
-}*/
-
-
+/*partners*/
+.partners{
+	text-align: center;
+}
+.partners p{
+	font-weight: lighter;
+	width: 130px;
+	margin: 40px auto;
+}
+/*news*/
+.news{
+	margin-bottom: 140px;
+}
+.news a{
+	font-size: 17px;
+	padding: 9px 12px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	color: #878787;
+}
+.news h4{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.news h4:nth-child(3){
+	font-weight: 610;
+}
+.news p,
+.news h4{
+	max-width: 300px;
+}
+.news img{
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 30px;
+}
 
 
 
