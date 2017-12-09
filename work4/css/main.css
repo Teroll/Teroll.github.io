@@ -242,7 +242,7 @@ header{
 }
 /*news*/
 .news{
-	margin-bottom: 140px;
+	margin-bottom: 40px;
 }
 .news a{
 	font-size: 17px;
@@ -268,26 +268,57 @@ header{
 	max-width: 300px;
 	margin-bottom: 30px;
 }
-
-
-
-
-
-
+.news .line{
+	margin-top: 130px;
+}
+/*Middle Block END---------------------------------*/
+/*footer---------------------------*/
+/*top-footeer*/
+.top-footer{
+	margin-bottom: 50px;
+}
+.top-footer a{
+	color: #459713;
+	font-size: 17px;
+	font-weight: lighter;
+}
+.top-footer p{
+	font-size: 17px;
+}
+.top-footer span p{
+	display: inline-block;
+}
+.top-footer span a{
+	color: #459713;
+	border-radius: 8px;
+	padding: 7px 14px;
+	border: 1px solid #459713;
+	margin-left: 10px;
+}
+.top-footer span a:hover{
+	color: white;
+	background: #469914;
+	border: 1px solid #469914;
+}
+/*Bottom-footer*/
+.bottom-footer{
+	background: #459713;
+	height: 100px; 
+}
 .but{
 
 }
 #Capa_1{
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   fill: white;
-  padding: 10px 7px;
+  /*padding: 10px 7px;*/
   border-radius: 50%;
   border: solid 1px white;
   overflow: hidden;
 }
 #Capa_1:hover{
-	fill: green;
+	fill: #459713;
 	background: white;
 }
 
