@@ -42,9 +42,6 @@ a{
 	text-decoration: none!important;
 }
 /*Header--------------------*/
-/*header{
-	min-width: 180px;
-}*/
 .mes{
 	margin-top: 10px;
 	text-align: right;
@@ -56,6 +53,8 @@ a{
 }
 .mes p{
 	margin-top: 25px;
+	font-size: 17px;
+	color: #459713;
 }
 .mes p:before{
 	content:url("../img/lock.png");
@@ -65,11 +64,17 @@ a{
 	background: white;
 	color: green;
 	border-radius: 8px 0 0 8px;
+	white-space: nowrap;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }
 .button2{
 	background: #52b317;
 	color: white;
 	border-radius: 0 8px 8px 0;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	white-space: nowrap;
 }
 .button1:hover,
 .button2:hover,
@@ -89,7 +94,9 @@ a{
 }
 header .row{
 	margin-top: 30px;
-	height: 120px;
+}
+.logo img{
+	max-width: 80vw;
 }
 /*nav-bar---------------------*/
 .nav-bar{
@@ -98,9 +105,9 @@ header .row{
 	text-align: left;
 	vertical-align: middle;
 	text-transform: uppercase;
-	z-index: 9999;
+	z-index: 10000;
 	position: relative;
-	top: 60px;
+	top: 0px;
 	left: 0;
 }
 .nav-bar a{
@@ -122,8 +129,8 @@ header .row{
 	height: 500px;
 	overflow: hidden;
 	z-index: 2;
-	/*width: 600px;*/
-	/*margin: 30px auto;*/
+	position: relative;
+	top: -60px;
 }
 .single-slide img{
 	max-height: 100%;
