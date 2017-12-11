@@ -412,11 +412,11 @@ header .row{
 .ta{
 	text-align: right;
 }
+/*Birds*/
 .bird{
 	position: relative;
 	bottom: -50%;
 	right: 0%;
-	/*border: 1px solid red;*/
 	z-index: 100;
 }
 .bird1{
@@ -456,7 +456,7 @@ header .row{
 
 
 
-div.tres {
+/*div.tres {
     PADDING-RIGHT: 7px;
     PADDING-LEFT: 7px;
     FONT-WEIGHT: bold;
@@ -466,4 +466,4 @@ div.tres {
     PADDING-TOP: 7px;
     FONT-FAMILY: Arial, Helvetica, sans-serif;
     TEXT-ALIGN: center;
-}
+}*/
