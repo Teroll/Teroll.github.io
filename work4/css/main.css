@@ -234,6 +234,17 @@ header .row{
 	border-bottom: 1px solid #dbdbdb;
 	margin-bottom: 45px;
 }
+@media screen and (max-width: 992px) {
+.r2 div:nth-child(3) {
+        border: none;
+    }
+}
+@media screen and (max-width: 768px) {
+.r2 div:nth-child(4),
+.r2 div:nth-child(2) {
+        border: none;
+    }
+}
 /*feedback*/
 .feedback a{
 	font-size: 17px;
@@ -303,6 +314,16 @@ header .row{
 .partners h2{
 	margin-bottom: 50px;
 }
+.r3 div:nth-child(2),
+.r3 div:nth-child(3),
+.r3 div:nth-child(4){
+	border-right: 1px solid #dbdbdb;
+}
+@media screen and (max-width: 768px) {
+.r3 div:nth-child(3) {
+        border: none;
+    }
+}
 /*news*/
 /*.news{
 	margin-bottom: 40px;
@@ -343,11 +364,14 @@ header .row{
 	margin-bottom: 45px;
 }
 .top-footer a{
-	color: #459713;
+	color: #52b317;
 	font-size: 17px;
 	font-weight: lighter;
 	line-height: 32px;
 	white-space: nowrap;
+}
+.top-footer a:hover{
+	color: #418d12;
 }
 .top-footer p{
 	font-size: 17px;
