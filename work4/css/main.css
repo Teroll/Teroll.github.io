@@ -45,9 +45,10 @@ a{
 .mes{
 	margin-top: 10px;
 	text-align: right;
+	padding: 0;
 }
 .mes a{
-	padding: 13px 13px;
+	padding: 9px 13px;
 	text-decoration: none;
 	border:1px solid #52b317;
 }
@@ -87,6 +88,8 @@ a{
 	margin-top: 10px;
 	font-weight: lighter;
 	font-size: 20px;
+	display: inline-block;
+	text-align: right;
 }
 .tel p:before{
 	content:url("../img/phone.png");
@@ -105,7 +108,7 @@ header .row{
 	text-align: left;
 	vertical-align: middle;
 	text-transform: uppercase;
-	z-index: 10000;
+	z-index: 999;
 	position: relative;
 	top: 0px;
 	left: 0;
@@ -113,7 +116,8 @@ header .row{
 .nav-bar a{
 	color: white;
 	font-size: 16px;
-	margin-right: 4vw;
+	margin-right: 2vw;
+	letter-spacing: 0.1em;
 }
 .list-inline{
 	margin-top: 20px;
@@ -130,13 +134,31 @@ header .row{
 	overflow: hidden;
 	z-index: 2;
 	position: relative;
-	top: -60px;
+	/*top: -60px;*/
 }
 .single-slide img{
-	max-height: 100%;
-	width: auto;
+	width: 100vw;
+	min-width: 800px;
 }
-/*----------------*/
+.sl_text h1{
+ position: absolute;
+ top: 12%;
+ left: 15.5%;
+ font-family: Peace Sans;
+ text-shadow: 1px 1px 1px gray;
+ color: white;
+ font-size: 6vw;
+ white-space: pre-wrap;
+ display: inline-block;
+ width: 100vw;
+ height: 16vh;
+
+ /*-webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);*/
+ 
+/* -webkit-transition: all 300ms ease;
+ transition: all 300ms ease;*/
+}
 /*Middle Block-------------------------------------------*/
 /*About village*/
 .button3{
@@ -167,6 +189,8 @@ header .row{
 }
 .r1{
 	margin-top: 20px;
+}
+.r1 div{
 	margin-bottom: 45px;
 }
 .r1 p{
@@ -323,6 +347,7 @@ header .row{
 	font-size: 17px;
 	font-weight: lighter;
 	line-height: 32px;
+	white-space: nowrap;
 }
 .top-footer p{
 	font-size: 17px;
@@ -341,6 +366,9 @@ header .row{
 	color: white;
 	background: #469914;
 	border: 1px solid #469914;
+}
+.mb{
+	margin-bottom: 10px;
 }
 /*Bottom-footer*/
 .bottom-footer{
@@ -384,12 +412,45 @@ header .row{
 .ta{
 	text-align: right;
 }
-
-
-
-
-
-
+.bird{
+	position: relative;
+	bottom: -50%;
+	right: 0%;
+	/*border: 1px solid red;*/
+	z-index: 100;
+}
+.bird1{
+	position: absolute;
+	bottom: -50%;
+	left: 70%;
+}
+.bird2{
+	width: 48px !important;
+	position: absolute;
+	bottom: -3px;
+	left: 20px;
+	margin-bottom: 0px!important;
+}
+.bird3{
+	position: absolute;
+	bottom: -3px;
+	left: 30px;
+}
+.bird4{
+	position: absolute;
+	bottom: -50%;
+	right: 0;
+}
+.bird5{
+	position: absolute;
+	bottom: -7px;
+	left: 5%;
+}
+.bird6{
+	position: absolute;
+	bottom: -3px;
+	left: calc(5% + 86px);
+}
 
 
 
