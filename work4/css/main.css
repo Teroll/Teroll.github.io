@@ -142,9 +142,9 @@ header .row{
 .single-slide{
 	height: 500px;
 	overflow: hidden;
-	z-index: 2;
 	position: relative;
-	/*top: -60px;*/
+/*	top: 0;
+	left: 0;*/
 }
 .single-slide img{
 	/*width: 100vw;
@@ -152,24 +152,32 @@ header .row{
 	width: 100%;
 	min-height: 800px;
 }
+/*.sl_text{
+  position: relative;
+
+  left: 0;
+  top: 0;
+  min-height: 38px;
+  background: transparent;
+  z-index: 50;
+}*/
 .sl_text h1{
  position: absolute;
- top: 12%;
- left: 15.5%;
+ top: 33%;
+ left: 1%;
+ background: transparent;
  font-family: Peace Sans;
  text-shadow: 1px 1px 1px gray;
- color: white;
+ color: red;
  font-size: 6vw;
  white-space: pre-wrap;
  display: inline-block;
  width: 100%;
  height: 16vh;
-
- /*-webkit-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);*/
- 
-/* -webkit-transition: all 300ms ease;
- transition: all 300ms ease;*/
+ z-index: 300;
+}
+.sl{
+	position: relative;
 }
 /*Middle Block-------------------------------------------*/
 /*About village*/
