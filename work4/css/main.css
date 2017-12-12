@@ -32,7 +32,6 @@ div{
    /* border-style: solid;
 	border-color: red;*/
 }
-
 body{
 	background: white;
 	font-family: SourceSansPro;
@@ -42,6 +41,14 @@ a{
 	text-decoration: none!important;
 }
 /*Header--------------------*/
+.mes p a{
+	border: none;
+	padding: 0;
+	color: #52b317;
+}
+.mes p a:hover{
+	color: #469914;
+}
 .mes{
 	margin-top: 10px;
 	text-align: right;
@@ -101,6 +108,9 @@ header .row{
 .logo img{
 	max-width: 80vw;
 }
+.logo p{
+	letter-spacing: 0.16em;
+}
 /*nav-bar---------------------*/
 .nav-bar{
 	height: 60px;
@@ -137,8 +147,10 @@ header .row{
 	/*top: -60px;*/
 }
 .single-slide img{
-	width: 100vw;
-	min-width: 800px;
+	/*width: 100vw;
+	min-width: 800px;*/
+	width: 100%;
+	min-height: 800px;
 }
 .sl_text h1{
  position: absolute;
@@ -150,7 +162,7 @@ header .row{
  font-size: 6vw;
  white-space: pre-wrap;
  display: inline-block;
- width: 100vw;
+ width: 100%;
  height: 16vh;
 
  /*-webkit-transform: translate(-50%, -50%);
@@ -324,11 +336,17 @@ header .row{
         border: none;
     }
 }
+@media screen and (max-width: 768px) {
+.r3 div:nth-child(4),
+.r3 div:nth-child(2) {
+        border: none;
+    }
+}
 /*news*/
 /*.news{
 	margin-bottom: 40px;
 }*/
-.news a{
+.news .mt a{
 	font-size: 17px;
 	padding: 4px 12px;
 	border: 1px solid #dbdbdb;
@@ -356,6 +374,9 @@ header .row{
 .news .line{
 	margin-top: 125px;
 	margin-bottom: 25px;
+}
+.popup img{
+	width: 500px;
 }
 /*Middle Block END---------------------------------*/
 /*footer---------------------------*/
@@ -475,11 +496,52 @@ header .row{
 	bottom: -3px;
 	left: calc(5% + 86px);
 }
-
-
-
-
-
+/*Modal window*/
+.mod{
+	width: 60vw;
+	max-width: 340px;
+	height: 270px;
+	background: white;
+	padding: 15px;
+	display: none;
+}
+.mod input{
+	width: 100%;
+	max-width: 310px;
+	height: 37px;
+	background: #f8f8f8;
+}
+.mod input:focus{
+	border-color: #52b317;
+	background: white;
+}
+.mod label{
+	font-size: 17px;
+}
+.mod button{
+	color: white;
+	background: #52b317;
+	border-color:#52b317; 
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 0.12em;
+	border-radius: 10px;
+}
+.mod button:hover{
+	background: #469914;
+	border-color:#469914;
+	color: white;
+}
+.fancybox-skin{
+	background: white;
+}
+.fancybox-close{
+	background: url(../img/popup_close.png)no-repeat;
+	width: 21px;
+	height: 21px;
+	top: -45px;
+	right: 0px;
+}
 /*div.tres {
     PADDING-RIGHT: 7px;
     PADDING-LEFT: 7px;
