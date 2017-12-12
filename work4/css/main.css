@@ -150,7 +150,7 @@ header .row{
 	/*width: 100vw;
 	min-width: 800px;*/
 	width: 100%;
-	min-height: 800px;
+	min-height: 500px;
 }
 /*.sl_text{
   position: relative;
@@ -163,12 +163,12 @@ header .row{
 }*/
 .sl_text h1{
  position: absolute;
- top: 33%;
- left: 1%;
+ top: 30px;
+ left: 4%;
  background: transparent;
  font-family: Peace Sans;
  text-shadow: 1px 1px 1px gray;
- color: red;
+ color: white;
  font-size: 6vw;
  white-space: pre-wrap;
  display: inline-block;
