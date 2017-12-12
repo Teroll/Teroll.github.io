@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: calc(50% + 30px);
+    top: calc(60% - 30px);
 
     display: block;
 
