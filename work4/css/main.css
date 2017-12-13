@@ -112,7 +112,7 @@ header .row{
 	letter-spacing: 0.16em;
 }
 /*nav-bar---------------------*/
-.nav-bar{
+/*.nav-bar{
 	height: 60px;
 	background: rgba(137,137,137,0.5);
 	text-align: left;
@@ -122,20 +122,68 @@ header .row{
 	position: relative;
 	top: 0px;
 	left: 0;
-}
+}*/
 .nav-bar a{
 	color: white;
 	font-size: 16px;
-	margin-right: 2vw;
+	margin-right: calc(5.3vw - 55px);
 	letter-spacing: 0.1em;
+}
+.nav-bar .container{
+	padding-right: 0px ;
 }
 .list-inline{
 	margin-top: 20px;
 }
 .nav-bar a:hover,
 .nav-bar a:active{
-	padding-bottom: 17px;
+	padding-bottom: 16px;
 	border-bottom: 3px solid white;
+}
+#header{
+	min-height: 120px;
+}
+#navbar {
+	background: rgba(0,0,0,0.4);
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	left: 0;
+    width: 100%;
+    height: 60px;
+}
+#navbar.fixedattop {
+  position: fixed; 
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+
+  background: white;
+  color: black;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.fixedattop a{
+	color: #101010;
+}
+.fixedattop a:hover,
+.fixedattop a:active{
+	border-bottom: 3px solid #52b317;
+	padding-bottom: 15px;
+}
+.n1{
+	position: relative;
+}
+/*Dropdown*/
+.dropdown{
+	position: relative;
+	left: calc(50% - 10px);
+}
+.dropdown a{
+	margin-right: 0;
 }
 /*-------------------------------*/
 /*Slider--*/
@@ -165,7 +213,7 @@ header .row{
 }*/
 .sl_text h1{
  position: absolute;
- top: 30px;
+ top: 50px;
  left: calc(7% + 40px);
  background: transparent;
  font-family: Peace Sans;
@@ -243,6 +291,9 @@ header .row{
 }
 .r1 p{
 	max-width: 500px;
+}
+.aboutV{
+	padding-top:  55px;
 }
 .aboutV .line{
 	margin-bottom: 40px;

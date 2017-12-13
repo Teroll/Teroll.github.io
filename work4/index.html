@@ -14,43 +14,72 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-5 logo">
-					<a href="#"><img src="img/logo.png" alt="logo"></a>
-					<p>коттеджный поселок</p>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 tel">
-					<p>+7 351 123-45-67</p>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 mes">
-					<a class="button1" href="#">Написать нам</a><a class="button2 fancybox" href="#popupForm">Заказать звонок</a>
-					<p><a href="#">Личный кабинет</a></p>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div class="navi">
-		<div class="nav-bar">
-			<div class="container-fluid">
-				<div class="container">
-					<nav>
-						<ul class="list-inline">
-							<li><a href="#">Схема Проезда</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Новости</a></li>
-							<li><a href="#">Контакты</a></li>
-							<li><a href="#">Генплан</a></li>
-							<li><a href="#">Фотоотчеты</a></li>
-							<li><a href="#">Документы</a></li>
-						</ul>
-					</nav>
+	<div id="header">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-5 logo">
+						<a href="#"><img src="img/logo.png" alt="logo"></a>
+						<p>коттеджный поселок</p>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 tel">
+						<p>+7 351 123-45-67</p>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 mes">
+						<a class="button1" href="#">Написать нам</a><a class="button2 fancybox" href="#popupForm">Заказать звонок</a>
+						<p><a href="#">Личный кабинет</a></p>
+					</div>
 				</div>
 			</div>
+		</header>
+	</div>
+	<div class="container-fluid n1">
+		<div  id="navbar" class="nav-bar">
+			<div class="container">
+				<nav>
+					<ul class="list-inline hidden-sm hidden-xs">
+						<li><a href="#">Схема Проезда</a></li>
+						<li><a href="#feedback">Отзывы</a></li>
+						<li><a href="#news">Новости</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+						<li><a href="#aboutV">Генплан</a></li>
+						<li><a href="#">Фотоотчеты</a></li>
+						<li><a href="#">Документы</a></li>
+					</ul>
+					<ul class="list-inline visible-sm visible-xs">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Меню<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Схема Проезда</a></li>
+								<li><a href="#feedback">Отзывы</a></li>
+								<li><a href="#news">Новости</a></li>
+								<li><a href="#contacts">Контакты</a></li>
+								<li><a href="#aboutV">Генплан</a></li>
+								<li><a href="#">Фотоотчеты</a></li>
+								<li><a href="#">Документы</a></li>
+								<li class="divider"></li>
+								<li><a href="#header">Написать нам</a></li>
+								<li><a href="#header">Заказать звонок</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+<!-- 			<div class="dropdown">
+				<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+				<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+				</ul>
+			</div> -->
 		</div>
+	</div>		
+	<div id="content">
 		<!-- Slider -->
-		<div class="single-slide" data-slick='{"dots": true}'>
+		<div  class="single-slide" data-slick='{"dots": true}'>
 			<div class="sl">
 				<div class="sl_text">
 					<h1>Земельные участки <br>по доступным ценам</h1>
@@ -71,214 +100,215 @@
 				<img src="img/BG3.jpg" alt="слайд1">
 			</div>
 		</div>
+
 	</div>
-	<!-- Middle Block -->
-	<div class="middle-block">
-		<!-- Bird aboutV green -->
-				<div class="bird hidden-xs">
-					<img class="bird5" src="img/bird_white2.png" alt="bird">
-					<img class="bird6" src="img/bird_white3.png" alt="bird">
-				</div>
-		<!-- About village -->
-		<div class="aboutV">
-			<div class="container">
-				<div class="row r1">
-					<div class="col-md-9 col-sm-8 col-xs-12">
-						<h2>О поселке</h2>
-						<p>
-							Политическое учение Платона означает кризис легитимности, впрочем, не все политологи разделяют это мнение. Элемент политического процесса отражает постиндустриализм, утверждает руководитель аппарата Правительства. Социализм, короче говоря, отражает социализм.
-						</p>
+			<!-- Middle Block -->
+		<div class="middle-block" id="aboutV">
+			<!-- Bird aboutV green -->
+					<div class="bird hidden-xs ">
+						<img class="bird5" src="img/bird_white2.png" alt="bird">
+						<img class="bird6" src="img/bird_white3.png" alt="bird">
 					</div>
-					<div class="col-md-3 col-sm-4 col-xs-12">
-						<img src="img/map.png" alt="map">
-						<a class="button3" href="#">Смотреть генплан</a>
-					</div>
-				</div>
-			</div>
-			<div class="line">
-				<!-- Bird aboutV green -->
-				<div class="bird">
-					<img class="bird4" src="img/bird2.png" alt="bird">
-				</div>
-			</div>
-		</div>
-		<!-- advantage -->
-		<div class="advantage">
-			<div class="container">
-				<div class="row r2">
-					<div class="col-xs-12">
-						<h2>Преиму&shy;щест&shy;ва</h2>	
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<img src="img/ico-1.png" alt="воздух">
-						<h4>Чистый воздух</h4>
-						<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<img src="img/ico-2.png" alt="цены">
-						<h4>Доступные цены</h4>
-						<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<img src="img/ico-3.png" alt="близость города">
-						<h4>Близость города</h4>
-						<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<img src="img/ico-4.png" alt="безопастность">
-						<h4>Безопастность</h4>
-						<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
-					</div>
-				</div>
-			</div>
-			<div class="line"></div>
-		</div>
-		<!--  feedback  -->
-		<div class="feedback">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-xs-12 col-sm-6">
-						<h2>Отзывы</h2>
-					</div>
-					<div class="col-md-3 col-xs-12 col-sm-6 mt ">
-						<a href="#">Смотреть все отзывы</a>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Feedback #1 -->
-					<div class="col-md-6 col-xs-12 pers1">
-						<div class="row">
-							<div class="col-xs-4 col-sm-2 col-md-3">
-								<img src="img/person1.png" alt="person">
-							</div>
-							<div class="col-xs-8 col-sm-10 col-md-9">
-								<p>15 Июля 2016 г.</p>
-								<p>Екатерина Оболенская</p>
-							</div>
+			<!-- About village -->
+			<div class="aboutV" >
+				<div class="container">
+					<div class="row r1">
+						<div class="col-md-9 col-sm-8 col-xs-12">
+							<h2>О поселке</h2>
+							<p>
+								Политическое учение Платона означает кризис легитимности, впрочем, не все политологи разделяют это мнение. Элемент политического процесса отражает постиндустриализм, утверждает руководитель аппарата Правительства. Социализм, короче говоря, отражает социализм.
+							</p>
 						</div>
-						<div class="row text">
-							<div class="col-xs-12">
-								<p>
-									Натуралистическая парадигма, на первый взгляд, иллюстрирует тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации с Японией. Коллапс Советского Союза представляет!!!
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- Feedback #2 -->
-					<div class="col-md-6 col-xs-12 pers1">
-						<div class="row">
-							<div class="col-xs-4 col-sm-2 col-md-3">
-								<img src="img/person2.png" alt="person">
-							</div>
-							<div class="col-xs-8 col-sm-10 col-md-9">
-								<p>11 Июля 2016 г.</p>
-								<p>Александр Романов</p>
-							</div>
-						</div>
-						<div class="row text">
-							<div class="col-xs-12">
-								<p>
-									Политическое учение Локка, как правило, традиционно формирует элемент политического процесса. Кризис легитимности предсказуем. Понятие тоталитаризма, несмотря на внешние воздействия, существенно формирует постиндустриализм. Постиндустриализм, однако, сохраняет системный марксизм. Коллапс Советского Союза важно ограничивает гносеологический социализм. 
-								</p>
-							</div>
+						<div class="col-md-3 col-sm-4 col-xs-12">
+							<img src="img/map.png" alt="map">
+							<a class="button3" href="#">Смотреть генплан</a>
 						</div>
 					</div>
 				</div>
+				<div class="line">
+					<!-- Bird aboutV green -->
+					<div class="bird">
+						<img class="bird4" src="img/bird2.png" alt="bird">
+					</div>
+				</div>
 			</div>
-			<div class="line">
-				<!-- Bird partners green -->
-				<div class="bird">
-					<img class="bird3" src="img/bird1.png" alt="bird">
+			<!-- advantage -->
+			<div class="advantage">
+				<div class="container">
+					<div class="row r2">
+						<div class="col-xs-12">
+							<h2>Преиму&shy;щест&shy;ва</h2>	
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<img src="img/ico-1.png" alt="воздух">
+							<h4>Чистый воздух</h4>
+							<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<img src="img/ico-2.png" alt="цены">
+							<h4>Доступные цены</h4>
+							<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<img src="img/ico-3.png" alt="близость города">
+							<h4>Близость города</h4>
+							<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<img src="img/ico-4.png" alt="безопастность">
+							<h4>Безопастность</h4>
+							<p>Социально-экономическое развитие интегрирует экзистенциальный субъект</p>
+						</div>
+					</div>
+				</div>
+				<div class="line" id="feedback"></div>
+			</div>
+			<!--  feedback  -->
+			<div class="feedback" >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-xs-12 col-sm-6">
+							<h2>Отзывы</h2>
+						</div>
+						<div class="col-md-3 col-xs-12 col-sm-6 mt ">
+							<a href="#">Смотреть все отзывы</a>
+						</div>
+					</div>
+					<div class="row">
+						<!-- Feedback #1 -->
+						<div class="col-md-6 col-xs-12 pers1">
+							<div class="row">
+								<div class="col-xs-4 col-sm-2 col-md-3">
+									<img src="img/person1.png" alt="person">
+								</div>
+								<div class="col-xs-8 col-sm-10 col-md-9">
+									<p>15 Июля 2016 г.</p>
+									<p>Екатерина Оболенская</p>
+								</div>
+							</div>
+							<div class="row text">
+								<div class="col-xs-12">
+									<p>
+										Натуралистическая парадигма, на первый взгляд, иллюстрирует тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации с Японией. Коллапс Советского Союза представляет!!!
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- Feedback #2 -->
+						<div class="col-md-6 col-xs-12 pers1">
+							<div class="row">
+								<div class="col-xs-4 col-sm-2 col-md-3">
+									<img src="img/person2.png" alt="person">
+								</div>
+								<div class="col-xs-8 col-sm-10 col-md-9">
+									<p>11 Июля 2016 г.</p>
+									<p>Александр Романов</p>
+								</div>
+							</div>
+							<div class="row text">
+								<div class="col-xs-12">
+									<p>
+										Политическое учение Локка, как правило, традиционно формирует элемент политического процесса. Кризис легитимности предсказуем. Понятие тоталитаризма, несмотря на внешние воздействия, существенно формирует постиндустриализм. Постиндустриализм, однако, сохраняет системный марксизм. Коллапс Советского Союза важно ограничивает гносеологический социализм. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="line">
+					<!-- Bird partners green -->
+					<div class="bird">
+						<img class="bird3" src="img/bird1.png" alt="bird">
+					</div>
+				</div>
+			</div>
+			<!-- Partners -->
+			<div class="partners">
+				<div class="container">
+					<div class="row r3">
+						<div class="col-xs-12">
+							<h2>Партнеры</h2>
+						</div>
+						<div class="col-xs-6 col-sm-3">
+							<img src="img/label1.png" alt="партнеры">
+							<p>Технологический партнер</p>
+						</div>
+						<div class="col-xs-6 col-sm-3">
+							<img src="img/label2.png" alt="партнеры">
+							<p>Технологический партнер</p>
+						</div>
+						<div class="col-xs-6 col-sm-3">
+							<img src="img/label3.png" alt="партнеры">
+							<p>Технологический партнер</p>
+						</div>
+						<div class="col-xs-6 col-sm-3">
+							<img src="img/label4.png" alt="партнеры">
+							<p>Технологический партнер</p>
+						</div>
+					</div>
+				</div>
+				<div class="line"></div>
+			</div>
+			<!-- News -->
+			<div class="news" id="news">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-xs-12 col-sm-6">
+							<h2>Новости</h2>
+						</div>
+						<div class="col-md-3 col-xs-12 col-sm-6 mt">
+							<a href="#">Смотреть все новости</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<a class="fancybox" href="img/BG2.jpg">
+								<img src="img/work1.jpg" alt="новость1"/>
+							</a>
+							<h4>15 Июля 2016 г.</h4>
+							<h4>
+								Абстрактный кубизм теорема заголовок в две строки или одну
+							</h4>
+							<p>
+								Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
+							</p>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<a class="fancybox" href="img/BG2.jpg">
+								<img src="img/work2.jpg" alt="новость2"/>
+							</a>
+							<h4>15 Июля 2016 г.</h4>
+							<h4>
+								Абстрактный кубизм теорема заголовок в две строки или одну
+							</h4>
+							<p>
+								Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
+							</p>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<a class="fancybox" href="img/BG2.jpg">
+								<img src="img/work3.jpg" alt="новость3"/>
+							</a>
+							<h4>15 Июля 2016 г.</h4>
+							<h4>
+								Абстрактный кубизм теорема заголовок в две строки или одну
+							</h4>
+							<p>
+								Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="line">
+					<!-- Bird contacts green -->
+					<div class="bird">
+						<img class="bird2" src="img/bird1.png" alt="bird">
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Partners -->
-		<div class="partners">
-			<div class="container">
-				<div class="row r3">
-					<div class="col-xs-12">
-						<h2>Партнеры</h2>
-					</div>
-					<div class="col-xs-6 col-sm-3">
-						<img src="img/label1.png" alt="партнеры">
-						<p>Технологический партнер</p>
-					</div>
-					<div class="col-xs-6 col-sm-3">
-						<img src="img/label2.png" alt="партнеры">
-						<p>Технологический партнер</p>
-					</div>
-					<div class="col-xs-6 col-sm-3">
-						<img src="img/label3.png" alt="партнеры">
-						<p>Технологический партнер</p>
-					</div>
-					<div class="col-xs-6 col-sm-3">
-						<img src="img/label4.png" alt="партнеры">
-						<p>Технологический партнер</p>
-					</div>
-				</div>
-			</div>
-			<div class="line"></div>
-		</div>
-		<!-- News -->
-		<div class="news">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-xs-12 col-sm-6">
-						<h2>Новости</h2>
-					</div>
-					<div class="col-md-3 col-xs-12 col-sm-6 mt">
-						<a href="#">Смотреть все новости</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<a class="fancybox" href="img/BG2.jpg">
-							<img src="img/work1.jpg" alt="новость1"/>
-						</a>
-						<h4>15 Июля 2016 г.</h4>
-						<h4>
-							Абстрактный кубизм теорема заголовок в две строки или одну
-						</h4>
-						<p>
-							Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
-						</p>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<a class="fancybox" href="img/BG2.jpg">
-							<img src="img/work2.jpg" alt="новость2"/>
-						</a>
-						<h4>15 Июля 2016 г.</h4>
-						<h4>
-							Абстрактный кубизм теорема заголовок в две строки или одну
-						</h4>
-						<p>
-							Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
-						</p>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<a class="fancybox" href="img/BG2.jpg">
-							<img src="img/work3.jpg" alt="новость3"/>
-						</a>
-						<h4>15 Июля 2016 г.</h4>
-						<h4>
-							Абстрактный кубизм теорема заголовок в две строки или одну
-						</h4>
-						<p>
-							Тоталитарный тип политической культуры, что может привести к военно-политической и идеологической конфронтации
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="line">
-				<!-- Bird contacts green -->
-				<div class="bird">
-					<img class="bird2" src="img/bird1.png" alt="bird">
-				</div>
-			</div>
-		</div>
-	</div>	
 	<footer>
-		<div class="top-footer">
+		<div class="top-footer" id="contacts">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-6 col-xs-12 mb">
@@ -287,7 +317,7 @@
 							<p>+7 351 123-123-12</p>
 							<a href="#">Звонок с сайта</a>
 						</span>
-						<a href="#">info@xpage.ru</a>
+						<a href="#">info@mail.ru</a>
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-6">
 						<a href="#">Главная</a><br>
@@ -453,7 +483,7 @@
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/fancybox.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
 
-</script>
 </body>
 </html>
