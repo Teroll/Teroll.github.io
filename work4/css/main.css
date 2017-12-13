@@ -28,10 +28,6 @@ src: url("../fonts/peace_sans/Peace Sans/Peace Sans Webfont.ttf") format("truety
 font-style: normal; 
 font-weight: normal; 
 }
-div{
-   /* border-style: solid;
-	border-color: red;*/
-}
 body{
 	background: white;
 	font-family: SourceSansPro;
@@ -112,17 +108,6 @@ header .row{
 	letter-spacing: 0.16em;
 }
 /*nav-bar---------------------*/
-/*.nav-bar{
-	height: 60px;
-	background: rgba(137,137,137,0.5);
-	text-align: left;
-	vertical-align: middle;
-	text-transform: uppercase;
-	z-index: 999;
-	position: relative;
-	top: 0px;
-	left: 0;
-}*/
 .nav-bar a{
 	color: white;
 	font-size: 16px;
@@ -177,10 +162,10 @@ header .row{
 .n1{
 	position: relative;
 }
-/*Dropdown*/
+/*Dropdown for mobile*/
 .dropdown{
 	position: relative;
-	left: calc(50% - 10px);
+	left: calc(50% - 30px);
 }
 .dropdown a{
 	margin-right: 0;
@@ -191,45 +176,32 @@ header .row{
 	height: 50vw;
 	max-height:  500px;
 	overflow: hidden;
-	/*position: relative;*/
-/*	top: 0;
-	left: 0;*/
 }
 .single-slide img{
-	/*width: 100vw;
-	min-width: 800px;*/
 	width: 100%;
 	height: auto;
-	/*min-height: 500px;*/
 }
-/*.sl_text{
-  position: relative;
-
-  left: 0;
-  top: 0;
-  min-height: 38px;
-  background: transparent;
-  z-index: 50;
-}*/
 .sl_text h1{
- position: absolute;
- top: 50px;
- left: calc(7% + 40px);
- background: transparent;
- font-family: Peace Sans;
- text-shadow: 1px 1px 1px gray;
- color: white;
- font-size: 5.2vw; 
- white-space: pre-wrap;
- display: inline-block;
- width: 80%;
- height: 30%;
- z-index: 300;
+	 position: absolute;
+	 top: 50px;
+	 left: calc(17% + 40px);
+	 background: transparent;
+	 font-family: Peace Sans;
+	 text-shadow: 1px 1px 1px gray;
+	 color: white;
+	 font-size: 5.2vw; 
+	 white-space: pre-wrap;
+	 display: inline-block;
+	 width: 80%;
+	 height: 30%;
+	 z-index: 300;
+	 text-align: left;
+
 }
 .sl_text a{
 	position: absolute;
  	top: calc(30% + 50px);
- 	left: calc(7% + 40px);
+ 	left: calc(17% + 40px);
  	color: white;
  	font-size: 18px;
  	font-weight: bold;
@@ -293,7 +265,7 @@ header .row{
 	max-width: 500px;
 }
 .aboutV{
-	padding-top:  55px;
+	padding-top:  30px;
 }
 .aboutV .line{
 	margin-bottom: 40px;
@@ -430,9 +402,6 @@ header .row{
     }
 }
 /*news*/
-/*.news{
-	margin-bottom: 40px;
-}*/
 .news .mt a{
 	font-size: 17px;
 	padding: 4px 12px;
@@ -511,7 +480,6 @@ header .row{
   width: 40px;
   height: 40px;
   fill: white;
-  /*padding: 10px 7px;*/
   border-radius: 50%;
   border: solid 1px white;
   overflow: hidden;
@@ -524,7 +492,6 @@ header .row{
   width: 40px;
   height: 40px;
   fill: #459713;
-  /*padding: 10px 7px;*/
   border-radius: 50%;
   border: solid 1px white;
   overflow: hidden;
@@ -629,14 +596,3 @@ header .row{
 	top: -45px;
 	right: 0px;
 }
-/*div.tres {
-    PADDING-RIGHT: 7px;
-    PADDING-LEFT: 7px;
-    FONT-WEIGHT: bold;
-    FONT-SIZE: 13.2pt;
-    PADDING-BOTTOM: 7px;
-    MARGIN: 3px;
-    PADDING-TOP: 7px;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    TEXT-ALIGN: center;
-}*/
