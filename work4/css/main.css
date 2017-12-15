@@ -1,4 +1,4 @@
-@font-face { 
+/*@font-face { 
 font-family: "SourceSansPro"; 
 src: url("../fonts/SourceSansPro/SourceSansPro-Regular.woff") format("truetype"); 
 font-style: normal; 
@@ -21,7 +21,7 @@ font-family: "SourceSansPro";
 src: url("../fonts/SourceSansPro/SourceSansPro-Light.woff") format("truetype"); 
 font-style: normal; 
 font-weight: lighter; 
-}
+}*/
 @font-face { 
 font-family: "Peace Sans"; 
 src: url("../fonts/peace_sans/Peace Sans/Peace Sans Webfont.ttf") format("truetype"); 
@@ -30,12 +30,12 @@ font-weight: normal;
 }
 body{
 	background: white;
-	font-family: SourceSansPro;
+	font-family: Source Sans Pro;
 	color: #191919;
 }
-a{
-	text-decoration: none!important;
-}
+a{text-decoration: none!important;}
+button:focus,a:focus,
+input:focus,select:focus{outline:none!important;}
 /*Header--------------------*/
 .mes p a{
 	border: none;
@@ -106,6 +106,7 @@ header .row{
 }
 .logo p{
 	letter-spacing: 0.16em;
+	font-size: 16px;
 }
 /*nav-bar---------------------*/
 .nav-bar a{
@@ -295,6 +296,7 @@ header .row{
 	margin: auto;
 	margin-bottom: 5px;
 	line-height: 21px;
+	font-size: 16px;
 }
 .r2 .col-md-3{
 	min-height: 235px;
@@ -595,4 +597,9 @@ header .row{
 	height: 21px;
 	top: -45px;
 	right: 0px;
+}
+#popupForm h3{
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
 }

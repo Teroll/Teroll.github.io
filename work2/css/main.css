@@ -5,9 +5,9 @@ ul{
 body{
 	font-family: Myriad Pro;
 }
-a{
-	text-decoration: none !important;
-}
+a{text-decoration: none!important;}
+button:focus,a:focus,option:focus,
+input:focus,select:focus{outline:none!important;}
 /*Header*/
 
 .BG1{
