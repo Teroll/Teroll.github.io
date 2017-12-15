@@ -603,3 +603,21 @@ header .row{
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
+/*Footer END---------------------------------*/
+/*Back*/
+.back{
+	background: rgba(256, 256,256 ,0.8);
+	width: 60px;
+	height: 120px;
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	z-index: 999;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 0 20px 20px 0;
+}
+.secret{
+	display: none;
+}
+/*Back END*/
