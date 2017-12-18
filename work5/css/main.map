@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"//font-family: 'Playfair Display', serif;\r\n//font-family: Source Sans Pro;\r\n//font-family: 'Cuprum', sans-serif;\r\n$color1: white;\r\n$color2: #c59d5f;//gold for h1\r\n$color3: #4f4f4f;//gray for \r\n$color4: #2c3d97;//blue for a\r\nbody{\r\n\tbackground-color: gray;\r\n}\r\na{text-decoration: none!important;}\r\nbutton:focus,a:focus,input:focus,select:focus{outline:none!important;}\r\nli{list-style-type: none;}\r\n// -----------------------------------------------\r\nheader{\r\n\tbackground: url(\"../img/BG1.jpg\")center bottom;\r\n\theight: 100vh;\r\n\tcolor:$color1; \r\n}\r\nh1{\r\n\tcolor: $color1;\r\n\tfont-size: 69px;\r\n\tfont-family: 'Playfair Display';\r\n\tfont-style: italic;\r\n\ttext-align: center;\r\n}\r\nh4{\r\n\tcolor: $color1;\r\n\tfont-size: 19px;\r\n\tfont-family: 'Source Sans Pro';\r\n\ttext-align: center;\r\n}\r\n.logo{\r\n\tfont-size: 39px;\r\n\tfont-family: 'Cuprum', sans-serif;\r\n\ta{\r\n\t\tcolor: $color1;\r\n\t}\r\n}"
+	],
+	"mappings": ";AAOA,AAAA,IAAI,CAAA;EACH,gBAAgB,EAAE,IAAK;CACvB;;;AACD,AAAA,CAAC,CAAA;EAAC,eAAe,EAAE,IAAI,CAAA,UAAU;CAAG;;;AACpC,AAAM,MAAA,AAAA,MAAM,EAAC,AAAC,CAAA,AAAA,MAAM,EAAC,AAAK,KAAA,AAAA,MAAM,EAAC,AAAM,MAAA,AAAA,MAAM,CAAA;EAAC,OAAO,EAAC,IAAI,CAAA,UAAU;CAAG;;;AACvE,AAAA,EAAE,CAAA;EAAC,eAAe,EAAE,IAAK;CAAG;;;AAE5B,AAAA,MAAM,CAAA;EACL,UAAU,EAAE,qBAAG,CAAkB,MAAM,CAAC,MAAM;EAC9C,MAAM,EAAE,KAAM;EACd,KAAK,EAdG,KAAK;CAeb;;;AACD,AAAA,EAAE,CAAA;EACD,KAAK,EAjBG,KAAK;EAkBb,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,kBAAmB;EAChC,UAAU,EAAE,MAAO;EACnB,UAAU,EAAE,MAAO;CACnB;;;AACD,AAAA,EAAE,CAAA;EACD,KAAK,EAxBG,KAAK;EAyBb,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,iBAAkB;EAC/B,UAAU,EAAE,MAAO;CACnB;;;AACD,AAAA,KAAK,CAAA;EACJ,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,oBAAqB;CAIlC;;;AAND,AAGC,KAHI,CAGJ,CAAC,CAAA;EACA,KAAK,EAjCE,KAAK;CAkCZ",
+	"names": []
+}

@@ -1,0 +1,117 @@
+//font-family: 'Playfair Display', serif;
+//font-family: Source Sans Pro;
+//font-family: 'Cuprum', sans-serif;
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #2c3d97;//blue for a
+body{
+	background-color: white;
+	// background:url("../img/BG2.jpg") fixed center 0px;
+}
+a{text-decoration: none!important;}
+button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+li{list-style-type: none;}
+// -----------------------------------------------
+header{
+	background: url("../img/BG1.jpg")center bottom;
+	height: 100vh;
+	color:$color1; 
+}
+h1{
+	color: $color1;
+	font-size: 69px;
+	font-family: 'Playfair Display';
+	font-style: italic;
+	text-align: center;
+}
+h4{
+	color: $color1;
+	font-size: 19px;
+	font-family: 'Source Sans Pro';
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	max-width: 620px;
+	min-width: 440px;
+}
+h2{
+	color: $color2;
+	font-size: 51px;
+	font-family: 'Playfair Display';
+	font-style: italic;
+	text-align: center;
+}
+p{
+	color: $color3;
+	font-size: 18px;
+	font-family: 'Source Sans Pro';
+	text-align: center;
+}
+.logo{
+	font-size: 39px;
+	font-family: 'Cuprum', sans-serif;
+	&:before{
+		content: url("../img/logoW.png");
+		position: relative;
+		top: 20px;
+	}
+}
+nav{
+	a{
+		color: $color1;
+		font-size: 18px;
+		font-family: 'Source Sans Pro';
+		&:hover{
+			color: $color1;
+		}
+		&:focus{
+			color: $color2;
+		}	
+	}
+
+}
+// france_for_you------------------------------------
+.france_for_you{
+
+}
+// Our_advantage----------------------------------
+.Our_advantage{
+	height: 650px;
+	background: url("../img/BG2.jpg") ;
+}
+// advantage----------------------------------------
+.advantage{
+	height: 660px;
+	text-align: center;
+}
+// about_us-----------------------------------------
+.about_us{
+	height: 640px;
+	background: url("../img/BG3.jpg") ;
+}
+// about_us_bottom----------------------------------------
+.about_us_bottom{
+	height: 660px;
+	text-align: center;
+}
+// how_we_work-----------------------------------------
+.how_we_work{
+	height: 640px;
+	background: url("../img/BG4.jpg") ;
+}
+// how_we_work_bottom----------------------------------------
+.how_we_work_bottom{
+	height: 660px;
+	text-align: center;
+}
+// book-----------------------------------------
+.book{
+	height: 640px;
+	background: url("../img/BG5.jpg") ;
+}
+//footer----------------------------------------
+footer{
+	height: 250px;
+	text-align: center;
+}

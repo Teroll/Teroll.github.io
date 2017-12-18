@@ -1,0 +1,30 @@
+//font-family: 'Playfair Display', serif;
+//font-family: Source Sans Pro;
+//font-family: 'Cuprum', sans-serif;
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #2c3d97;//blue for a
+body{
+	background-color: gray;
+}
+a{text-decoration: none!important;}
+button:focus,a:focus,
+input:focus,select:focus{outline:none!important;}
+// -----------------------------------------------
+header{
+	background: url("../work5/");
+}
+h1{
+	color: $color1;
+	font-size: 69px;
+	font-family: 'Playfair Display';
+	font-style: italic;
+	text-align: center;
+}
+h4{
+	color: $color1;
+	font-size: 19px;
+	font-family: 'Source Sans Pro';
+	text-align: center;
+}
