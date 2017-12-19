@@ -5,22 +5,11 @@ $color1: white;
 $color2: #c59d5f;//gold for h1
 $color3: #4f4f4f;//gray for 
 $color4: #2c3d97;//blue for a
-body{
-	width: 100%;
-	// background-color: red;
-	// border: solid 1px green;
-	overflow-x:hidden;
-}
+
 a{text-decoration: none!important;}
 button:focus,a:focus,input:focus,select:focus{outline:none!important;}
 li{list-style-type: none;}
-// -----------------------------------------------
-header{
-	// background: url("../img/BG1.jpg")center bottom;
-	height: 100vh;
-	color:$color1; 
-	padding-top: 20px;
-}
+// General style-----------------------------------------------
 h1{
 
 	color: $color1;
@@ -28,7 +17,9 @@ h1{
 	font-family: 'Playfair Display';
 	font-style: italic;
 	text-align: center;
-	margin-bottom: 45px;
+	margin-bottom: 20px;
+	background: url("../img/line.png") 50% 100% no-repeat;
+	padding-bottom: 40px;
 }
 h4{
 	color: $color1;
@@ -39,14 +30,6 @@ h4{
 	width: 90%;
 	max-width: 620px;
 	min-width: 440px;
-	&:before{
-		content: url("../img/line.png");
-		position: relative;
-		left: -260px;
-		top: -10px;
-		display: block;
-		width: 80%;
-	}
 }
 h2{
 	color: $color2;
@@ -54,14 +37,16 @@ h2{
 	font-family: 'Playfair Display';
 	font-style: italic;
 	text-align: center;
-	&:after{
-		content: url("../img/line_golden.png");
-		position: relative;
-		left: -85px;
-		bottom: 25px;
-		display: block;
-		width: 80%;
-	}
+	background: url("../img/line_golden.png") 50% 100% no-repeat;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	// &:after{
+	// 	content: url("../img/line_golden.png");
+	// 	position: absolute;
+	// 	left: 0px;
+	// 	top: 25px;
+	// 	display: block;	
+	// }
 }
 p{
 	color: $color3;
@@ -84,31 +69,25 @@ p{
 	}
 }
 .BG{
-	height: 640px;
+	height:  640px;
 }
-.star:before{
-		content: url("../img/flower.png");
-		position: relative;
-		left: calc(50% - 6px);
-		top: -30px;
+
+// General style END----------------------------
+header{
+	height: 100vh;
+	color:$color1; 
+	padding-top: 20px;
+	img{
+		width: 30%;
 	}
-// .logo{
-// 	font-size: 39px;
-// 	font-family: 'Cuprum', sans-serif;
-// 	text-wrap: none;
-// 	&:before{
-// 		content: url("../img/logoW.png");
-// 		position: relative;
-// 		top: 20px;
-// 	}
-// }
+}
 nav{
 	display: inline-block;
 	margin-top: 35px;
 	text-align: right;
 	float: right;
 	li{
-		margin-left: 1vw;
+		// margin-left: 1vw;
 	}
 	a{
 		color: $color1;
@@ -170,11 +149,72 @@ nav{
 }
 // book-----------------------------------------
 #book{
-	// height: 640px;
-	// background: url("../img/BG5.jpg") ;
+	text-align: center;
+	h4{
+		margin-bottom: 40px;
+	}
+	a{
+		background: #2c3d97;
+		padding: 13px 26px;
+		border-radius: 18px;
+		color: white;
+		&:hover{
+			background: #364076;
+		}
+	}
 }
 //footer----------------------------------------
 footer{
 	height: 250px;
+	background: white;
 	text-align: center;
+	padding-top: 70px;
+	img{
+		float: right;
+		margin-right: 40px;
+	}
+	a{
+		color: #2c3d97;
+		font-size: 16px;
+		// font-weight: bold;
+		text-decoration:underline!important;
+	}
+	ul{
+		text-align: left;
+		li{
+			margin-right: 7px;
+		}
+	}
+}
+#fb{
+    background: url('../img/mesenger_sprite.png') 0 0;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px 0;
+	}
+}
+#tw{
+    background: url('../img/mesenger_sprite.png') 0 -26px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -26px;
+	}
+}
+#vk{
+    background: url('../img/mesenger_sprite.png') 0 -52px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -52px;
+	}
+}
+#ig{
+    background: url('../img/mesenger_sprite.png') 0 -78px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -78px;
+	}
 }
