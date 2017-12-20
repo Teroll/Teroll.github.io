@@ -53,6 +53,9 @@ p{
 	font-size: 18px;
 	font-family: 'Source Sans Pro';
 	text-align: center;
+	line-height: 28px;
+	max-width: 485px;
+	margin: 15px auto;
 }
 .title{
 	position: relative;
@@ -62,7 +65,7 @@ p{
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background: white;
-	min-height: 580px;
+	min-height: 500px;
 	text-align: center;
 	img{
 		width: 100%;
@@ -71,7 +74,9 @@ p{
 .BG{
 	height:  640px;
 }
-
+.star{
+		margin-top: 15px;
+	}
 // General style END----------------------------
 header{
 	height: 100vh;
@@ -102,6 +107,7 @@ nav{
 	}
 
 }
+
 // france_for_you------------------------------------
 #france_for_you{
 	// min-height: 580px;
@@ -146,6 +152,15 @@ nav{
 	img{	
 		height: 410px;
 	}
+	a{
+		color: #2c3d97;
+	}
+	p{
+		a{
+		
+		text-decoration:underline!important;
+	}
+	}
 }
 // book-----------------------------------------
 #book{
@@ -159,16 +174,21 @@ nav{
 		border-radius: 18px;
 		color: white;
 		&:hover{
-			background: #364076;
+			background: white;
+			color: #2c3d97;
 		}
 	}
 }
 //footer----------------------------------------
 footer{
-	height: 250px;
+	min-height:  250px;
 	background: white;
 	text-align: center;
 	padding-top: 70px;
+	padding-bottom: 60px;
+	.bank{
+		margin-bottom: 20px;
+	}
 	img{
 		float: right;
 		margin-right: 40px;
@@ -185,6 +205,23 @@ footer{
 			margin-right: 7px;
 		}
 	}
+	.col{
+		display: inline-block;
+		margin-right: 17px;
+		margin-left: 17px;
+		margin-bottom: 30px;
+		p{
+			margin-bottom: 0px;
+			font-size: 16px;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+.col {
+        display: block!important;
+        width: 100%;
+
+    }
 }
 #fb{
     background: url('../img/mesenger_sprite.png') 0 0;

@@ -48,6 +48,9 @@ p {
   font-size: 18px;
   font-family: 'Source Sans Pro';
   text-align: center;
+  line-height: 28px;
+  max-width: 485px;
+  margin: 15px auto;
 }
 
 .title {
@@ -59,7 +62,7 @@ p {
   padding-top: 80px;
   padding-bottom: 80px;
   background: white;
-  min-height: 580px;
+  min-height: 500px;
   text-align: center;
 }
 
@@ -69,6 +72,10 @@ p {
 
 .BG {
   height: 640px;
+}
+
+.star {
+  margin-top: 15px;
 }
 
 header {
@@ -123,6 +130,14 @@ nav a:focus {
   height: 410px;
 }
 
+#how_we_work_bottom a {
+  color: #2c3d97;
+}
+
+#how_we_work_bottom p a {
+  text-decoration: underline !important;
+}
+
 #book {
   text-align: center;
 }
@@ -139,14 +154,20 @@ nav a:focus {
 }
 
 #book a:hover {
-  background: #364076;
+  background: white;
+  color: #2c3d97;
 }
 
 footer {
-  height: 250px;
+  min-height: 250px;
   background: white;
   text-align: center;
   padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+footer .bank {
+  margin-bottom: 20px;
 }
 
 footer img {
@@ -166,6 +187,25 @@ footer ul {
 
 footer ul li {
   margin-right: 7px;
+}
+
+footer .col {
+  display: inline-block;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+}
+
+footer .col p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .col {
+    display: block !important;
+    width: 100%;
+  }
 }
 
 #fb {

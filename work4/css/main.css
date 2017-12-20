@@ -1,27 +1,3 @@
-/*@font-face { 
-font-family: "SourceSansPro"; 
-src: url("../fonts/SourceSansPro/SourceSansPro-Regular.woff") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-}
-@font-face { 
-font-family: "SourceSansPro"; 
-src: url("../fonts/SourceSansPro/SourceSansPro-Bold.woff") format("truetype"); 
-font-style: normal; 
-font-weight: bold; 
-} 
-@font-face { 
-font-family: "SourceSansPro"; 
-src: url("../fonts/SourceSansPro/SourceSansPro-It.woff") format("truetype"); 
-font-style: italic; 
-font-weight: normal; 
-}
-@font-face { 
-font-family: "SourceSansPro"; 
-src: url("../fonts/SourceSansPro/SourceSansPro-Light.woff") format("truetype"); 
-font-style: normal; 
-font-weight: lighter; 
-}*/
 @font-face { 
 font-family: "Peace Sans"; 
 src: url("../fonts/peace_sans/Peace Sans/Peace Sans Webfont.ttf") format("truetype"); 
