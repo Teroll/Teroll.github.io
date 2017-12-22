@@ -1,0 +1,46 @@
+.content img {
+  height: 340px;
+  margin: 0;
+  width: auto;
+}
+
+.content .row div {
+  padding: 15px 15px;
+}
+
+.content .box1, .content .box2, .content .box3, .content .box4, .content .box5, .content .box6, .content .box7, .content .box8 {
+  background-clip: content-box !important;
+  height: 340px;
+}
+
+.content .box1 {
+  background: url("../img/gallery1.jpg") center;
+}
+
+.content .box2 {
+  background: url("../img/gallery2.jpg") center no-repeat;
+}
+
+.content .box3 {
+  background: url("../img/gallery3.jpg") center no-repeat;
+}
+
+.content .box4 {
+  background: url("../img/gallery4.jpg") center no-repeat;
+}
+
+.content .box5 {
+  background: url("../img/gallery5.jpg") center no-repeat;
+}
+
+.content .box6 {
+  background: url("../img/gallery6.jpg") center no-repeat;
+}
+
+.content .box7 {
+  background: url("../img/gallery7.jpg") center no-repeat;
+}
+
+.content .box8 {
+  background: url("../img/gallery8.jpg") center no-repeat;
+}

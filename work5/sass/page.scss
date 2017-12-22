@@ -1,0 +1,265 @@
+//font-family: 'Playfair Display', serif;
+//font-family: Source Sans Pro;
+//font-family: 'Cuprum', sans-serif;
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
+$color6: #d51313;//red for a:focus in nav
+body{
+	background: white;
+	font-family: Source Sans Pro;
+}
+img{
+	max-width: 100%;
+}
+a{text-decoration: none!important;}
+button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+// General style-----------------------------------------------
+// header
+header{
+	background: white;
+	height: 125px;
+	color:$color4; 
+	padding-top: 20px;
+	.my-flex-container{
+		display: flex;
+		flex-direction: row;
+		align-items: center ;
+		justify-content: space-around;
+	}
+	a{
+		width: 30%;
+	}
+}
+nav{
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 20px;
+	text-align: right;
+	float: right;
+	li{
+		padding: 0 calc(3px + 0.3vw) !important;
+	}
+	a{
+		color: $color4;
+		font-size: 18px;
+		font-family: 'Source Sans Pro';
+		&:hover{
+			color: $color3;
+		}
+		&:focus{
+			color: $color6;
+		}	
+	}
+
+}
+@media screen and (max-width: 991px) {
+nav {
+       margin-top: 20px; 
+    }
+}
+// Header END
+//footer----------------------------------------
+footer{
+	min-height:  250px;
+	background: white;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 60px;
+	border-top: 1px solid #808080;
+	.bank{
+		margin-bottom: 20px;
+	}
+	img{
+		float: right;
+		margin-right: 40px;
+	}
+	a{
+		color: $color4;
+		font-size: 16px;
+		text-decoration:underline!important;
+		&:hover{
+			color: $color5;
+		}
+	}
+	ul{
+		text-align: left;
+		li{
+			margin-right: 7px;
+		}
+	}
+	.col{
+		display: inline-block;
+		margin-right: 17px;
+		margin-left: 17px;
+		margin-bottom: 30px;
+		p{
+			margin-bottom: 0px;
+			font-size: 16px;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+.col {
+        display: block!important;
+        width: 100%;
+
+    }
+}
+#fb{
+    background: url('../img/mesenger_sprite.png') 0 0;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px 0;
+	}
+}
+#tw{
+    background: url('../img/mesenger_sprite.png') 0 -26px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -26px;
+	}
+}
+#vk{
+    background: url('../img/mesenger_sprite.png') 0 -52px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -52px;
+	}
+}
+#ig{
+    background: url('../img/mesenger_sprite.png') 0 -78px;
+    width: 26px;
+	height: 26px;
+	&:hover{
+		background: url('../img/mesenger_sprite.png') -26px -78px;
+	}
+}
+// footer END
+// General style END-------------------------------------------
+// Banner
+.banner{
+	padding: 0!important;
+	background: url("../img/BG_banner.jpg")center no-repeat;
+	height: 215px;
+	text-align: center;
+	color: $color1;
+	font-size: 16px;
+	h1{
+		color: $color1;
+		font-size: 69px;
+		font-family: 'Playfair Display';
+		font-style: italic;
+		margin-top: 50px;
+		margin-bottom: 15px;	
+	}
+	a{
+		color: $color1;
+		&:hover{
+			text-decoration: underline!important;
+		}
+	}
+}
+@media screen and (max-width: 610px) {
+.banner {
+	h1{
+
+        font-size: 50px;
+	}
+
+    }
+}
+// Banner END
+
+// Content
+.content{
+	background: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 16px;
+	line-height: 27px;
+	color: $color3;
+	img{
+		margin: 30px 0;
+	}
+	.container{
+		max-width: 1000px;
+	}
+	h2{
+		font-size: 32px;
+		font-weight: bold;
+	}
+	h3{
+		font-weight: bold;
+	}
+	a{
+		color: $color4;
+		text-decoration:underline!important;
+		&:hover{
+			color: $color5;
+			text-decoration:none!important;
+		}
+	}
+	ul{
+		li{
+			list-style-type: none;
+			margin-bottom: 15px;
+		}
+		li:before {
+			color: $color4;
+			content: "♦";
+			padding-right: 10px;
+		} 
+	}
+	ol{
+		li{
+			color: $color4;
+			font-weight: bold;
+			margin-bottom: 15px;
+			span{
+				color: $color3;
+				font-weight: 500;
+				padding-left: 10px;
+			}
+		}
+	}
+	table{
+		max-width: 785px;
+		width: 100%;
+		margin-top: 20px;
+		th{
+			background: $color4;
+			color: $color1;
+			min-height: 55px;
+			padding: 13px 5px 13px 30px;
+			border: 1px solid white;
+		}
+		tr{
+			min-height: 55px;
+		}
+		td{
+			border: 1px solid #eceff1;
+			padding: 13px 5px 13px 30px;
+			&:first-child{
+				width:70%;
+			}
+		}
+	}
+}
+// Content END
+
+
+
+
+
+
+
+
+
+
+

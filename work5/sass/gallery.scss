@@ -1,0 +1,51 @@
+
+.content{
+	img{
+		height: 340px;
+		margin: 0;
+		width: auto;   
+	}
+	.row{
+		div{
+			padding: 15px 15px;
+		}
+	}
+	.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,{
+		background-clip: content-box!important;
+		height: 340px;
+	}
+	.box1{
+		background: url("../img/gallery1.jpg")center;
+	}
+	.box2{
+		background: url("../img/gallery2.jpg")center no-repeat;
+	}
+	.box3{
+		background: url("../img/gallery3.jpg")center no-repeat;
+	}
+	.box4{
+		background: url("../img/gallery4.jpg")center no-repeat;
+	}
+	.box5{
+		background: url("../img/gallery5.jpg")center no-repeat;
+	}
+	.box6{
+		background: url("../img/gallery6.jpg")center no-repeat;
+	}
+	.box7{
+		background: url("../img/gallery7.jpg")center no-repeat;
+	}
+	.box8{
+		background: url("../img/gallery8.jpg")center no-repeat;
+	}
+}
+
+    
+
+
+
+
+
+
+
+

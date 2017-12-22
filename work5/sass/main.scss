@@ -4,8 +4,8 @@
 $color1: white;
 $color2: #c59d5f;//gold for h1
 $color3: #4f4f4f;//gray for 
-$color4: #2c3d97;//blue for a
-
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
 a{text-decoration: none!important;}
 button:focus,a:focus,input:focus,select:focus{outline:none!important;}
 li{list-style-type: none;}
@@ -40,13 +40,6 @@ h2{
 	background: url("../img/line_golden.png") 50% 100% no-repeat;
 	padding-bottom: 20px;
 	margin-bottom: 25px;
-	// &:after{
-	// 	content: url("../img/line_golden.png");
-	// 	position: absolute;
-	// 	left: 0px;
-	// 	top: 25px;
-	// 	display: block;	
-	// }
 }
 p{
 	color: $color3;
@@ -110,15 +103,13 @@ nav{
 
 // france_for_you------------------------------------
 #france_for_you{
-	// min-height: 580px;
 	.star:before{
 		left: calc(40% - 6px);
 	}
 }
 // Our_advantage----------------------------------
 #Our_advantage{
-	// height: 650px;
-	// background: url("../img/BG2.jpg") ;
+
 }
 // advantage----------------------------------------
 #advantage{
@@ -194,10 +185,12 @@ footer{
 		margin-right: 40px;
 	}
 	a{
-		color: #2c3d97;
+		color: $color4;
 		font-size: 16px;
-		// font-weight: bold;
 		text-decoration:underline!important;
+		&:hover{
+			color: $color5;
+		}
 	}
 	ul{
 		text-align: left;

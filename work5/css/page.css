@@ -1,0 +1,280 @@
+@charset "UTF-8";
+body {
+  background: white;
+  font-family: Source Sans Pro;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button:focus, a:focus, input:focus, select:focus {
+  outline: none !important;
+}
+
+header {
+  background: white;
+  height: 125px;
+  color: #000a5f;
+  padding-top: 20px;
+}
+
+header .my-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  width: 30%;
+}
+
+nav {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 20px;
+  text-align: right;
+  float: right;
+}
+
+nav li {
+  padding: 0 calc(3px + 0.3vw) !important;
+}
+
+nav a {
+  color: #000a5f;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+}
+
+nav a:hover {
+  color: #4f4f4f;
+}
+
+nav a:focus {
+  color: #d51313;
+}
+
+@media screen and (max-width: 991px) {
+  nav {
+    margin-top: 20px;
+  }
+}
+
+footer {
+  min-height: 250px;
+  background: white;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  border-top: 1px solid #808080;
+}
+
+footer .bank {
+  margin-bottom: 20px;
+}
+
+footer img {
+  float: right;
+  margin-right: 40px;
+}
+
+footer a {
+  color: #000a5f;
+  font-size: 16px;
+  text-decoration: underline !important;
+}
+
+footer a:hover {
+  color: #2c3d97;
+}
+
+footer ul {
+  text-align: left;
+}
+
+footer ul li {
+  margin-right: 7px;
+}
+
+footer .col {
+  display: inline-block;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+}
+
+footer .col p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .col {
+    display: block !important;
+    width: 100%;
+  }
+}
+
+#fb {
+  background: url("../img/mesenger_sprite.png") 0 0;
+  width: 26px;
+  height: 26px;
+}
+
+#fb:hover {
+  background: url("../img/mesenger_sprite.png") -26px 0;
+}
+
+#tw {
+  background: url("../img/mesenger_sprite.png") 0 -26px;
+  width: 26px;
+  height: 26px;
+}
+
+#tw:hover {
+  background: url("../img/mesenger_sprite.png") -26px -26px;
+}
+
+#vk {
+  background: url("../img/mesenger_sprite.png") 0 -52px;
+  width: 26px;
+  height: 26px;
+}
+
+#vk:hover {
+  background: url("../img/mesenger_sprite.png") -26px -52px;
+}
+
+#ig {
+  background: url("../img/mesenger_sprite.png") 0 -78px;
+  width: 26px;
+  height: 26px;
+}
+
+#ig:hover {
+  background: url("../img/mesenger_sprite.png") -26px -78px;
+}
+
+.banner {
+  padding: 0 !important;
+  background: url("../img/BG_banner.jpg") center no-repeat;
+  height: 215px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 69px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.banner a {
+  color: white;
+}
+
+.banner a:hover {
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width: 610px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+}
+
+.content {
+  background: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #4f4f4f;
+}
+
+.content img {
+  margin: 30px 0;
+}
+
+.content .container {
+  max-width: 1000px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-weight: bold;
+}
+
+.content a {
+  color: #000a5f;
+  text-decoration: underline !important;
+}
+
+.content a:hover {
+  color: #2c3d97;
+  text-decoration: none !important;
+}
+
+.content ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.content ul li:before {
+  color: #000a5f;
+  content: "♦";
+  padding-right: 10px;
+}
+
+.content ol li {
+  color: #000a5f;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.content ol li span {
+  color: #4f4f4f;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.content table {
+  max-width: 785px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.content table th {
+  background: #000a5f;
+  color: white;
+  min-height: 55px;
+  padding: 13px 5px 13px 30px;
+  border: 1px solid white;
+}
+
+.content table tr {
+  min-height: 55px;
+}
+
+.content table td {
+  border: 1px solid #eceff1;
+  padding: 13px 5px 13px 30px;
+}
+
+.content table td:first-child {
+  width: 70%;
+}

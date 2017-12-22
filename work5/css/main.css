@@ -176,9 +176,13 @@ footer img {
 }
 
 footer a {
-  color: #2c3d97;
+  color: #000a5f;
   font-size: 16px;
   text-decoration: underline !important;
+}
+
+footer a:hover {
+  color: #2c3d97;
 }
 
 footer ul {
