@@ -1,0 +1,134 @@
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  color: #c59d5f;
+  font-size: 36px;
+  font-family: Playfair Display, serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  max-width: 435px;
+  margin: 15px auto 15px auto;
+}
+
+.content .row div {
+  padding: 0;
+}
+
+.content .row a {
+  color: #c59d5f;
+}
+
+.content .row span {
+  font-size: 14px;
+  color: #4f4f4f;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.content .blog1, .content .blog2, .content .blog3, .content .blog4, .content .blog5 {
+  background-clip: content-blog !important;
+  min-height: 380px;
+}
+
+.content .blog1 {
+  background: url("../img/blog1.jpg") center no-repeat;
+}
+
+.content .blog2 {
+  background: url("../img/blog2.jpg") center no-repeat;
+}
+
+.content .blog3 {
+  background: url("../img/blog3.jpg") center no-repeat;
+}
+
+.content .blog4 {
+  background: url("../img/blog4.jpg") center no-repeat;
+}
+
+.content .blog5 {
+  background: url("../img/blog5.jpg") center no-repeat;
+}
+
+.tags ul {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.tags li {
+  list-style-type: none;
+}
+
+.tags li:before {
+  content: none !important;
+}
+
+.tags li:last-child {
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+.tags a {
+  text-decoration: none !important;
+  color: #818181 !important;
+}
+
+.tags a:hover {
+  color: #c59d5f !important;
+}
+
+.tags p {
+  margin: 0;
+  max-width: 1200px;
+  margin-bottom: 45px;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+.tags p span {
+  color: #d51313 !important;
+  font-size: 20px !important;
+}
+
+.pages {
+  text-align: center;
+}
+
+.pages a {
+  padding: 15px 20px;
+  border: 1px solid #ebebeb;
+  color: #4f4f4f;
+}
+
+.pages a:focus {
+  border: 1px solid #000a5f;
+  color: white;
+  background: #000a5f;
+}
+
+.pages a:hover {
+  border: 1px solid #000a5f;
+}
+
+.pages ul {
+  margin-bottom: 70px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .content .row {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+  }
+  .content .row:first-child, .content .row:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+}

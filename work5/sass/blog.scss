@@ -1,0 +1,55 @@
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
+$color6: #d51313;//red for a:focus in nav
+.content{
+	.gold{
+		color:$color2;
+		font-size: 36px;
+		font-family: Playfair Display, serif;
+		font-style: italic;
+		font-weight: normal;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	.round_img{
+		height: 230px;
+		width: 230px;
+		border-radius: 50%;
+		background: url("../img/blog_1.jpg") bottom right -20px no-repeat;
+		margin: 25px auto;
+	}
+	span{
+		font-size: 14px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	.text_align{
+		text-align: center;
+	}
+	ul{
+		&:before{
+			content: url("../img/blog_icon.png");
+			position: relative;
+			top: 10px;
+			left: 5px;
+		}
+		a{
+			text-decoration: none!important;
+			color: #818181!important;
+			&:hover{
+				color:$color2!important;
+			}
+		}
+		li{
+			padding-left: 10px;
+			list-style-type: none;
+		&:before{
+			content: none!important;
+			}
+		}
+	}
+}

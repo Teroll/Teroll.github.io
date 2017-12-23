@@ -1,0 +1,53 @@
+.content .gold {
+  color: #c59d5f;
+  font-size: 36px;
+  font-family: Playfair Display, serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.content .round_img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  background: url("../img/blog_1.jpg") bottom right -20px no-repeat;
+  margin: 25px auto;
+}
+
+.content span {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.content .text_align {
+  text-align: center;
+}
+
+.content ul:before {
+  content: url("../img/blog_icon.png");
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+.content ul a {
+  text-decoration: none !important;
+  color: #818181 !important;
+}
+
+.content ul a:hover {
+  color: #c59d5f !important;
+}
+
+.content ul li {
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.content ul li:before {
+  content: none !important;
+}

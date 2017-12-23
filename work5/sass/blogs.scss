@@ -1,0 +1,128 @@
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
+$color6: #d51313;//red for a:focus in nav
+.content{
+	text-align: center;
+	h2{
+		color:$color2;
+		font-size: 36px;
+		font-family: Playfair Display, serif;
+		font-style: italic;
+		font-weight: normal;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	p{
+		max-width: 435px;
+		margin: 15px auto 15px auto;
+	}
+	.row{
+		div{
+			padding: 0;
+		}
+		a{
+			color:$color2;	
+		}
+		span{
+			font-size: 14px;
+			color: $color3;
+			margin-top: 20px;
+			display: inline-block;
+		}
+	}
+		.blog1,.blog2,.blog3,.blog4,.blog5,{
+		background-clip: content-blog!important;
+		min-height: 380px;
+	}
+	.blog1{
+		background: url("../img/blog1.jpg")center no-repeat;
+	}
+	.blog2{
+		background: url("../img/blog2.jpg")center no-repeat;
+	}
+	.blog3{
+		background: url("../img/blog3.jpg")center no-repeat;
+	}
+	.blog4{
+		background: url("../img/blog4.jpg")center no-repeat;
+	}
+	.blog5{
+		background: url("../img/blog5.jpg")center no-repeat;
+	}
+}
+// Tags
+.tags{
+	ul{
+		margin-top: -10px;
+		margin-bottom: 5px;
+	}
+	li{
+		list-style-type: none;
+		&:before{
+			content: none!important;
+		}
+		&:last-child{
+			color:$color3;
+			font-weight: bold;
+		}
+	}
+	a{
+		text-decoration: none!important;
+		color: #818181!important;
+		&:hover{
+			color:$color2!important;
+		}
+
+	}
+	p{
+		margin: 0;
+		max-width: 1200px;
+		margin-bottom: 45px;
+		font-size: 20px ;
+		line-height: 21px;
+		span{
+			color:$color6!important;
+			font-size: 20px!important;
+		}
+	}
+}
+// Pages navigation
+.pages{
+	text-align: center;
+	a{
+		padding: 15px 20px;
+		border: 1px solid #ebebeb;
+		color: $color3;
+		&:focus{
+			border: 1px solid $color4;
+			color: $color1;
+			background: $color4;
+		}
+		&:hover{
+			border: 1px solid $color4;
+		}
+	}
+	ul{
+		margin-bottom: 70px;
+		margin-top: 25px;
+	}
+}
+// Адаптация
+@media screen and (max-width: 767px) {
+	.content{
+		.row {
+			
+			border-bottom: 1px solid gray;
+			padding-bottom: 30px;
+			
+			&:first-child,&:last-child,{
+			border-bottom: none;
+			padding-bottom: 0px;
+			}
+		}
+	}
+
+}
