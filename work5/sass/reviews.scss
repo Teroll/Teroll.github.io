@@ -1,0 +1,173 @@
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
+$color6: #d51313;//red for a:focus in nav
+.content{
+	padding-bottom: 0px;
+	.container{
+		max-width: 1200px;
+	}
+	text-align: center;
+	padding-top: 40px;
+	i{
+		text-align: right;
+		p{
+			margin-right: 0px!important;
+		}
+	}
+	img{
+		margin-top: 5px;
+		margin-bottom: 25px;
+		width: 100%;
+
+	}
+	.col-xs-12{
+		margin-bottom: 70px;
+	}
+	.row{
+		// margin-bottom: 70px;
+		a{
+			text-decoration: none!important;
+			h2{
+				max-width: 430px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-bottom: 10px;
+				&:hover{
+				color: #dfa750 ;
+				}
+			}
+		}
+		p{
+			max-width: 430px;
+			margin: 0 auto 20px auto;
+		}
+	}
+	a{
+		color: $color2;
+		&:hover{
+				color: #dfa750 ;
+				}
+	}
+}
+.feedback{
+	min-height: 755px;
+	a{
+		color: $color4;
+		&:hover{
+				color:$color5!important;
+			}
+	}
+	p{
+		max-width: 870px!important;
+	}
+	b{
+		color: red;
+	}
+	h2{
+		margin-bottom: 30px!important;
+	}
+	label{
+		color: #212121;
+		line-height: 20px;
+	}
+	.content{
+		padding-top: 0px;
+		text-align: left!important;
+	}
+	span{
+		font-size: 14px;
+		color: $color3;
+	}
+	textarea{
+		max-width:  770px;
+		margin: 10px auto 10px auto;
+		height: 215px;
+		resize: none;
+	}
+	.textarea{
+		min-height: 215px;
+		max-width: 880px;
+		margin-bottom: 75px;
+	}
+	button{
+		color: red;
+		border: 2px solid red;
+		border-radius: 23px;
+		height: 46px;
+		width: 165px;
+		font-size: 19px; 
+		&:hover{
+			color: white;
+			background: red;
+			border: 2px solid red;
+		}
+	}
+	.button{
+		text-align: center;
+	}
+	.form{
+		max-width: 800px;
+		margin: 0 auto;
+		.col-md-6{
+			margin-bottom: 30px;
+		}
+	}
+	#download{
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -999;
+
+	}
+	.download{
+		color: red;
+		border: 1px solid  #bdbdbd;
+		width: 370px;
+		height: 43px;
+		div{
+			&:first-child{
+				color: #bdbdbd;
+				width: 125px;
+				height: 20px;
+				float: left;
+				margin-top: 7px;
+				margin-left: 10px;
+				font-weight: normal;
+
+			}
+			&:last-child{
+				color: red;
+				width: 105px;
+				height: 27px;
+				border: 2px solid red;
+				border-radius: 12px;
+				text-align: center;
+				float: right;
+				margin-top: 7px;
+				margin-right: 5px;
+				font-size: 14px;
+				font-weight: normal;
+				&:hover{
+					background: red;
+					color: white;
+				}
+			}
+		}
+	}
+	.form-group{
+		height: 90px;
+	}
+	.name{
+		margin-bottom: 23px;
+	}
+	#name{
+		max-width: 370px;
+		height: 43px;
+		border-radius: 0px;
+	}
+}

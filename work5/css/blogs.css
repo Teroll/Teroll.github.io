@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.content h2 {
-  color: #c59d5f;
-  font-size: 36px;
-  font-family: Playfair Display, serif;
-  font-style: italic;
-  font-weight: normal;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
 .content p {
   max-width: 435px;
   margin: 15px auto 15px auto;
@@ -95,31 +85,6 @@
 .tags p span {
   color: #d51313 !important;
   font-size: 20px !important;
-}
-
-.pages {
-  text-align: center;
-}
-
-.pages a {
-  padding: 15px 20px;
-  border: 1px solid #ebebeb;
-  color: #4f4f4f;
-}
-
-.pages a:focus {
-  border: 1px solid #000a5f;
-  color: white;
-  background: #000a5f;
-}
-
-.pages a:hover {
-  border: 1px solid #000a5f;
-}
-
-.pages ul {
-  margin-bottom: 70px;
-  margin-top: 25px;
 }
 
 @media screen and (max-width: 767px) {

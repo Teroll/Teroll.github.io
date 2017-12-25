@@ -1,0 +1,194 @@
+.content {
+  padding-bottom: 0px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.content .container {
+  max-width: 1200px;
+}
+
+.content i {
+  text-align: right;
+}
+
+.content i p {
+  margin-right: 0px !important;
+}
+
+.content img {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.content .col-xs-12 {
+  margin-bottom: 70px;
+}
+
+.content .row a {
+  text-decoration: none !important;
+}
+
+.content .row a h2 {
+  max-width: 430px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.content .row a h2:hover {
+  color: #dfa750;
+}
+
+.content .row p {
+  max-width: 430px;
+  margin: 0 auto 20px auto;
+}
+
+.content a {
+  color: #c59d5f;
+}
+
+.content a:hover {
+  color: #dfa750;
+}
+
+.feedback {
+  min-height: 755px;
+}
+
+.feedback a {
+  color: #000a5f;
+}
+
+.feedback a:hover {
+  color: #2c3d97 !important;
+}
+
+.feedback p {
+  max-width: 870px !important;
+}
+
+.feedback b {
+  color: red;
+}
+
+.feedback h2 {
+  margin-bottom: 30px !important;
+}
+
+.feedback label {
+  color: #212121;
+  line-height: 20px;
+}
+
+.feedback .content {
+  padding-top: 0px;
+  text-align: left !important;
+}
+
+.feedback span {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.feedback textarea {
+  max-width: 770px;
+  margin: 10px auto 10px auto;
+  height: 215px;
+  resize: none;
+}
+
+.feedback .textarea {
+  min-height: 215px;
+  max-width: 880px;
+  margin-bottom: 75px;
+}
+
+.feedback button {
+  color: red;
+  border: 2px solid red;
+  border-radius: 23px;
+  height: 46px;
+  width: 165px;
+  font-size: 19px;
+}
+
+.feedback button:hover {
+  color: white;
+  background: red;
+  border: 2px solid red;
+}
+
+.feedback .button {
+  text-align: center;
+}
+
+.feedback .form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feedback .form .col-md-6 {
+  margin-bottom: 30px;
+}
+
+.feedback #download {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -999;
+}
+
+.feedback .download {
+  color: red;
+  border: 1px solid  #bdbdbd;
+  width: 370px;
+  height: 43px;
+}
+
+.feedback .download div:first-child {
+  color: #bdbdbd;
+  width: 125px;
+  height: 20px;
+  float: left;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.feedback .download div:last-child {
+  color: red;
+  width: 105px;
+  height: 27px;
+  border: 2px solid red;
+  border-radius: 12px;
+  text-align: center;
+  float: right;
+  margin-top: 7px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.feedback .download div:last-child:hover {
+  background: red;
+  color: white;
+}
+
+.feedback .form-group {
+  height: 90px;
+}
+
+.feedback .name {
+  margin-bottom: 23px;
+}
+
+.feedback #name {
+  max-width: 370px;
+  height: 43px;
+  border-radius: 0px;
+}

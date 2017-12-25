@@ -6,15 +6,15 @@ $color5: #2c3d97;//blue for a:hover
 $color6: #d51313;//red for a:focus in nav
 .content{
 	text-align: center;
-	h2{
-		color:$color2;
-		font-size: 36px;
-		font-family: Playfair Display, serif;
-		font-style: italic;
-		font-weight: normal;
-		margin-top: 15px;
-		margin-bottom: 20px;
-	}
+	// h2{
+	// 	color:$color2;
+	// 	font-size: 36px;
+	// 	font-family: Playfair Display, serif;
+	// 	font-style: italic;
+	// 	font-weight: normal;
+	// 	margin-top: 15px;
+	// 	margin-bottom: 20px;
+	// }
 	p{
 		max-width: 435px;
 		margin: 15px auto 15px auto;
@@ -89,27 +89,27 @@ $color6: #d51313;//red for a:focus in nav
 		}
 	}
 }
-// Pages navigation
-.pages{
-	text-align: center;
-	a{
-		padding: 15px 20px;
-		border: 1px solid #ebebeb;
-		color: $color3;
-		&:focus{
-			border: 1px solid $color4;
-			color: $color1;
-			background: $color4;
-		}
-		&:hover{
-			border: 1px solid $color4;
-		}
-	}
-	ul{
-		margin-bottom: 70px;
-		margin-top: 25px;
-	}
-}
+// // Pages navigation
+// .pages{
+// 	text-align: center;
+// 	a{
+// 		padding: 15px 20px;
+// 		border: 1px solid #ebebeb;
+// 		color: $color3;
+// 		&:focus{
+// 			border: 1px solid $color4;
+// 			color: $color1;
+// 			background: $color4;
+// 		}
+// 		&:hover{
+// 			border: 1px solid $color4;
+// 		}
+// 	}
+// 	ul{
+// 		margin-bottom: 70px;
+// 		margin-top: 25px;
+// 	}
+// }
 // Адаптация
 @media screen and (max-width: 767px) {
 	.content{

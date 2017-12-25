@@ -1,11 +1,5 @@
-.content .gold {
-  color: #c59d5f;
-  font-size: 36px;
-  font-family: Playfair Display, serif;
-  font-style: italic;
-  font-weight: normal;
-  margin-top: 15px;
-  margin-bottom: 20px;
+.content .container {
+  max-width: 1200px;
 }
 
 .content .round_img {
@@ -21,10 +15,6 @@
   margin-top: 20px;
   margin-bottom: 10px;
   display: inline-block;
-}
-
-.content .text_align {
-  text-align: center;
 }
 
 .content ul:before {
@@ -44,10 +34,44 @@
 }
 
 .content ul li {
-  padding-left: 10px;
   list-style-type: none;
+}
+
+.content ul li:first-child {
+  padding-left: 20px;
 }
 
 .content ul li:before {
   content: none !important;
+}
+
+.content .LastB {
+  text-align: center;
+}
+
+.content .LastB span {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content .LastB a {
+  text-decoration: none !important;
+  color: #4f4f4f !important;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content .LastB a:hover {
+  color: #c59d5f !important;
+}
+
+.content .LastB img {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.content .LastB h2 {
+  margin-bottom: 0px;
 }
