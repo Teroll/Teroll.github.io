@@ -1,0 +1,27 @@
+.content{
+	padding-top: 35px;
+		.round_img{
+		height: 230px;
+		width: 230px;
+		border-radius: 50%;
+		background: url("../img/review_pic1.jpg") bottom right -40px no-repeat;
+		margin: 25px auto;
+	}
+	p{
+		margin-bottom: 20px;
+	}
+	b{
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		p{
+			margin-bottom: 0px;
+		}
+	}
+	h2{
+		margin-bottom:  50px!important;
+	}
+	span{
+		margin-top: 0px;
+	}
+}

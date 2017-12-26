@@ -114,13 +114,6 @@ footer .col p {
   font-size: 16px;
 }
 
-@media screen and (max-width: 480px) {
-  .col {
-    display: block !important;
-    width: 100%;
-  }
-}
-
 #fb {
   background: url("../img/mesenger_sprite.png") 0 0;
   width: 26px;

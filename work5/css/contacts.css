@@ -1,0 +1,38 @@
+.content {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.sign {
+  text-align: right;
+}
+
+h4 {
+  margin-top: 5px;
+}
+
+.col1 {
+  float: right;
+  margin-right: 30px;
+}
+
+.col1 img {
+  margin: 5px auto;
+}
+
+.col2 {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+}
+
+.col2 img {
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .col1, .col2 {
+    float: none;
+    margin: auto;
+  }
+}
