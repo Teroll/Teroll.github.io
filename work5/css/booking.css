@@ -1,0 +1,139 @@
+.content {
+  padding-top: 45px;
+}
+
+.content .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.content .container {
+  max-width: 1200px;
+}
+
+.content .form_name {
+  padding: 0;
+}
+
+.content h2 {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #000a5f;
+}
+
+.content h2:before {
+  content: url("../img/booking_ico.png");
+  margin-right: 15px;
+}
+
+.content b {
+  color: red;
+}
+
+.content b span {
+  color: #4f4f4f;
+}
+
+.content .title {
+  text-align: center;
+}
+
+.content label {
+  margin-right: 30px;
+}
+
+.content .form {
+  text-align: right;
+}
+
+.content .form input {
+  width: 100%;
+  max-width: 570px;
+  margin-top: 15px;
+  padding-left: 5px;
+  height: 42px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.content .row1 {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.content hr {
+  display: inline-block;
+}
+
+.content .line {
+  border-top: 1px solid #d8d8d8;
+  position: relative;
+  text-align: center;
+  color: #d8d8d8;
+}
+
+.content .line span {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #fff;
+  font-size: 20px;
+}
+
+.content .checkbox1 {
+  min-height: 160px;
+}
+
+.content .checkbox1 .pretty {
+  margin-bottom: 10px;
+}
+
+.pretty input:checked ~ .state.p-primary label:after {
+  background-color: #000a5f !important;
+}
+
+@media (max-width: 739px) {
+  .form {
+    text-align: left;
+  }
+  input {
+    max-width: 740px !important;
+  }
+  .form_name {
+    text-align: center;
+  }
+}
+
+@media (min-width: 740px) {
+  .container {
+    width: 710px;
+  }
+  input {
+    max-width: 400px !important;
+  }
+  .form_name {
+    text-align: center;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 930px;
+  }
+  input {
+    max-width: 620px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  input {
+    max-width: 570px !important;
+  }
+}
