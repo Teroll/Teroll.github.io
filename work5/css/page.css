@@ -23,7 +23,7 @@ header {
   padding-top: 20px;
 }
 
-header .my-flex-container {
+header .flex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -112,6 +112,18 @@ footer .col {
 footer .col p {
   margin-bottom: 0px;
   font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .col {
+    display: block !important;
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  footer li {
+    margin-right: 0px !important;
+  }
 }
 
 #fb {

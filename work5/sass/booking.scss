@@ -87,7 +87,7 @@ $color6: #d51313;//red for a:focus in nav
 // adaptive
 @media (max-width: 739px) {
 	.form {
-        text-align: left;
+        text-align: left!important;
     }
 	input{
 		max-width: 740px !important;
@@ -101,7 +101,7 @@ $color6: #d51313;//red for a:focus in nav
      	width: 710px;
 	}
 	input{
-		max-width: 400px !important;
+		max-width: 375px !important;
 	}
 	.form_name{
 		text-align: center;

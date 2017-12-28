@@ -29,7 +29,7 @@ h4{
 	margin: auto;
 	width: 90%;
 	max-width: 620px;
-	min-width: 440px;
+	// min-width: 440px;
 }
 h2{
 	color: $color2;
@@ -75,17 +75,23 @@ header{
 	height: 100vh;
 	color:$color1; 
 	padding-top: 20px;
-	img{
-		width: 30%;
+	.flex{
+		display: flex;
+		flex-direction: row;
+		align-items: center ;
+		justify-content: space-around;
 	}
+	// img{
+	// 	width: 30%;
+	// }
 }
-nav{
+.desk{
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 10px;
 	text-align: right;
 	float: right;
-	li{
-		// margin-left: 1vw;
+	ul{
+		margin-bottom: 0;
 	}
 	a{
 		color: $color1;
@@ -209,13 +215,24 @@ footer{
 		}
 	}
 }
-@media screen and (max-width: 480px) {
-.col {
-        display: block!important;
-        width: 100%;
+@media (max-width: 480px) {
+	.col {
+		display: block!important;
+		width: 100%;
+		margin-right: 0!important;
+		margin-left: 0!important;
+	}
+	h1{
+		font-size: 53px!important;
+	}
+	footer{
+		li{
+			margin-right: 0px!important;
+		}
+	}
 
-    }
 }
+
 #fb{
     background: url('../img/mesenger_sprite.png') 0 0;
     width: 26px;
@@ -246,5 +263,56 @@ footer{
 	height: 26px;
 	&:hover{
 		background: url('../img/mesenger_sprite.png') -26px -78px;
+	}
+}
+// mobile menu
+@media (max-width: 959px) {
+	.desk{
+		display: none;
+	}
+	.logo{
+	margin: 0 auto;
+	width: 60%;
+}
+}
+@media (min-width: 960px) {
+	.menu-btn{
+		display: none;
+	}
+}
+.menu-btn{
+	background: transparent;
+	border: none;
+	img{
+		height: 19px;
+		width: 27px;
+	}
+}
+// Navbar
+.logo{
+	width: 50%;
+}
+.logo1{
+		width: 300px;
+		display: inline-block;
+		
+	}
+#navbar {
+ 	position: fixed; 
+ 	z-index: 9999
+
+}
+#navbar.fixedattop {
+
+	background: gray;
+	a{
+		color: $color4;
+	}
+	.logo{
+		opacity: 0;
+	}
+	.logo1{
+		background: url("../img/logoHAT2.png") 0 0 no-repeat;
+		background-size: contain;
 	}
 }

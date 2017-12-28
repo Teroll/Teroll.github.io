@@ -29,7 +29,6 @@ h4 {
   margin: auto;
   width: 90%;
   max-width: 620px;
-  min-width: 440px;
 }
 
 h2 {
@@ -84,28 +83,35 @@ header {
   padding-top: 20px;
 }
 
-header img {
-  width: 30%;
+header .flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-nav {
+.desk {
   display: inline-block;
-  margin-top: 35px;
+  margin-top: 10px;
   text-align: right;
   float: right;
 }
 
-nav a {
+.desk ul {
+  margin-bottom: 0;
+}
+
+.desk a {
   color: white;
   font-size: 18px;
   font-family: 'Source Sans Pro';
 }
 
-nav a:hover {
+.desk a:hover {
   color: white;
 }
 
-nav a:focus {
+.desk a:focus {
   color: #c59d5f;
 }
 
@@ -205,10 +211,18 @@ footer .col p {
   font-size: 16px;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .col {
     display: block !important;
     width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  h1 {
+    font-size: 53px !important;
+  }
+  footer li {
+    margin-right: 0px !important;
   }
 }
 
@@ -250,4 +264,61 @@ footer .col p {
 
 #ig:hover {
   background: url("../img/mesenger_sprite.png") -26px -78px;
+}
+
+@media (max-width: 959px) {
+  .desk {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 960px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
+.menu-btn {
+  background: transparent;
+  border: none;
+}
+
+.menu-btn img {
+  height: 19px;
+  width: 27px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo1 {
+  width: 300px;
+  display: inline-block;
+}
+
+#navbar {
+  position: fixed;
+  z-index: 9999;
+}
+
+#navbar.fixedattop {
+  background: gray;
+}
+
+#navbar.fixedattop a {
+  color: #000a5f;
+}
+
+#navbar.fixedattop .logo {
+  opacity: 0;
+}
+
+#navbar.fixedattop .logo1 {
+  background: url("../img/logoHAT2.png") 0 0 no-repeat;
+  background-size: contain;
 }

@@ -23,7 +23,7 @@ header{
 	height: 125px;
 	color:$color4; 
 	padding-top: 20px;
-	.my-flex-container{
+	.flex{
 		display: flex;
 		flex-direction: row;
 		align-items: center ;
@@ -101,12 +101,19 @@ footer{
 		}
 	}
 }
+// Исправление футера
 @media screen and (max-width: 480px) {
 .col {
-        // display: block!important;
-        // width: 100%;
-
+        display: block!important;
+		width: 100%;
+		margin-right: 0!important;
+		margin-left: 0!important;
     }
+    footer{
+		li{
+			margin-right: 0px!important;
+		}
+	}
 }
 #fb{
     background: url('../img/mesenger_sprite.png') 0 0;

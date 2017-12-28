@@ -98,7 +98,7 @@
 
 @media (max-width: 739px) {
   .form {
-    text-align: left;
+    text-align: left !important;
   }
   input {
     max-width: 740px !important;
@@ -113,7 +113,7 @@
     width: 710px;
   }
   input {
-    max-width: 400px !important;
+    max-width: 375px !important;
   }
   .form_name {
     text-align: center;

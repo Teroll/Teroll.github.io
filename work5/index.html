@@ -12,42 +12,89 @@
 	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
 	<!--  -->
 	<!-- <link rel="stylesheet" href="css/dots.css"> -->
+	<link rel="stylesheet" href="css/pushy.css">
 	<link rel="stylesheet" href="css/main.css">
+	
 </head>
 <body>
-	<div class="dotstyle dotstyle-scaleup hide">
-	<ul>
-		<li><a href="#header"><div class="bullet"></div></a></li>
-		<li><a href="#Our_advantage"></a></li>
-		<li><a href="#about_us"></a></li>
-		<li><a href="#how_we_work"></a></li>
-		<li><a href="#book"></a></li>
-	</ul>
-</div>
+	<!-- <div class="dotstyle dotstyle-scaleup hide">
+		<ul>
+			<li><a href="#header"><div class="bullet"></div></a></li>
+			<li><a href="#Our_advantage"></a></li>
+			<li><a href="#about_us"></a></li>
+			<li><a href="#how_we_work"></a></li>
+			<li><a href="#book"></a></li>
+		</ul>
+	</div> -->
 	<header id="header" class="parallax-window"  data-parallax="scroll" data-image-src="img/BG1.jpg">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-lg-12">
-					<img src="img/logoHAT1.png" alt="logo">
-					<nav>
+			<div id="navbar" class="row">
+				<div class="col-xs-12 col-lg-12 flex">
+					<!-- Pushy Menu -->
+					<nav class="pushy pushy-left">
+						<div class="pushy-content">
+							<ul>
+								<li>
+									<a class="pushy-link" href="booking.html">
+										Заказать маршрут
+									</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="price.html">
+										Цены
+									</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="gallery.html">Фото</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="reviews.html">Отзывы</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="blogs.html">Блог</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="contacts.html">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<!-- Site Overlay -->
+					<div class="site-overlay"></div>
+
+					<!-- Menu Button -->
+					<div id="container">
+						<button class="menu-btn">
+							<img src="img/menu_ico2.png" alt="">
+						</button>
+					</div>
+
+					<!-- Logo -->
+					<a class="logo1" href="#">
+						<img class="logo" src="img/logoHAT1.png" alt="logo">
+					</a>
+
+					<!-- Основное Меню -->
+					<nav class="desk">
 						<ul class="list-inline">
 							<li>
-								<a href="page.html">Заказать маршрут</a>
+								<a href="booking.html">Заказать маршрут</a>
 							</li>
 							<li>
-								<a href="page.html">Цены</a>
+								<a href="price.html">Цены</a>
 							</li>
 							<li>
 								<a href="gallery.html">Фото</a>
 							</li>
 							<li>
-								<a href="page.html">Отзывы</a>
+								<a href="reviews.html">Отзывы</a>
 							</li>
 							<li>
-								<a href="page.html">Блог</a>
+								<a href="blogs.html">Блог</a>
 							</li>
 							<li>
-								<a href="page.html">Контакты</a>
+								<a href="contacts.html">Контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -84,7 +131,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 title">
-					<h1>Наши преимущества</h1>
+					<h1>Наши преиму&shy;щества</h1>
 					<h4>
 						С нами вы сможете уйти от туристических клише и стать автором своего сценария путешествия по Парижу и Франции
 					</h4>
@@ -261,6 +308,10 @@
 	<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/parallax.min.js" type="text/javascript"></script>
+	<!-- Кнопка мобильного меню -->
+	<script src="js/pushy.min.js" type="text/javascript"></script>
+	<!-- Фиксирование навбара -->
+	<script type="text/javascript" src="js/navbar.js"></script>
 	<!-- dots -->
 <!-- 	<script src="js/modernizr.min.js"></script>	
 	<script src="js/dots.js"></script> -->
