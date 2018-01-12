@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Заказать Маршрут</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--  -->
@@ -47,6 +48,7 @@
 			</div>
 		</div>
 	</header>
+	<!-- Banner -->
 	<div data-parallax="scroll" data-position="top" data-image-src="img/booking_banner.jpg" class="banner parallax-window">
 		<div class="container-fluid">
 			<div class="row">
@@ -55,6 +57,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Banner END-->
 	<div class="content">
 		<div class="container">
 			<!-- title -->
@@ -69,27 +72,44 @@
 			</div>
 			<!-- Контакты -->
 			<div class="row row1">
+				<!-- рубрика -->
 				<div class="col-lg-2 col-xs-12 form_name">
 					<h2>Контакты</h2>
 				</div>
-				<div class="col-lg-10 col-xs-12 form">
-					<label for="inputName"><b>* </b>ФИО</label>
-					<input id="inputName" type="text" class="" placeholder=" Иван Иванов">
-				</div>
-
-				<div class="col-lg-10 col-xs-12 form col-lg-offset-2">
-					<label for="inputphone">Телефон</label>
-					<input id="inputphone" type="text" class="" placeholder=" +7 000 000 00 00">
-				</div>
-
-				<div class="col-lg-10 col-xs-12 form col-lg-offset-2">
-					<label for="inputMail"><b>* </b>E-mail</label>
-					<input id="inputMail" type="text" class="" placeholder=" ledantec@promenadefrance.ru">
-				</div>
-				
-				<div class="col-lg-10 col-xs-12 form col-lg-offset-2">
-					<label for="inputCity">Город, в котором вы проживаете</label>
-					<input id="inputCity" type="text" class="" placeholder=" Москва">
+				<!-- формы -->
+				<div class="col-xs-12 col-lg-10 form">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-5 blabel">
+							<label for="inputName"><b>* </b>ФИО</label>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-7">
+							<input id="inputName" type="text" class="" placeholder=" Иван Иванов">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-5 blabel">
+							<label for="inputphone">Телефон</label>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-7">
+							<input id="inputphone" type="text" class="" placeholder=" +7 000 000 00 00">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-5 blabel">
+							<label for="inputMail"><b>* </b>E-mail</label>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-7">
+							<input id="inputMail" type="text" class="" placeholder=" ledantec@promenadefrance.ru">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-5 blabel">
+							<label for="inputCity">Город, в котором проживаете</label>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-7">
+							<input id="inputCity" type="text" class="" placeholder=" Москва">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="line">
@@ -97,7 +117,7 @@
 			</div>
 			<!-- Интересы -->
 			<!-- часть 1 -->
-			<div class="row row1">
+			<div class="row row2">
 				<div class="col-lg-2 col-xs-12 form_name">
 					<h2>Интересы</h2>
 				</div>

@@ -5,13 +5,25 @@
 .content .row {
   margin-right: 0px;
   margin-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.content .row div {
+  padding: 0;
 }
 
 .content .container {
   max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .content .form_name {
+  padding: 0;
+}
+
+.content .form {
   padding: 0;
 }
 
@@ -39,28 +51,21 @@
 }
 
 .content label {
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-top: 7px;
 }
 
-.content .form {
-  text-align: right;
-}
-
-.content .form input {
+.content input {
   width: 100%;
   max-width: 570px;
-  margin-top: 15px;
+  margin-bottom: 15px;
   padding-left: 5px;
   height: 42px;
 }
 
 .content p {
   margin-bottom: 15px;
-}
-
-.content .row1 {
-  padding-top: 15px;
-  padding-bottom: 35px;
 }
 
 .content hr {
@@ -106,17 +111,25 @@
   .form_name {
     text-align: center;
   }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 740px) {
-  .container {
-    width: 710px;
+  .content .container {
+    padding: 0 2px;
   }
-  input {
-    max-width: 375px !important;
+  .blabel {
+    text-align: right;
   }
   .form_name {
     text-align: center;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 

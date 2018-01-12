@@ -9,11 +9,21 @@ $color6: #d51313;//red for a:focus in nav
 	.row{
 		margin-right: 0px;
 		margin-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 35px;
+		div{
+			padding: 0;
+		}
 	}
 	.container{
 		max-width: 1200px;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 	.form_name{
+		padding: 0;
+	}
+	.form{
 		padding: 0;
 	}
 	h2{
@@ -35,24 +45,30 @@ $color6: #d51313;//red for a:focus in nav
 		text-align: center;
 	}
 	label{
-		margin-right: 30px;
+		margin-right: 20px;
+		margin-bottom: 0px;
+		margin-top: 7px;
 	}
-	.form{
-		text-align: right;
-		input{
+	// .form{
+	// 	text-align: right;
+		
+	// }
+	input{
 			width: 100%;
 			max-width: 570px;
-			margin-top: 15px;
+			// margin-top: 15px;
+			margin-bottom: 15px;
 			padding-left: 5px;
 			height: 42px;
 		}
-	}
 	p{
 		margin-bottom: 15px;
 	}
 	.row1{
-		padding-top: 15px;
-		padding-bottom: 35px;
+		
+	}
+	.row2{
+		
 	}
 	hr{
 		display: inline-block;
@@ -95,16 +111,32 @@ $color6: #d51313;//red for a:focus in nav
 	.form_name{
 		text-align: center;
 	}
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
 @media (min-width: 740px){
-	.container {
-     	width: 710px;
+	.content{
+		.container{
+			padding: 0 2px;
+		}
 	}
-	input{
-		max-width: 375px !important;
+	// .container {
+ //     	width: 730px;
+	// }
+	// input{
+	// 	max-width: 375px !important;
+	// }
+	.blabel{
+		text-align: right;
 	}
 	.form_name{
 		text-align: center;
+	}
+		.row{
+		margin-right: 0;
+		margin-left: 0;
 	}
 }
 
