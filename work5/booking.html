@@ -70,7 +70,7 @@
 					<p>Поля <b> * </b> обязательны для заполнения</p>
 				</div>
 			</div>
-			<!-- Контакты -->
+			<!-- Контакты______________________________________________________ -->
 			<div class="row row1">
 				<!-- рубрика -->
 				<div class="col-lg-2 col-xs-12 form_name">
@@ -115,7 +115,7 @@
 			<div class="line">
 				<span>✻</span>
 			</div>
-			<!-- Интересы -->
+			<!-- Интересы______________________________________________ -->
 			<!-- часть 1 -->
 			<div class="row row2">
 				<div class="col-lg-2 col-xs-12 form_name">
@@ -378,28 +378,135 @@
 					</div>
 				</div>
 			</div>
-
-		
 			<div class="line">
 				<span>✻</span>
 			</div>
-			<!-- Бюджет -->
-			<div class="row row1">
+			<!-- Бюджет_______________________________________ -->
+			<div class="row row3">
 				<div class="col-lg-2 col-xs-12 form_name">
 					<h2>Бюджет</h2>
 				</div>
-				<div class="col-lg-6 col-xs-12 form">
-					<label for="inputName"><b>* </b>Даты путешествия</label>
-					<input id="inputName" type="text" class="" placeholder=" Иван Иванов">
+				<div class="col-lg-10 col-xs-12 form">
+					<!-- Даты________________ -->
+					<div class="row">
+						<!-- Оглавление -->
+						<div class="col-md-5 col-sm-4 col-xs-12 blabel">
+							<label for="inputName1"><b>* </b>Даты путешествия</label>
+						</div>
+						<!-- Форма 1 -->
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<input id="inputName2" type="text" class="" placeholder="01/01/2017">
+						</div>
+						<!-- Форма 2 -->
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<input id="inputName3" type="text" class="" placeholder="11/01/2017">
+						</div>
+					</div>
+					<!-- Места____________ -->
+					<div class="row">
+						<!-- Оглавление -->
+						<div class="col-md-5 col-sm-4 col-xs-12 blabel">
+							<label for="inputName"><b>* </b>Места вашего размещения</label>
+						</div>
+						<!-- Форма 1 -->
+						<div class="col-md-4 col-xs-12 col-sm-4">
+							<div class="pretty p-default p-fill">
+								<input type="checkbox" />
+								<div class="state p-primary">
+									<label>Гостиница</label>
+								</div>
+							</div>
+							<br>
+							<div class="pretty p-default p-fill">
+								<input type="checkbox" />
+								<div class="state p-primary">
+									<label>Дом (вне Парижа)</label>
+								</div>
+							</div>
+							<br>
+							<div class="pretty p-default p-fill">
+								<input type="checkbox" />
+								<div class="state p-primary">
+									<label>Комната у хозяина</label>
+								</div>
+							</div>
+						</div>
+						<!-- Форма 2 -->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="pretty p-default p-fill">
+								<input type="checkbox" />
+								<div class="state p-primary">
+									<label>Кемпинг</label>
+								</div>
+							</div>
+							<br>
+							<div class="pretty p-default p-fill">
+								<input type="checkbox" />
+								<div class="state p-primary">
+									<label>Квартира</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Кол-во человек________________ -->
+					<div class="row">
+						<!-- Оглавление -->
+						<div class="col-md-5 col-sm-4 col-xs-12 blabel">
+							<label for="inputName1"><b>* </b>Кол-во человек (взрослые и дети)</label>
+						</div>
+						<!-- Форма 1 -->
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<input id="inputName2" type="text" class="" placeholder="2">
+						</div>
+						<!-- Форма 2 -->
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<input id="inputName3" type="text" class="" placeholder="2">
+						</div>
+					</div>
+					<!-- Бюджет  на сутки________________ -->
+					<div class="row">
+						<!-- Оглавление -->
+						<div class="col-md-5 col-sm-4 col-xs-12 blabel">
+							<label for="inputName1"><b>* </b>Бюджет  на сутки, руб.</label>
+							<p>Сколько рублей вы готовы тратить на одного человека в сутки</p>
+						</div>
+						<!-- Форма 1 -->
+						<div class="col-md-7 col-sm-8 col-xs-12">
+							<input id="inputName2" type="text" class="" placeholder="2000">
+						</div>
+					</div>
 				</div>
-
-				
 			</div>
 			<div class="line">
 				<span>✻</span>
 			</div>
+			<!-- Бюджет_______________________________________ -->
+			<div class="row">
+				<div class="col-lg-2 col-xs-12 form_name">
+					<h2>Дополнительно</h2>
+				</div>
+				<div class="col-lg-10 col-xs-12">
+					<div class="row">
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<label for="inputName1"><b>* </b>Дополнительная информация</label>
+							<p>
+								Укажите дополнительные пожелания касательно вашего путешествия во Францию
+							</p>
+						</div>
+						<div class="col-md-7 col-xs-12 col-sm-8">
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 form-group button">
+					<button type="submit" class="btn btn-default">Отправить</button>
+				</div>
+			</div>
 		</div>
 	</div>
+	<!-- FOOTER_________________________________________________ -->
 	<footer>
 		<div class="container">
 			<div class="row">
