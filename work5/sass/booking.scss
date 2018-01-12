@@ -37,7 +37,9 @@ $color6: #d51313;//red for a:focus in nav
 	}
 	b{
 		color: red;
-		span{
+		// white-space:nowrap;
+		width: 100%;
+		span{	
 			color: $color3;
 		}
 	}
@@ -68,7 +70,17 @@ $color6: #d51313;//red for a:focus in nav
 		
 	}
 	.row2{
-		
+		input[type="checkbox"]{
+			height: 16px;
+			padding: 10px;
+		}
+		input[type="text"]{
+			margin-top: 15px;
+		}
+		.blabel{
+			width: 100%;
+			padding-right: 20px;
+		}
 	}
 	hr{
 		display: inline-block;

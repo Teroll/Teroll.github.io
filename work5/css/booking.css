@@ -40,6 +40,7 @@
 
 .content b {
   color: red;
+  width: 100%;
 }
 
 .content b span {
@@ -66,6 +67,20 @@
 
 .content p {
   margin-bottom: 15px;
+}
+
+.content .row2 input[type="checkbox"] {
+  height: 16px;
+  padding: 10px;
+}
+
+.content .row2 input[type="text"] {
+  margin-top: 15px;
+}
+
+.content .row2 .blabel {
+  width: 100%;
+  padding-right: 20px;
 }
 
 .content hr {
