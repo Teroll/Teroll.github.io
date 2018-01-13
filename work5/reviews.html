@@ -11,35 +11,78 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
 	<!--  -->
-	
+	<!-- mob menu -->
+	<link rel="stylesheet" href="css/pushy.css">
 	<link rel="stylesheet" href="css/page.css">
 	<link rel="stylesheet" href="css/reviews.css">
 </head>
 <body>
 	<header>
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-lg-12 my-flex-container">
-					<a href="index.html"><img src="img/page_logo.png" alt="logo"></a>
-					<nav>
+			<!-- Навигация________________________________________ -->
+			<div id="navbar" class="row">
+				<div class="col-xs-12 col-lg-12 flex">
+					<!-- Pushy Menu -->
+					<nav class="pushy pushy-left">
+						<div class="pushy-content">
+							<ul>
+								<li>
+									<a class="pushy-link" href="booking.html">Заказать маршрут</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="price.html">Цены</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="gallery.html">Фото</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="reviews.html">Отзывы</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="blogs.html">Блог</a>
+								</li>
+								<li>
+									<a class="pushy-link" href="contacts.html">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<!-- Site Overlay -->
+					<div class="site-overlay"></div>
+
+					<!-- Menu Button -->
+					<div id="container">
+						<button class="menu-btn">
+							<img src="img/menu_ico3.png" alt="">
+						</button>
+					</div>
+
+					<!-- Logo -->
+					<a class="logo1" href="#">
+						<img class="logo" src="img/page_logo.png" alt="logo">
+					</a>
+
+					<!-- Основное Меню -->
+					<nav class="desk">
 						<ul class="list-inline">
 							<li>
-								<a href="#">Заказать маршрут</a>
+								<a href="booking.html">Заказать маршрут</a>
 							</li>
 							<li>
-								<a href="#">Цены</a>
+								<a href="price.html">Цены</a>
 							</li>
 							<li>
-								<a href="#">Фото</a>
+								<a href="gallery.html">Фото</a>
 							</li>
 							<li>
-								<a href="#">Отзывы</a>
+								<a href="reviews.html">Отзывы</a>
 							</li>
 							<li>
-								<a href="#">Блог</a>
+								<a href="blogs.html">Блог</a>
 							</li>
 							<li>
-								<a href="#">Контакты</a>
+								<a href="contacts.html">Контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -62,7 +105,7 @@
 				<!-- col 1 -->
 				<div class="col-md-6 col-xs-12">
 					<span>10   •  АВГУСТА   •  2015</span>
-					<a href="#">
+					<a href="review.html">
 						<h2 class="gold">Франция, 2015: поездка на конное шоу</h2>
 					</a>
 					<i><p>Иван Иванович Иванов</p></i>
@@ -70,12 +113,12 @@
 					<p>
 						В 2009 году я с ветерком прокатился по Франции, за время сравнительно короткого путешествия охватив Нормандию, Пикардию, Шампань-Арденны, Бургундию, Рону-Альпы, Прованс и, разумеется, Париж.
 					</p>
-					<a href="#"><u>читать дальше</u></a>
+					<a href="review.html"><u>читать дальше</u></a>
 				</div>
 				<!-- col 2 -->
 				<div class="col-md-6 col-xs-12">
 					<span>10   •  АВГУСТА   •  2015</span>
-					<a href="#">
+					<a href="review.html">
 						<h2 class="gold">Влюбится в Париж не с первого взгляда</h2>
 					</a>
 					<i><p>Константин Константинович Константинопольский</p></i>
@@ -83,7 +126,7 @@
 					<p>
 						В 2009 году я с ветерком прокатился по Франции, за время сравнительно короткого путешествия охватив Нормандию, Пикардию, Шампань-Арденны, Бургундию, Рону-Альпы, Прованс и, разумеется, Париж.
 					</p>
-					<a href="#"><u>читать дальше</u></a>
+					<a href="review.html"><u>читать дальше</u></a>
 				</div>
 			</div>
 			<!-- row 2 -->
@@ -91,7 +134,7 @@
 					<!-- col 3 -->
 					<div class="col-md-6 col-xs-12">
 						<span>10   •  АВГУСТА   •  2015</span>
-						<a href="#">
+						<a href="review.html">
 							<h2 class="gold">Кольюр - французская Каталония</h2>
 						</a>
 						<i><p>Александр Владимиров</p></i>
@@ -99,12 +142,12 @@
 						<p>
 							Город Грасс известен как родина многих великих парфюмеров Франции, но я приехал туда по другой причине: дело в том, что здесь находится знаменитая мельница Sainte Anne.
 						</p>
-						<a href="#"><u>читать дальше</u></a>
+						<a href="review.html"><u>читать дальше</u></a>
 					</div>
 					<!-- col 4 -->
 					<div class="col-md-6 col-xs-12">
 						<span>10   •  АВГУСТА   •  2015</span>
-						<a href="#">
+						<a href="review.html">
 							<h2 class="gold">Окситания. Город солнца Монпелье</h2>
 						</a>
 						<i><p>Сергей</p></i>
@@ -112,7 +155,7 @@
 						<p>
 							Эз - даже не город, а небольшая коммуна на Лазурном берегу, насчитывающая не более трех тысяч жителей. Тем не менее, полуофициально Эз именуют "городом культуры и гастрономии".
 						</p>
-						<a href="#"><u>читать дальше</u></a>
+						<a href="review.html"><u>читать дальше</u></a>
 					</div>
 				</div>
 			<!-- row 3 -->
@@ -120,7 +163,7 @@
 				<!-- col 5 -->
 				<div class="col-md-6 col-xs-12">
 					<span>10   •  АВГУСТА   •  2015</span>
-					<a href="#">
+					<a href="review.html">
 						<h2 class="gold">Лиль - Музей Шарля де Голля</h2>
 					</a>
 					<i><p>Анна Кузнецова</p></i>
@@ -128,12 +171,12 @@
 					<p>
 						Нам было необходимо в Бордо поесть вкусно, не очень долго, не очень дорого. Оказывается, это вполне совместимо. Мы выбрали ресторан La Petite Brasserie, в самом центре, неподалеку от главного Собора.
 					</p>
-					<a href="#"><u>читать дальше</u></a>
+					<a href="review.html"><u>читать дальше</u></a>
 				</div>
 				<!-- col 6 -->
 				<div class="col-md-6 col-xs-12">
 					<span>10   •  АВГУСТА   •  2015</span>
-					<a href="#">
+					<a href="review.html">
 						<h2 class="gold">Праздник элегантности в замке Шантийи</h2>
 					</a>
 					<i><p>Ольга Анатольевна</p></i>
@@ -141,7 +184,7 @@
 					<p>
 						На эспланаде со стороны реки Гаронны две Ростральные колонны. В 1829 годы их создал Пьер Пойтевин в стиле неоклассики. Одна прославляет Мореплавание, вторая Торговлю.
 					</p>
-					<a href="#"><u>читать дальше</u></a>
+					<a href="review.html"><u>читать дальше</u></a>
 				</div>
 			</div>
 		</div>
@@ -256,5 +299,7 @@
 	<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/parallax.min.js" type="text/javascript"></script>
+	<!-- Кнопка мобильного меню -->
+	<script src="js/pushy.min.js" type="text/javascript"></script>
 </body>
 </html>

@@ -21,6 +21,19 @@ header {
   height: 125px;
   color: #000a5f;
   padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 2px 28px -2px rgba(0, 0, 0, 0.75);
+}
+
+header .pushy-content {
+  text-align: center;
+}
+
+header .pushy-content li {
+  list-style-type: none;
 }
 
 header .flex {
@@ -30,14 +43,9 @@ header .flex {
   justify-content: space-around;
 }
 
-header a {
-  width: 30%;
-}
-
 nav {
   display: inline-block;
   margin-top: 25px;
-  margin-left: 20px;
   text-align: right;
   float: right;
 }
@@ -168,6 +176,7 @@ footer .col p {
 
 .banner {
   padding: 0 !important;
+  margin-top: 125px;
   height: 215px;
   text-align: center;
   color: white;
@@ -324,4 +333,54 @@ footer .col p {
 .pages ul {
   margin-bottom: 70px;
   margin-top: 25px;
+}
+
+@media (max-width: 959px) {
+  .desk {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .logo1 {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 960px) {
+  .menu-btn {
+    display: none;
+  }
+  header .container {
+    width: 930px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .container {
+    width: 1170px;
+  }
+}
+
+.menu-btn {
+  background: transparent;
+  border: none;
+}
+
+.menu-btn img {
+  height: 19px;
+  width: 27px;
+}
+
+#container {
+  position: absolute;
+  left: 10px;
 }
