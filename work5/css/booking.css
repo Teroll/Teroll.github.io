@@ -1,12 +1,54 @@
 .content {
-  padding-top: 45px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.content .pretty {
+  margin-bottom: 12px;
+}
+
+.content .formFirst {
+  width: 90%;
+}
+
+.content .formLine {
+  display: inline-block;
+  width: 10%;
+  height: 12px;
+  background: url("../img/formLine.png") no-repeat center;
+}
+
+.content .calendar:after {
+  content: url("../img/calendar.png");
+  position: absolute;
+  z-index: 999;
+  top: 6px;
+  right: 6px;
+}
+
+.content .cal1:after {
+  right: calc(10% + 6px);
+}
+
+.content button {
+  color: red;
+  border: 2px solid red;
+  border-radius: 23px;
+  height: 46px;
+  width: 165px;
+  font-size: 19px;
+}
+
+.content button:hover {
+  color: white;
+  background: red;
+  border: 2px solid red;
 }
 
 .content .row {
   margin-right: 0px;
   margin-left: 0px;
   padding-top: 15px;
-  padding-bottom: 35px;
 }
 
 .content .row div {
@@ -69,13 +111,24 @@
   margin-bottom: 15px;
 }
 
+.content .row1 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.content .row2 {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
 .content .row2 input[type="checkbox"] {
   height: 16px;
   padding: 10px;
 }
 
 .content .row2 input[type="text"] {
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .content .row2 .blabel {
@@ -83,14 +136,44 @@
   padding-right: 20px;
 }
 
+.content .row3 {
+  padding-bottom: 20px;
+}
+
 .content .row3 input[type="checkbox"] {
   height: 16px;
   padding: 10px;
 }
 
+.content .row3 input[type="text"] {
+  padding-right: 30px;
+}
+
 .content .row3 p {
   font-size: 14px;
   margin-bottom: 5px;
+  line-height: 16px;
+}
+
+.content .row4 h2 {
+  white-space: nowrap;
+}
+
+.content .row4 p {
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.content .row4 textarea {
+  height: 215px;
+  width: 100%;
+  resize: none;
+}
+
+.content .row5 {
+  text-align: center;
+  padding-top: 70px;
 }
 
 .content hr {
@@ -183,5 +266,9 @@
   }
   input {
     max-width: 570px !important;
+  }
+  .row4 p {
+    max-width: 235px;
+    float: right;
   }
 }
