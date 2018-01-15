@@ -81,6 +81,7 @@ header {
   height: 100vh;
   color: white;
   padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 header .flex {
@@ -120,7 +121,7 @@ header .flex {
 }
 
 #advantage div {
-  min-height: 220px;
+  min-height: 240px;
 }
 
 #advantage img {
@@ -266,13 +267,18 @@ footer .col p {
   background: url("../img/mesenger_sprite.png") -26px -78px;
 }
 
+@media (max-width: 479px) {
+  .logo {
+    max-height: 55px !important;
+  }
+}
+
 @media (max-width: 959px) {
   .desk {
     display: none;
   }
   .logo {
-    margin: 0 auto;
-    width: 60%;
+    max-height: 80px;
   }
 }
 
@@ -293,21 +299,26 @@ footer .col p {
 }
 
 .logo {
-  width: 50%;
+  max-height: 80px;
 }
 
 .logo1 {
-  width: 300px;
   display: inline-block;
 }
 
 #navbar {
   position: fixed;
+  left: 0;
+  top: 0;
   z-index: 9999;
+  width: 100vw;
+  height: 120px;
+  padding: 20px 0;
 }
 
 #navbar.fixedattop {
-  background: gray;
+  box-shadow: 0px 3px 3px -3px #000000;
+  background: white;
 }
 
 #navbar.fixedattop a {
