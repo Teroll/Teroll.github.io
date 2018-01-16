@@ -121,7 +121,7 @@ header .flex {
 }
 
 #advantage div {
-  min-height: 240px;
+  min-height: 255px;
 }
 
 #advantage img {
@@ -332,4 +332,13 @@ footer .col p {
 #navbar.fixedattop .logo1 {
   background: url("../img/logoHAT2.png") 0 0 no-repeat;
   background-size: contain;
+}
+
+#container {
+  position: absolute;
+  left: 20px;
+}
+
+.animated {
+  animation-duration: 1.1s !important;
 }

@@ -121,7 +121,7 @@ header{
 // advantage----------------------------------------
 #advantage{
 	div{
-		min-height: 240px;
+		min-height: 255px;
 	}
 	img{
 		width: 70px;
@@ -267,6 +267,11 @@ footer{
 	}
 }
 // mobile menu
+// @media (max-width: 1170px) {
+// 	.logo{
+// 		float: left;
+// 	}
+// }
 @media (max-width: 479px) {
 	.logo{
 		max-height: 55px!important;
@@ -327,4 +332,12 @@ footer{
 		background: url("../img/logoHAT2.png") 0 0 no-repeat;
 		background-size: contain;
 	}
+}
+#container{
+	position: absolute;
+	left: 20px;
+}
+// Animated
+.animated{
+	animation-duration: 1.1s !important;
 }
