@@ -115,6 +115,10 @@ footer{
 			font-size: 16px;
 		}
 	}
+	.telephone{
+		text-decoration: none!important;
+		color: $color3;
+	}
 }
 // Исправление футера
 @media screen and (max-width: 480px) {
@@ -350,6 +354,7 @@ footer{
 		}
 	}
 }
+// Burger
 .menu-btn{
 	background: transparent;
 	border: none;
@@ -360,13 +365,20 @@ footer{
 }
 #container{
 	position: absolute;
+	z-index: 99999;
 	left: 10px;
+	div{
+		height: 16px;
+		width: 23px;
+		background: url("../img/menu_ico3.png");
+	}
 }
-
-
-
-
-
-
-
-
+.is-active{
+	div{
+		background: url("../img/menu_ico22.png") center!important;
+	}
+}
+// Animated
+.animated{
+	animation-duration: 1.1s !important;
+}

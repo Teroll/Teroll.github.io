@@ -122,6 +122,11 @@ footer .col p {
   font-size: 16px;
 }
 
+footer .telephone {
+  text-decoration: none !important;
+  color: #4f4f4f;
+}
+
 @media screen and (max-width: 480px) {
   .col {
     display: block !important;
@@ -382,5 +387,20 @@ footer .col p {
 
 #container {
   position: absolute;
+  z-index: 99999;
   left: 10px;
+}
+
+#container div {
+  height: 16px;
+  width: 23px;
+  background: url("../img/menu_ico3.png");
+}
+
+.is-active div {
+  background: url("../img/menu_ico22.png") center !important;
+}
+
+.animated {
+  animation-duration: 1.1s !important;
 }
