@@ -1,0 +1,65 @@
+/* line 4, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+button:focus, a:focus, input:focus, select:focus {
+  outline: none !important;
+}
+
+/* line 6, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+body {
+  background-color: #1d7431;
+  height: 100vh;
+  text-align: center;
+  font-family: Open Sans;
+}
+
+/* line 16, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 20, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container p span {
+  font-family: Krungthep;
+}
+
+/* line 24, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container a {
+  color: white;
+}
+
+/* line 26, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container a:hover {
+  color: #ddeae0;
+}
+
+/* line 30, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container .cardrow {
+  padding-bottom: 30px;
+}
+
+/* line 32, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container .cardrow div {
+  height: 25vh;
+  max-height: 300px;
+  background: url("../img/0C.png") no-repeat;
+  background-size: 100% 100%;
+  background-clip: content-box;
+}
+
+/* line 40, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container .text {
+  margin-top: 55px;
+}
+
+/*# sourceMappingURL=../css/game_page.map */

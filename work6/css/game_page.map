@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/game_page.css",
+	"sources": [
+		"../sass/game_page.scss"
+	],
+	"sourcesContent": [
+		"//font-family: 'Open Sans', sans-serif;\r\n$color1: white;//white for text\r\n$color2: #1d7431;//green for BG\r\na{text-decoration: none!important;}\r\nbutton:focus,a:focus,input:focus,select:focus{outline:none!important;}\r\nli{list-style-type: none;}\r\n// --------------------------------------------------------------------\r\nbody{\r\n\tbackground-color: $color2;\r\n\theight: 100vh;\r\n\ttext-align: center;\r\n\tfont-family: Open Sans;\r\n\t\r\n}\r\n.container{\r\n\tp{\r\n\t\tfont-size: 14px;\r\n\t\tcolor: $color1;\r\n\t\tfont-weight: bold;\r\n\t\tspan{\r\n\t\t\tfont-family: Krungthep;\r\n\t\t}\r\n\t}\r\n\ta{\r\n\t\tcolor: $color1;\r\n\t\t&:hover{\r\n\t\t\tcolor: #ddeae0;\r\n\t\t}\r\n\t}\r\n\t.cardrow{\r\n\t\tpadding-bottom: 30px;\r\n\t\tdiv{\r\n\t\t\theight: 25vh;\r\n\t\t\tmax-height: 300px;\r\n\t\t\tbackground: url(\"../img/0C.png\")no-repeat;\r\n\t\t\tbackground-size: 100% 100%;\r\n\t\t\tbackground-clip: content-box;\r\n\t\t}\r\n\t}\r\n\t.text{\r\n\t\tmargin-top: 55px;\r\n\t}\r\n}"
+	],
+	"mappings": ";AAGA,AAAA,CAAC,CAAA;EAAC,eAAe,EAAE,IAAI,CAAA,UAAU;CAAG;;;AACpC,AAAM,MAAA,AAAA,MAAM,EAAC,AAAC,CAAA,AAAA,MAAM,EAAC,AAAK,KAAA,AAAA,MAAM,EAAC,AAAM,MAAA,AAAA,MAAM,CAAA;EAAC,OAAO,EAAC,IAAI,CAAA,UAAU;CAAG;;;AACvE,AAAA,EAAE,CAAA;EAAC,eAAe,EAAE,IAAK;CAAG;;;AAE5B,AAAA,IAAI,CAAA;EACH,gBAAgB,EANR,OAAO;EAOf,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,MAAO;EACnB,WAAW,EAAE,SAAU;CAEvB;;;AACD,AACC,UADS,CACT,CAAC,CAAA;EACA,SAAS,EAAE,IAAK;EAChB,KAAK,EAhBE,KAAK;EAiBZ,WAAW,EAAE,IAAK;CAIlB;;;AARF,AAKE,UALQ,CACT,CAAC,CAIA,IAAI,CAAA;EACH,WAAW,EAAE,SAAU;CACvB;;;AAPH,AASC,UATS,CAST,CAAC,CAAA;EACA,KAAK,EAvBE,KAAK;CA2BZ;;;AAdF,AASC,UATS,CAST,CAAC,AAEC,MAAM,CAAA;EACN,KAAK,EAAE,OAAQ;CACf;;;AAbH,AAeC,UAfS,CAeT,QAAQ,CAAA;EACP,cAAc,EAAE,IAAK;CAQrB;;;AAxBF,AAiBE,UAjBQ,CAeT,QAAQ,CAEP,GAAG,CAAA;EACF,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,KAAM;EAClB,UAAU,EAAE,oBAAG,CAAiB,SAAS;EACzC,eAAe,EAAE,SAAU;EAC3B,eAAe,EAAE,WAAY;CAC7B;;;AAvBH,AAyBC,UAzBS,CAyBT,KAAK,CAAA;EACJ,UAAU,EAAE,IAAK;CACjB",
+	"names": []
+}

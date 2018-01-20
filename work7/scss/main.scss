@@ -1,0 +1,120 @@
+//font-family: 'Playfair Display', serif;
+//font-family: Source Sans Pro;
+//font-family: 'Cuprum', sans-serif;
+$color1: #ffffff;//white for text
+$color2: #1a1a1a;//Black for BG
+$color3: #262626;//Dark gray for windows
+$color4: #f2f2f2;//white for BG
+$color6: #000000;//black for text
+a{text-decoration: none!important;}
+button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+li{list-style-type: none;}
+// -------------------------------------------------------------------
+body{
+	padding: 10px 20px 20px 20px;
+	background-color: $color2;
+	// div{border: 1px solid red;}
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	max-width: 300px;
+}
+.container{
+	width: calc(100vw - 255px);// Отступ контейнера от хедера
+	min-height: 100vh;
+	float: right;
+	// padding-left: 130px;
+}
+.row{
+	display:flex;
+	height: calc(50vw - 125px);//Высота строки
+	width: 100%;
+}
+.col1{
+	display:flex;
+	width: 50%;
+	height: 100%;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+.col2{
+	display:flex;
+	width: 50%;
+	height: 100%;
+}
+.box_sm{
+	width: 50%;
+	// height: 49%;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 5px solid $color2;
+}
+.box_lg{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 5px solid $color2;
+}
+// Text in the box
+.text_box{
+	// padding-top: 5px;
+	background-color: $color3;
+	border-top: 7px solid $color2;
+	box-sizing: border-box;
+	p{
+		position: absolute;
+		width: calc(25vw - 90px);
+		margin: 0;
+		color: $color1;
+	}
+}
+
+// Pictures in the box
+.bg1{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+}
+.bg2{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+}
+
+// Header
+.logo{
+	position: fixed;
+	top: 25px;
+	width: 180px;
+}
+.buttons{
+	position: fixed;
+	bottom: 20px;
+	left: -12px;
+	a{
+		color: $color1;
+		display: block;
+		border: 2px solid $color1;
+		width: 155px;
+		height: 32px;
+		padding-top: 5px;
+		margin-bottom: 15px;
+		box-sizing: border-box;
+		white-space: nowrap;
+		text-align: center;
+		&:hover{
+			color: #b3b2b2;
+			border: 2px solid #b3b2b2;
+		}
+
+	}
+	li{
+		// width: 150px;
+		// height: 25px;
+		// margin-bottom: 35px;
+		// border: 2px solid $color1;
+		// text-align: center;
+		// padding-top: 5px;
+	}
+}
+// Header END
