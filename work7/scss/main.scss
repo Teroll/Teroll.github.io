@@ -36,6 +36,9 @@ img{
 	display:flex;
 	height: calc(25vw - 50px);//Высота строки
 	width: 100%;
+	.box_sm{
+		height: 100%;
+	}
 }
 .col1{
 	display:flex;
@@ -143,7 +146,7 @@ img{
 }
 @media (min-width: 1025px) {
 	.content_mobile{
-		display: none;
+		display: none!important;
 	}
 }
 @media (max-width: 1024px) {
