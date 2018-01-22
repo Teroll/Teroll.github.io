@@ -45,7 +45,7 @@ img {
 /* line 35, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
 .row2 {
   display: flex;
-  height: calc(25vw - 50px);
+  height: calc(25vw - 46.25px);
   width: 100%;
 }
 
@@ -179,7 +179,7 @@ img {
   }
   /* line 157, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .row2 {
-    height: calc(25vw - 63px);
+    height: calc(25vw - 60px);
   }
   /* line 161, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .buttons a {
