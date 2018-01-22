@@ -22,14 +22,14 @@ img{
 	max-width: 300px;
 }
 .content{
-	width: calc(100vw - 200px);// Отступ контейнера от хедера
+	width: calc(100vw - 185px);// Отступ контейнера от хедера
 	min-height: 100vh;
 	float: right;
 	padding-bottom: 15px;
 }
 .row1{
 	display:flex;
-	height: calc(50vw - 100px);//Высота строки
+	height: calc(50vw - 92.5px);//Высота строки
 	width: 100%;
 }
 .row2{
@@ -77,7 +77,6 @@ img{
 	// }
 }
 .bg{
-	background-size: contain;
 	&:hover{
 		filter: blur(1px);
 		-webkit-filter: blur(1px);
@@ -110,46 +109,37 @@ img{
 	}
 }
 
-// ----------------------------------------------------------------------------
-
-
-// Pictures in the box
-.bg1{
-	background: url("../img/pic-1.png")center no-repeat;
-	background-size: contain;
-}
-.bg2{
-	background: url("../img/pic-4.png")center no-repeat;
-	background-size: contain;
-}
-
 // Header---------------------------------------------
 .logo{
 	position: fixed;
-	top: 22px;
+	top: 21px;
 	left: 20px;
 	width: 125px;
 }
 .buttons{
 	position: fixed;
-	bottom: 10px;
-	left: -12px;
+	bottom: 20px;
+	left: -20px;
+	ul{
+		margin: 0;
+	}
 	a{
 		color: $color1;
 		display: block;
 		border: 2px solid $color1;
-		width: 155px;
-		height: 32px;
+		width: 130px;
+		// height: 32px;
 		padding-top: 5px;
-		margin-bottom: 15px;
+		padding-bottom: 5px;
+		margin-top: 15px;
 		box-sizing: border-box;
-		white-space: nowrap;
+		// white-space: nowrap;
 		text-align: center;
+		line-height: 14px;
 		&:hover{
 			color: #b3b2b2;
 			border: 2px solid #b3b2b2;
 		}
-
 	}
 }
 // Header END----------------------------------------------
@@ -159,13 +149,18 @@ img{
 		width: 180px;
 	}
 	.content{
-		width: calc(100vw - 255px);// Отступ контейнера от хедера
+		width: calc(100vw - 240px);// Отступ контейнера от хедера
 	}
 	.row1{
-		height: calc(50vw - 125px);//Высота строки
+		height: calc(50vw - 120px);//Высота строки
 	}
 	.row2{
 		height: calc(25vw - 63px);//Высота строки
+	}
+	.buttons{
+		a{
+			width: 180px;
+		}
 	}
 }
 @media (min-width: 1025px) {
@@ -179,21 +174,27 @@ img{
 	}
 	.box_xs{
 		width: 33%;//Ширина Боксов
-		height: calc(33vw - 65px);//Высота строки
+		height: calc(33vw - 61px);//Высота строки
 	}
 }
 @media (max-width: 770px) {
 	.box_xs{
 		width: 50%;//Ширина Боксов
-		height: calc(50vw - 100px);//Высота строки
+		height: calc(50vw - 92.5px);//Высота строки
 	}
+}
+@media (max-width: 680px) {
+	// .box_xs{
+	// 	width: 50%;//Ширина Боксов
+	// 	height: calc(50vw - 92.5px);//Высота строки
+	// }
 }
 // Mobile style
 .content_mobile{
-	width: calc(100vw - 200px);// Отступ контейнера от хедера
+	width: calc(100vw - 185px);// Отступ контейнера от хедера
 	min-height: 90vh;
 	float: right;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	display:flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
