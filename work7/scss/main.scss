@@ -1,6 +1,19 @@
-//font-family: 'Playfair Display', serif;
-//font-family: Source Sans Pro;
-//font-family: 'Cuprum', sans-serif;
+@font-face {
+// название шрифта
+font-family: "PFDasGroteskPro-Regular"; 
+// адрес шрифта
+src: url("../fonts/PFDasGroteskPro-Regular.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+// название шрифта
+font-family: "PFDasGroteskPro-Regular"; 
+// адрес шрифта
+src: url("../fonts/PFDasGroteskPro-Bold.otf") format("truetype"); 
+font-style: normal; 
+font-weight: bold; 
+} 
 $color1: #ffffff;//white for text
 $color2: #1a1a1a;//Black for BG
 $color3: #262626;//Dark gray for windows
@@ -16,6 +29,7 @@ body{
 	// div{border: 1px solid red;}
 	box-sizing: border-box;
 	margin: 0px;
+	font-family: "PFDasGroteskPro-Regular";
 }
 img{
 	width: 100%;
@@ -77,6 +91,7 @@ img{
 	// }
 }
 .bg{
+	text-align: center;
 	&:hover{
 		filter: blur(1px);
 		-webkit-filter: blur(1px);
@@ -89,6 +104,7 @@ img{
 	background-color: $color3;
 	border-top: 6px solid $color2;
 	box-sizing: border-box;
+	font-size: 1.16vw;//0.95
 	p{
 	// 	position: absolute;
 	// 	width: calc(25vw - 90px);
@@ -104,11 +120,20 @@ img{
 	}
 	img{
 		margin-top: 15px;
-		width: 40%;
+		width: 37%;
 		height: auto;
 	}
 }
-
+.box_info{
+	font-size: 1.2vw;
+	text-transform: uppercase;
+	color: $color6;
+	display: inline-block;
+	margin-top: 0.9vw;
+}
+.white_text{
+	color: $color1;
+}
 // Header---------------------------------------------
 .logo{
 	position: fixed;
@@ -183,13 +208,7 @@ img{
 		height: calc(50vw - 92.5px);//Высота строки
 	}
 }
-@media (max-width: 680px) {
-	// .box_xs{
-	// 	width: 50%;//Ширина Боксов
-	// 	height: calc(50vw - 92.5px);//Высота строки
-	// }
-}
-// Mobile style
+// Tablet style----------------------------------------------
 .content_mobile{
 	width: calc(100vw - 185px);// Отступ контейнера от хедера
 	min-height: 90vh;
@@ -209,4 +228,48 @@ img{
 	display:flex;
 	
 	align-content: stretch;
+}
+//Mobile style---------------------------------------------------
+.logo_mobile{
+	display: none;
+}
+@media (max-width: 500px) {
+	body{
+		padding: 0;
+	}
+	.content_mobile{
+		width: calc(100vw - 0px);// Отступ контейнера от хедера
+	}
+	.box_xs{
+		width: 100%;//Ширина Боксов
+		height: calc(100vw - 0px);//Высота строки
+		border: none;
+	}
+	.buttons{
+		display: none;
+	}
+	.logo{
+		display: none;
+	}
+	.logo_mobile{
+		display: block;
+		width: calc(100vw - 6vw);//Ширина Боксов
+		height: calc(100vw - 0px);//Высота строки
+		padding: 8vw 10px 8vw 6vw;
+		box-sizing: border-box;
+		img{
+			width: 100px;
+		}
+		p{
+			color: $color1;
+			font-size: 15px;
+			a{
+				text-decoration: underline!important;
+				color: $color1;
+				&:hover{
+					color: darken($color1,15%);
+				}
+			}
+		}
+	}
 }

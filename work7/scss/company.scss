@@ -1,6 +1,19 @@
-//font-family: 'Playfair Display', serif;
-//font-family: Source Sans Pro;
-//font-family: 'Cuprum', sans-serif;
+@font-face {
+// название шрифта
+font-family: "PFDasGroteskPro-Regular"; 
+// адрес шрифта
+src: url("../fonts/PFDasGroteskPro-Regular.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+// название шрифта
+font-family: "PFDasGroteskPro-Regular"; 
+// адрес шрифта
+src: url("../fonts/PFDasGroteskPro-Bold.otf") format("truetype"); 
+font-style: normal; 
+font-weight: bold; 
+} 
 $color1: #ffffff;//white for text
 $color2: #1a1a1a;//Black for BG
 $color3: #262626;//Dark gray for windows
@@ -16,6 +29,8 @@ body{
 	// div{border: 1px solid red;}
 	box-sizing: border-box;
 	margin: 0px;
+	font-family: "PFDasGroteskPro-Regular";
+	font-size: 24px;
 }
 img{
 	width: 100%;
@@ -103,7 +118,7 @@ img{
 	.hide{
 		display: none;
 		text-align: center;
-		font-size: 14px;
+		font-size: 1.1vw;
 		color: white;
 		width: 100%;
 		height: 30%;
@@ -112,7 +127,7 @@ img{
 		top: 70%;
 		span{
 			position: relative;
-			top: 5px;
+			// top: 5px;
 		}
 	}
 	&:hover .hide{
@@ -123,6 +138,7 @@ img{
 	background-color: #1e1e1e;
 	color: $color1;
 	padding: 10px;
+	font-size: 1.25vw;
 }
 .no_border{
 	border: 0!important;
@@ -150,6 +166,7 @@ img{
 // 		width: 64px;
 // 	}
 // }
+// Form style--------------------------------
 .company_form{
 	background-color: $color2;
 	color: $color1;
@@ -159,6 +176,8 @@ img{
 		color: $color1;
 		border: none;
 		border-bottom: 1px solid #707070;
+		margin-top: 2px;
+		font-size: 20px;
 	}
 	div{
 		width: 100%;
@@ -167,20 +186,21 @@ img{
 		float: right;
 	}
 	p{
+		margin-top: 0px;
 		margin-bottom: 40px;
 	}
 }
 .InputName{
 	margin-bottom: 30px;
 	input{
-		width: calc(100% - 80px);
+		width: calc(100% - 107px);
 		float: right;
 	}
 }
 .InputEmail{
 	margin-bottom: 25px;
 	input{
-		width: calc(100% - 145px);
+		width: calc(100% - 203px);
 		float: right;
 	}
 }
@@ -192,6 +212,7 @@ img{
 		background-color: $color2;
 		border: 1px solid #707070;
 		color: $color1;
+		font-size: 16px;
 		&::placeholder{
 			color: $color1;
 		}
@@ -201,14 +222,16 @@ img{
 	background-color: $color2;
 	color: $color1;
 	border: 1px solid $color1;
-	padding: 15px 50px;
+	padding: 10px 50px;
 	float: right;
 	margin-top: calc(3vw - 10px);
+	font-size: 20px;
 	&:hover{
 			color: #5e5e5e;
 			border: 1px solid #5e5e5e;
 		}
 }
+// Form style--------------------------------END
 // Text in the box
 .text_box{
 	// padding-top: 5px;
@@ -216,11 +239,10 @@ img{
 	border-top: 6px solid $color4;
 	box-sizing: border-box;
 	padding: 10px;
+	font-size: 1.25vw;
 	p{
-	// 	position: absolute;
-	// 	width: calc(25vw - 90px);
-	// 	margin: 0;
 		color: $color1;
+		margin: 7px 0;
 	}
 }
 .show_more{
@@ -266,6 +288,7 @@ img{
 		// white-space: nowrap;
 		text-align: center;
 		line-height: 14px;
+		font-size: 14px;
 		&:hover{
 			color: #5e5e5e;
 			border: 2px solid #5e5e5e;
