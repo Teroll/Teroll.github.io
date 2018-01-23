@@ -7,7 +7,7 @@ $color3: #262626;//Dark gray for windows
 $color4: #f2f2f2;//white for BG
 $color6: #000000;//black for text
 a{text-decoration: none!important;}
-button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+button:focus,a:focus,input:focus,select:focus,textarea:focus{outline:none!important;}
 li{list-style-type: none;}
 // -------------------------------------------------------------------
 body{
@@ -119,8 +119,95 @@ img{
 		display: block;
 	}
 }
+.human_text{
+	background-color: #1e1e1e;
+	color: $color1;
+	padding: 10px;
+}
 .no_border{
 	border: 0!important;
+}
+.map_info{
+	width: 100%;
+	height: 37%;
+	background-color: rgba(0,0,0,0.5);
+	color: $color1;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.map{
+	background: url("../img/company5(5).jpg")50% 50% no-repeat;
+	background-size: auto;
+}
+// .map_logo{
+// 	height: 63%;
+// 	width: 100%;
+// 	display: inline-block;
+// 	img{
+// 		position: relative;
+// 		bottom:  calc(-10% - 0px);
+// 		left: calc(45% - 32px);
+// 		width: 64px;
+// 	}
+// }
+.company_form{
+	background-color: $color2;
+	color: $color1;
+	padding: 25px;
+	input{
+		background-color: $color2;
+		color: $color1;
+		border: none;
+		border-bottom: 1px solid #707070;
+	}
+	div{
+		width: 100%;
+	}
+	span{
+		float: right;
+	}
+	p{
+		margin-bottom: 40px;
+	}
+}
+.InputName{
+	margin-bottom: 30px;
+	input{
+		width: calc(100% - 80px);
+		float: right;
+	}
+}
+.InputEmail{
+	margin-bottom: 25px;
+	input{
+		width: calc(100% - 145px);
+		float: right;
+	}
+}
+.InputText{
+	textarea{
+		width: calc(100% - 5px);
+		height: calc(20vw - 73px);
+		resize: none;
+		background-color: $color2;
+		border: 1px solid #707070;
+		color: $color1;
+		&::placeholder{
+			color: $color1;
+		}
+	}
+}
+.ButtonForm{
+	background-color: $color2;
+	color: $color1;
+	border: 1px solid $color1;
+	padding: 15px 50px;
+	float: right;
+	margin-top: calc(3vw - 10px);
+	&:hover{
+			color: #5e5e5e;
+			border: 1px solid #5e5e5e;
+		}
 }
 // Text in the box
 .text_box{
@@ -128,6 +215,7 @@ img{
 	background-color: $color6;
 	border-top: 6px solid $color4;
 	box-sizing: border-box;
+	padding: 10px;
 	p{
 	// 	position: absolute;
 	// 	width: calc(25vw - 90px);
@@ -154,6 +242,9 @@ img{
 	top: 21px;
 	left: 20px;
 	width: 125px;
+	img{
+		box-shadow: 0px -5px 70px -30px #000000;
+	}
 }
 .buttons{
 	position: fixed;
