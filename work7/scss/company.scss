@@ -352,6 +352,11 @@ img{
 	.human_text{
 		font-size: 1.5vw;
 	}
+	.human_info{
+		.hide{
+			font-size: 1.5vw;
+		}
+	}
 }
 @media (max-width: 770px) {
 	.box_xs{
@@ -371,6 +376,11 @@ img{
 	}
 	.human_text{
 		font-size: 2.3vw;
+	}
+	.human_info{
+		.hide{
+			font-size: 1.8vw;
+		}
 	}
 	.company_form{
 		padding-top: 15px;
@@ -470,6 +480,11 @@ img{
 	}
 	.box_lg{
 		border: none;
+	}
+	.human_info{
+		.hide{
+			font-size: 4.8vw;
+		}
 	}
 	// Mobile logo style----------------------
 	.logo_mobile{

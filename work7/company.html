@@ -26,10 +26,10 @@
 		<div class="buttons hide_mobile">
 			<ul>
 				<li>
-					<a href="#">Скачать презентацию</a>
+					<a href="Презентация.docx" download>Скачать презентацию</a>
 				</li>
 				<li>
-					<a href="#">Заказать проект</a>
+					<a href="#company_form">Заказать проект</a>
 				</li>
 			</ul>
 		</div>
@@ -47,8 +47,8 @@
 			<p>
 				Позвоните нам по номеру <span>+7 (351) 223-02-48</span>,
 				напишите нам на почту <a href="#">welcome@iamsite.com</a>,
-				или приезжайте <a href="#">к нам в гости</a><br>
-				<a class="mtop" href="#">Контакты</a>
+				или приезжайте <a href="#mobile_map">к нам в гости</a><br>
+				<a class="mtop" href="#mobile_map">Контакты</a>
 			</p>
 		</div>
 	</header>
@@ -185,7 +185,8 @@
 		<div class="row1">
 			<!-- Col 1 -->
 			<div class="col2">
-				<div class="box_lg  company_form">
+				<!-- Form -->
+				<div id="company_form" class="box_lg  company_form">
 					<p>
 						<b>Заявка на разработку</b> <span>Подробный Бриф</span>
 					</p>
@@ -227,8 +228,8 @@
 				обновляем и развиваем бренды. 
 				Мы разрабатываем концепции 
 				позиционирования, названия 
-				и слоганы, логотипы и фирмен-
-				ные стили, дизайн продукта 
+				и слоганы, логотипы и фирменные
+				стили, дизайн продукта 
 				и упаковки и рекламные 
 				кампании. Мы опираемся 
 				на аналитику и экспертизу 
@@ -253,7 +254,11 @@
 		</div>
 		<!-- Persons -->
 		<div class="box_xs no_border hide_mobile">
-			<a class="box_sm bg5" href="#3"></a>
+			<a class="box_sm human_info bg5" href="#3">
+				<div class="hide">
+					<span>Иван Иванов<br>дизайнер</span>
+				</div>
+			</a>
 			<a class="box_sm bg5" href="#3"></a>
 			<a class="box_sm bg5" href="#3"></a>
 			<a class="box_sm bg5" href="#3"></a>
@@ -277,7 +282,11 @@
 			<a class="box_sm bg5" href="#3"></a>
 		</div>
 		<div class="box_xs no_border">
-			<a class="box_sm bg5" href="#3"></a>
+			<a class="box_sm human_info bg5" href="#3">
+				<div class="hide">
+					<span>Иван Иванов<br>дизайнер</span>
+				</div>
+			</a>
 			<a class="box_sm bg5" href="#3"></a>
 			<a class="box_sm bg5" href="#3"></a>
 			<!-- Show more persons -->
@@ -289,11 +298,12 @@
 		<!-- Form tablet -->
 		<div class="row1">
 			<!-- Col 1 -->
-			<div class="box_lg  company_form">
+			<div id="company_form_mobile" class="box_lg  company_form">
 				<p>
 					<b>Заявка на разработку</b> <span class="hide_mobile">Подробный Бриф</span>
 				</p>
-				<form action="#Сесть_на_банку.пхп">
+				<!-- Form -->
+				<form  action="#Сесть_на_банку.пхп">
 					<div class="InputName">
 						<label for="InputName">Ваше имя:</label>
 						<input type="email" id="InputName">
@@ -310,17 +320,16 @@
 			</div>
 		</div>
 		<!-- Map tablet -->
-		<div class="row1">
-			<!-- Col 1 -->
+		<div id="mobile_map" class="row1">
 			<!-- Col 2 -->
-		<div class="box_lg  map">
-			<div class="map_info">
-				<b>Контакты</b><br>
-				Позвоните нам +7(351) 223-02-48,<br>
-				напишите нам welcome@iamsite.com,<br>
-				или приезжайте в гости по адресу Челябинск, Карла Маркса, 81
+			<div class="box_lg  map">
+				<div class="map_info">
+					<b>Контакты</b><br>
+					Позвоните нам +7(351) 223-02-48,<br>
+					напишите нам welcome@iamsite.com,<br>
+					или приезжайте в гости по адресу Челябинск, Карла Маркса, 81
+				</div>
 			</div>
-		</div>
 		</div>
 	</div>
 	<!-- Scripts______________________________________________________________________ -->
