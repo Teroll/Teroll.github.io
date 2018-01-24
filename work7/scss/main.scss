@@ -162,7 +162,8 @@ img{
 		box-sizing: border-box;
 		// white-space: nowrap;
 		text-align: center;
-		line-height: 14px;
+		line-height: 16px;
+		font-size: 15px;
 		&:hover{
 			color: #b3b2b2;
 			border: 2px solid #b3b2b2;
@@ -247,6 +248,7 @@ img{
 	}
 	.content_mobile{
 		width: calc(100vw - 0px);// Отступ контейнера от хедера
+		padding-bottom: 0;
 	}
 	.box_xs{
 		width: 100%;//Ширина Боксов
@@ -254,10 +256,7 @@ img{
 		border: none;
 		text-align: center;
 	}
-	.buttons{
-		display: none;
-	}
-	.logo{
+	.hide_mobile{
 		display: none;
 	}
 	.box_info{
@@ -317,4 +316,12 @@ img{
 			margin-top: 10px;
 		}
 	}
+}
+// Mobile style ---------------------------------------------------END
+// Page 2 -----------------------
+.page2{
+	display: none;
+}
+.show_page{
+	display: block;
 }

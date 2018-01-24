@@ -22,4 +22,16 @@
   background-size: contain;
 }
 
+/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg5 {
+  background: url("../img/Human_cross.jpg") center no-repeat;
+  background-size: contain;
+}
+
+/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg6 {
+  background: url("../img/Human_cross.jpg") center no-repeat;
+  background-size: contain;
+}
+
 /*# sourceMappingURL=../css/pictures.map */

@@ -188,17 +188,23 @@ img{
 	p{
 		margin-top: 0px;
 		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+		span{
+			font-size: 1.4vw;
+		}
 	}
 }
 .InputName{
-	margin-bottom: 30px;
+	margin-bottom: 1.5vw;
 	input{
 		width: calc(100% - 107px);
 		float: right;
 	}
 }
 .InputEmail{
-	margin-bottom: 25px;
+	margin-bottom: 1.3vw;
 	input{
 		width: calc(100% - 203px);
 		float: right;
@@ -288,7 +294,7 @@ img{
 		// white-space: nowrap;
 		text-align: center;
 		line-height: 14px;
-		font-size: 14px;
+		font-size: 15px;
 		&:hover{
 			color: #5e5e5e;
 			border: 2px solid #5e5e5e;
@@ -329,11 +335,62 @@ img{
 		width: 33%;//Ширина Боксов
 		height: calc(33vw - 61px);//Высота строки
 	}
+	.row1{
+		height: calc(70vw - 185px);
+		width: 99%;
+	}
+	.map_info{
+		font-size: 2.6vw;
+	}
+	.map{
+		background: url("../img/company5_tab.jpg")50% 50% no-repeat;
+		background-size: auto;
+	}
+	.text_box{
+		font-size: 1.5vw;
+	}
+	.human_text{
+		font-size: 1.5vw;
+	}
 }
 @media (max-width: 770px) {
 	.box_xs{
 		width: 50%;//Ширина Боксов
 		height: calc(50vw - 92.5px);//Высота строки
+	}
+	.row1{
+		height: calc(100vw - 185px);
+		width: 100%;
+	}
+	.map_info{
+		// height: 45%;
+	}
+	.text_box{
+		padding-top: 0px;
+		font-size: calc(2.2vw - 2px);
+	}
+	.human_text{
+		font-size: 2.3vw;
+	}
+	.company_form{
+		padding-top: 15px;
+		input{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		label{
+			font-size: 3.1vw;
+		}
+		button{
+			// padding: 5px 40px;
+		}
+		p{
+			flex-direction:column;
+			margin-bottom: 10px;
+			span{
+				font-size: 2.1vw;
+			}
+		}
 	}
 }
 @media (max-width: 680px) {
@@ -363,3 +420,103 @@ img{
 	
 	align-content: stretch;
 }
+//Mobile style---------------------------------------------------
+.logo_mobile{
+	display: none;
+}
+@media (max-width: 500px) {
+	body{
+		background-color: $color1;
+		padding: 0;
+	}
+	textarea{
+		height: 50px!important;
+	}
+	.content_mobile{
+		width: calc(100vw - 0px);// Отступ контейнера от хедера
+		padding-bottom: 0;
+	}
+	.row1{
+		height: calc(100vw - 0px);
+		width: 100%;
+	}
+	.box_xs{
+		width: 100%;//Ширина Боксов
+		height: calc(100vw - 2px);//Высота строки
+		border: none;
+		text-align: center;
+	}
+	.hide_mobile{
+		display: none;
+	}
+	.box_info{
+		font-size: 18px;
+		text-transform: uppercase;
+		color: $color6;
+		display: inline-block;
+		margin: 30px auto;
+		padding-left: 20px;
+		padding-right: 5px;
+		width: 100%;
+	}
+	.text_box, .human_text{
+		font-size: 19px;
+		padding: 20px 30px 20px 40px;
+		text-align: left;
+	}
+	.map_info{
+		font-size: 3.9vw;
+		padding: 20px;
+	}
+	.box_lg{
+		border: none;
+	}
+	// Mobile logo style----------------------
+	.logo_mobile{
+		display: block;
+		width: calc(100vw - 6vw);//Ширина Боксов
+		height: calc(100vw - 0px);//Высота строки
+		padding: 8vw 10px 8vw 6vw;
+		box-sizing: border-box;
+		.content_mobile{
+			float: right;
+		}
+		span{
+			white-space: nowrap;
+		}
+		.f_chld{
+			margin-bottom: 11.2vw;
+			margin-top: 20px;
+		}
+		.mtop{
+			display: inline-block;
+			margin-top: 5px;
+		}
+		img{
+			width: 100px;
+		}
+		p{
+			color: $color6;
+			font-size: 15px;
+			margin-bottom: 5px;
+			margin-top: 5px;
+			a{
+				text-decoration: underline!important;
+				color: $color6;
+				&:hover{
+					color: lighten($color6,25%);
+				}
+			}
+		}
+	}
+}
+@media (max-width: 360px) {
+	.logo_mobile{
+		padding: 5vw 10px 8vw 6vw;
+		.f_chld{
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+	}
+}
+// Mobile style ---------------------------------------------------END
