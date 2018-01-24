@@ -34,4 +34,40 @@
   background-size: contain;
 }
 
+/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg7 {
+  background: url("../img/pic-1.png") center no-repeat;
+  background-size: contain;
+}
+
+/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg8 {
+  background: url("../img/pic-2.png") center no-repeat;
+  background-size: contain;
+}
+
+/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg9 {
+  background: url("../img/pic-3.png") center no-repeat;
+  background-size: contain;
+}
+
+/* line 37, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg10 {
+  background: url("../img/pic-4.png") center no-repeat;
+  background-size: contain;
+}
+
+/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg11 {
+  background: url("../img/Human_cross.jpg") center no-repeat;
+  background-size: contain;
+}
+
+/* line 45, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
+.bg12 {
+  background: url("../img/Human_cross.jpg") center no-repeat;
+  background-size: contain;
+}
+
 /*# sourceMappingURL=../css/pictures.map */
