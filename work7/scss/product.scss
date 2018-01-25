@@ -39,20 +39,38 @@ img{
 	background-color: $color3;
 	border-top: 6px solid $color2;
 	box-sizing: border-box;
-	font-size: 24px;//1.3vw
-	padding: 5px 10px;
+	font-size: 1.3vw;//1.3vw
+	padding: 1vw;
+	flex-direction:column;
+	align-items:center;
+	justify-content: space-between;
 	p{
 		color: $color1;
 		text-align: left;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin: 0;
+		// margin-left: 10px;
+		// margin-right: 10px;
 
 		b{
-			margin-bottom: 40px;
+			margin-bottom: 2.8vw;
 			display: inline-block;
 		}
 	}
 }
+.tags{
+	// display: flex;
+	// flex-direction:row;
+	// justify-content:space-around;
+	font-size: 1.3vw;
+	a{
+		color: $color6;
+		padding: 0 0.5vw;
+		&:hover{
+			color: $color1;
+		}
+	}
+}
+
 // Header---------------------------------------------
 .logo{
 	position: fixed;
@@ -150,13 +168,17 @@ img{
 	}
 }
 // Mobile style--------------------------------------------------
-@media (max-width: 500px) {
+@media (max-width: 680px) {
 	body{
 		padding: 0;
 	}
 	.text_box{
 		font-size: 4.3vw;
-		padding-left: 30px;
+		padding: 20px;
+		padding-left: 35px;
+	}
+	.tags{
+		font-size: 3.5vw;
 	}
 	.content_mobile{
 		width: calc(100vw - 0px);// Отступ контейнера от хедера
@@ -240,4 +262,15 @@ img{
 }
 .show_page{
 	display: block;
+}
+// Kit
+.product_team{
+	display: block;
+	.tags{
+		display: block;
+		margin-bottom: 10vw;
+	}
+	p{
+		margin: 20px 0; 
+	}
 }
