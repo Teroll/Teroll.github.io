@@ -92,6 +92,7 @@ img{
 }
 .bg{
 	text-align: center;
+	border-radius: 7px;
 	&:hover{
 		filter: blur(1px);
 		-webkit-filter: blur(1px);
@@ -105,11 +106,12 @@ img{
 	border-top: 6px solid $color2;
 	box-sizing: border-box;
 	font-size: 1.16vw;//0.95
-	padding: 5px 10px;
+	border-radius: 7px;
+	// padding: 20px 20px;
 	p{
 	// 	position: absolute;
 	// 	width: calc(25vw - 90px);
-	// 	margin: 0;
+		margin: 20px;
 		color: $color1;
 	}
 }
@@ -130,8 +132,8 @@ img{
 	text-transform: uppercase;
 	color: $color6;
 	display: inline-block;
-	margin-top: 0.9vw;
-	width: 100%;
+	margin: 20px;//0.9vw
+	// width: 100%;
 }
 .white_text{
 	color: $color1!important;
@@ -154,6 +156,7 @@ img{
 		color: $color1;
 		display: block;
 		border: 2px solid $color1;
+		border-radius: 2px;
 		width: 130px;
 		// height: 32px;
 		padding-top: 5px;
@@ -324,4 +327,7 @@ img{
 }
 .show_page{
 	display: block;
+}
+#page2{
+	margin-top: -15px;
 }
