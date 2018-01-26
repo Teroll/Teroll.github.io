@@ -404,16 +404,28 @@ img {
     margin-left: 7px;
   }
   /* line 349, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  #logo_cross {
+    position: absolute;
+    top: 6vw;
+    right: 6vw;
+    visibility: hidden;
+  }
+  /* line 354, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  #logo_cross img {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 359, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   #logo {
     position: absolute;
     top: 6vw;
     left: 6vw;
   }
-  /* line 353, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 363, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   #logo img {
     margin-left: 7px;
   }
-  /* line 357, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 367, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .fixedattop {
     position: fixed;
     top: 0px;
@@ -422,31 +434,48 @@ img {
     z-index: 99;
     background-color: transparent !important;
   }
-  /* line 364, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 374, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .fixedattop #logo_button {
     visibility: visible;
   }
-  /* line 367, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 377, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .fixedattop #logo {
     visibility: hidden;
   }
-  /* line 370, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 380, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .fixedattop p {
     visibility: hidden;
   }
-  /* line 374, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 384, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile_open {
     background-color: transparent !important;
   }
-  /* line 377, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 387, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile_compact {
     background-color: #000000 !important;
+    box-shadow: 0px 2px 20px 0px #000000;
   }
-  /* line 379, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 390, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  .logo_mobile_compact:after {
+    content: '';
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: calc(100vh - 100vw);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  /* line 401, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile_compact p {
     visibility: visible;
   }
-  /* line 383, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 404, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  .logo_mobile_compact #logo_cross {
+    visibility: visible;
+  }
+  /* line 408, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile {
     display: block;
     height: calc(100vw - 0px);
@@ -454,64 +483,64 @@ img {
     box-sizing: border-box;
     background-color: #000000;
   }
-  /* line 390, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 415, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile .content_mobile {
     float: right;
   }
-  /* line 393, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 418, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile span {
     white-space: nowrap;
   }
-  /* line 396, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 421, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile .f_chld {
     margin-bottom: 10vw;
     margin-top: 20vw;
   }
-  /* line 400, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 425, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile .mtop {
     display: inline-block;
     margin-top: 5px;
   }
-  /* line 404, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 429, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile img {
     width: 100px;
   }
-  /* line 407, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 432, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile p {
     color: #ffffff;
     font-size: 15px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
-  /* line 412, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 437, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile p a {
     text-decoration: underline !important;
     color: #ffffff;
   }
-  /* line 415, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 440, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile p a:hover {
     color: #d9d9d9;
   }
 }
 
 @media (max-width: 360px) {
-  /* line 425, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+  /* line 450, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .logo_mobile .f_chld {
     margin-bottom: 10px;
   }
 }
 
-/* line 433, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+/* line 458, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
 .hide_page {
   display: none;
 }
 
-/* line 436, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+/* line 461, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
 .show_page {
   display: block;
 }
 
-/* line 439, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
+/* line 464, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
 #page2 {
   margin-top: -15px;
 }
