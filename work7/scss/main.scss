@@ -86,10 +86,36 @@ img{
 	text-align: center;
 	border-radius: 8px;
 	&:hover{
-		// filter: blur(1px);
-		// -webkit-filter: blur(1px);
+		filter: blur(1px);
+		-webkit-filter: blur(1px);
 		background-size:  105% 105% ;
 	}
+}
+.blur{
+ 	z-index: 99;
+}
+.inner_wrapper{
+	z-index: 100;
+
+}
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	&:hover .blur{
+		filter: blur(2px);
+		-webkit-filter: blur(2px);
+		background-size:  105% 105% ;
+	}
+    // margin: 0 auto;
+}
+.inner_wrapper,.blur{
+	position: absolute;
+    // width: 500px;
+    // height: 300px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 // Text in the box
 .text_box{
@@ -333,6 +359,7 @@ img{
 		font-size: 4.5vw
 	}
 	// Mobile logo style----------------------
+	// Mobile Menu
 	#logo_button{
 		visibility: hidden;
 		background-color: $color6;
@@ -405,6 +432,7 @@ img{
 			visibility: visible;
 		}
 	}
+	// Mobile Menu-------------END
 	.logo_mobile{
 		display: block;
 		// width: calc(100vw - 6vw);//Ширина Боксов
