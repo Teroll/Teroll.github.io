@@ -7,7 +7,7 @@ var map;
 function initMap() {
 
     // В переменной map создаем объект карты GoogleMaps и вешаем эту переменную на <div id="map"></div>
-    map = new google.maps.Map(document.getElementById('map_mobile'), {
+    map2 = new google.maps.Map(document.getElementById('map_mobile'), {
         // При создании объекта карты необходимо указать его свойства
         // center - определяем точку на которой карта будет центрироваться
         center: {lat: 55.165842, lng: 61.410163},
@@ -198,7 +198,7 @@ function initMap() {
         title: 'I am - Брендинговое агентство',
 
         // Укажем свою иконку для маркера
-        // icon: 'https://teroll.github.io/work7/img/map_logo3.png',
+        icon: 'https://teroll.github.io/work7/img/map_logo3.png',
         // icon: 'http://rightblog.ru/wp-content/uploads/2016/07/theatre_icon.png'
     });
 
