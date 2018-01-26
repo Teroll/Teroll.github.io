@@ -1,7 +1,7 @@
 // 4. Пишем скрипт который создаст и отобразит карту Google Maps на странице.
 
 // Определяем переменную map
-var map;
+var map2;
 
 // Функция initMap которая отрисует карту на странице
 function initMap() {
@@ -17,10 +17,10 @@ function initMap() {
 
         // Добавляем свои стили для отображения карты
         styles: [
-    {
-        "featureType": "all",
-        "elementType": "labels.text.fill",
-        "stylers": [
+        {
+            "featureType": "all",
+            "elementType": "labels.text.fill",
+            "stylers": [
             {
                 "saturation": 36
             },
@@ -30,12 +30,12 @@ function initMap() {
             {
                 "lightness": 40
             }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "all",
+            "elementType": "labels.text.stroke",
+            "stylers": [
             {
                 "visibility": "on"
             },
@@ -45,33 +45,33 @@ function initMap() {
             {
                 "lightness": 16
             }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.icon",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "all",
+            "elementType": "labels.icon",
+            "stylers": [
             {
                 "visibility": "off"
             }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.fill",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 20
             }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [
             {
                 "color": "#000000"
             },
@@ -81,48 +81,48 @@ function initMap() {
             {
                 "weight": 1.2
             }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 20
             }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 21
             }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.fill",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 17
             }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [
             {
                 "color": "#000000"
             },
@@ -132,57 +132,57 @@ function initMap() {
             {
                 "weight": 0.2
             }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 18
             }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 16
             }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 19
             }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 17
             }
+            ]
+        }
         ]
-    }
-]
     });
 
     // Создаем маркер на карте
@@ -190,9 +190,9 @@ function initMap() {
 
         // Определяем позицию маркера
         position: {lat: 55.165337, lng: 61.409760},
-            
+        
         // Указываем на какой карте он должен появится. (На странице ведь может быть больше одной карты)
-        map: map,
+        map: map2,
 
         // Пишем название маркера - появится если навести на него курсор и немного подождать
         title: 'I am - Брендинговое агентство',
