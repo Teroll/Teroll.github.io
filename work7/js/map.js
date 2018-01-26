@@ -198,7 +198,7 @@ function initMap() {
         title: 'I am - Брендинговое агентство',
 
         // Укажем свою иконку для маркера
-        icon: 'https://teroll.github.io/work7/img/map_logo2.png',
+        icon: 'https://teroll.github.io/work7/img/map_logo3.png',
         
         // https://teroll.github.io/work7/img
     });
