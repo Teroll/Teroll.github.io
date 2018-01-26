@@ -4,9 +4,19 @@
 	<meta charset="UTF-8">
 	<title>I`am</title>
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-	<!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- api ключ -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP1PoQukqOIH7PGYh-u3We4HxfhdV-bec"></script> -->
+	<!-- gogle map -->
+	<script src="js/map.js" type="text/javascript"></script>
+	<!-- gogle map marker -->
+	<!-- <script src="js/map_marker.js" type="text/javascript"></script> -->
 
+	
+	<!-- Подключаем библиотеку Google Maps Api, чтобы создать карту -->
+	
 
 	<!-- CSS -->
 
@@ -60,7 +70,7 @@
 			<div class="col1">
 				<div class="box_sm text_box">
 					<p>
-						I am — брендинговое агентство 
+						I`am — брендинговое агентство 
 						из Челябинска. Мы создаем, 
 						обновляем и развиваем бренды. 
 						Мы разрабатываем концепции 
@@ -207,14 +217,18 @@
 				</div>
 			</div>
 			<!-- Col 2 -->
-			<div class="col1">
-				<div class="box_lg  map">
-					<div class="map_info">
-						<b>Контакты</b><br>
-						Позвоните нам +7(351) 223-02-48,<br>
-						напишите нам welcome@iamsite.com,<br>
-						или приезжайте в гости по адресу Челябинск, Карла Маркса, 81
-					</div>
+			<div class="col1 map">
+				<div class="map_info">
+					<b>Контакты</b><br>
+					Позвоните нам +7(351) 223-02-48,<br>
+					напишите нам welcome@iamsite.com,<br>
+					или приезжайте в гости по адресу Челябинск, Карла Маркса, 81
+				</div>
+				<div id="map" class="box_lg">
+					
+					<!-- <div class="map-responsive">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2710.258592764249!2d61.40947903300343!3d55.16495847843409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1516963784935" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -334,6 +348,7 @@
 	</div>
 	<span id="link"></span>
 	<!-- Scripts______________________________________________________________________ -->
-
+	
+	
 </body>
 </html>

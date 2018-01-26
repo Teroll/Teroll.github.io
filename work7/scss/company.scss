@@ -144,16 +144,38 @@ img{
 	border: 0!important;
 }
 .map_info{
-	width: 100%;
+	width: calc(100% - 10px);
 	height: 37%;
 	background-color: rgba(0,0,0,0.5);
 	color: $color1;
 	padding: 10px;
+	padding-top: 4vw;
 	box-sizing: border-box;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	z-index: 999;
+	font-size: 1.6vw;
 }
+// .map-responsive{
+// 	overflow:hidden;
+// 	padding-bottom:100%;
+// 	position:relative;
+// 	height:0;
+// 	// filter:saturate(16%);
+// 	// filter: grayscale(100%);
+// }
+// .map-responsive iframe{
+//     left:0;
+//     top:0;
+//     height:100%;
+//     width:100%;
+//     position:absolute;
+// }
 .map{
-	background: url("../img/company5(5).jpg")50% 50% no-repeat;
-	background-size: auto;
+	position: relative;
+	// background: url("../img/company5(5).jpg")50% 50% no-repeat;
+	// background-size: auto;
 }
 // .map_logo{
 // 	height: 63%;
