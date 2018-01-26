@@ -17,7 +17,7 @@
 </head>
 <body>
 	<!-- Header -->
-	<header>
+	<header id="header">
 		<!-- Logo -->
 		<div class="logo hide_mobile">
 			<a href="company.html"><img src="img/logo.jpg" alt="Logo"></a>
@@ -34,8 +34,9 @@
 			</ul>
 		</div>
 		<!-- Mobile Logo -->
-		<div class="logo_mobile">
-			<a href="company.html"><img src="img/logo_mobile.png" alt="Logo"></a>
+		<div id="navbar" class="logo_mobile">
+			<a id="logo" href="company.html"><img src="img/logo_mobile.png" alt="Logo"></a>
+			<a id="logo_button" href="#999"><img src="img/logo_mobile.png" alt="Logo"></a>
 			<p class="f_chld">
 				Мы создаем и развиваем бренды, проводим 
 				анализ рынков и поведения потребителей, 
@@ -72,7 +73,7 @@
 						или приезжайте в гости
 					</p>
 				</div>
-				<a class="box_sm bg bg1" href="product-1.html">
+				<a class="box_sm bg bg1 kit1" href="product-1.html">
 					<span class="box_info">
 						<div>
 							Ребрендинг, Упаковка,
@@ -111,7 +112,7 @@
 		<div class="row1">
 			<!-- Col 1 -->
 			<div class="col2">
-				<a class="box_lg bg bg4" href="product-1.html"></a>
+				<a class="box_lg bg bg4 kit2" href="product-1.html"></a>
 			</div>
 			<!-- Col 2 -->
 			<div class="col1">
@@ -292,8 +293,14 @@
 	</div>
 	<!-- Scripts______________________________________________________________________ -->
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<!-- On click показывает дополнительные проекты на странице -->
 	<script src="js/show_more2.js" type="text/javascript"></script>
+	<!-- On click показывает дополнительные проекты на странице в мобильной версии -->
 	<script src="js/show_more_mobile.js" type="text/javascript"></script>
+	<!-- Фиксирует навигацию после скрола -->
+	<script src="js/fixed_nav_after_scroll.js" type="text/javascript"></script>
+	<!-- On click разворачивает мобильное меню по клику на лого -->
+	<script src="js/logo_button.js" type="text/javascript"></script>
 
 </body>
 </html>
