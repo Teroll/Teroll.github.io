@@ -362,11 +362,11 @@ img{
 		width: 99%;
 	}
 	.map_info{
-		font-size: 2.6vw;
+		padding-top: 6vw;
+		font-size: 2.2vw;
 	}
 	.map{
-		background: url("../img/company5_tab.jpg")50% 50% no-repeat;
-		background-size: auto;
+		border: none;
 	}
 	.text_box{
 		font-size: 1.5vw;
@@ -390,7 +390,8 @@ img{
 		width: 100%;
 	}
 	.map_info{
-		// height: 45%;
+		padding-top: 9vw;
+		// font-size: 2.3vw;
 	}
 	.text_box{
 		padding-top: 0px;
@@ -493,12 +494,19 @@ img{
 	}
 	.text_box, .human_text{
 		font-size: 19px;
+		// line-height: 20px;
 		padding: 20px 30px 20px 40px;
 		text-align: left;
+		p{
+			margin: 0;
+		}
 	}
 	.map_info{
 		font-size: 3.9vw;
-		padding: 20px;
+		padding-top: 11vw;
+		padding-left: 20px;
+		top: 0;
+		left: 10px;
 	}
 	.box_lg{
 		border: none;
@@ -554,6 +562,10 @@ img{
 			margin-bottom: 10px;
 			margin-top: 10px;
 		}
+	}
+	.text_box{
+		line-height: 20px;
+		font-size: 18px;
 	}
 }
 // Mobile style ---------------------------------------------------END

@@ -7,11 +7,11 @@ var map;
 function initMap() {
 
     // В переменной map создаем объект карты GoogleMaps и вешаем эту переменную на <div id="map"></div>
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById('map_mobile'), {
         // При создании объекта карты необходимо указать его свойства
         // center - определяем точку на которой карта будет центрироваться
         center: {lat: 55.165842, lng: 61.410163},
-          
+        
         // zoom - определяет масштаб. 0 - видно всю платнеу. 18 - видно дома и улицы города.
         zoom: 16,
 
@@ -190,7 +190,7 @@ function initMap() {
 
         // Определяем позицию маркера
         position: {lat: 55.165337, lng: 61.409760},
-
+            
         // Указываем на какой карте он должен появится. (На странице ведь может быть больше одной карты)
         map: map,
 
