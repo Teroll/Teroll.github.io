@@ -11,7 +11,7 @@ function initMap() {
         // При создании объекта карты необходимо указать его свойства
         // center - определяем точку на которой карта будет центрироваться
         center: {lat: 55.165842, lng: 61.410163},
-        
+
         // zoom - определяет масштаб. 0 - видно всю платнеу. 18 - видно дома и улицы города.
         zoom: 16,
 
@@ -198,6 +198,7 @@ function initMap() {
         title: 'I am - Брендинговое агентство',
 
         // Укажем свою иконку для маркера
+        icon: 'https://teroll.github.io/work7/img/map_logo2.png',
         // icon: 'http://rightblog.ru/wp-content/uploads/2016/07/theatre_icon.png'
     });
 

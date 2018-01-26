@@ -11,16 +11,16 @@ function initMap() {
         // При создании объекта карты необходимо указать его свойства
         // center - определяем точку на которой карта будет центрироваться
         center: {lat: 55.165842, lng: 61.410163},
-          
+
         // zoom - определяет масштаб. 0 - видно всю платнеу. 18 - видно дома и улицы города.
         zoom: 16,
 
         // Добавляем свои стили для отображения карты
         styles: [
-    {
-        "featureType": "all",
-        "elementType": "labels.text.fill",
-        "stylers": [
+        {
+            "featureType": "all",
+            "elementType": "labels.text.fill",
+            "stylers": [
             {
                 "saturation": 36
             },
@@ -30,12 +30,12 @@ function initMap() {
             {
                 "lightness": 40
             }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "all",
+            "elementType": "labels.text.stroke",
+            "stylers": [
             {
                 "visibility": "on"
             },
@@ -45,33 +45,33 @@ function initMap() {
             {
                 "lightness": 16
             }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.icon",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "all",
+            "elementType": "labels.icon",
+            "stylers": [
             {
                 "visibility": "off"
             }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.fill",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 20
             }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [
             {
                 "color": "#000000"
             },
@@ -81,48 +81,48 @@ function initMap() {
             {
                 "weight": 1.2
             }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 20
             }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 21
             }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.fill",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 17
             }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [
             {
                 "color": "#000000"
             },
@@ -132,57 +132,57 @@ function initMap() {
             {
                 "weight": 0.2
             }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 18
             }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 16
             }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 19
             }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
             {
                 "color": "#000000"
             },
             {
                 "lightness": 17
             }
+            ]
+        }
         ]
-    }
-]
     });
 
     // Создаем маркер на карте
@@ -198,7 +198,9 @@ function initMap() {
         title: 'I am - Брендинговое агентство',
 
         // Укажем свою иконку для маркера
-        // icon: 'http://rightblog.ru/wp-content/uploads/2016/07/theatre_icon.png'
+        icon: 'https://teroll.github.io/work7/img/map_logo2.png',
+        
+        // https://teroll.github.io/work7/img
     });
 
     // Создаем наполнение для информационного окна
