@@ -148,8 +148,8 @@ img{
 	height: 37%;
 	background-color: rgba(0,0,0,0.5);
 	color: $color1;
-	padding: 10px;
-	padding-top: 4vw;
+	padding: 20px;
+	// padding-top: 4vw;
 	box-sizing: border-box;
 	position: absolute;
 	left: 5px;
@@ -192,7 +192,7 @@ img{
 .company_form{
 	background-color: $color2;
 	color: $color1;
-	padding: 25px;
+	padding: 20px;
 	input{
 		background-color: $color2;
 		color: $color1;
@@ -215,6 +215,9 @@ img{
 		justify-content:space-between;
 		span{
 			font-size: 1.4vw;
+			a{
+				color: $color1;
+			}
 		}
 	}
 }
@@ -362,8 +365,8 @@ img{
 		width: 99%;
 	}
 	.map_info{
-		padding-top: 6vw;
-		font-size: 2.2vw;
+		// padding-top: 6vw;
+		font-size: 2.6vw;
 	}
 	.map{
 		border: none;
@@ -390,7 +393,7 @@ img{
 		width: 100%;
 	}
 	.map_info{
-		padding-top: 9vw;
+		// padding-top: 9vw;
 		// font-size: 2.3vw;
 	}
 	.text_box{
@@ -422,6 +425,10 @@ img{
 			margin-bottom: 10px;
 			span{
 				font-size: 2.1vw;
+				a{
+					color: $color1;
+					display: block;
+				}
 			}
 		}
 	}
@@ -475,9 +482,13 @@ img{
 	}
 	.box_xs{
 		width: 100%;//Ширина Боксов
+		// padding-left: 15px;
 		height: calc(100vw - 2px);//Высота строки
 		border: none;
 		text-align: center;
+	}
+	.kit2{
+		// height: calc(100vw - 15px);//Высота строки
 	}
 	.hide_mobile{
 		display: none;
@@ -488,26 +499,39 @@ img{
 		color: $color6;
 		display: inline-block;
 		margin: 30px auto;
-		padding-left: 20px;
+		// padding-left: 20px;
 		padding-right: 5px;
 		width: 100%;
 	}
 	.text_box, .human_text{
 		font-size: 19px;
 		// line-height: 20px;
-		padding: 20px 30px 20px 40px;
+		padding: 20px 20px 20px 20px;
 		text-align: left;
 		p{
 			margin: 0;
 		}
 	}
 	.map_info{
-		font-size: 3.7vw;
-		padding-top: 15vw;
-		padding-left: 20px;
+		font-size: 4.6vw;
+		// padding-top: 15vw;
+		padding: 20px;
+		// padding-left: 35px;
 		width: 100vw;
 		top: 0;
 		left: 0px;
+	}
+	.company_form{
+		// padding-left: 35px;
+		z-index: 110px;
+		span{
+			a{
+				font-size: 4vw;
+			}
+		}
+		label{
+			font-size: 5.1vw;
+		}
 	}
 	.box_lg{
 		border: none;
@@ -522,7 +546,7 @@ img{
 		display: block;
 		width: calc(100vw - 6vw);//Ширина Боксов
 		height: calc(100vw - 0px);//Высота строки
-		padding: 8vw 10px 8vw 6vw;
+		padding: 8vw 10px 8vw 20px;
 		box-sizing: border-box;
 		.content_mobile{
 			float: right;

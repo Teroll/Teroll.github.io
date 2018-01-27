@@ -6,6 +6,7 @@ function initMap() {
     var myOptions = {
         zoom: 16,
         center: latlng,
+        disableDefaultUI: true,
         // mapTypeId: google.maps.MapTypeId.ROADMAP
         styles: [
         {
@@ -179,6 +180,7 @@ function initMap() {
     var myOptions2 =  {
         zoom: 16,
         center: latlng2,
+        disableDefaultUI: true,
         // mapTypeId: google.maps.MapTypeId.SATELLITE
         styles: [
         {
