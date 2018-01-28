@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/pictures_product_4.css",
+	"sources": [
+		"../scss/pictures_product_4.scss"
+	],
+	"sourcesContent": [
+		".bg1{\r\n\tbackground: url(\"../img/product1_1.jpg\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg2{\r\n\tbackground: url(\"../img/product1_2.jpg\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg3{\r\n\tbackground: url(\"../img/pic-4.png\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg4{\r\n\tbackground: url(\"../img/product1_1.jpg\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg5{\r\n\tbackground: url(\"../img/product1_2.jpg\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg6{\r\n\tbackground: url(\"../img/pic-4.png\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg7{\r\n\tbackground: url(\"../img/product1_2.jpg\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n.bg8{\r\n\tbackground: url(\"../img/pic-4.png\")center no-repeat;\r\n\tbackground-size: contain;\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,4BAAG,CAAyB,MAAM,CAAC,SAAS;EACxD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,4BAAG,CAAyB,MAAM,CAAC,SAAS;EACxD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,uBAAG,CAAoB,MAAM,CAAC,SAAS;EACnD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,4BAAG,CAAyB,MAAM,CAAC,SAAS;EACxD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,4BAAG,CAAyB,MAAM,CAAC,SAAS;EACxD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,uBAAG,CAAoB,MAAM,CAAC,SAAS;EACnD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,4BAAG,CAAyB,MAAM,CAAC,SAAS;EACxD,eAAe,EAAE,OAAQ;CACzB;;;AACD,AAAA,IAAI,CAAA;EACH,UAAU,EAAE,uBAAG,CAAoB,MAAM,CAAC,SAAS;EACnD,eAAe,EAAE,OAAQ;CACzB",
+	"names": []
+}

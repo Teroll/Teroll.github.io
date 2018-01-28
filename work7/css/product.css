@@ -202,7 +202,6 @@ img {
   .text_box {
     font-size: 4.3vw;
     padding: 20px;
-    padding-left: 35px;
   }
   /* line 180, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .tags {
@@ -307,7 +306,7 @@ img {
 /* line 269, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team .tags {
   display: block;
-  margin-bottom: 10vw;
+  margin-bottom: 10%;
 }
 
 /* line 273, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */

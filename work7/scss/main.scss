@@ -82,15 +82,15 @@ img{
 	border: 5px solid $color2;
 	// border-radius: 8px;
 }
-.bg{
-	text-align: center;
-	border-radius: 8px;
-	&:hover{
-		filter: blur(1px);
-		-webkit-filter: blur(1px);
-		background-size:  105% 105% ;
-	}
-}
+// .bg{
+// 	text-align: center;
+// 	border-radius: 8px;
+// 	&:hover{
+// 		filter: blur(1px);
+// 		-webkit-filter: blur(1px);
+// 		background-size:  105% 105% ;
+// 	}
+// }
 .blur{
  	z-index: 99;
 }
@@ -101,13 +101,14 @@ img{
 .wrapper {
 	position: relative;
 	overflow: hidden;
+	// border-radius: 8px;
 	&:hover .blur{
 		filter: blur(2px);
 		-webkit-filter: blur(2px);
 		background-size:  105% 105% ;
 	}
 	&:hover .tags{
-		display: block;
+		visibility: visible;
 	}
     // margin: 0 auto;
 }
@@ -168,7 +169,7 @@ img{
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
-	display: none;
+	visibility: hidden;
 	z-index: 121;
 	// font-size: 2.3vw;
 	a{
@@ -176,6 +177,13 @@ img{
 		margin-left: 5px;
 		&:hover{
 			color: #323131;
+		}
+	}
+}
+.tags_white{
+	a{
+		&:hover{
+			color: white;
 		}
 	}
 }
@@ -341,7 +349,7 @@ img{
 	}
 	.box_xs{
 		width: 100%;//Ширина Боксов
-		height: calc(100vw - 3px);//Высота строки
+		height: calc(100vw - 0px);//Высота строки
 		border: none;
 		text-align: center;
 		border-radius: 0;
@@ -361,11 +369,12 @@ img{
 		// color: $color6;
 		// display: flex;
 		// margin: 20px ;
-		padding: 20px 20px 20px 35px;
+		padding: 20px 20px 20px 20px;
 		// width: 100%;
 	}
 	.tags{
 		font-size: 4.5vw
+
 	}
 	// Mobile logo style----------------------
 	// Mobile Menu

@@ -1,49 +1,51 @@
-/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 3, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg1 {
-  background: url("../img/product1_1.jpg") center no-repeat;
+  background: url("../img/1_mymy/1.jpg") center no-repeat;
   background-size: contain;
 }
 
-/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg2 {
-  background: url("../img/product1_2.jpg") center no-repeat;
-  background-size: contain;
-}
-
-/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
-.bg3 {
-  background: url("../img/pic-4.png") center no-repeat;
+  background: url("../img/1_mymy/2.jpg") center no-repeat;
   background-size: contain;
 }
 
 /* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+.bg3 {
+  background: url("../img/1_mymy/3.jpg") center no-repeat;
+  background-size: contain;
+}
+
+/* line 18, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg4 {
-  background: url("../img/product1_1.jpg") center no-repeat;
+  background: url("../img/1_mymy/4.jpg") center no-repeat;
   background-size: contain;
 }
 
-/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg5 {
-  background: url("../img/product1_2.jpg") center no-repeat;
+  background: url("../img/1_mymy/5.jpg") center no-repeat;
   background-size: contain;
 }
 
-/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 28, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg6 {
-  background: url("../img/pic-4.png") center no-repeat;
+  background: url("../img/1_mymy/6.jpg") center no-repeat;
   background-size: contain;
 }
 
-/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg7 {
-  background: url("../img/product1_2.jpg") center no-repeat;
+  background: url("../img/1_mymy/1.jpg") center no-repeat;
   background-size: contain;
+  display: none !important;
 }
 
-/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
+/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_1.scss */
 .bg8 {
-  background: url("../img/pic-4.png") center no-repeat;
+  background: url("../img/1_mymy/1.jpg") center no-repeat;
   background-size: contain;
+  display: none !important;
 }
 
 /*# sourceMappingURL=../css/pictures_product_1.map */
