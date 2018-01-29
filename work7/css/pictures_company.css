@@ -1,28 +1,43 @@
-.bg1{
-	background: url("../img/company.png")center no-repeat;
-	background-size: 100% 100%;
+/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg1 {
+  background: url("../img/company.png") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg2{
-	background: url("../img/company1.png")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg2 {
+  background: url("../img/company1.png") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg3{
-	background: url("../img/company3.png")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg3 {
+  background: url("../img/company3.png") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg4{
-	background: url("../img/company3.png")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg4 {
+  background: url("../img/company3.png") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg5{
-	background: url("../img/company2.jpg")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg5 {
+  background: url("../img/company2.jpg") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg6{
-	background: url("../img/Human_cross.jpg")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg6 {
+  background: url("../img/Human_cross.jpg") center no-repeat;
+  background-size: 100% 100%;
 }
-.bg7{
-	background: url("../img/presentation.jpg")center no-repeat;
-	background-size: 100% 100%;
+
+/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_company.scss */
+.bg7 {
+  background: url("../img/presentation.jpg") center no-repeat;
+  background-size: 100% 100%;
 }
+
+/*# sourceMappingURL=../css/pictures_company.map */

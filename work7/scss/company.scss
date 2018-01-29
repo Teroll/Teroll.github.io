@@ -140,7 +140,7 @@ img{
 	background-color: #1e1e1e;
 	color: $color1;
 	padding: 20px;
-	font-size: 1.25vw;
+	font-size: 1.15vw;
 	p{
 		margin: 0;
 	}
@@ -385,7 +385,7 @@ img{
 		font-size: 1.4vw;
 	}
 	.human_text{
-		font-size: 1.5vw;
+		font-size: 1.4vw;
 	}
 	.human_info{
 		.hide{
@@ -412,7 +412,7 @@ img{
 		padding: 15px;
 	}
 	.human_text{
-		font-size: 2.3vw;
+		font-size: calc(2.1vw - 2px);
 		padding: 15px;
 	}
 	.human_info{

@@ -173,7 +173,7 @@ img {
   background-color: #1e1e1e;
   color: #ffffff;
   padding: 20px;
-  font-size: 1.25vw;
+  font-size: 1.15vw;
 }
 
 /* line 144, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
@@ -447,7 +447,7 @@ img {
   }
   /* line 387, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
   .human_text {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
   /* line 391, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
   .human_info .hide {
@@ -473,7 +473,7 @@ img {
   }
   /* line 414, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
   .human_text {
-    font-size: 2.3vw;
+    font-size: calc(2.1vw - 2px);
     padding: 15px;
   }
   /* line 419, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
