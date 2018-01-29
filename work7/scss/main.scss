@@ -104,14 +104,14 @@ img{
 	position: relative;
 	overflow: hidden;
 	border-radius: 7px;
-	&:hover .blur{
-		filter: blur(2px);
-		-webkit-filter: blur(2px);
-		background-size:  105% 105% ;
-	}
-	&:hover .tags{
-		visibility: visible;
-	}
+	// &:hover .blur{
+	// 	filter: blur(2px);
+	// 	-webkit-filter: blur(2px);
+	// 	background-size:  105% 105% ;
+	// }
+	// &:hover .tags{
+	// 	visibility: visible;
+	// }
     // margin: 0 auto;
 }
 .inner_wrapper,.blur{
@@ -175,20 +175,25 @@ img{
 	z-index: 121;
 	// font-size: 2.3vw;
 	a{
-		color: $color6;
+		color: $color1;
 		margin-left: 5px;
+		background-color: gray;
+		border-radius: 4px;
+		padding: 1px 3px;
+		line-height: 22px;
 		&:hover{
-			color: #323131;
+			// color: #323131;
+			background-color: #323131;
 		}
 	}
 }
-.tags_white{
-	a{
-		&:hover{
-			color: white;
-		}
-	}
-}
+// .tags_white{
+// 	a{
+// 		&:hover{
+// 			color: white;
+// 		}
+// 	}
+// }
 .white_text{
 	color: $color1!important;
 }
@@ -341,6 +346,18 @@ img{
 .logo_mobile{
 	display: none;
 }
+@media (min-width: 500px){
+	.wrapper{
+		&:hover .blur{
+			filter: blur(3px);
+			-webkit-filter: blur(3px);
+			background-size:  105% 105% ;
+		}
+		&:hover .tags{
+			visibility: visible;
+		}
+	}
+}
 @media (max-width: 500px) {
 	body{
 		padding: 0;
@@ -388,6 +405,7 @@ img{
 		left: 6vw;
 		width: 115px;
 		height: 115px;
+		z-index: 300;
 		img{
 			margin-top: 6vw;
 			margin-left: 7px;
@@ -397,6 +415,7 @@ img{
 		position: absolute;
 		top: 6vw;
 		right: 6vw;
+		z-index: 300px;
 		visibility: hidden;
 		img{
 			width: 40px;
@@ -416,7 +435,7 @@ img{
 		top: 0px;
 		left: 0;
 		width: 100%;
-		z-index: 99;
+		z-index: 119;
 		background-color: transparent!important;
 		#logo_button{
 			visibility: visible;
