@@ -100,12 +100,14 @@ img{
 	// padding: 10px;
 	box-sizing: border-box;
 	border: 5px solid $color4;
+	border-radius: 7px;
 }
 .box_lg{
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
 	border: 5px solid $color4;
+	border-radius: 7px;
 }
 .bg{
 	&:hover{
@@ -156,6 +158,7 @@ img{
 	top: 5px;
 	z-index: 999;
 	font-size: 1.6vw;
+	border-radius: 2px;
 }
 // .map-responsive{
 // 	overflow:hidden;
@@ -267,7 +270,7 @@ img{
 .text_box{
 	// padding-top: 5px;
 	background-color: $color6;
-	border-top: 6px solid $color4;
+	// border-top: 6px solid $color4;
 	box-sizing: border-box;
 	padding: 10px;
 	font-size: 1.25vw;
@@ -292,7 +295,7 @@ img{
 // Header---------------------------------------------
 .logo{
 	position: fixed;
-	top: 21px;
+	top: 20px;
 	left: 20px;
 	width: 125px;
 	img{
@@ -357,12 +360,12 @@ img{
 		display: none;
 	}
 	.box_xs{
-		width: 33%;//Ширина Боксов
+		width: calc(100% / 3);//33%Ширина Боксов
 		height: calc(33vw - 61px);//Высота строки
 	}
 	.row1{
 		height: calc(70vw - 185px);
-		width: 99%;
+		width: 100%;//99%
 	}
 	.map_info{
 		// padding-top: 6vw;
@@ -457,7 +460,7 @@ img{
 	box-sizing: border-box;
 	border: 5px solid $color4;
 	display:flex;
-	
+	border-radius: 7px;
 	align-content: stretch;
 }
 //Mobile style---------------------------------------------------
@@ -466,7 +469,7 @@ img{
 }
 @media (max-width: 500px) {
 	body{
-		background-color: $color1;
+		background-color: $color4;
 		padding: 0;
 	}
 	textarea{
@@ -486,6 +489,7 @@ img{
 		height: calc(100vw - 2px);//Высота строки
 		border: none;
 		text-align: center;
+		border-radius: 0px;
 	}
 	.kit2{
 		// height: calc(100vw - 15px);//Высота строки
@@ -535,6 +539,7 @@ img{
 	}
 	.box_lg{
 		border: none;
+		border-radius: 0px;
 	}
 	.human_info{
 		.hide{
