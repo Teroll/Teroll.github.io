@@ -10,6 +10,7 @@ $(document).scroll(function() {
     $('#navbar').removeClass('fixedattop');
     $('#navbar').removeClass('logo_mobile_compact');
     $('#logo_button').removeClass('logo_mobile_open');
+    $('#logo').removeClass('show');
     $('#content').css('margin-top', '0px');
   }
 });

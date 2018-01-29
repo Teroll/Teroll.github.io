@@ -40,9 +40,9 @@ img{
 	border-top: 6px solid $color2;
 	box-sizing: border-box;
 	font-size: 1.3vw;//1.3vw
-	padding: 1vw;
+	padding: 20px;//1vw
 	flex-direction:column;
-	align-items:center;
+	align-items:left;
 	justify-content: space-between;
 	p{
 		color: $color1;
@@ -61,6 +61,7 @@ img{
 	// display: flex;
 	// flex-direction:row;
 	// justify-content:space-around;
+	text-align: left;
 	font-size: 1.3vw;
 	a{
 		color: $color6;

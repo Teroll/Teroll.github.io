@@ -139,8 +139,11 @@ img{
 .human_text{
 	background-color: #1e1e1e;
 	color: $color1;
-	padding: 10px;
+	padding: 20px;
 	font-size: 1.25vw;
+	p{
+		margin: 0;
+	}
 }
 .no_border{
 	border: 0!important;
@@ -272,11 +275,11 @@ img{
 	background-color: $color6;
 	// border-top: 6px solid $color4;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 20px;
 	font-size: 1.25vw;
 	p{
 		color: $color1;
-		margin: 7px 0;
+		margin: 0px 0;
 	}
 }
 .show_more{
@@ -400,7 +403,7 @@ img{
 		// font-size: 2.3vw;
 	}
 	.text_box{
-		padding-top: 0px;
+		// padding-top: 0px;
 		font-size: calc(2.2vw - 2px);
 	}
 	.human_text{

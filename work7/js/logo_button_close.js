@@ -5,6 +5,7 @@
         			$('#navbar').removeClass('logo_mobile_compact');
         			$('#logo_cross').removeClass('logo_mobile_compact');
         			$('#logo_button').removeClass('logo_mobile_open');
+        			$('#logo').removeClass('show');
         		})
         	});
         });

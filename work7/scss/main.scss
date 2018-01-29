@@ -448,6 +448,7 @@ img{
 		}
 	}
 	.logo_mobile_open{
+		visibility: hidden!important;
 		background-color: transparent!important;
 	}
 	.logo_mobile_compact{
@@ -527,6 +528,9 @@ img{
 }
 .show_page{
 	display: block;
+}
+.show{
+	visibility: visible!important;
 }
 #page2{
 	margin-top: -15px;
