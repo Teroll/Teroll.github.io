@@ -1,4 +1,1 @@
-
-$(window).resize(function(){
-window.setTimeout('location.reload()', 500);
-});
+$(window).resize(function(){location.reload();});
