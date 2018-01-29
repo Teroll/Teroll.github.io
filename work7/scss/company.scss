@@ -159,10 +159,11 @@ img{
 	position: absolute;
 	left: 5px;
 	top: 5px;
-	z-index: 999;
-	font-size: 1.6vw;
+	z-index: 102;
+	font-size: 1.5vw;
 	border-radius: 2px;
 }
+
 // .map-responsive{
 // 	overflow:hidden;
 // 	padding-bottom:100%;
@@ -243,13 +244,15 @@ img{
 }
 .InputText{
 	textarea{
-		width: calc(100% - 5px);
+		width: calc(100% - 22px);
 		height: calc(20vw - 73px);
 		resize: none;
 		background-color: $color2;
 		border: 1px solid #707070;
 		color: $color1;
 		font-size: 16px;
+		padding: 10px;
+		font-family: "PFDasGroteskPro-Regular";
 		&::placeholder{
 			color: $color1;
 		}
@@ -263,6 +266,7 @@ img{
 	float: right;
 	margin-top: calc(3vw - 10px);
 	font-size: 20px;
+	font-family: "PFDasGroteskPro-Regular";
 	&:hover{
 			color: #5e5e5e;
 			border: 1px solid #5e5e5e;
@@ -276,7 +280,7 @@ img{
 	// border-top: 6px solid $color4;
 	box-sizing: border-box;
 	padding: 20px;
-	font-size: 1.25vw;
+	font-size: 1.15vw;
 	p{
 		color: $color1;
 		margin: 0px 0;
@@ -378,7 +382,7 @@ img{
 		border: none;
 	}
 	.text_box{
-		font-size: 1.5vw;
+		font-size: 1.4vw;
 	}
 	.human_text{
 		font-size: 1.5vw;
@@ -404,10 +408,12 @@ img{
 	}
 	.text_box{
 		// padding-top: 0px;
-		font-size: calc(2.2vw - 2px);
+		font-size: calc(2.1vw - 2px);
+		padding: 15px;
 	}
 	.human_text{
 		font-size: 2.3vw;
+		padding: 15px;
 	}
 	.human_info{
 		.hide{
@@ -415,10 +421,10 @@ img{
 		}
 	}
 	.company_form{
-		padding-top: 15px;
+		padding: 6vw;
 		input{
 			width: 100%;
-			margin-bottom: 10px;
+			margin-bottom: 6px;
 		}
 		label{
 			font-size: 3.1vw;
@@ -513,7 +519,8 @@ img{
 	.text_box, .human_text{
 		font-size: 19px;
 		// line-height: 20px;
-		padding: 20px 20px 20px 20px;
+		// padding: 20px 20px 20px 20px;
+		padding: 6vw;
 		text-align: left;
 		p{
 			margin: 0;
@@ -522,7 +529,7 @@ img{
 	.map_info{
 		font-size: 4.6vw;
 		// padding-top: 15vw;
-		padding: 20px;
+		padding: 6vw;//20px
 		// padding-left: 35px;
 		width: 100vw;
 		top: 0;
@@ -550,11 +557,88 @@ img{
 		}
 	}
 	// Mobile logo style----------------------
+	// Mobile Menu
+	#logo_button{
+		visibility: hidden;
+		background-color: $color1;
+		position: absolute;
+		top: 0;
+		left: 6vw;
+		width: 115px;
+		height: 115px;
+		z-index: 300;
+		img{
+			margin-top: 6vw;
+			margin-left: 7px;
+		}
+	}
+	#logo_cross{
+		position: absolute;
+		top: 6vw;
+		right: 6vw;
+		z-index: 300px;
+		visibility: hidden;
+		img{
+			width: 40px;
+			height: 40px;
+		}
+	}
+	#logo{
+		position: absolute;
+		top: 6vw;
+		left: 6vw;
+		img{
+			margin-left: 7px;
+		}
+	}
+	.fixedattop{
+		position: fixed; 
+		top: 0px;
+		left: 0;
+		width: 100%;
+		z-index: 119;
+		background-color: transparent!important;
+		#logo_button{
+			visibility: visible;
+		}
+		#logo{
+			visibility: hidden;
+		}
+		p{
+			visibility: hidden;
+		}
+	}
+	.logo_mobile_open{
+		visibility: hidden!important;
+		background-color: transparent!important;
+	}
+	.logo_mobile_compact{
+		background-color:$color1!important;
+		box-shadow: 0px 2px 20px 0px #000000;
+		&:after{
+			content: '';
+			display: block;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			height: calc(100vh - 100vw);
+			width: 100%;
+			background: rgba(0, 0, 0, .5);
+			z-index: 104;
+		}
+		p{
+			visibility: visible;
+		}
+		#logo_cross{
+			visibility: visible;
+		}
+	}
+	// Mobile Menu-------------END
 	.logo_mobile{
 		display: block;
-		width: calc(100vw - 6vw);//Ширина Боксов
+		// width: calc(100vw - 6vw);//Ширина Боксов
 		height: calc(100vw - 0px);//Высота строки
-		padding: 8vw 10px 8vw 20px;
+		padding: 6vw;//padding: 8vw 10px 8vw 20px;
 		box-sizing: border-box;
 		.content_mobile{
 			float: right;
@@ -563,8 +647,8 @@ img{
 			white-space: nowrap;
 		}
 		.f_chld{
-			margin-bottom: 11.2vw;
-			margin-top: 20px;
+			margin-bottom: 10vw;
+			margin-top: 20vw;
 		}
 		.mtop{
 			display: inline-block;
@@ -593,12 +677,29 @@ img{
 		padding: 5vw 10px 8vw 6vw;
 		.f_chld{
 			margin-bottom: 10px;
-			margin-top: 10px;
+			// margin-top: 10px;
 		}
 	}
 	.text_box{
 		line-height: 20px;
 		font-size: 18px;
 	}
+	.ButtonForm{
+		padding: 3px 40px;
+	}
+	// .map_box{
+	// 	border-top: 5px solid white;
+	// }
 }
 // Mobile style ---------------------------------------------------END
+// Show more pages -----------------------
+.hide_page{
+	display: none;
+}
+.show_page{
+	display: block;
+}
+.show{
+	visibility: visible!important;
+}
+// Show more pages -----------------------

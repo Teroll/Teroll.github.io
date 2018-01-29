@@ -29,7 +29,7 @@
 </head>
 <body>
 	<!-- Header -->
-	<header>
+	<header id="header">
 		<!-- Logo -->
 		<div class="logo hide_mobile" >
 			<a href="index.html"><img src="img/logo_white.jpg" alt="Logo"></a>
@@ -46,8 +46,10 @@
 			</ul>
 		</div>
 		<!-- Mobile Logo -->
-		<div class="logo_mobile">
-			<a href="index.html"><img src="img/logo_mobile_black.png" alt="Logo"></a>
+		<div id="navbar" class="logo_mobile">
+			<a id="logo" href="index.html"><img src="img/logo_mobile_black.png" alt="Logo"></a>
+			<a id="logo_button" href="#999"><img src="img/logo_mobile_black.png" alt="Logo"></a>
+			<a id="logo_cross" href="#888"><img src="img/cross_black.png" alt="close"></a>
 			<p class="f_chld">
 				I am — брендинговое агентство из Челябинска. Мы создаем, обновляем и развиваем бренды. Мы разрабатываем концепции позиционирования, названия и слоганы, логотипы и фирменные стили, дизайн продукта и упаковки и рекламные кампании. Мы опираемся на аналитику и экспертизу и помогаем клиентам увеличивать прибыль.
 			</p>
@@ -81,7 +83,7 @@
 			</div>
 			<!-- Col 2 -->
 			<div class="col2">
-				<div class="box_lg  bg1"></div>
+				<div class="box_lg  bg2"></div>
 			</div>
 		</div>
 		<!-- Row 2 -->
@@ -225,7 +227,7 @@
 		</div>
 	</div>
 	<!-- Mobile Content -->
-	<div class="content_mobile">
+	<div id="mobile_content" class="content_mobile">
 		<div class="box_xs text_box hide_mobile">
 			<p>
 				I am — брендинговое агентство 
@@ -329,7 +331,7 @@
 			</div>
 		</div>
 		<!-- Map tablet -->
-		<div class="row1">
+		<div class="row1 map_box">
 			<!-- Col 2 -->
 			<div class="box_lg  map">
 				<div class="map_info">
@@ -346,8 +348,14 @@
 	</div>
 	<span id="link"></span>
 	<!-- Scripts______________________________________________________________________ -->
-	<!-- Фиксирует навигацию после скрола -->
-	<script src="js/fixed_nav_after_scroll.js" type="text/javascript"></script>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<!-- Фиксирует навигацию после скрола Только для экранов меньше 500px -->
+	<!-- <script src="js/fixed_nav_after_scroll.js" type="text/javascript"></script> -->
+	<script type="text/javascript">
+		{
+			if (screen.width <= 500) document.write ('<script type="text/javascript" src="js/fixed_nav_after_scroll.js" ></sc' + 'ript>');
+		}
+	</script>
 	<!-- On click разворачивает мобильное меню по клику на лого -->
 	<script src="js/logo_button.js" type="text/javascript"></script>
 	<!-- On click закрывает мобильное меню -->

@@ -346,6 +346,7 @@ img{
 .logo_mobile{
 	display: none;
 }
+// Отключение ховера у мобильных устройств
 @media (min-width: 500px){
 	.wrapper{
 		&:hover .blur{
@@ -463,7 +464,7 @@ img{
 			height: calc(100vh - 100vw);
 			width: 100%;
 			background: rgba(0, 0, 0, .5);
-			z-index: 2;
+			z-index: 104;
 		}
 		p{
 			visibility: visible;
@@ -532,6 +533,7 @@ img{
 .show{
 	visibility: visible!important;
 }
+// Show more pages -----------------------
 #page2{
 	margin-top: -15px;
 }
