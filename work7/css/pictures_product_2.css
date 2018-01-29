@@ -1,51 +1,42 @@
-/* line 3, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg1 {
-  background: url("../img/2_familyHappy/1.jpg") center no-repeat;
-  background-size: contain;
+//Для отображения дополнительных блоков: добавить "//" к строке "display: none!important;"
+// В соответствующем блоке bg№
+.bg1{
+	background: url("../img/2_familyHappy/1.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg2 {
-  background: url("../img/2_familyHappy/2.jpg") center no-repeat;
-  background-size: contain;
+.bg2{
+	background: url("../img/2_familyHappy/2.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg3 {
-  background: url("../img/2_familyHappy/3.jpg") center no-repeat;
-  background-size: contain;
+.bg3{
+	background: url("../img/2_familyHappy/3.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 18, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg4 {
-  background: url("../img/2_familyHappy/4.jpg") center no-repeat;
-  background-size: contain;
+.bg4{
+	background: url("../img/2_familyHappy/4.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg5 {
-  background: url("../img/2_familyHappy/5.jpg") center no-repeat;
-  background-size: contain;
+.bg5{
+	background: url("../img/2_familyHappy/5.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 28, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg6 {
-  background: url("../img/2_familyHappy/6.jpg") center no-repeat;
-  background-size: contain;
+.bg6{
+	background: url("../img/2_familyHappy/6.jpg")center no-repeat;
+	background-size: contain;
+	// display: none!important;
 }
-
-/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg7 {
-  background: url("../img/2_familyHappy/1.jpg") center no-repeat;
-  background-size: contain;
-  display: none !important;
+.bg7{
+	background: url("../img/2_familyHappy/1.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
 }
-
-/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_product_2.scss */
-.bg8 {
-  background: url("../img/2_familyHappy/1.jpg") center no-repeat;
-  background-size: contain;
-  display: none !important;
+.bg8{
+	background: url("../img/2_familyHappy/1.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
 }
-
-/*# sourceMappingURL=../css/pictures_product_2.map */

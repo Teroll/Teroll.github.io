@@ -1,49 +1,32 @@
-/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg1 {
-  background: url("../img/company2.jpg") center no-repeat;
-  background-size: contain;
+.bg1{
+	background: url("../img/company2.jpg")center no-repeat;
+	background-size: contain;
 }
-
-/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg2 {
-  background: url("../img/pic-1.png") center no-repeat;
-  background-size: contain;
+.bg2{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg3 {
-  background: url("../img/pic-2.png") center no-repeat;
-  background-size: contain;
+.bg3{
+	background: url("../img/pic-2.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg4 {
-  background: url("../img/pic-3.png") center no-repeat;
-  background-size: contain;
+.bg4{
+	background: url("../img/pic-3.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg5 {
-  background: url("../img/pic-4.png") center no-repeat;
-  background-size: contain;
+.bg5{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg6 {
-  background: url("../img/pic-4.png") center no-repeat;
-  background-size: contain;
+.bg6{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg7 {
-  background: url("../img/pic-1.png") center no-repeat;
-  background-size: contain;
+.bg7{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
 }
-
-/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures_man_1.scss */
-.bg8 {
-  background: url("../img/pic-4.png") center no-repeat;
-  background-size: contain;
+.bg8{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
 }
-
-/*# sourceMappingURL=../css/pictures_man_1.map */

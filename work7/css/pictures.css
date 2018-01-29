@@ -1,85 +1,56 @@
-/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg1 {
-  background: url("../img/product_1_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg1{
+	background: url("../img/product_1_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg2 {
-  background: url("../img/product_2_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg2{
+	background: url("../img/product_2_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg3 {
-  background: url("../img/product_3_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg3{
+	background: url("../img/product_3_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg4 {
-  background: url("../img/product_4_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg4{
+	background: url("../img/product_4_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg5 {
-  background: url("../img/product_5_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg5{
+	background: url("../img/product_5_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg6 {
-  background: url("../img/product_6_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg6{
+	background: url("../img/product_6_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg7 {
-  background: url("../img/product_7_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg7{
+	background: url("../img/product_7_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg8 {
-  background: url("../img/product_8_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg8{
+	background: url("../img/product_8_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg9 {
-  background: url("../img/product_9_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg9{
+	background: url("../img/product_9_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 37, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg10 {
-  background: url("../img/product_10_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg10{
+	background: url("../img/product_10_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg11 {
-  background: url("../img/product_11_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg11{
+	background: url("../img/product_11_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 45, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg12 {
-  background: url("../img/product_12_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg12{
+	background: url("../img/product_12_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg13 {
-  background: url("../img/product_13_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg13{
+	background: url("../img/product_13_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/* line 53, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/pictures.scss */
-.bg14 {
-  background: url("../img/product_14_main.jpg") center no-repeat;
-  background-size: 100% 100%;
+.bg14{
+	background: url("../img/product_14_main.jpg")center no-repeat;
+	background-size: 100% 100%;
 }
-
-/*# sourceMappingURL=../css/pictures.map */
