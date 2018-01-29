@@ -43,7 +43,7 @@ img{
 }
 .row1{
 	display:flex;
-	height: calc(50vw - 92px);//Высота строки
+	height: calc(50vw - 92.5px);//Высота строки
 	width: 100%;
 }
 .row2{
@@ -60,6 +60,8 @@ img{
 	align-content: space-between;
 	width: 50%;
 	height: 100%;
+	flex-direction:row;
+	align-items:stretch;
 }
 .col2{
 	display:flex;
@@ -70,14 +72,14 @@ img{
 }
 .box_sm{
 	width: 50%;
-	height: 50%;
+	height: calc(50% - 0px);//50%
 	display: block;
 	box-sizing: border-box;
 	border: 5px solid $color2;
 }
 .box_lg{
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 0px);//100%
 	box-sizing: border-box;
 	border: 5px solid $color2;
 	// border-radius: 8px;
@@ -101,7 +103,7 @@ img{
 .wrapper {
 	position: relative;
 	overflow: hidden;
-	// border-radius: 8px;
+	border-radius: 7px;
 	&:hover .blur{
 		filter: blur(2px);
 		-webkit-filter: blur(2px);
@@ -124,7 +126,7 @@ img{
 // Text in the box
 .text_box{
 	background-color: $color3;
-	border-top: 6px solid $color2;
+	// border-top: 6px solid $color2;
 	box-sizing: border-box;
 	font-size: 1.11vw;//0.95
 	border-radius: 7px;
@@ -264,8 +266,8 @@ img{
 		display: none;
 	}
 	.box_xs{
-		width: 33%;//Ширина Боксов
-		height: calc(33vw - 61px);//Высота строки
+		width:calc(100% / 3 );//33%Ширина Боксов
+		height: calc(33vw - 59px);//61 Высота строки
 	}
 	.box_info{
 		font-size: 1.5vw;
@@ -330,7 +332,7 @@ img{
 	// padding: 10px;
 	box-sizing: border-box;
 	border: 5px solid $color2;
-	border-radius: 8px;
+	// border-radius: 8px;
 	// display:flex;
 	// text-align: center;
 	// align-content: stretch;
