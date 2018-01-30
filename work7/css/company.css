@@ -637,7 +637,7 @@ img {
     position: absolute;
     top: 6vw;
     right: 6vw;
-    z-index: 300px;
+    z-index: 300;
     visibility: hidden;
   }
   /* line 581, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/company.scss */
