@@ -96,7 +96,7 @@ img{
 		color: $color1;
 		display: block;
 		border: 2px solid $color1;
-		width: 130px;
+		width: 125px;
 		// height: 32px;
 		padding-top: 5px;
 		padding-bottom: 5px;
@@ -281,10 +281,10 @@ img{
 			background: rgba(0, 0, 0, .5);
 			z-index: 104;
 		}
-		p{
+		h1{
 			visibility: visible!important;
-			position: absolute;
-			top: calc(6vw + 55px);
+			// position: absolute;
+			// top: calc(6vw + 55px);
 		}
 		#logo_cross{
 			visibility: visible;
@@ -358,10 +358,23 @@ img{
 	display: block;
 	.tags{
 		display: block;
-		margin-bottom: 10%;
+		// height: calc(10% - 20px);
+		// margin-bottom: 10%;
 	}
-	p{
-		margin: 20px 0; 
+	.names{
+		width: 100%;
+		height: calc(100% - 32px);
+		display: flex;
+		flex-direction: column;
+		flex-wrap:wrap;
+		align-content:flex-start;
+
+		div{
+			width: 45%;
+			margin: 1vw 1vw 1vw 0%; 
+			text-align: left;
+			color: $color1;
+		}
 	}
 }
 // Show more pages -----------------------

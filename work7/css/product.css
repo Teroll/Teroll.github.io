@@ -115,7 +115,7 @@ img {
   color: #ffffff;
   display: block;
   border: 2px solid #ffffff;
-  width: 130px;
+  width: 125px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
@@ -314,10 +314,8 @@ img {
     z-index: 104;
   }
   /* line 284, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
-  .logo_mobile_compact p {
+  .logo_mobile_compact h1 {
     visibility: visible !important;
-    position: absolute;
-    top: calc(6vw + 55px);
   }
   /* line 289, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_compact #logo_cross {
@@ -410,25 +408,37 @@ img {
 /* line 359, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team .tags {
   display: block;
-  margin-bottom: 10%;
 }
 
-/* line 363, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
-.product_team p {
-  margin: 20px 0;
+/* line 364, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+.product_team .names {
+  width: 100%;
+  height: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
-/* line 368, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 372, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+.product_team .names div {
+  width: 45%;
+  margin: 1vw 1vw 1vw 0%;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 381, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .hide_page {
   display: none;
 }
 
-/* line 371, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 384, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .show_page {
   display: block;
 }
 
-/* line 374, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 387, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .show {
   visibility: visible !important;
 }
