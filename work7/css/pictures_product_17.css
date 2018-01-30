@@ -1,81 +1,81 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/13_Voskos/1.jpg")center no-repeat;
+	background: url("../img/17_evergame/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/13_Voskos/2.jpg")center no-repeat;
+	background: url("../img/17_evergame/2.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg3{
-	background: url("../img/13_Voskos/3.jpg")center no-repeat;
+	background: url("../img/17_evergame/3.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/13_Voskos/4.jpg")center no-repeat;
+	background: url("../img/17_evergame/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/13_Voskos/5.jpg")center no-repeat;
+	background: url("../img/17_evergame/5.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg6{
-	background: url("../img/13_Voskos/6.jpg")center no-repeat;
+	background: url("../img/17_evergame/6.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg7{
-	background: url("../img/13_Voskos/7.jpg")center no-repeat;
+	background: url("../img/17_evergame/7.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg8{
-	background: url("../img/13_Voskos/8.jpg")center no-repeat;
+	background: url("../img/17_evergame/8.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg9{
-	background: url("../img/13_Voskos/9.jpg")center no-repeat;
+	background: url("../img/17_evergame/9.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg10{
-	background: url("../img/13_Voskos/10.jpg")center no-repeat;
+	background: url("../img/17_evergame/10.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg11{
-	background: url("../img/13_Voskos/11.jpg")center no-repeat;
+	background: url("../img/17_evergame/11.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg12{
-	background: url("../img/13_Voskos/12.jpg")center no-repeat;
+	background: url("../img/17_evergame/12.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg13{
-	background: url("../img/13_Voskos/13.jpg")center no-repeat;
+	background: url("../img/17_evergame/13.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg14{
-	background: url("../img/13_Voskos/15.jpg")center no-repeat;
+	background: url("../img/17_evergame/15.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg15{
-	background: url("../img/13_Voskos/15.jpg")center no-repeat;
+	background: url("../img/17_evergame/15.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg16{
-	background: url("../img/13_Voskos/16.jpg")center no-repeat;
+	background: url("../img/17_evergame/16.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
