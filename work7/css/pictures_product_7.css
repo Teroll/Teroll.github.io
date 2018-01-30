@@ -1,42 +1,41 @@
-//Для отображения дополнительных блоков: добавить "//" к строке "display: none!important;"
-// В соответствующем блоке bg№ 
+/*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
 	background: url("../img/7_Merindinka/1.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg2{
 	background: url("../img/7_Merindinka/2.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg3{
 	background: url("../img/7_Merindinka/3.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg4{
 	background: url("../img/7_Merindinka/4.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg5{
 	background: url("../img/7_Merindinka/5.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg6{
 	background: url("../img/7_Merindinka/6.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg7{
 	background: url("../img/7_Merindinka/7.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg8{
 	background: url("../img/7_Merindinka/8.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }

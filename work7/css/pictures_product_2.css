@@ -1,34 +1,33 @@
-//Для отображения дополнительных блоков: добавить "//" к строке "display: none!important;"
-// В соответствующем блоке bg№
+/*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
 	background: url("../img/2_familyHappy/1.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg2{
 	background: url("../img/2_familyHappy/2.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg3{
 	background: url("../img/2_familyHappy/3.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg4{
 	background: url("../img/2_familyHappy/4.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg5{
 	background: url("../img/2_familyHappy/5.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg6{
 	background: url("../img/2_familyHappy/6.jpg")center no-repeat;
 	background-size: contain;
-	// display: none!important;
+	/*display: none!important;*/
 }
 .bg7{
 	background: url("../img/2_familyHappy/1.jpg")center no-repeat;
