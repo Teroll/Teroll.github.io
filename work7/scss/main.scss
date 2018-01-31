@@ -428,7 +428,7 @@ img{
 			white-space: nowrap;
 		}
 		.f_chld{
-			margin-bottom: 10vw;
+			margin-bottom: 6vw;
 			margin-top: 20vw;
 		}
 		.mtop{
@@ -440,7 +440,7 @@ img{
 		}
 		p{
 			color: $color1;
-			font-size: 15px;
+			font-size: 4.4vw;//15px
 			margin-bottom: 5px;
 			margin-top: 5px;
 			a{
@@ -471,7 +471,10 @@ img{
 .show{
 	visibility: visible!important;
 }
-// Show more pages ----------------
+.hide{
+	visibility: hidden!important;
+}
+// Show more pages ---------------
 #page2{
 	margin-top: -15px;
 }
