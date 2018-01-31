@@ -293,8 +293,8 @@ img {
 
 @media (max-width: 1024px) {
   /* line 270, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
-  .content {
-    display: none;
+  .content, #page2 {
+    display: none !important;
   }
   /* line 273, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .box_xs {

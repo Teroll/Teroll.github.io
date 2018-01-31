@@ -267,8 +267,8 @@ img{
 	}
 }
 @media (max-width: 1024px) {
-	.content{
-		display: none;
+	.content,#page2{
+		display: none!important;
 	}
 	.box_xs{
 		width:calc(100% / 3 );//33%Ширина Боксов
