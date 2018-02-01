@@ -107,6 +107,13 @@ img{
 	box-sizing: border-box;
 	font-size: 1.11vw;//0.95
 	border-radius: 7px;
+	a{
+		text-decoration: underline!important;
+		color: $color1;
+		&:hover{
+			color: darken($color1,15%);
+		}
+	}
 	p{
 		margin: 20px;
 		color: $color1;
@@ -153,6 +160,7 @@ img{
 		border-radius: 4px;
 		padding: 1px 4px 2px 4px;
 		line-height: 22px;
+		cursor: default;
 		&:hover{
 			background-color: #323131;
 		}
@@ -172,6 +180,7 @@ img{
 	position: fixed;
 	bottom: 20px;
 	left: -20px;
+
 	ul{
 		margin: 0;
 	}
@@ -193,6 +202,16 @@ img{
 			border: 2px solid #b3b2b2;
 		}
 	}
+	span{
+		color: $color1;
+		font-size: 13px;
+		margin-top: 15px;
+		display: block;
+		// text-align: center;
+		// a{
+		// 	border: none;
+		// }
+	}
 }
 // Header END----------------------------------------------
 // Adaptive
@@ -212,6 +231,9 @@ img{
 	.buttons{
 		a{
 			width: 180px;
+		}
+		span{
+			font-size: 16px;
 		}
 	}
 	.kit1{

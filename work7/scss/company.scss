@@ -342,6 +342,16 @@ img{
 			border: 2px solid #5e5e5e;
 		}
 	}
+	span{
+		color: $color6;
+		font-size: 13px;
+		margin-top: 15px;
+		display: block;
+		// text-align: center;
+		// a{
+		// 	border: none;
+		// }
+	}
 }
 // Header END----------------------------------------------
 // Adaptive
@@ -361,6 +371,9 @@ img{
 	.buttons{
 		a{
 			width: 180px;
+		}
+		span{
+			font-size: 16px;
 		}
 	}
 }

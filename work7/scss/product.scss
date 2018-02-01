@@ -63,9 +63,11 @@ img{
 	// justify-content:space-around;
 	text-align: left;
 	font-size: 1.3vw;
+
 	a{
 		color: $color6;
 		padding: 0 0.5vw;
+		cursor: default;
 		&:hover{
 			color: $color1;
 		}
