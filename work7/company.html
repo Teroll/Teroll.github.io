@@ -229,17 +229,17 @@
 							<a download href="iam_brief.doc">Подробный Бриф &#x2197;</a>
 						</span>
 					</p>
-					<form action="#Сесть_на_банку.пхп">
+					<form id="form" action="#Сесть_на_банку.пхп">
 						<div class="InputName">
 							<label for="InputName">Ваше имя:</label>
-							<input type="text" id="InputName">
+							<input name="name" required="заполните поле" type="text" id="InputName">
 						</div>
 						<div class="InputEmail">
 							<label for="InputEmail">Телефон или e-mail:</label>
-							<input type="text" id="InputEmail">
+							<input name="phone" required="заполните поле" type="text" id="InputEmail">
 						</div>
 						<div class="InputText">
-							<textarea placeholder="Кратко опишите задачу" name="#" id="InputText"></textarea>
+							<textarea required="заполните поле" placeholder="Кратко опишите задачу" name="text" id="InputText"></textarea>
 						</div>
 						<button class="ButtonForm" id="ButtonForm" type="submit">Отправить</button>
 					</form>
@@ -418,14 +418,14 @@
 				<form  action="#Сесть_на_банку.пхп">
 					<div class="InputName">
 						<label for="InputName">Ваше имя:</label>
-						<input type="text" id="InputName">
+						<input required="заполните поле" type="text" id="InputName">
 					</div>
 					<div class="InputEmail">
 						<label for="InputEmail">Телефон или e-mail:</label>
-						<input type="text" id="InputEmail">
+						<input required="заполните поле" type="text" id="InputEmail">
 					</div>
 					<div class="InputText">
-						<textarea placeholder="Кратко опишите задачу" name="#" id="InputText"></textarea>
+						<textarea required="заполните поле" placeholder="Кратко опишите задачу" name="#" id="InputText"></textarea>
 					</div>
 					<button class="ButtonForm" id="ButtonForm" type="submit">Отправить</button>
 				</form>
@@ -468,5 +468,7 @@
 	<script src="js/animsition_option.js" type="text/javascript"></script>
 	<!-- скрывает кнопки при анимации -->
 	<script src="js/animsition_hide_buttons.js" type="text/javascript"></script>
+	<!-- скрывает кнопки при анимации -->
+	<script src="js/feedback_form.js" type="text/javascript"></script>
 </body>
 </html>
