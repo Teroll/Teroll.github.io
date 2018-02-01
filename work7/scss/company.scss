@@ -207,6 +207,7 @@ img{
 		border-bottom: 1px solid #707070;
 		// margin-top: 2px;
 		font-size: 1.1vw;
+		font-family: "PFDasGroteskPro-Regular";
 	}
 	div{
 		width: 100%;
@@ -269,7 +270,7 @@ img{
 	padding: 10px 50px;
 	float: right;
 	margin-top: calc(3vw - 10px);
-	font-size: 1.4vw;//20px
+	font-size: 1.15vw;//20px
 	font-family: "PFDasGroteskPro-Regular";
 	&:hover{
 			color: #5e5e5e;
@@ -403,6 +404,9 @@ img{
 				font-size: 1.4vw;
 			}
 		}
+	}
+	.ButtonForm{
+		font-size: 1.5vw;
 	}
 	.InputName{
 	input{
@@ -570,7 +574,7 @@ img{
 			font-size: 4vw;
 		}
 		button{
-			font-size: 4.8vw;
+			font-size: 4.7vw;
 		}
 		span{
 			a{
