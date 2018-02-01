@@ -1,32 +1,155 @@
 .bg1{
-	background: url("../img/company2.jpg")center no-repeat;
+	background: url("../img/company/company6.jpg")center no-repeat;
 	background-size: contain;
+	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/pic-1.png")center no-repeat;
+	background: url("../img/product_10_main.jpg")center no-repeat;
 	background-size: contain;
+	/*display: none!important;*/
 }
 .bg3{
-	background: url("../img/pic-2.png")center no-repeat;
+	background: url("../img/product_14_main.jpg")center no-repeat;
 	background-size: contain;
+	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/pic-3.png")center no-repeat;
+	background: url("../img/product_25_main.jpg")center no-repeat;
 	background-size: contain;
+	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/pic-4.png")center no-repeat;
+	background: url("../img/7_Merindinka/")center no-repeat;
 	background-size: contain;
+	/*display: none!important;*/
 }
 .bg6{
 	background: url("../img/pic-4.png")center no-repeat;
 	background-size: contain;
+	display: none!important;
 }
 .bg7{
 	background: url("../img/pic-1.png")center no-repeat;
 	background-size: contain;
+	display: none!important;
 }
 .bg8{
 	background: url("../img/pic-4.png")center no-repeat;
 	background-size: contain;
+	display: none!important;
+}
+.bg9{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg10{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg11{
+	background: url("../img/company/company6.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg12{
+	background: url("../img/product_10_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg13{
+	background: url("../img/product_14_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg14{
+	background: url("../img/product_25_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg15{
+	background: url("../img/7_Merindinka/")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg16{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg17{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg18{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg19{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg20{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg21{
+	background: url("../img/company/company6.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg22{
+	background: url("../img/product_10_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg23{
+	background: url("../img/product_14_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg24{
+	background: url("../img/product_25_main.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg25{
+	background: url("../img/7_Merindinka/")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg26{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg27{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg28{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg29{
+	background: url("../img/pic-1.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg30{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
+}
+.bg31{
+	background: url("../img/pic-4.png")center no-repeat;
+	background-size: contain;
+	display: none!important;
 }
