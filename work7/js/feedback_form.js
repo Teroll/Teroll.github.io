@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$("#form").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "js/mail.php",
+			url: "https://teroll.github.io/work7/js/mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
