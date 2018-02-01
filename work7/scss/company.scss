@@ -117,7 +117,8 @@ img{
 	}
 }
 .human_info{
-	.hide{
+	cursor: default;
+	.hidden{
 		display: none;
 		text-align: center;
 		font-size: 1.1vw;
@@ -132,7 +133,7 @@ img{
 			// top: 5px;
 		}
 	}
-	&:hover .hide{
+	&:hover .hidden{
 		display: block;
 	}
 }
@@ -269,9 +270,10 @@ img{
 	border: 1px solid $color1;
 	padding: 10px 50px;
 	float: right;
-	margin-top: calc(3vw - 10px);
+	margin-top: calc(1vw + 10px);
 	font-size: 1.15vw;//20px
 	font-family: "PFDasGroteskPro-Regular";
+	cursor: pointer;
 	&:hover{
 			color: #5e5e5e;
 			border: 1px solid #5e5e5e;
@@ -393,7 +395,7 @@ img{
 		font-size: 1.4vw;
 	}
 	.human_info{
-		.hide{
+		.hidden{
 			font-size: 1.5vw;
 		}
 	}
@@ -442,7 +444,7 @@ img{
 		padding: 15px;
 	}
 	.human_info{
-		.hide{
+		.hidden{
 			font-size: 1.8vw;
 		}
 	}
@@ -534,7 +536,7 @@ img{
 	.kit2{
 		// height: calc(100vw - 15px);//Высота строки
 	}
-	.hide_mobile{
+	.hidden_mobile{
 		display: none;
 	}
 	.box_info{
@@ -593,7 +595,7 @@ img{
 		border-radius: 0px;
 	}
 	.human_info{
-		.hide{
+		.hidden{
 			font-size: 4.8vw;
 		}
 	}
@@ -734,7 +736,7 @@ img{
 }
 // Mobile style ---------------------------------------------------END
 // Show more pages -----------------------
-.hide_page{
+.hidden_page{
 	display: none;
 }
 .show_page{
@@ -747,3 +749,6 @@ img{
 	visibility: visible!important;
 }
 // Show more pages ----------------------
+.pointer_off{
+	cursor: default;
+}
