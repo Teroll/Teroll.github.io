@@ -83,9 +83,24 @@ img{
 }
 .back_arrow{
 	position: fixed;
-	top: 215px;
-	left: 50px;
-	width: 60px;
+	top: 165px;//215px
+	left: 20px;//50px
+	width: 125px;//60px
+	height: calc(100vh - 165px - 96px - 30px);
+	text-align: center;
+	a{
+		// width: 125px;//60px
+		display: block;
+		height: 100%;
+		&:hover img{
+			width: 65px;
+		}
+	}
+	img{
+		width: 60px;
+		margin-top: 50px;
+		transition: all 0.3s ease-out;
+	}
 }
 .buttons{
 	position: fixed;
@@ -148,8 +163,10 @@ img{
 		width: 180px;
 	}
 	.back_arrow{
-		left: 80px;
-		top: 270px;
+		left: 20px;//80px
+		top: 220px;//270px
+		width: 180px;//не было
+		height: calc(100vh - 220px - 96px - 30px);// не было 
 	}
 	.content_mobile{
 		width: calc(100vw - 240px);// Отступ контейнера от хедера
