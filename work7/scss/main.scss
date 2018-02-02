@@ -84,7 +84,7 @@ img{
 }
 .blur{
  	z-index: 99;
- 	// transition:  1.5s ;
+ 	transition:  0.5s ;
  	// transition-property: background-size;
 
 }
@@ -321,8 +321,8 @@ img{
 @media (min-width: 500px){
 	.wrapper{
 		&:hover .blur{
-			filter: blur(3px);
-			-webkit-filter: blur(3px);
+			// filter: blur(3px);
+			// -webkit-filter: blur(3px);
 			background-size:  105% 105% ;
 		}
 		&:hover .tags{

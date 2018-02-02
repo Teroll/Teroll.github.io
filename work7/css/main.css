@@ -107,6 +107,7 @@ img {
 /* line 85, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
 .blur {
   z-index: 99;
+  transition: 0.5s;
 }
 
 /* line 91, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
@@ -394,8 +395,6 @@ img {
 @media (min-width: 500px) {
   /* line 323, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
   .wrapper:hover .blur {
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     background-size: 105% 105%;
   }
   /* line 328, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/main.scss */
