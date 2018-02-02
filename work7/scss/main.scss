@@ -84,7 +84,7 @@ img{
 }
 .blur{
  	z-index: 99;
- 	transition:  0.5s ;
+ 	transition: ease 0.5s ;
  	// transition-property: background-size;
 
 }
@@ -323,7 +323,8 @@ img{
 		&:hover .blur{
 			// filter: blur(3px);
 			// -webkit-filter: blur(3px);
-			background-size:  105% 105% ;
+			// background-size:  105% 105% ;
+			transform: scale(1.05);
 		}
 		&:hover .tags{
 			visibility: visible;
