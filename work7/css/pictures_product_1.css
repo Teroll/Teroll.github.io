@@ -5,8 +5,12 @@
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/1_mymy/2.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/1_mymy/1.jpg") 0 0 no-repeat,
+	url("../img/1_mymy/2.jpg") 100% 0 no-repeat,
+	url("../img/1_mymy/3.jpg") 0 100% no-repeat,
+	url("../img/1_mymy/5.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
 	/*display: none!important;*/
 }
 .bg3{

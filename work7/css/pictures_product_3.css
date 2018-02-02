@@ -15,24 +15,28 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/3_mezheninovskaya/4.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/3_mezheninovskaya/4.jpg") 0 0 no-repeat,
+	url("../img/3_mezheninovskaya/5.jpg") 100% 0 no-repeat,
+	url("../img/3_mezheninovskaya/6.jpg") 0 100% no-repeat,
+	url("../img/3_mezheninovskaya/7.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
 	/*display: none!important;*/
 }
 .bg5{
 	background: url("../img/3_mezheninovskaya/5.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg6{
 	background: url("../img/3_mezheninovskaya/6.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg7{
 	background: url("../img/3_mezheninovskaya/7.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg8{
 	background: url("../img/3_mezheninovskaya/8.jpg")center no-repeat;
@@ -45,9 +49,12 @@
 	/*display: none!important;*/
 }
 .bg10{
-	background: url("../img/3_mezheninovskaya/10.jpg")center no-repeat;
-	background-size: contain;
-	/*display: none!important;*/
+	background: 
+	url("../img/3_mezheninovskaya/10.jpg") 0 0 no-repeat,
+	url("../img/3_mezheninovskaya/16.jpg") 100% 0 no-repeat,
+	url("../img/3_mezheninovskaya/14.jpg") 0 100% no-repeat,
+	url("../img/3_mezheninovskaya/13.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
 }
 .bg11{
 	background: url("../img/3_mezheninovskaya/11.jpg")center no-repeat;
@@ -62,12 +69,12 @@
 .bg13{
 	background: url("../img/3_mezheninovskaya/13.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg14{
 	background: url("../img/3_mezheninovskaya/14.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg15{
 	background: url("../img/3_mezheninovskaya/15.jpg")center no-repeat;
@@ -77,5 +84,5 @@
 .bg16{
 	background: url("../img/3_mezheninovskaya/16.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
