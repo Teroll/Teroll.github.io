@@ -15,7 +15,7 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/4_Sportline/8.jpg")center no-repeat;
+	background: url("../img/4_Sportline/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -25,57 +25,71 @@
 	/*display: none!important;*/
 }
 .bg6{
-	background: url("../img/4_Sportline/6.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/4_Sportline/11.jpg") 0 0 no-repeat,
+	url("../img/4_Sportline/7.jpg") 100% 0 no-repeat,
+	url("../img/4_Sportline/8.jpg") 0 100% no-repeat,
+	url("../img/4_Sportline/9.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
 	/*display: none!important;*/
 }
 .bg7{
 	background: url("../img/4_Sportline/7.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg8{
-	background: url("../img/4_Sportline/4.jpg")center no-repeat;
+	background: url("../img/4_Sportline/8.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg9{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/9.jpg")center no-repeat;
 	background-size: contain;
 	display: none!important;
 }
 .bg10{
-	background: url("../img/4_Sportline/2.jpg")center no-repeat;
+	background: url("../img/4_Sportline/10.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg11{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/6.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg12{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/12.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg13{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/13.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg14{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/14.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg15{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/15.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg16{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/16.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
+}
+.bg17{
+	background: url("../img/4_Sportline/17.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
+}
+.bg18{
+	background: url("../img/4_Sportline/18.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
 }

@@ -1,81 +1,81 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/15_aroma_express/1.jpg")center no-repeat;
+	background: url("../img/12_ Acea/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/15_aroma_express/2.jpg")center no-repeat;
+	background: url("../img/12_ Acea/2.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg3{
-	background: url("../img/15_aroma_express/3.jpg")center no-repeat;
+	background: url("../img/12_ Acea/3.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/15_aroma_express/4.jpg")center no-repeat;
+	background: url("../img/12_ Acea/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/15_aroma_express/5.jpg")center no-repeat;
+	background: url("../img/12_ Acea/5.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg6{
-	background: url("../img/15_aroma_express/6.jpg")center no-repeat;
+	background: url("../img/12_ Acea/6.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg7{
 	background: url("../img/15_aroma_express/7.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg8{
 	background: url("../img/15_aroma_express/8.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg9{
 	background: url("../img/15_aroma_express/9.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg10{
 	background: url("../img/15_aroma_express/10.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg11{
 	background: url("../img/15_aroma_express/11.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg12{
 	background: url("../img/15_aroma_express/12.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg13{
 	background: url("../img/15_aroma_express/13.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg14{
 	background: url("../img/15_aroma_express/15.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg15{
 	background: url("../img/15_aroma_express/15.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg16{
 	background: url("../img/15_aroma_express/16.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
