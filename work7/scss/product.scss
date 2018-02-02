@@ -247,7 +247,8 @@ img{
 	// Mobile logo style----------------------
 	// Mobile Menu
 	#logo_button{
-		visibility: hidden;
+		// visibility: hidden;
+		display: none;
 		background-color: $color2;
 		position: absolute;
 		top: 0;
@@ -285,9 +286,11 @@ img{
 		left: 0;
 		width: 100%;
 		z-index: 119;
-		background-color: transparent!important;
+		// background-color: transparent!important;
+		visibility: hidden;
 		#logo_button{
 			visibility: visible;
+			display: block;
 		}
 		#logo{
 			visibility: hidden;
@@ -304,6 +307,7 @@ img{
 	.logo_mobile_compact{
 		background-color:$color2!important;
 		box-shadow: 0px 2px 20px 0px #000000;
+		visibility: visible;
 		&:after{
 			content: '';
 			display: block;
@@ -380,13 +384,6 @@ img{
 	}
 }
 // Mobile style ---------------------------------------------------END
-// Show more pages -----------------------
-.hide_page{
-	display: none;
-}
-.show_page{
-	display: block;
-}
 // Kit
 .product_team{
 	display: block;
@@ -417,6 +414,9 @@ img{
 }
 .show_page{
 	display: block;
+}
+.hide{
+	visibility: hidden!important;
 }
 .show{
 	visibility: visible!important;
