@@ -30,7 +30,7 @@ body{
 	box-sizing: border-box;
 	margin: 0px;
 	font-family: "PFDasGroteskPro-Regular";
-	font-size: 1.15vw;
+	font-size: 0.95vw;
 }
 img{
 	width: 100%;
@@ -121,13 +121,13 @@ img{
 	.hidden{
 		display: none;
 		text-align: center;
-		font-size: 1.1vw;
+		// font-size: 1.1vw;
 		color: white;
 		width: 100%;
-		height: 30%;
+		height: 40%;
 		background-color: rgba(0,0,0,0.3);
 		position: relative;
-		top: 70%;
+		top: 60%;
 		span{
 			position: relative;
 			// top: 5px;
@@ -141,7 +141,7 @@ img{
 	background-color: #1e1e1e;
 	color: $color1;
 	padding: 20px;
-	font-size: 1.15vw;
+	// font-size: 1.15vw;
 	p{
 		margin: 0;
 	}
@@ -161,7 +161,7 @@ img{
 	left: 5px;
 	top: 5px;
 	z-index: 102;
-	font-size: 1.15vw;
+	// font-size: 1.15vw;
 	border-radius: 2px;
 }
 
@@ -207,7 +207,7 @@ img{
 		border: none;
 		border-bottom: 1px solid #707070;
 		// margin-top: 2px;
-		font-size: 1.1vw;
+		// font-size: 1.1vw;
 		font-family: "PFDasGroteskPro-Regular";
 	}
 	div{
@@ -233,14 +233,14 @@ img{
 .InputName{
 	margin-bottom: 1.5vw;
 	input{
-		width: calc(100% - 6vw);//(100% - 107px)
+		width: calc(100% - 5.1vw);//(100% - 107px)
 		float: right;
 	}
 }
 .InputEmail{
 	margin-bottom: 1.3vw;
 	input{
-		width: calc(100% - 10.5vw);//(100% - 203px)
+		width: calc(100% - 8.1vw - 5px);//(100% - 203px)
 		float: right;
 	}
 }
@@ -252,7 +252,7 @@ img{
 		background-color: $color2;
 		border: 1px solid #707070;
 		color: $color1;
-		font-size: 1.15vw;
+		// font-size: 1.15vw;
 		padding: 10px;
 		font-family: "PFDasGroteskPro-Regular";
 		&::placeholder{
@@ -271,7 +271,7 @@ img{
 	padding: 10px 50px;
 	float: right;
 	margin-top: calc(1vw + 10px);
-	font-size: 1.15vw;//20px
+	// font-size: 1.15vw;//20px
 	font-family: "PFDasGroteskPro-Regular";
 	cursor: pointer;
 	&:hover{
@@ -287,7 +287,7 @@ img{
 	// border-top: 6px solid $color4;
 	box-sizing: border-box;
 	padding: 20px;
-	font-size: 1.15vw;
+	// font-size: 1.15vw;
 	p{
 		color: $color1;
 		margin: 0px 0;
@@ -383,6 +383,12 @@ img{
 	}
 }
 @media (max-width: 1024px) {
+	body,button,input{
+		font-size: 1.15vw;
+	}
+	textarea{
+		font-size: 1.0vw;
+	}
 	.content{
 		display: none;
 	}
@@ -394,47 +400,53 @@ img{
 		height: calc(70vw - 185px);
 		width: 100%;//99%
 	}
-	.map_info{
-		// padding-top: 6vw;
-		font-size: 1.4vw;//2.6
-	}
+	// .map_info{
+	// 	// padding-top: 6vw;
+	// 	font-size: 1.4vw;//2.6
+	// }
 	.map{
 		border: none;
 	}
-	.text_box{
-		font-size: 1.4vw;
-	}
-	.human_text{
-		font-size: 1.4vw;
-	}
-	.human_info{
-		.hidden{
-			font-size: 1.5vw;
-		}
-	}
-	.company_form {
-		font-size: 1.4vw;
-		p{
-			span{
-				font-size: 1.4vw;
-			}
-		}
-	}
-	.ButtonForm{
-		font-size: 1.5vw;
-	}
+	// .text_box{
+	// 	font-size: 1.4vw;
+	// }
+	// .human_text{
+	// 	font-size: 1.4vw;
+	// }
+	// .human_info{
+	// 	.hidden{
+	// 		font-size: 1.5vw;
+	// 	}
+	// }
+	// .company_form {
+	// 	font-size: 1.4vw;
+	// 	p{
+	// 		span{
+	// 			font-size: 1.4vw;
+	// 		}
+	// 	}
+	// }
+	// .ButtonForm{
+	// 	font-size: 1.5vw;
+	// }
 	.InputName{
 	input{
-		width: calc(100% - 7vw);//(100% - 107px)
+		width: calc(100% - 6vw);//(100% - 107px)
 	}
 }
 .InputEmail{
 	input{
-		width: calc(100% - 12.5vw);//(100% - 203px)
+		width: calc(100% - 10.4vw);//(100% - 203px)
 	}
 }
 }
 @media (max-width: 770px) {
+	body,button,input{
+		font-size: calc(2.30vw - 4px);//calc(2.0vw - 3px) 1.4vw 
+	}
+	textarea{
+		font-size: 1.8vw;
+	}
 	.box_xs{
 		width: 50%;//Ширина Боксов
 		height: calc(50vw - 92.5px);//Высота строки
@@ -443,41 +455,41 @@ img{
 		height: calc(100vw - 185px);
 		width: 100%;
 	}
-	.map_info{
-		// padding-top: 9vw;
-		font-size: 2.3vw;
-	}
+	// .map_info{
+	// 	// padding-top: 9vw;
+	// 	font-size: 2.3vw;
+	// }
 	.text_box{
 		// padding-top: 0px;
-		font-size: calc(2.1vw - 2px);
+		// font-size: calc(2.1vw - 2px);
 		padding: 15px;
 	}
 	.human_text{
-		font-size: calc(2.1vw - 2px);
+		// font-size: calc(2.1vw - 2px);
 		padding: 15px;
 	}
-	.human_info{
-		.hidden{
-			font-size: 1.8vw;
-		}
-	}
+	// .human_info{
+	// 	.hidden{
+	// 		font-size: 1.8vw;
+	// 	}
+	// }
 	.company_form{
 		padding: 6vw;
-		font-size: 2.3vw;
+		// font-size: 2.3vw;
 		input{
 			width: 100%;
 			margin-bottom: 6px;
-			font-size: 2.2vw;
+			// font-size: 2.2vw;
 		}
-		label{
-			font-size: 2.4vw;
-		}
-		button{
-			font-size: 2.4vw;
-		}
-		textarea{
-			font-size: 2.0vw;
-		}
+		// label{
+		// 	font-size: 2.4vw;
+		// }
+		// button{
+		// 	font-size: 2.4vw;
+		// }
+		// textarea{
+		// 	font-size: 2.0vw;
+		// }
 		p{
 			flex-direction:column;
 			margin-bottom: 10px;
@@ -523,9 +535,10 @@ img{
 	display: none;
 }
 @media (max-width: 500px) {
-	body{
+	body,button,input{
 		background-color: $color4;
 		padding: 0;
+		font-size: 4.4vw;//15px
 	}
 	textarea{
 		height: 50px!important;
@@ -553,7 +566,7 @@ img{
 		display: none;
 	}
 	.box_info{
-		font-size: 18px;
+		// font-size: 18px;
 		text-transform: uppercase;
 		color: $color6;
 		display: inline-block;
@@ -563,7 +576,7 @@ img{
 		width: 100%;
 	}
 	.text_box, .human_text{
-		font-size: 4.7vw;//19px
+		// font-size: 4.7vw;//19px
 		// line-height: 20px;
 		// padding: 20px 20px 20px 20px;
 		padding: 6vw;
@@ -573,7 +586,7 @@ img{
 		}
 	}
 	.map_info{
-		font-size: 4.7vw;//4.6vw
+		// font-size: 4.7vw;//4.6vw
 		// padding-top: 15vw;
 		padding: 6vw;//20px
 		// padding-left: 35px;
@@ -583,35 +596,35 @@ img{
 	}
 	.company_form{
 		// padding-left: 35px;
-		font-size: 4.7vw;
+		// font-size: 4.7vw;
 		z-index: 110px;
-		input{
-			font-size: 4vw;
-		}
-		button{
-			font-size: 4.7vw;
-		}
-		span{
-			a{
-				font-size: 4vw;
-			}
-		}
-		label{
-			font-size: 4.7vw;
-		}
-		textarea{
-			font-size: 3vw;
-		}
+		// input{
+		// 	font-size: 4vw;
+		// }
+		// button{
+		// 	// font-size: 4.7vw;
+		// }
+		// span{
+		// 	a{
+		// 		font-size: 4vw;
+		// 	}
+		// }
+		// label{
+		// 	font-size: 4.7vw;
+		// }
+		// textarea{
+		// 	font-size: 3vw;
+		// }
 	}
 	.box_lg{
 		border: none;
 		border-radius: 0px;
 	}
-	.human_info{
-		.hidden{
-			font-size: 4.8vw;
-		}
-	}
+	// .human_info{
+	// 	.hidden{
+	// 		font-size: 4.8vw;
+	// 	}
+	// }
 	// Mobile logo style----------------------
 	// Mobile Menu
 	#logo_button{
@@ -715,7 +728,7 @@ img{
 		}
 		p{
 			color: $color6;
-			font-size: 4.7vw;//15px
+			// font-size: 4.7vw;//15px
 			margin-bottom: 5px;
 			margin-top: 5px;
 			a{
