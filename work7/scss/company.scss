@@ -32,6 +32,12 @@ body{
 	font-family: "PFDasGroteskPro-Regular";
 	font-size: 0.95vw;
 }
+button,input{
+	font-size: 0.95vw;
+}
+textarea{
+	font-size: 0.85vw;
+}
 img{
 	width: 100%;
 	max-width: 300px;
@@ -121,13 +127,13 @@ img{
 	.hidden{
 		display: none;
 		text-align: center;
-		// font-size: 1.1vw;
+		font-size: 0.9vw;
 		color: white;
 		width: 100%;
-		height: 40%;
+		height: 30%;
 		background-color: rgba(0,0,0,0.3);
 		position: relative;
-		top: 60%;
+		top: 70%;
 		span{
 			position: relative;
 			// top: 5px;
@@ -163,6 +169,10 @@ img{
 	z-index: 102;
 	// font-size: 1.15vw;
 	border-radius: 2px;
+	b{
+		margin-bottom: 1.5vw;
+		display: block;
+	}
 }
 
 // .map-responsive{
@@ -218,7 +228,7 @@ img{
 	}
 	p{
 		margin-top: 0px;
-		margin-bottom: 40px;
+		margin-bottom: 1.5vw;
 		display: flex;
 		align-items: center;
 		justify-content:space-between;
@@ -413,11 +423,11 @@ img{
 	// .human_text{
 	// 	font-size: 1.4vw;
 	// }
-	// .human_info{
-	// 	.hidden{
-	// 		font-size: 1.5vw;
-	// 	}
-	// }
+	.human_info{
+		.hidden{
+			font-size: 1.12vw;
+		}
+	}
 	// .company_form {
 	// 	font-size: 1.4vw;
 	// 	p{
@@ -468,11 +478,11 @@ img{
 		// font-size: calc(2.1vw - 2px);
 		padding: 15px;
 	}
-	// .human_info{
-	// 	.hidden{
-	// 		font-size: 1.8vw;
-	// 	}
-	// }
+	.human_info{
+		.hidden{
+			font-size: calc(2.10vw - 4px);
+		}
+	}
 	.company_form{
 		padding: 6vw;
 		// font-size: 2.3vw;
