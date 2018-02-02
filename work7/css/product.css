@@ -74,7 +74,7 @@ img {
 /* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .tags a {
   color: #000000;
-  padding: 0 0.5vw;
+  padding: 0 1.0vw 0 0vw;
   cursor: default;
 }
 
