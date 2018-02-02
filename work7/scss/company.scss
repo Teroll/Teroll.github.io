@@ -628,7 +628,8 @@ img{
 	// Mobile logo style----------------------
 	// Mobile Menu
 	#logo_button{
-		visibility: hidden;
+		// visibility: hidden;
+		display: none;
 		background-color: $color1;
 		position: absolute;
 		top: 0;
@@ -666,9 +667,11 @@ img{
 		left: 0;
 		width: 100%;
 		z-index: 119;
-		background-color: transparent!important;
+		// background-color: transparent!important;
+		visibility: hidden;
 		#logo_button{
 			visibility: visible;
+			display: block;
 		}
 		#logo{
 			visibility: hidden;
