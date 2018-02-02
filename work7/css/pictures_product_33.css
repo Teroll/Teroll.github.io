@@ -19,8 +19,8 @@
 	background-size: contain;
 	/*display: none!important;*/
 	/*Большой блок*/
-	width: 100%!important;
-	height: calc(100vw - 240px)!important;
+/*	width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
 }
 .bg5{
 	background: url("../img/33_elements/5.jpg")center no-repeat;
@@ -37,8 +37,8 @@
 	background-size: contain;
 	/*display: none!important;*/
 	/*Большой блок*/
-	width: 100%!important;
-	height: calc(100vw - 240px)!important;
+/*	width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
 }
 .bg8{
 	background: url("../img/33_elements/8.jpg")center no-repeat;
@@ -65,8 +65,8 @@
 	background-size: contain;
 	/*display: none!important;*/
 	/*Большой блок*/
-	width: 100%!important;
-	height: calc(100vw - 240px)!important;
+	/*width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
 }
 .bg13{
 	background: url("../img/33_elements/13.jpg")center no-repeat;
