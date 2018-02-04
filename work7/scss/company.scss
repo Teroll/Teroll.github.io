@@ -565,6 +565,7 @@ img{
 	}
 	textarea{
 		height: 50px!important;
+		font-size: 4.2vw;//15px
 	}
 	.content_mobile{
 		width: calc(100vw - 0px);// Отступ контейнера от хедера
@@ -643,11 +644,11 @@ img{
 		border: none;
 		border-radius: 0px;
 	}
-	// .human_info{
-	// 	.hidden{
-	// 		font-size: 4.8vw;
-	// 	}
-	// }
+	.human_info{
+		.hidden{
+			font-size: 4.4vw;
+		}
+	}
 	// Mobile logo style----------------------
 	// Mobile Menu
 	#logo_button{
