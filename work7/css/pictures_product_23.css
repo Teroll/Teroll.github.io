@@ -1,81 +1,105 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/23_sport_nation/1.jpg")center no-repeat;
+	background: url("../img/23_elements/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/23_sport_nation/2.jpg")center no-repeat;
+	background: url("../img/23_elements/2.gif")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg3{
-	background: url("../img/23_sport_nation/3.jpg")center no-repeat;
+	background: url("../img/23_elements/3.gif")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/23_sport_nation/4.jpg")center no-repeat;
+	background: url("../img/23_elements/4.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
+	/*Большой блок*/
+/*	width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
+}
+.bg5{
+	background: url("../img/23_elements/5.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
-.bg5{
-	background: url("../img/23_sport_nation/5.jpg")center no-repeat;
-	background-size: contain;
-	display: none!important;
-}
 .bg6{
-	background: url("../img/23_sport_nation/6.jpg")center no-repeat;
+	background: url("../img/23_elements/6.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg7{
-	background: url("../img/23_sport_nation/7.jpg")center no-repeat;
+	background: url("../img/23_elements/7.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
+	/*Большой блок*/
+/*	width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
 }
 .bg8{
-	background: url("../img/23_sport_nation/8.jpg")center no-repeat;
+	background: url("../img/23_elements/8.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg9{
-	background: url("../img/23_sport_nation/9.jpg")center no-repeat;
+	background: url("../img/23_elements/9.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg10{
-	background: url("../img/23_sport_nation/10.jpg")center no-repeat;
+	background: url("../img/23_elements/10.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg11{
-	background: url("../img/23_sport_nation/11.jpg")center no-repeat;
+	background: url("../img/23_elements/11.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg12{
-	background: url("../img/23_sport_nation/12.jpg")center no-repeat;
+	background: url("../img/23_elements/12.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
+	/*Большой блок*/
+	/*width: 100%!important;
+	height: calc(100vw - 240px)!important;*/
 }
 .bg13{
-	background: url("../img/23_sport_nation/13.jpg")center no-repeat;
+	background: url("../img/23_elements/13.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg14{
-	background: url("../img/23_sport_nation/15.jpg")center no-repeat;
+	background: url("../img/23_elements/14.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg15{
-	background: url("../img/23_sport_nation/15.jpg")center no-repeat;
+	background: url("../img/23_elements/15.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg16{
-	background: url("../img/23_sport_nation/16.jpg")center no-repeat;
+	background: url("../img/23_elements/16.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
+}
+.bg17{
+	background: url("../img/23_elements/17.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
+}
+.bg18{
+	background: url("../img/23_elements/18.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
+}
+.bg19{
+	background: url("../img/23_elements/19.jpg")center no-repeat;
+	background-size: contain;
+	/*display: none!important;*/
 }
