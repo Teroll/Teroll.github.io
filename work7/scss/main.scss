@@ -20,7 +20,7 @@ $color3: #262626;//Dark gray for windows
 $color4: #f2f2f2;//white for BG
 $color6: #000000;//black for text
 a{text-decoration: none!important;}
-button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+button:focus,a:focus,input:focus,select:focus,a:after{outline:none!important;}
 li{list-style-type: none;}
 // -------------------------------------------------------------------
 body{
@@ -186,6 +186,16 @@ img{
 	top: 21px;
 	left: 20px;
 	width: 125px;
+	&:after{
+		content: url("../img/hover_icon2.png");
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		visibility: hidden;
+	}
+	&:hover:after{
+		visibility: visible;
+	}
 }
 .buttons{
 	position: fixed;

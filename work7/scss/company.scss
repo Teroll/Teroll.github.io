@@ -325,6 +325,16 @@ img{
 	img{
 		box-shadow: 0px -5px 70px -30px #000000;
 	}
+	&:after{
+		content: url("../img/hover_icon1.png");
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		visibility: hidden;
+	}
+	&:hover:after{
+		visibility: visible;
+	}
 }
 .buttons{
 	position: fixed;
