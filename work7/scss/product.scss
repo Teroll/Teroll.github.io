@@ -65,12 +65,26 @@ img{
 	text-align: left;
 	font-size: 1.3vw;
 
+	// a{
+	// 	color: $color6;
+	// 	padding: 0 1.0vw 0 0vw;
+	// 	cursor: default;
+	// 	&:hover{
+	// 		color: $color1;
+	// 	}
+	// }
 	a{
-		color: $color6;
-		padding: 0 1.0vw 0 0vw;
+		color: $color1;
+		margin-left: -4px;
+		margin-right: 1.0vw;
+		background-color: black;
+		border-radius: 4px;
+		padding: 1px 4px 2px 4px;
+		line-height: 15px;
 		cursor: default;
+		white-space: nowrap;
 		&:hover{
-			color: $color1;
+			background-color: #323131;
 		}
 	}
 }

@@ -120,6 +120,13 @@ img{
 	p{
 		margin: 20px;
 		color: $color1;
+		span{
+			display: inline-block;
+			margin-bottom: 6px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
 	}
 }
 .show_more{
@@ -164,6 +171,7 @@ img{
 		padding: 1px 4px 2px 4px;
 		line-height: 22px;
 		cursor: default;
+		white-space: nowrap;
 		&:hover{
 			background-color: #323131;
 		}
@@ -473,7 +481,7 @@ img{
 			float: right;
 		}
 		span{
-			white-space: nowrap;
+			// white-space: nowrap;
 		}
 		.f_chld{
 			margin-bottom: 6vw;
@@ -491,6 +499,13 @@ img{
 			font-size: 4.4vw;//15px
 			margin-bottom: 5px;
 			margin-top: 5px;
+			span{
+				display: inline-block;
+				margin-bottom: 4px;
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
 			a{
 				text-decoration: underline!important;
 				color: $color1;
