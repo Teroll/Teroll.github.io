@@ -77,10 +77,12 @@ img{
 		color: $color1;
 		margin-left: -4px;
 		margin-right: 1.0vw;
+		display: inline-block;
+		margin-bottom: 3px;
 		background-color: black;
 		border-radius: 4px;
 		padding: 1px 4px 2px 4px;
-		line-height: 15px;
+		// line-height: 15px;
 		cursor: default;
 		white-space: nowrap;
 		&:hover{
