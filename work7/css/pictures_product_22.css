@@ -1,6 +1,6 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/22_spar/1.jpg")center no-repeat;
+	background: url("../img/22_spar/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -15,7 +15,7 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/22_spar/4.jpg")center no-repeat;
+	background: url("../img/22_spar/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
