@@ -25,8 +25,15 @@
 	/*display: none!important;*/
 }
 .bg6{
-	background: url("../img/26_almega/6.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/26_almega/6.jpg") 0 0 no-repeat,
+	url("../img/26_almega/8.jpg") 100% 0 no-repeat,
+	url("../img/26_almega/11.jpg") 0 100% no-repeat,
+	url("../img/26_almega/12.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
+
+	/*background: url("../img/26_almega/6.jpg")center no-repeat;
+	background-size: contain;*/
 	/*display: none!important;*/
 }
 .bg7{
@@ -37,7 +44,7 @@
 .bg8{
 	background: url("../img/26_almega/8.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg9{
 	background: url("../img/26_almega/9.jpg")center no-repeat;

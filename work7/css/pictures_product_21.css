@@ -15,24 +15,31 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/21_serdce_goroda/4.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/21_serdce_goroda/4.jpg") 0 0 no-repeat,
+	url("../img/21_serdce_goroda/5.jpg") 100% 0 no-repeat,
+	url("../img/21_serdce_goroda/6.jpg") 0 100% no-repeat,
+	url("../img/21_serdce_goroda/7.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
+
+	/*background: url("../img/21_serdce_goroda/4.jpg")center no-repeat;
+	background-size: contain;*/
 	/*display: none!important;*/
 }
 .bg5{
 	background: url("../img/21_serdce_goroda/5.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg6{
 	background: url("../img/21_serdce_goroda/6.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg7{
 	background: url("../img/21_serdce_goroda/7.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg8{
 	background: url("../img/21_serdce_goroda/8.jpg")center no-repeat;

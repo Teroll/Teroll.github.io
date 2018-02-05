@@ -1,28 +1,35 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/14_HappyVarenniki/1.jpg")center no-repeat;
+	background: url("../img/14_HappyVarenniki/10.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/14_HappyVarenniki/2.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/14_HappyVarenniki/2.jpg") 0 0 no-repeat,
+	url("../img/14_HappyVarenniki/3.jpg") 100% 0 no-repeat,
+	url("../img/14_HappyVarenniki/4.jpg") 0 100% no-repeat,
+	url("../img/14_HappyVarenniki/5.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
+
+	/*background: url("../img/14_HappyVarenniki/2.jpg")center no-repeat;
+	background-size: contain;*/
 	/*display: none!important;*/
 }
 .bg3{
 	background: url("../img/14_HappyVarenniki/3.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg4{
 	background: url("../img/14_HappyVarenniki/4.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg5{
 	background: url("../img/14_HappyVarenniki/5.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg6{
 	background: url("../img/14_HappyVarenniki/6.jpg")center no-repeat;
@@ -32,22 +39,22 @@
 .bg7{
 	background: url("../img/14_HappyVarenniki/1.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg8{
-	background: url("../img/14_HappyVarenniki/1.jpg")center no-repeat;
+	background: url("../img/14_HappyVarenniki/9.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg9{
-	background: url("../img/14_HappyVarenniki/1.jpg")center no-repeat;
+	background: url("../img/14_HappyVarenniki/8.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg10{
-	background: url("../img/14_HappyVarenniki/2.jpg")center no-repeat;
+	background: url("../img/14_HappyVarenniki/7.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg11{
 	background: url("../img/14_HappyVarenniki/3.jpg")center no-repeat;

@@ -15,12 +15,12 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/29_HarbourSpace/4.jpg")center no-repeat;
+	background: url("../img/29_HarbourSpace/5.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/29_HarbourSpace/5.jpg")center no-repeat;
+	background: url("../img/29_HarbourSpace/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -30,32 +30,39 @@
 	/*display: none!important;*/
 }
 .bg7{
-	background: url("../img/29_HarbourSpace/7.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/29_HarbourSpace/7.jpg") 0 0 no-repeat,
+	url("../img/29_HarbourSpace/8.jpg") 100% 0 no-repeat,
+	url("../img/29_HarbourSpace/9.jpg") 0 100% no-repeat,
+	url("../img/29_HarbourSpace/10.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
+
+	/*background: url("../img/29_HarbourSpace/7.jpg")center no-repeat;
+	background-size: contain;*/
 	/*display: none!important;*/
 }
 .bg8{
 	background: url("../img/29_HarbourSpace/8.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg9{
 	background: url("../img/29_HarbourSpace/9.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg10{
 	background: url("../img/29_HarbourSpace/10.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg11{
-	background: url("../img/29_HarbourSpace/11.jpg")center no-repeat;
+	background: url("../img/29_HarbourSpace/12.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg12{
-	background: url("../img/29_HarbourSpace/12.jpg")center no-repeat;
+	background: url("../img/29_HarbourSpace/11.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -65,17 +72,29 @@
 	/*display: none!important;*/
 }
 .bg14{
-	background: url("../img/29_HarbourSpace/15.jpg")center no-repeat;
-	background-size: contain;
+	background: 
+	url("../img/29_HarbourSpace/14.jpg") 0 0 no-repeat,
+	url("../img/29_HarbourSpace/15.jpg") 100% 0 no-repeat,
+	url("../img/29_HarbourSpace/16.jpg") 0 100% no-repeat,
+	url("../img/29_HarbourSpace/17.jpg") 100% 100% no-repeat;
+	background-size: calc(50% - 4px) calc(50% - 4px);
+
+	/*background: url("../img/29_HarbourSpace/14.jpg")center no-repeat;
+	background-size: contain;*/
 	/*display: none!important;*/
 }
 .bg15{
 	background: url("../img/29_HarbourSpace/15.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg16{
 	background: url("../img/29_HarbourSpace/16.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
+}
+.bg17{
+	background: url("../img/29_HarbourSpace/17.jpg")center no-repeat;
+	background-size: contain;
+	display: none!important;
 }

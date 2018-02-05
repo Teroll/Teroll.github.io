@@ -1,16 +1,16 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/4_Sportline/1.jpg")center no-repeat;
+	background: url("../img/4_Sportline/5.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/4_Sportline/2.jpg")center no-repeat;
+	background: url("../img/4_Sportline/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg3{
-	background: url("../img/4_Sportline/3.jpg")center no-repeat;
+	background: url("../img/4_Sportline/2.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -20,7 +20,7 @@
 	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/4_Sportline/5.jpg")center no-repeat;
+	background: url("../img/4_Sportline/3.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -74,12 +74,12 @@
 	/*display: none!important;*/
 }
 .bg15{
-	background: url("../img/4_Sportline/15.jpg")center no-repeat;
+	background: url("../img/4_Sportline/16.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg16{
-	background: url("../img/4_Sportline/16.jpg")center no-repeat;
+	background: url("../img/4_Sportline/15.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }

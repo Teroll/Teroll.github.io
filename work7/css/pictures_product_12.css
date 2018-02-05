@@ -1,11 +1,11 @@
 /*Для отображения дополнительных блоков: добавить "/* " к строке "display: none!important;"*/
 .bg1{
-	background: url("../img/12_ Acea/1.jpg")center no-repeat;
+	background: url("../img/12_ Acea/2.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg2{
-	background: url("../img/12_ Acea/2.jpg")center no-repeat;
+	background: url("../img/12_ Acea/1.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
@@ -15,12 +15,12 @@
 	/*display: none!important;*/
 }
 .bg4{
-	background: url("../img/12_ Acea/4.jpg")center no-repeat;
+	background: url("../img/12_ Acea/5.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }
 .bg5{
-	background: url("../img/12_ Acea/5.jpg")center no-repeat;
+	background: url("../img/12_ Acea/4.jpg")center no-repeat;
 	background-size: contain;
 	/*display: none!important;*/
 }

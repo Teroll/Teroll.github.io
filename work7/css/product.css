@@ -98,7 +98,7 @@ img {
   top: 165px;
   left: 20px;
   width: 125px;
-  height: calc(100vh - 165px - 96px - 30px);
+  height: calc(100vh - 165px - 96px - 30px - 100px);
   text-align: center;
 }
 

@@ -37,7 +37,7 @@
 .bg8{
 	background: url("../img/7_Merindinka/8.jpg")center no-repeat;
 	background-size: contain;
-	/*display: none!important;*/
+	display: none!important;
 }
 .bg9{
 	background: url("../img/7_Merindinka/1.jpg")center no-repeat;
