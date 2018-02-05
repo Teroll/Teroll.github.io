@@ -355,7 +355,7 @@ img{
 	span{
 		color: $color6;
 		font-size: 13px;
-		margin-top: 15px;
+		margin-top: 10px;
 		display: block;
 		a{
 			border: none;
@@ -365,6 +365,7 @@ img{
 			display: inline-block;
 			font-size: 13px;
 			padding-top: 0;
+			padding-bottom: 0;
 			width: auto;
 			&:hover{
 				color: #b3b2b2;
@@ -401,7 +402,7 @@ img{
 	}
 }
 @media (min-width: 1025px) {
-	.content_mobile{
+	.content_mobile,.but_tab{
 		display: none!important;
 	}
 }
@@ -412,8 +413,8 @@ img{
 	textarea{
 		font-size: 1.0vw;
 	}
-	.content{
-		display: none;
+	.content,.but_lap{
+		display: none!important;
 	}
 	.box_xs{
 		width: calc(100% / 3);//33%Ширина Боксов
@@ -805,3 +806,10 @@ img{
 .pointer_off{
 	cursor: default;
 }
+// .body{
+// 	position: relative;
+// }
+// #link{
+// 	position: absolute;
+// 	top: 500vh;
+// }

@@ -131,6 +131,27 @@ img{
 			border: 2px solid #b3b2b2;
 		}
 	}
+	span{
+		color: $color1;
+		font-size: 13px;
+		margin-top: 10px;
+		display: block;
+		a{
+			border: none;
+			text-decoration: underline!important;
+			text-align: left;
+			margin-top: 0;
+			display: inline-block;
+			font-size: 13px;
+			padding-top: 0;
+			padding-bottom: 0;
+			width: auto;
+			&:hover{
+				color: #b3b2b2;
+				border: none;
+			}
+		}
+	}
 }
 // Header END----------------------------------------------
 // Tablet style----------------------------------------------
@@ -181,6 +202,12 @@ img{
 		a{
 			width: 180px;
 		}
+		span{
+			font-size: 16px;
+			a{
+				font-size: 16px;
+			}
+		}
 	}
 }
 @media (max-width: 1359px) {
@@ -193,6 +220,17 @@ img{
 		height: calc(100vw - 185px)!important;
 	}
 }
+@media (min-width: 1025px) {
+	.but_tab{
+		display: none!important;
+	}
+}
+@media (max-width: 1024px) {
+	.but_lap{
+		display: none!important;
+	}
+}
+	
 @media (max-width: 1201px) {
 	.text_box{
 		font-size: 1.5vw;
