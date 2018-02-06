@@ -22,7 +22,7 @@
 .bg5{
 	background: url("../img/16_Chyrilovo/5.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg6{
 	background: url("../img/16_Chyrilovo/6.jpg")center no-repeat;

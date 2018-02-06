@@ -508,7 +508,7 @@ img{
 		}
 	}
 	.company_form{
-		padding: 6vw;
+		padding: 20px;//6vw
 		// font-size: 2.3vw;
 		input{
 			width: 100%;
@@ -565,10 +565,16 @@ img{
 	align-content: stretch;
 }
 //Mobile style---------------------------------------------------
-.logo_mobile{
+.logo_mobile,.tel_mob{
 	display: none;
 }
 @media (max-width: 500px) {
+	.tel_mob{
+		display: inline-block;
+	}
+	.tel_lap{
+		display: none;
+	}
 	body,button,input{
 		background-color: $color4;
 		padding: 0;
@@ -628,6 +634,10 @@ img{
 		width: 100vw;
 		top: 0;
 		left: 0px;
+		a{
+			color: $color1;
+			text-decoration: underline!important;
+		}
 	}
 	.company_form{
 		// padding-left: 35px;
@@ -703,7 +713,7 @@ img{
 		width: 100%;
 		z-index: 119;
 		// background-color: transparent!important;
-		visibility: hidden;
+		// visibility: hidden;
 		#logo_button{
 			visibility: visible;
 			display: block;
@@ -717,7 +727,7 @@ img{
 	}
 	.logo_mobile_open{
 		visibility: hidden!important;
-		background-color: transparent!important;
+		// background-color: transparent!important;
 	}
 	.logo_mobile_compact{
 		background-color:$color1!important;
