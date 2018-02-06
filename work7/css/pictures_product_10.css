@@ -37,17 +37,17 @@
 .bg8{
 	background: url("../img/10_mezen/8.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg9{
 	background: url("../img/10_mezen/9.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg10{
 	background: url("../img/10_mezen/10.jpg")center no-repeat;
 	background-size: contain;
-	display: none!important;
+	/*display: none!important;*/
 }
 .bg11{
 	background: url("../img/10_mezen/11.jpg")center no-repeat;
