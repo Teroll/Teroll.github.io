@@ -342,7 +342,7 @@ img {
   /* line 308, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box {
     font-size: 4.3vw;
-    padding: 20px;
+    padding: 21px;
   }
   /* line 312, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box b {
@@ -359,7 +359,7 @@ img {
     content: "";
     position: absolute;
     height: 1.5em;
-    bottom: -2px;
+    bottom: -3px;
     left: 0;
     width: 100%;
     z-index: 5;
