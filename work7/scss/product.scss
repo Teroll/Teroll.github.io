@@ -99,6 +99,7 @@ img{
 		// line-height: 15px;
 		cursor: default;
 		white-space: nowrap;
+		transition: .3s linear;
 		&:hover{
 			background-color: #323131;
 		}
@@ -124,7 +125,8 @@ img{
 		display: block;
 		height: 100%;
 		&:hover img{
-			width: 65px;
+			// width: 65px;
+			transform: scale(1.05);
 		}
 	}
 	img{
@@ -547,3 +549,6 @@ img{
 	visibility: visible!important;
 }
 // Show more pages -----------------------
+// a{
+// 	transition: .3s linear;
+// }

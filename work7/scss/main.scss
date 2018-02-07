@@ -172,6 +172,7 @@ img{
 		line-height: 22px;
 		cursor: default;
 		white-space: nowrap;
+		transition: .3s linear;
 		&:hover{
 			background-color: #323131;
 		}
@@ -551,3 +552,6 @@ img{
 #page2{
 	margin-top: -15px;
 }
+// a{
+// 	transition: .3s linear;
+// }
