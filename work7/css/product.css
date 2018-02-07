@@ -54,6 +54,13 @@ img {
 }
 
 /* line 47, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+.text_box .shadow {
+  height: calc(100% - 4em);
+  width: 100%;
+  position: relative;
+}
+
+/* line 52, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .text_box p {
   color: #ffffff;
   text-align: left;
@@ -64,13 +71,14 @@ img {
   overflow: hidden;
 }
 
-/* line 60, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 65, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .text_box p b {
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
-/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 73, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .tags {
   text-align: left;
   font-size: 1.3vw;
@@ -78,7 +86,7 @@ img {
   padding-top: 2px;
 }
 
-/* line 83, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 89, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .tags a {
   color: #ffffff;
   margin-right: 1.0vw;
@@ -92,12 +100,12 @@ img {
   white-space: nowrap;
 }
 
-/* line 96, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 102, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .tags a:hover {
   background-color: #323131;
 }
 
-/* line 103, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .logo {
   position: fixed;
   top: 21px;
@@ -105,7 +113,7 @@ img {
   width: 125px;
 }
 
-/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 115, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .back_arrow {
   position: fixed;
   top: 165px;
@@ -115,18 +123,18 @@ img {
   text-align: center;
 }
 
-/* line 116, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 122, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .back_arrow a {
   display: block;
   height: 100%;
 }
 
-/* line 120, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 126, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .back_arrow a:hover img {
   width: 65px;
 }
 
-/* line 124, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 130, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .back_arrow img {
   width: 60px;
   margin-top: 50px;
@@ -136,19 +144,19 @@ img {
   -o-transition: all 0.3s ease-out;
 }
 
-/* line 133, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 139, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons {
   position: fixed;
   bottom: 20px;
   left: -20px;
 }
 
-/* line 137, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 143, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons ul {
   margin: 0;
 }
 
-/* line 140, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 146, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons a {
   color: #ffffff;
   display: block;
@@ -163,13 +171,13 @@ img {
   font-size: 15px;
 }
 
-/* line 154, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 160, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons a:hover {
   color: #b3b2b2;
   border: 2px solid #b3b2b2;
 }
 
-/* line 159, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 165, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons span {
   color: #ffffff;
   font-size: 13px;
@@ -177,7 +185,7 @@ img {
   display: block;
 }
 
-/* line 164, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 170, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons span a {
   border: none;
   text-decoration: underline !important;
@@ -190,13 +198,13 @@ img {
   width: auto;
 }
 
-/* line 174, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 180, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .buttons span a:hover {
   color: #b3b2b2;
   border: none;
 }
 
-/* line 183, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 189, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .content_mobile {
   width: calc(100vw - 185px);
   min-height: 90vh;
@@ -207,7 +215,7 @@ img {
   align-content: flex-start;
 }
 
-/* line 192, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 198, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .box_xs {
   width: 50%;
   height: calc(50vw - 120px);
@@ -220,54 +228,54 @@ img {
   border-radius: 7px;
 }
 
-/* line 204, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 210, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .box_xl {
   width: 100% !important;
   height: calc(100vw - 240px) !important;
 }
 
-/* line 210, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 216, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .logo_mobile {
   display: none;
 }
 
 @media (min-width: 1360px) {
-  /* line 215, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 221, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo {
     width: 180px;
   }
-  /* line 218, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 224, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .back_arrow {
     left: 20px;
     top: 220px;
     width: 180px;
     height: calc(100vh - 220px - 96px - 30px);
   }
-  /* line 224, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 230, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .content_mobile {
     width: calc(100vw - 240px);
   }
-  /* line 228, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 234, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .buttons a {
     width: 180px;
   }
-  /* line 231, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 237, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .buttons span {
     font-size: 16px;
   }
-  /* line 233, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 239, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .buttons span a {
     font-size: 16px;
   }
 }
 
 @media (max-width: 1359px) {
-  /* line 240, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 246, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .box_xs {
     width: 50%;
     height: calc(50vw - 92.5px);
   }
-  /* line 244, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 250, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .box_xl {
     width: 100% !important;
     height: calc(100vw - 185px) !important;
@@ -275,40 +283,40 @@ img {
 }
 
 @media (min-width: 1025px) {
-  /* line 250, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 256, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .but_tab {
     display: none !important;
   }
 }
 
 @media (max-width: 1024px) {
-  /* line 255, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 261, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .but_lap {
     display: none !important;
   }
 }
 
 @media (max-width: 1201px) {
-  /* line 261, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 267, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box {
     font-size: 1.5vw;
   }
 }
 
 @media (max-width: 680px) {
-  /* line 267, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 273, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .bg1 {
     order: 0;
   }
-  /* line 270, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 276, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9, .bg10, .bg11, .bg12, .bg13, .bg14, .bg15, .bg16, .bg17, .bg18, .bg19, .text_box {
     order: 1;
   }
-  /* line 273, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 279, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   body {
     padding: 0;
   }
-  /* line 277, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 283, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .shadow1:before {
     content: "";
     position: absolute;
@@ -319,7 +327,7 @@ img {
     z-index: 5;
     background: linear-gradient(to bottom, #262626 0%, rgba(38, 38, 38, 0) 100%);
   }
-  /* line 289, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 295, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .shadow2:after {
     content: "";
     position: absolute;
@@ -330,18 +338,33 @@ img {
     z-index: 5;
     background: linear-gradient(to top, #262626 0%, rgba(38, 38, 38, 0) 100%);
   }
-  /* line 300, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 306, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box {
     font-size: 4.3vw;
     padding: 20px;
   }
-  /* line 304, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 310, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  .text_box b {
+    display: none !important;
+  }
+  /* line 313, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box .shadow {
     height: calc(17.0em + 0px);
     width: 100%;
     position: relative;
   }
-  /* line 329, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 317, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  .text_box .shadow:after {
+    content: "";
+    position: absolute;
+    height: 1.5em;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to top, #262626 0%, rgba(38, 38, 38, 0) 100%);
+  }
+  /* line 328, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .text_box p {
     display: block;
     height: 17em;
@@ -349,7 +372,7 @@ img {
     overflow: scroll;
     position: relative;
   }
-  /* line 351, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 336, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .tags {
     font-size: 3.5vw;
     overflow: hidden;
@@ -357,12 +380,12 @@ img {
     width: 100%;
     height: calc(3.5vw*2 + 7px*2);
   }
-  /* line 358, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 343, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .content_mobile {
     width: calc(100vw - 0px);
     padding-bottom: 0;
   }
-  /* line 362, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 347, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .box_xs {
     width: 100%;
     height: calc(100vw - 2px);
@@ -370,16 +393,16 @@ img {
     text-align: center;
     border-radius: 0px;
   }
-  /* line 369, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 354, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .box_xl {
     width: 100% !important;
     height: calc(100vw - 0px) !important;
   }
-  /* line 373, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 358, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .hide_mobile {
     display: none;
   }
-  /* line 388, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 373, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo_button {
     display: none;
     background-color: #1a1a1a;
@@ -390,12 +413,12 @@ img {
     height: 115px;
     z-index: 300;
   }
-  /* line 398, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 383, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo_button img {
     margin-top: 6vw;
     margin-left: 7px;
   }
-  /* line 403, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 388, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo_cross {
     position: absolute;
     top: 6vw;
@@ -403,22 +426,22 @@ img {
     z-index: 300;
     visibility: hidden;
   }
-  /* line 409, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 394, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo_cross img {
     width: 40px;
     height: 40px;
   }
-  /* line 414, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 399, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo {
     position: absolute;
     top: 6vw;
     left: 6vw;
   }
-  /* line 418, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 403, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   #logo img {
     margin-left: 7px;
   }
-  /* line 422, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 407, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .fixedattop {
     position: fixed;
     top: 0px;
@@ -427,31 +450,31 @@ img {
     z-index: 119;
     visibility: hidden;
   }
-  /* line 430, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 415, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .fixedattop #logo_button {
     visibility: visible;
     display: block;
   }
-  /* line 434, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 419, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .fixedattop #logo {
     visibility: hidden;
   }
-  /* line 437, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 422, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .fixedattop p, .fixedattop h1 {
     visibility: hidden;
   }
-  /* line 442, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 427, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_open {
     visibility: hidden !important;
     background-color: transparent !important;
   }
-  /* line 446, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 431, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_compact {
     background-color: #1a1a1a !important;
     box-shadow: 0px 2px 20px 0px #000000;
     visibility: visible;
   }
-  /* line 450, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 435, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_compact:after {
     content: '';
     display: block;
@@ -463,95 +486,95 @@ img {
     background: rgba(0, 0, 0, 0.5);
     z-index: 104;
   }
-  /* line 461, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 446, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_compact h1 {
     visibility: visible !important;
   }
-  /* line 466, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 451, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile_compact #logo_cross {
     visibility: visible;
   }
-  /* line 470, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 455, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile {
     display: block;
     height: calc(100vw - 0px);
     padding: 8vw 20px 8vw 6vw;
     box-sizing: border-box;
   }
-  /* line 476, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 461, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile .content_mobile {
     float: right;
   }
-  /* line 479, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 464, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile h1 {
     color: #ffffff;
     font-size: 8.0vw;
     margin-top: 20vw;
     text-transform: uppercase;
   }
-  /* line 485, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 470, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile p {
     visibility: hidden;
   }
-  /* line 488, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 473, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile span {
     white-space: nowrap;
   }
-  /* line 491, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 476, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile .f_chld {
     margin-bottom: 11.2vw;
     margin-top: 20px;
   }
-  /* line 495, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 480, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile .mtop {
     display: inline-block;
     margin-top: 5px;
   }
-  /* line 499, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 484, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile img {
     width: 100px;
   }
-  /* line 502, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 487, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile p {
     color: #ffffff;
     font-size: 15px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
-  /* line 507, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 492, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile p a {
     text-decoration: underline !important;
     color: #ffffff;
   }
-  /* line 510, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 495, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile p a:hover {
     color: #d9d9d9;
   }
 }
 
 @media (max-width: 360px) {
-  /* line 518, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 503, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile {
     padding: 5vw 10px 8vw 6vw;
   }
-  /* line 520, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+  /* line 505, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
   .logo_mobile .f_chld {
     margin-bottom: 10px;
     margin-top: 10px;
   }
 }
 
-/* line 528, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 513, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team {
   display: block;
 }
 
-/* line 530, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 515, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team .tags {
   display: block;
 }
 
-/* line 535, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 520, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team .names {
   width: 100%;
   height: calc(100% - 32px);
@@ -561,7 +584,7 @@ img {
   align-content: flex-start;
 }
 
-/* line 543, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 528, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .product_team .names div {
   width: 45%;
   margin: 1vw 4% 1vw 0%;
@@ -569,22 +592,22 @@ img {
   color: #ffffff;
 }
 
-/* line 552, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 537, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .hide_page {
   display: none;
 }
 
-/* line 555, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 540, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .show_page {
   display: block;
 }
 
-/* line 558, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 543, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .hide {
   visibility: hidden !important;
 }
 
-/* line 561, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
+/* line 546, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
 .show {
   visibility: visible !important;
 }
