@@ -199,6 +199,7 @@ img{
 	display:flex;
 	text-align: center;
 	align-content: stretch;
+	border-radius: 7px;
 }
 .box_xl{
 	width: 100%!important;
@@ -272,38 +273,62 @@ img{
 	body{
 		padding: 0;
 	}
+	.shadow1{
+		&:before{
+			content: "";
+			position: absolute;
+			height: 1.5em;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 5;
+			background: linear-gradient(to bottom,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
+		}
+	}
+	.shadow2{
+		&:after{
+			content: "";
+			position: absolute;
+			height: 1.5em;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			z-index: 5;
+			background: linear-gradient(to top,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
+		}
+	}
 	.text_box{
 		font-size: 4.3vw;
 		padding: 20px;
 		// padding-left: 35px;
 		.shadow{
-			height: calc(100% - (3.5vw*2 + 7px*2) - 4.3vw);
+			height: calc(17.0em + 0px);//calc(100% - (3.5vw*2 + 7px*2) - 4.3vw);
 			width: 100%;
 			position: relative;
-			&:after{
-				content: "";
-				position: absolute;
-				height: 20px;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				z-index: 5;
-				background: linear-gradient(to top,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
-			}
-			&:before{
-				content: "";
-				position: absolute;
-				height: 7px;
-				top: 0;
-				left: 0;
-				width: 100%;
-				z-index: 5;
-				background: linear-gradient(to bottom,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
-			}
+			// &:after{
+			// 	content: "";
+			// 	position: absolute;
+			// 	height: 1.5em;
+			// 	bottom: 0;
+			// 	left: 0;
+			// 	width: 100%;
+			// 	z-index: 5;
+			// 	background: linear-gradient(to top,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
+			// }
+			// &:before{
+			// 	content: "";
+			// 	position: absolute;
+			// 	height: 1.5em;
+			// 	top: 0;
+			// 	left: 0;
+			// 	width: 100%;
+			// 	z-index: 5;
+			// 	background: linear-gradient(to bottom,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
+			// }
 		}
 		p{
 			display: block;
-			height: 16em;
+			height: 17em;
 			width: 100%;
 			overflow: scroll;
 			// padding-bottom: 5px;
@@ -339,6 +364,7 @@ img{
 		height: calc(100vw - 2px);//Высота строки
 		border: none;
 		text-align: center;
+		border-radius: 0px;
 	}
 		.box_xl{
 		width: 100%!important;

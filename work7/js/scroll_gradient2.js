@@ -1,0 +1,15 @@
+$('#target').scroll(function(){
+  var elem = $('#target');
+        if (elem.scrollTop() - elem.Height() === 0) {
+            $('.shadow').removeClass('shadow2');
+        } 
+        else {
+            $('.shadow').addClass('shadow2');
+        }
+    })
+
+// $('#target').animate({scrollTop: $('#target')[0].scrollHeight});
+// var elem = $('#target');
+// if (elem[0].scrollHeight - elem.scrollTop() == elem.outerHeight()) {
+//   // We're at the bottom.
+// }
