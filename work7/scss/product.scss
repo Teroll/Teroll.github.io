@@ -48,8 +48,14 @@ img{
 		color: $color1;
 		text-align: left;
 		margin: 0;
+		display: block;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		// text-overflow:ellipsis;
 		// margin-left: 10px;
 		// margin-right: 10px;
+
 
 		b{
 			// margin-bottom: 1.4vw;
@@ -64,7 +70,8 @@ img{
 	// justify-content:space-around;
 	text-align: left;
 	font-size: 1.3vw;
-
+	z-index: 5;
+	padding-top: 2px;
 	// a{
 	// 	color: $color6;
 	// 	padding: 0 1.0vw 0 0vw;
@@ -75,7 +82,7 @@ img{
 	// }
 	a{
 		color: $color1;
-		margin-left: -4px;
+		// margin-left: -4px;
 		margin-right: 1.0vw;
 		display: inline-block;
 		margin-bottom: 3px;
@@ -269,9 +276,54 @@ img{
 		font-size: 4.3vw;
 		padding: 20px;
 		// padding-left: 35px;
+		.shadow{
+			height: calc(100% - (3.5vw*2 + 6px*2) - 0px);
+			width: 100%;
+			position: relative;
+			 // background: linear-gradient(to top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.0) 5%,rgba(255,255,255,0) 16%);
+			// -webkit-box-shadow: inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
+			// -moz-box-shadow:    inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
+			// box-shadow:         inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
+			// box-shadow:inset 0px -190px 190px -50px black;
+			// z-index: 33;
+			&:after{
+				content: "";
+				position: absolute;
+				height: 7px;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				z-index: 5;
+				background: linear-gradient(to top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.0) 100%,rgba(255,255,255,0) 16%);
+			}
+		}
+		p{
+			display: block;
+			height: 100%;
+			width: 100%;
+			overflow: scroll;
+			// padding-bottom: 5px;
+			// z-index: 2;
+			position:relative;
+			// z-index:-1;
+			// &:after{
+			// 	content: "";
+			// 	position: absolute;
+			// 	height: 10%;
+			// 	bottom: 0;
+			// 	left: 0;
+			// 	width: 100%;
+			// 	z-index: 5;
+			// 	background: linear-gradient(to top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.0) 100%,rgba(255,255,255,0) 16%);
+			// }
+		}
 	}
 	.tags{
 		font-size: 3.5vw;
+		overflow: hidden;
+		display: block;
+		width: 100%;
+		height: calc(3.5vw*2 + 6px*2);
 	}
 	.content_mobile{
 		width: calc(100vw - 0px);// Отступ контейнера от хедера
@@ -397,6 +449,7 @@ img{
 			color: $color1;
 			font-size: 8.0vw;
 			margin-top: 20vw;
+			text-transform: uppercase;
 		}
 		p{
 			visibility: hidden;
@@ -458,7 +511,7 @@ img{
 
 		div{
 			width: 45%;
-			margin: 1vw 1vw 1vw 0%; 
+			margin: 1vw 4% 1vw 0%; 
 			text-align: left;
 			color: $color1;
 		}

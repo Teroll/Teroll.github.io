@@ -1,0 +1,31 @@
+// @font-face {
+// // название шрифта
+// font-family: "PFDasGroteskPro-Regular"; 
+// // адрес шрифта
+// src: url("../fonts/PFDasGroteskPro-Regular.otf") format("truetype"); 
+// font-style: normal; 
+// font-weight: normal; 
+// } 
+// @font-face {
+// название шрифта
+// font-family: "PFDasGroteskPro-Regular"; 
+// // адрес шрифта
+// src: url("../fonts/PFDasGroteskPro-Bold.otf") format("truetype"); 
+// font-style: normal; 
+// font-weight: bold; 
+// } 
+$color1: #ffffff;//white for text
+$color2: #1a1a1a;//Black for BG
+$color3: #262626;//Dark gray for windows
+$color4: #f2f2f2;//white for BG
+$color6: #000000;//black for text
+a{text-decoration: none!important;}
+button:focus,a:focus,input:focus,select:focus,a:after{outline:none!important;}
+li{list-style-type: none;}
+// ---------------------------------------------------------------------------
+body{
+	background-color: gray;
+}
+.navbar_old{
+	display: none;
+}

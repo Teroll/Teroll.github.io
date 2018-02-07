@@ -1,0 +1,14 @@
+a {
+  text-decoration: none !important; }
+
+button:focus, a:focus, input:focus, select:focus, a:after {
+  outline: none !important; }
+
+li {
+  list-style-type: none; }
+
+body {
+  background-color: gray; }
+
+.navbar_old {
+  display: none; }
