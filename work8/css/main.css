@@ -8,7 +8,13 @@ li {
   list-style-type: none; }
 
 body {
-  background-color: gray; }
+  background-color: #ffffff; }
+
+h2 {
+  font-size: 52px; }
+
+h5 {
+  font-size: 16px; }
 
 header {
   min-height: 120px; }
@@ -66,3 +72,108 @@ nav {
 .our_advantage {
   min-height: 680px;
   text-align: center; }
+
+.about_us {
+  background-color: gray;
+  min-height: 550px;
+  text-align: center; }
+
+.fotoshoots {
+  min-height: 1400px;
+  text-align: center; }
+  .fotoshoots .col-md-4 {
+    height: 310px; }
+    .fotoshoots .col-md-4 img {
+      width: 100%; }
+  .fotoshoots .text_a a {
+    height: 130px;
+    width: 70%;
+    background-color: #ffffff;
+    position: relative;
+    top: -90px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    color: #080425;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30%; }
+    .fotoshoots .text_a a:hover {
+      color: #d39500; }
+  .fotoshoots .foto_place {
+    width: 100%;
+    height: 230px; }
+  .fotoshoots .button_arrow {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin-left: calc(30% - 45px);
+    top: 0px;
+    background: url("../img/button.jpg"); }
+    .fotoshoots .button_arrow:hover {
+      background: url("../img/button_hover.jpg"); }
+
+.our_rooms {
+  min-height: 680px;
+  text-align: center; }
+  .our_rooms .buttons div {
+    padding: 0; }
+  .our_rooms .buttons .button_1 {
+    background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
+    background-color: #fab91e; }
+    .our_rooms .buttons .button_1:hover {
+      background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+      background-color: #d39500; }
+  .our_rooms .buttons .button_2 {
+    background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
+    background-color: #fab91e; }
+    .our_rooms .buttons .button_2:hover {
+      background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+      background-color: #d39500; }
+  .our_rooms .buttons a {
+    width: 100%;
+    height: 140px;
+    display: block;
+    padding: 30px 0 0 4vw;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #080425; }
+
+footer {
+  min-height: 150px; }
+  footer .col-sm-4 {
+    height: 100%; }
+  footer .icon_phone {
+    position: relative; }
+    footer .icon_phone:before {
+      content: url("../img/icon_phone.png");
+      position: absolute;
+      left: -20px;
+      top: 10px; }
+  footer .icon_marker {
+    position: relative; }
+    footer .icon_marker:before {
+      content: url("../img/icon_marker.png");
+      position: absolute;
+      left: -20px;
+      top: 10px; }
+  footer .icon_mail {
+    position: relative; }
+    footer .icon_mail:before {
+      content: url("../img/icon_mail.png");
+      position: absolute;
+      left: -25px;
+      top: 10px; }
+  footer .icon_tian {
+    position: relative; }
+    footer .icon_tian:before {
+      content: url("../img/icon_tian.png");
+      position: absolute;
+      left: -35px;
+      top: 5px; }
+  footer .icon_marker, footer .icon_phone, footer .icon_mail, footer .icon_tian, footer .tian {
+    margin-top: 40px;
+    margin-left: 20%; }
+  footer span {
+    display: block; }

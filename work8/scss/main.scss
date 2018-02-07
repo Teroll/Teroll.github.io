@@ -14,19 +14,26 @@
 // font-style: normal; 
 // font-weight: bold; 
 // } 
-$color1: #ffffff;//white for text
-$color2: #1a1a1a;//Black for BG
-$color3: #262626;//Dark gray for windows
-$color4: #f2f2f2;//white for BG
-$color6: #000000;//black for text
+$color1: #ffffff;//white for BG
+$color2: #d39500;//yellow for button hover
+$color3: #93919f;//gray for text
+$color4: #f2f2f2;//white for text
+$color5: #fab91e;//yellow for button
+$color6: #080425;//dark blue for text
 a{text-decoration: none!important;}
 button:focus,a:focus,input:focus,select:focus,a:after{outline:none!important;}
 li{list-style-type: none;}
 // ---------------------------------------------------------------------------
 body{
-	background-color: gray;
+	background-color: $color1;
 }
-// ---------------------------
+h2 {
+	font-size: 52px;
+}
+h5{
+	font-size: 16px;
+}
+// ---------------------------header
 header{
 	min-height: 120px;
 	.col-md-4{
@@ -58,7 +65,7 @@ header{
 		display: block;
 	}
 }
-// ---------------------------
+// ---------------------------nav
 nav{
 	width: 100%;
 	ul{
@@ -80,7 +87,7 @@ nav{
 		}
 	}
 }
-// ---------------------------
+// ---------------------------slider
 .slider{
 	height: 960px;
 	overflow: hidden;
@@ -96,9 +103,160 @@ nav{
 .slider_box{
 	min-height: 765px;
 }
-//---------------------------
+//---------------------------our_advantage
 .our_advantage{
 	min-height: 680px;
 	text-align: center;
 
+}
+// ----------------------------about_us
+.about_us{
+	background-color: gray;
+	min-height: 550px;
+	text-align: center;
+}
+//-----------------------------fotoshoots
+.fotoshoots{
+	min-height: 1400px;
+	text-align: center;
+	.col-md-4{
+		height: 310px;
+		img{
+			width: 100%;
+		}
+	}
+	.text_a{
+		a{
+			// display: block;
+			height: 130px;
+			width: 70%;
+			background-color: $color1;
+			position: relative;
+			// left: 30%;
+			top: -90px;
+			padding-top: 40px;
+			padding-left: 40px;
+			text-align: left;
+			color: $color6;
+			font-size: 18px;
+			font-weight: bold;
+			margin-left: 30%;
+			&:hover{
+				color: $color2;
+			}
+		}
+	}
+	.foto_place{
+		width: 100%;
+		height: 230px;
+	}
+	.button_arrow{
+		height: 45px;
+		width: 45px;
+		position: relative;
+		margin-left: calc(30% - 45px);
+		top: 0px;
+		background: url("../img/button.jpg");
+		&:hover{
+			background: url("../img/button_hover.jpg");
+		}
+	}
+}
+//------------------------------our_rooms
+.our_rooms{
+	min-height: 680px;
+	text-align: center;
+	.buttons{
+		div{
+			padding: 0;
+		}
+		.button_1{
+			background:
+			url("../img/icon_button-1.png") 75% 50%  no-repeat,
+			url("../img/icon_arrow_right.png") 55% 50%  no-repeat;
+			background-color: $color5;
+			&:hover{
+				background:
+				url("../img/icon_button-1.png") 75% 50% no-repeat,
+				url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+				background-color: $color2;
+			}
+		}
+		.button_2{
+			background:
+			url("../img/icon_button-2.png") 75% 50%  no-repeat,
+			url("../img/icon_arrow_right.png") 55% 50%  no-repeat;
+			background-color: $color5;
+			&:hover{
+				background:
+				url("../img/icon_button-2.png") 75% 50% no-repeat,
+				url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+				background-color: $color2;
+			}
+		}
+		a{
+			width: 100%;//calc(50% - 2px);
+			height: 140px;
+			display: block;
+			
+			padding: 30px 0 0 4vw;
+			text-align: left;
+			font-size: 18px;
+			font-weight: bold;
+			color: $color6;
+		}
+	}
+}
+//-------------------------------footer
+footer{
+	 min-height: 150px;
+	 .col-sm-4{
+		height: 100%;
+	}
+	.icon_phone{
+		position: relative;
+		&:before{
+			content: url("../img/icon_phone.png");
+			position: absolute;
+			left: -20px;
+			top: 10px;
+		}
+	}
+	.icon_marker{
+		position: relative;
+		&:before{
+			content: url("../img/icon_marker.png");
+			position: absolute;
+			left: -20px;
+			top: 10px;
+		}
+	}
+	.icon_mail{
+		position: relative;
+		&:before{
+			content: url("../img/icon_mail.png");
+			position: absolute;
+			left: -25px;
+			top: 10px;
+		}
+	}
+	.icon_tian{
+		position: relative;
+		&:before{
+			content: url("../img/icon_tian.png");
+			position: absolute;
+			left: -35px;
+			top: 5px;
+		}
+	}
+	.icon_marker,.icon_phone,.icon_mail,.icon_tian,.tian{
+		margin-top: 40px;
+		margin-left: 20%;
+	}
+	.tian{
+		
+	}
+	span{
+		display: block;
+	}
 }
