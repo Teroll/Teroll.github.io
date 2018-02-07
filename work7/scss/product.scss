@@ -112,6 +112,16 @@ img{
 	top: 21px;
 	left: 20px;
 	width: 125px;
+	&:after{
+		content: url("../img/hover_icon2.png");
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		visibility: hidden;
+	}
+	&:hover:after{
+		visibility: visible;
+	}
 }
 .back_arrow{
 	position: fixed;
