@@ -98,3 +98,8 @@
 	background-size: contain;
 	display: none!important;
 }
+@media (max-width: 680px) {
+	.bg7,.bg14{
+		background-size: 50%;
+	}
+}
