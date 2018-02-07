@@ -26,6 +26,79 @@ li{list-style-type: none;}
 body{
 	background-color: gray;
 }
-.navbar_old{
-	display: none;
+// ---------------------------
+header{
+	min-height: 120px;
+	.col-md-4{
+		height: 100%;
+	}
+	.icon_phone{
+		position: relative;
+		&:before{
+			content: url("../img/icon_phone.png");
+			position: absolute;
+			left: -20px;
+			top: 10px;
+		}
+	}
+	.icon_marker{
+		position: relative;
+		&:before{
+			content: url("../img/icon_marker.png");
+			position: absolute;
+			left: -20px;
+			top: 10px;
+		}
+	}
+	.icon_marker,.icon_phone{
+		margin-top: 40px;
+		margin-left: 20%;
+	}
+	span{
+		display: block;
+	}
+}
+// ---------------------------
+nav{
+	width: 100%;
+	ul{
+		margin: auto;
+	}
+	li{
+		height: 77px;
+		width: calc(100% / 6 - 4px);
+		margin-right: 0!important;
+		text-align: center;
+	}
+	a{
+		height: 100%;
+		width: 100%;
+	}
+	.submenu{
+		li{
+			width: 100%;
+		}
+	}
+}
+// ---------------------------
+.slider{
+	height: 960px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: calc(100vw - 20px);
+	img{
+		width: 100%;
+	}
+}
+.slider_box{
+	min-height: 765px;
+}
+//---------------------------
+.our_advantage{
+	min-height: 680px;
+	text-align: center;
+
 }

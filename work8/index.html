@@ -12,6 +12,7 @@
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/main.css">
 	
 </head>
@@ -20,7 +21,7 @@
 		<header>
 			<div class="row">
 				<div class="col-md-4">
-					<div>
+					<div class="icon_phone">
 						<span>телефон администратора</span>
 						<span>8 800 2000 600</span>
 					</div>
@@ -29,87 +30,92 @@
 					<img src="img/logo.png" alt="logo">
 				</div>
 				<div class="col-md-4">
-					<div>
+					<div class="icon_marker">
 						<span>адрес фотостудии</span>
 						<span>Челябинск, Худякова, 12а</span>
 					</div>
 				</div>
 			</div>
 		</header>
-		<div class="navbar">
-			<div class="row">
-				<div class="col-xs-12">
-					<ul class="topmenu">
-						<li><a href=#>О компании</a>
-							<ul class="submenu">
-								<li><a href=#>Sudmenu 1</a></li>
-								<li><a href=#>Sudmenu 1</a></li>
-								<li><a href=#>Sudmenu 1</a></li>
-							</ul>
-						</li>
-						<li><a href=#>Аренда залов</a>
-							<ul class="submenu">
-								<li><a href=#>Sudmenu 2</a></li>
-								<li><a href=#>Sudmenu 2</a></li>
-								<li><a href=#>Sudmenu 2</a></li>
-							</ul>
-						</li>
-						<li><a href=#>Фотосессии</a>
-							<ul class="submenu">
-								<li><a href=#>Sudmenu 3</a></li>
-								<li><a href=#>Sudmenu 3</a></li>
-								<li><a href=#>Sudmenu 3</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Правила</a>
-						</li>
-						<li>
-							<a href="#">Портфолио</a>
-						</li>
-						<li>
-							<a href="#">Контакты</a>
-						</li>
+		<nav class="two">
+			<ul class="topmenu">
+				<li><a href="#3">О компании<i class="fa fa-angle-down"></i></a>
+					<ul class="submenu">
+						<li><a href="#1">Item 1</a></li>
+						<li><a href="#2">Item 2</a></li>
 					</ul>
-				</div>
-			</div>
-		</div>
-	<!-- 	<div class="navbar">
-			<div class="row">
-				<div class="col-md-2 col-sm-2">О компании</div>
-				<div class="col-md-2 col-sm-2">Аренда залов</div>
-				<div class="col-md-2 col-sm-2">Фотосессии</div>
-				<div class="col-md-2 col-sm-2">Правила</div>
-				<div class="col-md-2 col-sm-2">Портфолио</div>
-				<div class="col-md-2 col-sm-2">Контакты</div>
-			</div>
-		</div> -->
-		<div class="slider fluid">
+				</li>
+				<li><a href="#">Аренда залов<i class="fa fa-angle-down"></i></a>
+					<ul class="submenu">
+						<li><a href="">Item 1</a></li>
+						<li><a href="">Item 2</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Фотосессии<i class="fa fa-angle-down"></i></a>
+					<ul class="submenu">
+						<li><a href="">Item 1</a></li>
+						<li><a href="">Item 2</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Правила</a></li>
+				<li><a href="#">Портфолио</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+		<div class="slider">
 			<img src="img/slide-1.jpg" alt="">
-			<!-- <div  class="single-slide" data-slick='{"dots": true}'>
-				<div class="sl">
-					<div class="sl_text">
-						<h1>Земельные участки<br>по доступным ценам</h1>
-						<a href="#">Узнать Подробности</a>
-					</div>
-					<img src="img/slide-1.jpg" alt="слайд1">
-				</div> -->
-			<!-- 	<div class="sl">
-					<div class="sl_text">
-						<h1>2. Земельные участки <br> по доступным ценам</h1>
-					</div>
-					<img src="img/slide-1.jpg" alt="слайд1">
-				</div>
-				<div class="sl">
-					<div class="sl_text">
-						<h1>3. Земельные участки <br> по доступным ценам</h1>
-					</div>
-					<img src="img/slide-1.jpg" alt="слайд1">
-				</div> -->
-			</div>	
+		</div>
+		<div class="slider_box">
+			<!-- заполнение пространства слайдера -->
 		</div>
 		<div class="our_advantage">
-			
+			<div class="row">
+				<h4>
+					Наши преимущества
+				</h4>
+				<h2>
+					5 причин прийти к нам
+				</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/our_advantage_icon_1.png" alt="icon">
+					<h3>Современные декорации</h3>
+					<p>
+						Мы постоянно совершенствуемся, основываясь на мировых  тенденциях, практичности и пожеланиях наших клиентов.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/our_advantage_icon_1.png" alt="icon">
+					<h3>Современные декорации</h3>
+					<p>
+						Мы постоянно совершенствуемся, основываясь на мировых  тенденциях, практичности и пожеланиях наших клиентов.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/our_advantage_icon_1.png" alt="icon">
+					<h3>Современные декорации</h3>
+					<p>
+						Мы постоянно совершенствуемся, основываясь на мировых  тенденциях, практичности и пожеланиях наших клиентов.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/our_advantage_icon_1.png" alt="icon">
+					<h3>Современные декорации</h3>
+					<p>
+						Мы постоянно совершенствуемся, основываясь на мировых  тенденциях, практичности и пожеланиях наших клиентов.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/our_advantage_icon_1.png" alt="icon">
+					<h3>Современные декорации</h3>
+					<p>
+						Мы постоянно совершенствуемся, основываясь на мировых  тенденциях, практичности и пожеланиях наших клиентов.
+					</p>
+				</div>
+			</div>
 		</div>
 		<div class="about_us">
 			
@@ -132,54 +138,6 @@
 
 
 
-
-	<div class="navbar_old">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="btn-group">
-						<!-- but 1 drop-->
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								1Dropdown
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a href="#">1Dropdown ссылка</a></li>
-								<li><a href="#">1Dropdown ссылка</a></li>
-							</ul>
-						</div>
-						<!-- but 2 drop -->
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								2Dropdown
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a href="#">2Dropdown ссылка</a></li>
-								<li><a href="#">2Dropdown ссылка</a></li>
-							</ul>
-						</div>
-						<!-- but 3 drop-->
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								3Dropdown
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a href="#">3Dropdown ссылка</a></li>
-								<li><a href="#">3Dropdown ссылка</a></li>
-							</ul>
-						</div>
-						<!-- but 4 -->
-						<button type="button" class="btn btn-default">4</button>
-						<!-- but 5 -->
-						<button type="button" class="btn btn-default">5</button>
-						<!-- but 6 -->
-						<button type="button" class="btn btn-default">5</button>
-					</div>
-				</div>
-			</div>
-		</div>
 	<!-- Scripts -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

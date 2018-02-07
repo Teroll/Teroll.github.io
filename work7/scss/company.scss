@@ -298,6 +298,11 @@ img{
 	box-sizing: border-box;
 	padding: 20px;
 	// font-size: 1.15vw;
+	span{
+		color: $color1;
+		margin-bottom: 6px;
+		display: block;
+	}
 	p{
 		color: $color1;
 		margin: 0px 0;
@@ -476,7 +481,7 @@ img{
 }
 @media (max-width: 770px) {
 	body,button,input{
-		font-size: calc(2.30vw - 4px);//calc(2.0vw - 3px) 1.4vw 
+		font-size: calc(2.20vw - 4px);//calc(2.0vw - 3px) 1.4vw 
 	}
 	textarea{
 		font-size: 1.8vw;
@@ -778,8 +783,8 @@ img{
 		p{
 			color: $color6;
 			// font-size: 4.7vw;//15px
-			margin-bottom: 5px;
-			margin-top: 5px;
+			margin-bottom: 6px;
+			margin-top: 0px;
 			a{
 				text-decoration: underline!important;
 				color: $color6;

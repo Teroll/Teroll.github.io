@@ -10,5 +10,59 @@ li {
 body {
   background-color: gray; }
 
-.navbar_old {
-  display: none; }
+header {
+  min-height: 120px; }
+  header .col-md-4 {
+    height: 100%; }
+  header .icon_phone {
+    position: relative; }
+    header .icon_phone:before {
+      content: url("../img/icon_phone.png");
+      position: absolute;
+      left: -20px;
+      top: 10px; }
+  header .icon_marker {
+    position: relative; }
+    header .icon_marker:before {
+      content: url("../img/icon_marker.png");
+      position: absolute;
+      left: -20px;
+      top: 10px; }
+  header .icon_marker, header .icon_phone {
+    margin-top: 40px;
+    margin-left: 20%; }
+  header span {
+    display: block; }
+
+nav {
+  width: 100%; }
+  nav ul {
+    margin: auto; }
+  nav li {
+    height: 77px;
+    width: calc(100% / 6 - 4px);
+    margin-right: 0 !important;
+    text-align: center; }
+  nav a {
+    height: 100%;
+    width: 100%; }
+  nav .submenu li {
+    width: 100%; }
+
+.slider {
+  height: 960px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: calc(100vw - 20px); }
+  .slider img {
+    width: 100%; }
+
+.slider_box {
+  min-height: 765px; }
+
+.our_advantage {
+  min-height: 680px;
+  text-align: center; }
