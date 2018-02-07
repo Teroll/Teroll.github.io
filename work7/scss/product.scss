@@ -277,24 +277,28 @@ img{
 		padding: 20px;
 		// padding-left: 35px;
 		.shadow{
-			height: calc(100% - (3.5vw*2 + 6px*2) - 0px);
+			height: calc(100% - (3.5vw*2 + 7px*2) - 4.3vw);
 			width: 100%;
 			position: relative;
-			 // background: linear-gradient(to top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.0) 5%,rgba(255,255,255,0) 16%);
-			// -webkit-box-shadow: inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
-			// -moz-box-shadow:    inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
-			// box-shadow:         inset 0px -10px 2px 0px rgba(0, 0, 0, 0.84);
-			// box-shadow:inset 0px -190px 190px -50px black;
-			// z-index: 33;
 			&:after{
 				content: "";
 				position: absolute;
-				height: 7px;
+				height: 20px;
 				bottom: 0;
 				left: 0;
 				width: 100%;
 				z-index: 5;
-				background: linear-gradient(to top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.0) 100%,rgba(255,255,255,0) 16%);
+				background: linear-gradient(to top,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
+			}
+			&:before{
+				content: "";
+				position: absolute;
+				height: 7px;
+				top: 0;
+				left: 0;
+				width: 100%;
+				z-index: 5;
+				background: linear-gradient(to bottom,  rgba(38,38,38,1) 0%,rgba(38,38,38,0.0) 100%);
 			}
 		}
 		p{
@@ -323,7 +327,7 @@ img{
 		overflow: hidden;
 		display: block;
 		width: 100%;
-		height: calc(3.5vw*2 + 6px*2);
+		height: calc(3.5vw*2 + 7px*2);
 	}
 	.content_mobile{
 		width: calc(100vw - 0px);// Отступ контейнера от хедера

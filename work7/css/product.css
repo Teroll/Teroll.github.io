@@ -271,19 +271,29 @@ img {
     padding: 20px;
   }
   .text_box .shadow {
-    height: calc(100% - (3.5vw*2 + 6px*2) - 0px);
+    height: calc(100% - (3.5vw*2 + 7px*2) - 4.3vw);
     width: 100%;
     position: relative;
   }
   .text_box .shadow:after {
     content: "";
     position: absolute;
-    height: 7px;
+    height: 20px;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 5;
-    background: linear-gradient(to top, black 0%, transparent 100%, rgba(255, 255, 255, 0) 16%);
+    background: linear-gradient(to top, #262626 0%, rgba(38, 38, 38, 0) 100%);
+  }
+  .text_box .shadow:before {
+    content: "";
+    position: absolute;
+    height: 7px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to bottom, #262626 0%, rgba(38, 38, 38, 0) 100%);
   }
   .text_box p {
     display: block;
@@ -297,7 +307,7 @@ img {
     overflow: hidden;
     display: block;
     width: 100%;
-    height: calc(3.5vw*2 + 6px*2);
+    height: calc(3.5vw*2 + 7px*2);
   }
   .content_mobile {
     width: calc(100vw - 0px);
