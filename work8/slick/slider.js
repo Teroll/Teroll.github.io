@@ -1,3 +1,6 @@
- $('.single-slide').slick({
-	autoplay:true,
+$(document).ready(function(){
+  $('.slider').slick({
+     
+	// autoplay:true,
   });
+});

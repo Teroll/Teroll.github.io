@@ -16,6 +16,12 @@
   font-style: normal;
   font-weight: normal; }
 
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
 a {
   text-decoration: none !important; }
 
@@ -26,7 +32,7 @@ li {
   list-style-type: none; }
 
 body {
-  background-color: #ffffff; }
+  background-color: transparent; }
 
 h2 {
   font-size: 52px; }
@@ -34,8 +40,13 @@ h2 {
 h5 {
   font-size: 16px; }
 
+a:hover {
+  color: #d39500; }
+
 header {
-  min-height: 120px; }
+  min-height: 120px;
+  position: relative;
+  z-index: 999; }
   header .col-md-4 {
     height: 100%; }
   header .icon_phone {
@@ -57,32 +68,73 @@ header {
     margin-left: 20%; }
   header span {
     display: block; }
+  header .logo {
+    text-align: center;
+    padding-top: 10px; }
 
 nav {
-  width: 100%; }
+  width: 100%;
+  z-index: 999;
+  position: relative; }
   nav ul {
-    margin: auto; }
+    margin: auto;
+    background-color: #080425; }
+  nav .arrow_down:after {
+    content: url("../img/icon_arrow_down.png");
+    position: absolute;
+    right: 20px;
+    top: 22px; }
   nav li {
     height: 77px;
     width: calc(100% / 6 - 4px);
     margin-right: 0 !important;
     text-align: center; }
+    nav li:last-child {
+      width: calc(100% / 6 + 0px);
+      float: right; }
+    nav li:hover {
+      background-color: #211e3b; }
+    nav li .submenu li {
+      background-color: #211e3b;
+      width: 100%; }
+      nav li .submenu li:hover {
+        background-color: #38354f; }
   nav a {
     height: 100%;
-    width: 100%; }
-  nav .submenu li {
-    width: 100%; }
+    width: 100%;
+    font-family: MyriadPro;
+    color: #f2f2f2; }
+
+.dark {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: calc(100vw - 20px);
+  height: 100vh;
+  z-index: 49; }
 
 .slider {
-  height: 960px;
+  height: 100vh;
   overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
-  width: calc(100vw - 20px); }
+  width: calc(100vw - 20px);
+  color: #ffffff; }
+  .slider .text {
+    position: absolute;
+    top: 50vh;
+    margin-left: 15vw;
+    width: 45vw;
+    max-width: 540px;
+    z-index: 50; }
+    .slider .text h2 {
+      font-family: 'Playfair Display', serif; }
+    .slider .text p {
+      font-size: 18px; }
   .slider img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
 
 .slider_box {
   min-height: 765px; }

@@ -19,29 +19,29 @@ ul {
 }
 a {
   display: block;
-  padding: 10px 15px;
+  padding: 25px 15px;
   text-decoration: none;
   outline: none;
-  font-family: 'Lora', serif;
-  transition: .3s linear;
+  /*font-family: 'Lora', serif;*/
+  /*transition: .3s ease-in-out;*/
 }
-.fa {
+/*.fa {
   font-family: "FontAwesome";
   color: inherit;
   padding-left: 10px;
-}
+}*/
 .submenu {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   z-index: 10;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.one ul {
+/*.one ul {
   background: #ECDAD6;
 }
 .one ul a {
@@ -53,21 +53,21 @@ a {
 }
 .one ul li:hover .submenu {
   display: block;
-}
+}*/
 .two ul {
-  background: #D4E7EE;
+  /*background: #D4E7EE;*/
 }
 .two ul a {
-  color: #29838C;
+  /*color: #29838C;*/
 }
 .two .submenu {
   visibility: hidden;
-  background: #ADC0CE;
+  /*background: #ADC0CE;*/
 }
 .two ul li:hover .submenu {
   visibility: visible;
 }
-.three ul {
+/*.three ul {
   background: #E4EFD1;
 }
 .three ul a {
@@ -110,8 +110,4 @@ a {
 }
 .five .submenu {
   background: #EEBD1A;
-}
-.submenu li a {
-  border-bottom: 1px solid rgba(255,255,255,.3);
-  color: white;
-}
+}*/
