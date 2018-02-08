@@ -2,9 +2,17 @@
 // название шрифта
 font-family: "Gotham Pro Medium"; 
 // адрес шрифта
-src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium.ttf") format("truetype"); 
+src: url("../fonts/Gotham Pro Medium/GothamBook.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
+} 
+@font-face {
+// название шрифта
+font-family: "Gotham Pro Medium"; 
+// адрес шрифта
+src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium bold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: bold; 
 } 
 @font-face {
 // название шрифта
@@ -42,17 +50,50 @@ button:focus,a:focus,input:focus,select:focus,a:after{outline:none!important;}
 li{list-style-type: none;}
 // ---------------------------------------------------------------------------
 body{
-	background-color: transparent;
+	background-color: gray;
+	background: url("../img/bg_logo.png") 50% 35.5% no-repeat;
 }
 h2 {
 	font-size: 52px;
+	line-height: 1;
 }
 h5{
 	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	color: $color6;
+	font-weight: bold;
 }
 a{
 	&:hover{
 		color: #d39500;
+	}
+}
+.border{
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+	// position: relative;
+	// z-index: 4;
+}
+.title{
+	p{
+		font-size: 13px;
+		font-family: "ProximaNova";
+		color: $color3;
+		margin-top: 3px;
+	}
+	h2{
+		color: $color6;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	span{
+		background-color: #f0b62b;
+		display: block;
+		width: 12px;
+		height: 12px;
+		margin: auto;
 	}
 }
 // ---------------------------header
@@ -87,6 +128,9 @@ header{
 	}
 	span{
 		display: block;
+		font-size: 15px;
+		color: $color3;
+		font-family: "Gotham Pro Medium";
 	}
 	.logo{
 		text-align: center;
@@ -140,7 +184,8 @@ nav{
 	}
 }
 // ---------------------------slider
-.dark{
+.slider{
+	.dark{
 		position: relative;
 		left: 0;
 		top: 0;
@@ -148,16 +193,46 @@ nav{
 		height: 100vh;
 		z-index: 49;
 	}
-	.slider{
+	.slick-arrow{
 		height: 100vh;
-		overflow: hidden;
-		position: absolute;
-		top: 0;
+		width: 55px;
+		top: 50%;
+		background: transparent;
+	}
+	.slick-prev{
 		left: 0;
-		// z-index: 100;
-		width: calc(100vw - 20px);
-		color: $color1;
-	
+		&:hover{
+			background: transparent;
+			&:before{
+				content: url("../img/left_hover.png");
+			}
+		}
+		&:focus{
+			background: transparent;
+		}
+	}
+	.slick-next{
+		right: 0;
+		&:hover{
+			background: transparent;
+			&:before{
+				content: url("../img/right_hover.png");
+			}
+		}
+		&:focus{
+			background: transparent;
+		}
+	}
+}
+
+.slider{
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100vw - 20px);
+	color: $color1;
 	.text{
 		position: absolute;
 		top: 50vh;
@@ -172,6 +247,23 @@ nav{
 		p{
 			font-size: 18px;
 		}
+		a{
+			display: inline-block;
+			width: 170px;
+			height: 50px;
+			background-color: $color5;
+			text-align: center;
+			padding: 15px 20px;
+			color: #815e22;
+			font-family: "Gotham Pro Medium";
+			margin-right: 20px;
+			font-size: 15px;
+			font-weight: bold;
+			transition: .3s ease-in-out;
+			&:hover{
+				background-color: $color2;
+			}
+		}
 	}
 	img{
 		width: 100%;
@@ -185,23 +277,74 @@ nav{
 .our_advantage{
 	min-height: 680px;
 	text-align: center;
-
+	.col-md-4{
+		padding: 10px;
+	}
+	p{
+		font-family: "ProximaNova"; 
+		color: $color3;
+		padding: 0 10px;
+		max-width: 340px;
+		margin: auto;
+	}
 }
 // ----------------------------about_us
 .about_us{
-	background-color: gray;
+	// background-color: gray;
 	min-height: 550px;
 	text-align: center;
+	i{
+		font-family: 'Playfair Display', serif;
+		font-size: 22px;
+		display: inline-block;
+		width: 80%;
+		margin-bottom: 40px;
+	}
+	p{
+		display: inline-block;
+		width: 65%;
+		font-size: 18px;
+		color: $color3;
+		font-family: "ProximaNova";
+		margin-bottom: 20px;
+	}
+	a{
+		display: block;
+		width: 215px;
+		height: 50px;
+		background-color: $color5;
+		text-align: center;
+		padding: 15px 20px;
+		color: #815e22;
+		font-family: "Gotham Pro Medium";
+		font-weight: bold;
+		margin: auto;
+		margin-top: 25px;
+		font-size: 15px;
+		transition: .3s ease-in-out;
+		&:hover{
+			background-color: $color2;
+		}
+	}
 }
 //-----------------------------fotoshoots
 .fotoshoots{
 	min-height: 1400px;
 	text-align: center;
+	a{
+		transition: .3s ease-in-out;
+	}
 	.col-md-4{
 		height: 310px;
 		img{
 			width: 100%;
 		}
+		&:hover .foto_place{
+			transform: scale(1.2);
+		}
+	}
+	.box{
+		overflow: hidden;
 	}
 	.text_a{
 		a{
@@ -227,6 +370,10 @@ nav{
 	.foto_place{
 		width: 100%;
 		height: 230px;
+		transition: ease 0.5s ;
+		// &:hover{
+		// 		transform: scale(1.2);
+		// 	}
 	}
 	.button_arrow{
 		height: 45px;
@@ -244,6 +391,9 @@ nav{
 .our_rooms{
 	min-height: 680px;
 	text-align: center;
+	.slider_2{
+		height: 500px;
+	}
 	.buttons{
 		div{
 			padding: 0;
@@ -276,7 +426,7 @@ nav{
 			width: 100%;//calc(50% - 2px);
 			height: 140px;
 			display: block;
-			
+			transition: .3s ease-in-out;
 			padding: 30px 0 0 4vw;
 			text-align: left;
 			font-size: 18px;

@@ -1,118 +1,286 @@
 @font-face {
   font-family: "Gotham Pro Medium";
-  src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium.ttf") format("truetype");
+  src: url("../fonts/Gotham Pro Medium/GothamBook.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
 
 @font-face {
   font-family: "MyriadPro";
   src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.otf") format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 @font-face {
   font-family: "ProximaNova";
   src: url("../fonts/ProximaNova/ProximaNova-Reg.otf") format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 @font-face {
   font-family: "ProximaNova";
   src: url("../fonts/ProximaNova/ProximaNova-Bold.otf") format("truetype");
   font-style: normal;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+/* line 48, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
+/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 button:focus, a:focus, input:focus, select:focus, a:after {
-  outline: none !important; }
+  outline: none !important;
+}
 
+/* line 50, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 li {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
+/* line 52, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 body {
-  background-color: transparent; }
+  background-color: gray;
+  background: url("../img/bg_logo.png") 50% 35.5% no-repeat;
+}
 
+/* line 56, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 h2 {
-  font-size: 52px; }
+  font-size: 52px;
+  line-height: 1;
+}
 
+/* line 60, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 h5 {
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  color: #080425;
+  font-weight: bold;
+}
 
+/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 a:hover {
-  color: #d39500; }
+  color: #d39500;
+}
 
+/* line 71, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.border {
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+}
+
+/* line 78, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.title p {
+  font-size: 13px;
+  font-family: "ProximaNova";
+  color: #93919f;
+  margin-top: 3px;
+}
+
+/* line 84, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.title h2 {
+  color: #080425;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* line 91, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.title span {
+  background-color: #f0b62b;
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: auto;
+}
+
+/* line 100, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 header {
   min-height: 120px;
   position: relative;
-  z-index: 999; }
-  header .col-md-4 {
-    height: 100%; }
-  header .icon_phone {
-    position: relative; }
-    header .icon_phone:before {
-      content: url("../img/icon_phone.png");
-      position: absolute;
-      left: -20px;
-      top: 10px; }
-  header .icon_marker {
-    position: relative; }
-    header .icon_marker:before {
-      content: url("../img/icon_marker.png");
-      position: absolute;
-      left: -20px;
-      top: 10px; }
-  header .icon_marker, header .icon_phone {
-    margin-top: 40px;
-    margin-left: 20%; }
-  header span {
-    display: block; }
-  header .logo {
-    text-align: center;
-    padding-top: 10px; }
+  z-index: 999;
+}
 
+/* line 104, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .col-md-4 {
+  height: 100%;
+}
+
+/* line 107, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .icon_phone {
+  position: relative;
+}
+
+/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .icon_phone:before {
+  content: url("../img/icon_phone.png");
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+
+/* line 116, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .icon_marker {
+  position: relative;
+}
+
+/* line 118, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .icon_marker:before {
+  content: url("../img/icon_marker.png");
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+
+/* line 125, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .icon_marker, header .icon_phone {
+  margin-top: 40px;
+  margin-left: 20%;
+}
+
+/* line 129, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header span {
+  display: block;
+  font-size: 15px;
+  color: #93919f;
+  font-family: "Gotham Pro Medium";
+}
+
+/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+header .logo {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* line 141, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 nav {
   width: 100%;
   z-index: 999;
-  position: relative; }
-  nav ul {
-    margin: auto;
-    background-color: #080425; }
-  nav .arrow_down:after {
-    content: url("../img/icon_arrow_down.png");
-    position: absolute;
-    right: 20px;
-    top: 22px; }
-  nav li {
-    height: 77px;
-    width: calc(100% / 6 - 4px);
-    margin-right: 0 !important;
-    text-align: center; }
-    nav li:last-child {
-      width: calc(100% / 6 + 0px);
-      float: right; }
-    nav li:hover {
-      background-color: #211e3b; }
-    nav li .submenu li {
-      background-color: #211e3b;
-      width: 100%; }
-      nav li .submenu li:hover {
-        background-color: #38354f; }
-  nav a {
-    height: 100%;
-    width: 100%;
-    font-family: MyriadPro;
-    color: #f2f2f2; }
+  position: relative;
+}
 
-.dark {
+/* line 145, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav ul {
+  margin: auto;
+  background-color: #080425;
+}
+
+/* line 150, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav .arrow_down:after {
+  content: url("../img/icon_arrow_down.png");
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+
+/* line 157, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav li {
+  height: 77px;
+  width: calc(100% / 6 - 4px);
+  margin-right: 0 !important;
+  text-align: center;
+}
+
+/* line 162, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav li:last-child {
+  width: calc(100% / 6 + 0px);
+  float: right;
+}
+
+/* line 166, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav li:hover {
+  background-color: #211e3b;
+}
+
+/* line 170, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav li .submenu li {
+  background-color: #211e3b;
+  width: 100%;
+}
+
+/* line 173, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav li .submenu li:hover {
+  background-color: #38354f;
+}
+
+/* line 179, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+nav a {
+  height: 100%;
+  width: 100%;
+  font-family: MyriadPro;
+  color: #f2f2f2;
+}
+
+/* line 188, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .dark {
   position: relative;
   left: 0;
   top: 0;
   width: calc(100vw - 20px);
   height: 100vh;
-  z-index: 49; }
+  z-index: 49;
+}
 
+/* line 196, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-arrow {
+  height: 100vh;
+  width: 55px;
+  top: 50%;
+  background: transparent;
+}
+
+/* line 202, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-prev {
+  left: 0;
+}
+
+/* line 204, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-prev:hover {
+  background: transparent;
+}
+
+/* line 206, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-prev:hover:before {
+  content: url("../img/left_hover.png");
+}
+
+/* line 210, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-prev:focus {
+  background: transparent;
+}
+
+/* line 214, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-next {
+  right: 0;
+}
+
+/* line 216, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-next:hover {
+  background: transparent;
+}
+
+/* line 218, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-next:hover:before {
+  content: url("../img/right_hover.png");
+}
+
+/* line 222, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .slick-next:focus {
+  background: transparent;
+}
+
+/* line 228, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .slider {
   height: 100vh;
   overflow: hidden;
@@ -120,130 +288,326 @@ nav {
   top: 0;
   left: 0;
   width: calc(100vw - 20px);
-  color: #ffffff; }
-  .slider .text {
-    position: absolute;
-    top: 50vh;
-    margin-left: 15vw;
-    width: 45vw;
-    max-width: 540px;
-    z-index: 50; }
-    .slider .text h2 {
-      font-family: 'Playfair Display', serif; }
-    .slider .text p {
-      font-size: 18px; }
-  .slider img {
-    width: 100%;
-    height: auto; }
+  color: #ffffff;
+}
 
+/* line 236, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .text {
+  position: absolute;
+  top: 50vh;
+  margin-left: 15vw;
+  width: 45vw;
+  max-width: 540px;
+  z-index: 50;
+}
+
+/* line 244, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .text h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* line 247, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .text p {
+  font-size: 18px;
+}
+
+/* line 250, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .text a {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  background-color: #fab91e;
+  text-align: center;
+  padding: 15px 20px;
+  color: #815e22;
+  font-family: "Gotham Pro Medium";
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: .3s ease-in-out;
+}
+
+/* line 263, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider .text a:hover {
+  background-color: #d39500;
+}
+
+/* line 268, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 273, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .slider_box {
-  min-height: 765px; }
+  min-height: 765px;
+}
 
+/* line 277, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .our_advantage {
   min-height: 680px;
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 280, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_advantage .col-md-4 {
+  padding: 10px;
+}
+
+/* line 283, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_advantage p {
+  font-family: "ProximaNova";
+  color: #93919f;
+  padding: 0 10px;
+  max-width: 340px;
+  margin: auto;
+}
+
+/* line 292, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .about_us {
-  background-color: gray;
   min-height: 550px;
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 296, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.about_us i {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+/* line 303, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.about_us p {
+  display: inline-block;
+  width: 65%;
+  font-size: 18px;
+  color: #93919f;
+  font-family: "ProximaNova";
+  margin-bottom: 20px;
+}
+
+/* line 311, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.about_us a {
+  display: block;
+  width: 215px;
+  height: 50px;
+  background-color: #fab91e;
+  text-align: center;
+  padding: 15px 20px;
+  color: #815e22;
+  font-family: "Gotham Pro Medium";
+  font-weight: bold;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 15px;
+  transition: .3s ease-in-out;
+}
+
+/* line 325, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.about_us a:hover {
+  background-color: #d39500;
+}
+
+/* line 331, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .fotoshoots {
   min-height: 1400px;
-  text-align: center; }
-  .fotoshoots .col-md-4 {
-    height: 310px; }
-    .fotoshoots .col-md-4 img {
-      width: 100%; }
-  .fotoshoots .text_a a {
-    height: 130px;
-    width: 70%;
-    background-color: #ffffff;
-    position: relative;
-    top: -90px;
-    padding-top: 40px;
-    padding-left: 40px;
-    text-align: left;
-    color: #080425;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 30%; }
-    .fotoshoots .text_a a:hover {
-      color: #d39500; }
-  .fotoshoots .foto_place {
-    width: 100%;
-    height: 230px; }
-  .fotoshoots .button_arrow {
-    height: 45px;
-    width: 45px;
-    position: relative;
-    margin-left: calc(30% - 45px);
-    top: 0px;
-    background: url("../img/button.jpg"); }
-    .fotoshoots .button_arrow:hover {
-      background: url("../img/button_hover.jpg"); }
+  text-align: center;
+}
 
+/* line 334, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots a {
+  transition: .3s ease-in-out;
+}
+
+/* line 337, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .col-md-4 {
+  height: 310px;
+}
+
+/* line 339, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .col-md-4 img {
+  width: 100%;
+}
+
+/* line 342, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .col-md-4:hover .foto_place {
+  transform: scale(1.2);
+}
+
+/* line 346, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .box {
+  overflow: hidden;
+}
+
+/* line 350, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .text_a a {
+  height: 130px;
+  width: 70%;
+  background-color: #ffffff;
+  position: relative;
+  top: -90px;
+  padding-top: 40px;
+  padding-left: 40px;
+  text-align: left;
+  color: #080425;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+/* line 365, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .text_a a:hover {
+  color: #d39500;
+}
+
+/* line 370, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .foto_place {
+  width: 100%;
+  height: 230px;
+  transition: ease 0.5s;
+}
+
+/* line 378, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .button_arrow {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  margin-left: calc(30% - 45px);
+  top: 0px;
+  background: url("../img/button.jpg");
+}
+
+/* line 385, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.fotoshoots .button_arrow:hover {
+  background: url("../img/button_hover.jpg");
+}
+
+/* line 391, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 .our_rooms {
   min-height: 680px;
-  text-align: center; }
-  .our_rooms .buttons div {
-    padding: 0; }
-  .our_rooms .buttons .button_1 {
-    background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
-    background-color: #fab91e; }
-    .our_rooms .buttons .button_1:hover {
-      background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
-      background-color: #d39500; }
-  .our_rooms .buttons .button_2 {
-    background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
-    background-color: #fab91e; }
-    .our_rooms .buttons .button_2:hover {
-      background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
-      background-color: #d39500; }
-  .our_rooms .buttons a {
-    width: 100%;
-    height: 140px;
-    display: block;
-    padding: 30px 0 0 4vw;
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    color: #080425; }
+  text-align: center;
+}
 
+/* line 394, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .slider_2 {
+  height: 500px;
+}
+
+/* line 398, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons div {
+  padding: 0;
+}
+
+/* line 401, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons .button_1 {
+  background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
+  background-color: #fab91e;
+}
+
+/* line 406, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons .button_1:hover {
+  background: url("../img/icon_button-1.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+  background-color: #d39500;
+}
+
+/* line 413, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons .button_2 {
+  background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 55% 50% no-repeat;
+  background-color: #fab91e;
+}
+
+/* line 418, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons .button_2:hover {
+  background: url("../img/icon_button-2.png") 75% 50% no-repeat, url("../img/icon_arrow_right.png") 60% 50% no-repeat;
+  background-color: #d39500;
+}
+
+/* line 425, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+.our_rooms .buttons a {
+  width: 100%;
+  height: 140px;
+  display: block;
+  transition: .3s ease-in-out;
+  padding: 30px 0 0 4vw;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #080425;
+}
+
+/* line 439, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
 footer {
-  min-height: 150px; }
-  footer .col-sm-4 {
-    height: 100%; }
-  footer .icon_phone {
-    position: relative; }
-    footer .icon_phone:before {
-      content: url("../img/icon_phone.png");
-      position: absolute;
-      left: -20px;
-      top: 10px; }
-  footer .icon_marker {
-    position: relative; }
-    footer .icon_marker:before {
-      content: url("../img/icon_marker.png");
-      position: absolute;
-      left: -20px;
-      top: 10px; }
-  footer .icon_mail {
-    position: relative; }
-    footer .icon_mail:before {
-      content: url("../img/icon_mail.png");
-      position: absolute;
-      left: -25px;
-      top: 10px; }
-  footer .icon_tian {
-    position: relative; }
-    footer .icon_tian:before {
-      content: url("../img/icon_tian.png");
-      position: absolute;
-      left: -35px;
-      top: 5px; }
-  footer .icon_marker, footer .icon_phone, footer .icon_mail, footer .icon_tian, footer .tian {
-    margin-top: 40px;
-    margin-left: 20%; }
-  footer span {
-    display: block; }
+  min-height: 150px;
+}
+
+/* line 441, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .col-sm-4 {
+  height: 100%;
+}
+
+/* line 444, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_phone {
+  position: relative;
+}
+
+/* line 446, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_phone:before {
+  content: url("../img/icon_phone.png");
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+
+/* line 453, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_marker {
+  position: relative;
+}
+
+/* line 455, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_marker:before {
+  content: url("../img/icon_marker.png");
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+
+/* line 462, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_mail {
+  position: relative;
+}
+
+/* line 464, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_mail:before {
+  content: url("../img/icon_mail.png");
+  position: absolute;
+  left: -25px;
+  top: 10px;
+}
+
+/* line 471, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_tian {
+  position: relative;
+}
+
+/* line 473, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_tian:before {
+  content: url("../img/icon_tian.png");
+  position: absolute;
+  left: -35px;
+  top: 5px;
+}
+
+/* line 480, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer .icon_marker, footer .icon_phone, footer .icon_mail, footer .icon_tian, footer .tian {
+  margin-top: 40px;
+  margin-left: 20%;
+}
+
+/* line 487, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+footer span {
+  display: block;
+}
+
+/*# sourceMappingURL=../css/main.map */

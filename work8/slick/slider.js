@@ -3,4 +3,8 @@ $(document).ready(function(){
      
 	// autoplay:true,
   });
+   $('.slider_2').slick({
+     
+	// autoplay:true,
+  });
 });
