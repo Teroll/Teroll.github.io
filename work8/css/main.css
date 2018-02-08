@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova/ProximaNova-Reg.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 a {
   text-decoration: none !important; }
 

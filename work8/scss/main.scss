@@ -1,19 +1,28 @@
-// @font-face {
-// // название шрифта
-// font-family: "PFDasGroteskPro-Regular"; 
-// // адрес шрифта
-// src: url("../fonts/PFDasGroteskPro-Regular.otf") format("truetype"); 
-// font-style: normal; 
-// font-weight: normal; 
-// } 
-// @font-face {
+@font-face {
 // название шрифта
-// font-family: "PFDasGroteskPro-Regular"; 
-// // адрес шрифта
-// src: url("../fonts/PFDasGroteskPro-Bold.otf") format("truetype"); 
-// font-style: normal; 
-// font-weight: bold; 
-// } 
+font-family: "Gotham Pro Medium"; 
+// адрес шрифта
+src: url("../fonts/Gotham Pro Medium/Gotham Pro Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+// название шрифта
+font-family: "MyriadPro"; 
+// адрес шрифта
+src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+// название шрифта
+font-family: "ProximaNova"; 
+// адрес шрифта
+src: url("../fonts/ProximaNova/ProximaNova-Reg.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+// font-family: 'Playfair Display', serif;
 $color1: #ffffff;//white for BG
 $color2: #d39500;//yellow for button hover
 $color3: #93919f;//gray for text

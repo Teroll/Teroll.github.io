@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>I`am</title>
@@ -23,6 +23,8 @@
 	<!-- Картинки Боксов -->
 	<link rel="stylesheet" href="css/pictures_company.css">
 	<link rel="stylesheet" href="css/company.css">
+	<!-- Гуглкапча -->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	
 </head>
 <body class="animsition">
@@ -257,18 +259,21 @@
 							<!-- <a download href="iam_brief.doc">Подробный Бриф &#x2197;</a> -->
 						</span>
 					</p>
-					<form id="form" action="#Сесть_на_банку.пхп">
+					<form id="messageForm" method="post">
 						<div class="InputName">
 							<label for="InputName">Ваше имя:</label>
 							<input name="name" required="заполните поле" type="text" id="InputName">
 						</div>
 						<div class="InputEmail">
 							<label for="InputEmail">Телефон или e-mail:</label>
-							<input name="phone" required="заполните поле" type="text" id="InputEmail">
+							<input name="email" required="заполните поле" type="text" id="InputEmail">
 						</div>
 						<div class="InputText">
-							<textarea required="заполните поле" placeholder="Кратко опишите задачу" name="text" id="InputText"></textarea>
+                    <textarea name="message" required="заполните поле" placeholder="Кратко опишите задачу"
+							  id="InputText"></textarea>
 						</div>
+						<div id="recaptcha" class="g-recaptcha" data-sitekey="6LcT5EMUAAAAABFPbahfIwki92dJKBVyn8XxWPex" data-callback="onSubmitReCaptcha" data-size="invisible" data-badge="inline" style="display: none;"></div>
+
 						<button class="ButtonForm" id="ButtonForm" type="submit">Отправить</button>
 					</form>
 				</div>
@@ -445,20 +450,23 @@
 					</span>
 				</p>
 				<!-- Form -->
-				<form  action="#Сесть_на_банку.пхп">
-					<div class="InputName">
-						<label for="InputName">Ваше имя:</label>
-						<input required="заполните поле" type="text" id="InputName">
-					</div>
-					<div class="InputEmail">
-						<label for="InputEmail">Телефон или e-mail:</label>
-						<input required="заполните поле" type="text" id="InputEmail">
-					</div>
-					<div class="InputText">
-						<textarea required="заполните поле" placeholder="Кратко опишите задачу" name="#" id="InputText"></textarea>
-					</div>
-					<button class="ButtonForm" id="ButtonForm" type="submit">Отправить</button>
-				</form>
+				<form id="messageForm" method="post">
+						<div class="InputName">
+							<label for="InputName">Ваше имя:</label>
+							<input name="name" required="заполните поле" type="text" id="InputName">
+						</div>
+						<div class="InputEmail">
+							<label for="InputEmail">Телефон или e-mail:</label>
+							<input name="email" required="заполните поле" type="text" id="InputEmail">
+						</div>
+						<div class="InputText">
+                    <textarea name="message" required="заполните поле" placeholder="Кратко опишите задачу"
+							  id="InputText"></textarea>
+						</div>
+						<div id="recaptcha" class="g-recaptcha" data-sitekey="6LcT5EMUAAAAABFPbahfIwki92dJKBVyn8XxWPex" data-callback="onSubmitReCaptcha" data-size="invisible" data-badge="inline" style="display: none;"></div>
+
+						<button class="ButtonForm" id="ButtonForm" type="submit">Отправить</button>
+					</form>
 			</div>
 		</div>
 		<!-- Map tablet -->
@@ -498,7 +506,7 @@
 	<script src="js/animsition_option.js" type="text/javascript"></script>
 	<!-- скрывает кнопки при анимации -->
 	<script src="js/animsition_hide_buttons.js" type="text/javascript"></script>
-	<!-- скрывает кнопки при анимации -->
-	<script src="js/feedback_form.js" type="text/javascript"></script>
+	<!-- от формы -->
+	<script src="/feedback/script.js"></script>
 </body>
 </html>
