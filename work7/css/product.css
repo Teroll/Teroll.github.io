@@ -384,7 +384,7 @@ img {
     display: block;
     height: 17em;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
   }
   /* line 348, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work7/scss/product.scss */
