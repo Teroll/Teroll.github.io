@@ -18,10 +18,10 @@ ul {
   margin-right: 0;
 }
 a {
-  display: block;
+/*  display: block;
   padding: 25px 15px;
   text-decoration: none;
-  outline: none;
+  outline: none;*/
   /*font-family: 'Lora', serif;*/
   /*transition: .3s ease-in-out;*/
 }

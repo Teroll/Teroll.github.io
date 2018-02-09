@@ -1,10 +1,11 @@
 $(document).ready(function(){
   $('.slider').slick({
-     
+     dots: true,
 	// autoplay:true,
   });
    $('.slider_2').slick({
-     
-	// autoplay:true,
-  });
+   	slidesToShow: 2,
+   	slidesToScroll: 2,
+
+});
 });
