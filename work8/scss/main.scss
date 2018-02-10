@@ -69,8 +69,8 @@ a{
 	}
 }
 .border{
-	border-right: 1px solid red;
-	border-left: 1px solid red;
+	// border-right: 1px solid red;
+	// border-left: 1px solid red;
 	// position: relative;
 	// z-index: 4;
 }
@@ -98,11 +98,6 @@ a{
 }
 .our_rooms,.fotoshoots,.about_us,.our_advantage{
 	padding-top: 15px;
-}
-.fixedattop{
-	position: fixed;
-	top: 0;
-	left: 0;
 }
 // ---------------------------header
 header{
@@ -133,6 +128,7 @@ header{
 	.icon_marker,.icon_phone{
 		margin-top: 40px;
 		margin-left: 20%;
+		padding-bottom: 10px;
 	}
 	span{
 		display: block;
@@ -143,16 +139,32 @@ header{
 	.logo{
 		text-align: center;
 		padding-top: 10px;
+		border-left: 1px solid rgba(137,137,137,0.7);//$color3;
+		border-right: 1px solid rgba(137,137,137,0.7); //$color3;
+		padding-bottom: 10px;
 	}
 }
 // ---------------------------nav
-nav{
+.two .submenu {
+	visibility: hidden;
+}
+.two ul li:hover .submenu {
+	visibility: visible;
+}
+.menu_laptop{
 	width: 100%;
 	z-index: 999;
 	position: relative;
+	.topmenu > li {
+		display: inline-block;
+		margin-right: 20px;
+		position: relative;
+	}
 	ul{
 		margin: auto;
 		background-color: $color6;
+		margin: 0;
+		padding: 0;
 	}
 	.arrow_down{
 		&:after{
@@ -175,6 +187,12 @@ nav{
 			background-color: #211e3b;
 		}
 		.submenu{
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100%;
+			z-index: 10;
+
 			li{
 				background-color: #211e3b;
 				width: 100%;
@@ -183,6 +201,7 @@ nav{
 				}
 			}
 		}
+		
 	}
 	a{
 		height: 100%;
@@ -195,6 +214,117 @@ nav{
 		outline: none;
 		text-transform: uppercase;
 	}
+}
+#menu_mobile{
+	width: 100%;
+	height: 50px;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	position: fixed;
+	button,.btn-group{
+		width: 100%;
+		width: 100%;
+		border-radius: 0;
+		background-color: $color6;
+		border: none;
+		color: white;
+		font-family: 'Playfair Display', serif;
+		font-size: 20px;
+		&:focus{
+
+		}
+	}
+	.dropdown-menu{
+		width: 100%;
+		border-radius: 0;
+		border: none;
+		// padding-left: calc(70vw - 260px);
+		margin-top: -2px;
+		background-color: #211e3b;
+		div{
+			width: 60%;
+			margin-left: calc(50% - 80px);
+		}
+		a{
+			height: 40px;
+			font-size: 20px;
+			color: white;
+			font-family: MyriadPro;
+			&:hover{
+					color: $color2;
+				}
+		}
+		.submenu{
+			ul{
+				-webkit-padding-start: 0px!important;
+			}
+		}
+	}
+	// .topmenu > li {
+	// 	display: inline-block;
+	// 	margin-right: 20px;
+	// 	position: relative;
+	// }
+	// ul{
+	// 	margin: auto;
+	// 	background-color: $color6;
+	// 	margin: 0;
+	// 	padding: 0;
+	// }
+	// .arrow_down{
+	// 	&:after{
+	// 		content: url("../img/icon_arrow_down.png");
+	// 		position: absolute;
+	// 		right: 20px;
+	// 		top: 22px;
+	// 	}
+	// }
+	// li{
+	// 	height: 77px;
+	// 	width: calc(100% / 6 - 4px);
+	// 	margin-right: 0!important;
+	// 	text-align: center;
+	// 	&:last-child{
+	// 		width: calc(100% / 6 + 0px);
+	// 		float: right;
+	// 	}
+	// 	&:hover{
+	// 		background-color: #211e3b;
+	// 	}
+	// 	.submenu{
+	// 		position: absolute;
+	// 		top: 100%;
+	// 		left: 0;
+	// 		width: 100%;
+	// 		z-index: 10;
+
+	// 		li{
+	// 			background-color: #211e3b;
+	// 			width: 100%;
+	// 			&:hover{
+	// 				background-color: #38354f;
+	// 			}
+	// 		}
+	// 	}
+		
+	// }
+	// a{
+	// 	height: 100%;
+	// 	width: 100%;
+	// 	font-family: MyriadPro;
+	// 	color: $color4;
+	// 	display: block;
+	// 	padding: 25px 15px;
+	// 	text-decoration: none;
+	// 	outline: none;
+	// 	text-transform: uppercase;
+	// }
+}
+.fixedattop{
+	position: fixed!important;
+	top: 0!important;
+	left: 0!important;
 }
 // ---------------------------slider
 // slider element
@@ -634,14 +764,15 @@ footer{
 	}
 	.footer_top{
 		padding: 40px 0;
-		border-bottom: 1px solid red;
+		border-bottom: 1px solid #ebebeb;
 		margin: 0;
 	}
 	.footer_bot{
 		padding: 30px 0 15px 0;
 	}
 }
-@media (max-width: 992px){
+
+@media (max-width: 990px){
 	.our_rooms{
 		a{
 			padding: 10px 0 0 1vw!important;
@@ -689,6 +820,11 @@ footer{
 			}
 		}
 	}
+	header{
+		.row{
+			padding-top: 50px;
+		}
+	}
 }
 @media (max-width: 768px){
 	.our_rooms{
@@ -712,6 +848,38 @@ footer{
 				}
 			}
 		}
+	}
+	.slider{
+		.text{
+			width: calc(100vw - 160px); 
+			margin: 0 80px;
+			top: 22vh;
+			h2{
+				font-size: 40px;
+				margin:  20px 0; 
+			}
+			p{
+				font-size: 15px;
+				margin-bottom: 20px;
+			}
+			a{
+				width: 40%;
+				margin: 0 8.5% 0 0%;
+				padding: 2vw 1vw;
+			}
+		}
+	}
+	header{
+		.icon_phone,.icon_marker{
+			margin-top: 5px;
+			margin-left: 25px;
+		}
+		// .logo{
+		// 	position: fixed;
+		// 	top: 5px;
+		// 	left: 10px;
+		// 	z-index: 1900!important;
+		// }
 	}
 }
 @media (max-width: 500px) {
