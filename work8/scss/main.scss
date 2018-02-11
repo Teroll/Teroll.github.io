@@ -76,10 +76,11 @@ a{
 }
 .title{
 	p{
-		font-size: 13px;
-		font-family: "ProximaNova";
-		color: $color3;
-		margin-top: 3px;
+		font-size: 12px!important;
+		font-family: "ProximaNova"!important;
+		color: $color3!important;
+		margin-top: 3px!important;
+		text-transform: uppercase!important;
 	}
 	h2{
 		color: $color6;
@@ -126,15 +127,16 @@ header{
 		}
 	}
 	.icon_marker,.icon_phone{
-		margin-top: 40px;
+		margin-top: 45px;
 		margin-left: 20%;
 		padding-bottom: 10px;
 	}
 	span{
 		display: block;
-		font-size: 15px;
+		font-size: 13px;
 		color: $color3;
 		font-family: "Gotham Pro Medium";
+		line-height: 24px;
 	}
 	.logo{
 		text-align: center;
@@ -337,6 +339,7 @@ header{
 			font-family: 'Playfair Display', serif;
 			line-height: 1.2;
 			margin-bottom: 20px;
+			margin-top: 25px;
 		}
 		p{
 			font-size: 18px;
@@ -383,6 +386,10 @@ header{
 .our_advantage{
 	min-height: 680px;
 	text-align: center;
+	padding-top: 25px;
+	img{
+		margin-bottom: 30px;
+	}
 	.col-md-4{
 		padding: 10px;
 	}
@@ -397,14 +404,15 @@ header{
 // ----------------------------about_us
 .about_us{
 	// background-color: gray;
-	min-height: 550px;
+	min-height: 510px;
 	text-align: center;
 	i{
 		font-family: 'Playfair Display', serif;
 		font-size: 22px;
 		display: inline-block;
 		width: 80%;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
+		line-height: 36px;
 	}
 	p{
 		display: inline-block;
@@ -413,6 +421,14 @@ header{
 		color: $color3;
 		font-family: "ProximaNova";
 		margin-bottom: 20px;
+	}
+	.title{
+		p{
+			margin-bottom: 0;
+		}
+		h2{
+			margin-top: 0;
+		}
 	}
 	a{
 		display: block;
@@ -440,7 +456,7 @@ header{
 	a{
 		transition: .3s ease-in-out;
 		display: block;
-		padding: 25px 15px;
+		// padding: 25px 15px;
 		text-decoration: none;
 		outline: none;
 	}
@@ -506,7 +522,7 @@ header{
 		height: 400px;
 		padding: 0 15px;
 		position: relative;
-		margin-bottom: 125px;
+		margin-bottom: 115px;
 		.slick-arrow{
 			height: 40px;//100vh;
 			width: 40px;//55px;
@@ -561,7 +577,9 @@ header{
 			}
 			h3{
 				margin-top: 0;
+				margin-bottom: 10px;
 				font-family: 'Playfair Display', serif;
+				font-weight: bold;
 				color: $color6;
 			}
 			p{
