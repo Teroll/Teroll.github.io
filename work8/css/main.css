@@ -793,16 +793,23 @@ footer {
     top: 50%;
     background: transparent; }
   /* line 882, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+  .slider .slick-dots {
+    bottom: 5px; }
+  /* line 885, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
   .slider .text {
     width: calc(100vw - 80px);
-    margin: 0 40px; }
-    /* line 886, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+    margin: 0 40px;
+    top: 27vh; }
+    /* line 889, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
     .slider .text a {
       width: 45%;
       margin: 0;
       padding: 2vw 1vw; }
-      /* line 890, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+      /* line 893, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
       .slider .text a:last-child {
-        float: right; } }
+        float: right; }
+  /* line 898, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work8/scss/main.scss */
+  .slider:before {
+    visibility: hidden; } }
 
 /*# sourceMappingURL=../css/main.map */

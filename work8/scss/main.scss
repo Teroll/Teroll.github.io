@@ -879,10 +879,13 @@ footer{
 		top: 50%;
 		background: transparent;
 		}
+		.slick-dots{
+			bottom: 5px;
+		}
 		.text{
 			width: calc(100vw - 80px); 
 			margin: 0 40px;
-			// top: 22
+			top: 27vh;
 			a{
 				width: 45%;
 				margin: 0 ;
@@ -891,6 +894,9 @@ footer{
 					float: right;
 				}
 			}
+		}
+		&:before{
+			visibility: hidden;
 		}
 	}
 }
