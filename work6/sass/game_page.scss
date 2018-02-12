@@ -122,6 +122,9 @@ body{
 }
 @media (max-width: 500px){
 	.container{
+		.text{
+			padding-bottom: 15vh;
+		}
 		.cardrow{
 			div{
 				height: 32vw;

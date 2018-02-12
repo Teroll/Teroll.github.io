@@ -318,7 +318,11 @@ body {
 }
 
 @media (max-width: 500px) {
-  /* line 126, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 125, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  .container .text {
+    padding-bottom: 15vh;
+  }
+  /* line 129, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .cardrow div {
     height: 32vw;
   }
