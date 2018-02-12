@@ -36,7 +36,7 @@ body {
 }
 
 /* line 26, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
-.container button {
+.container a {
   width: 145px;
   height: 42px;
   margin-top: 35px;
@@ -47,17 +47,17 @@ body {
 }
 
 /* line 35, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
-.container button:hover {
+.container a:hover {
   color: #1d7431;
 }
 
 /* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
-.container button:active {
+.container a:active {
   color: #1d7431;
 }
 
 /* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
-.container button:focus {
+.container a:focus {
   color: #1d7431;
 }
 
