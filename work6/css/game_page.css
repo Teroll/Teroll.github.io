@@ -317,12 +317,22 @@ body {
   background: url("../img/card_0_to_51/52.png") no-repeat;
 }
 
+/* line 123, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container .body {
+  background: url("../img/body.png") no-repeat;
+}
+
+/* line 124, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.container .hide {
+  visibility: hidden;
+}
+
 @media (max-width: 500px) {
-  /* line 125, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 130, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .text {
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
   }
-  /* line 129, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 134, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .cardrow div {
     height: 32vw;
   }

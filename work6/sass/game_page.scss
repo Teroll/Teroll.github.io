@@ -119,11 +119,16 @@ body{
 	// ---------------------------------------------------51
 	.card-51{background: url("../img/card_0_to_51/51.png")no-repeat;}
 	.card-52{background: url("../img/card_0_to_51/52.png")no-repeat;}
+	// --------------------------------------------------------
+	.body{background: url("../img/body.png")no-repeat;}
+	.hide{visibility: hidden;}
 }
+
+
 @media (max-width: 500px){
 	.container{
 		.text{
-			padding-bottom: 15vh;
+			padding-bottom: 10vh;
 		}
 		.cardrow{
 			div{
