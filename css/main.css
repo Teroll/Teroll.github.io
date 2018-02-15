@@ -71,6 +71,10 @@ a, a:hover{
 	border: 2px white solid;
 	padding: 7px 15px;
 }
+.hide a:hover{
+	color: gray;
+	border: 2px gray solid;
+}
 .ower{
 	margin-bottom: 30px;
 }

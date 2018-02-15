@@ -1,6 +1,5 @@
 jQuery(document).ready(function(){
 	$(function() {
-		// element.classList.remove("box");
 		$(".box").click(function(event) {
 			$(this).removeClass("body");
 		})
