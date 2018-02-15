@@ -13,17 +13,20 @@
 // 	});
 // });
 
-
-
+// Добавляет 1й и 2й открытой карте классы
 jQuery(document).ready(function(){
 	$(function() {
 		$(".box").click(function(event) {
 			// следит за появление 2го с классом open
 			if ( $("div").hasClass("open") ) {
+				$(this).addClass("open2") ;
 				alert("У элемента задан класс open");
+			}
+			// $(this).addClass("open") ;
+			else {
+				$(this).addClass("open") ;
 
 			}
-			$(this).addClass("open") ;
 		})
 	});
 });
