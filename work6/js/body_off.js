@@ -1,3 +1,4 @@
+//Открывает карту по клику
 jQuery(document).ready(function(){
 	$(function() {
 		$(".box").click(function(event) {
@@ -5,7 +6,3 @@ jQuery(document).ready(function(){
 		})
 	});
 });
-// $('.block').click(function(event) {
-//     // $('.focus').removeClass('focus');
-// 		$(this).addClass('focus');
-// });

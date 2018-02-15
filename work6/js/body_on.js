@@ -1,3 +1,4 @@
+// Скрывает карты через некоторое время
 function timer(){
 var obj=document.getElementById('timer_inp');
 obj.innerHTML--;
