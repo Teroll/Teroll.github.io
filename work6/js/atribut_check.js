@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 		$(".box").click(function(event) {
 
 			// Не дает нажимать на открытую карту
-			if ($(this).hasClass("open") || $(this).hasClass("open2")){
+			if ($(this).hasClass("open") || $(this).hasClass("open2") || $(this).hasClass("open_forever")){
 				 // alert("уже жал сюда")
 			}
 			// следит за появление 2го div с классом open
