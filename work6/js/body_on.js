@@ -4,6 +4,7 @@ var obj=document.getElementById('timer_inp');
 obj.innerHTML--;
     if (obj.innerHTML==0){
     	// Скрывает карты
+    	// $(".box").addClass("imageRotateHorizontal");//анимация переворота
         $(".box").addClass("body");
         // Скрывает таймер
         $(".timer").addClass("hide");
