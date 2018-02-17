@@ -2,18 +2,17 @@
 jQuery(document).ready(function(){
 	$(function() {
 		$(".box").click(function(event) {
-			var id1 = this.id; // Получаем идентификатор для проверки от нажатия на ту же карту
-			// alert(id);
 
-			// следит за появление 2го с классом open
-			if ( $("div").hasClass("open") ) {
+			// Не дает нажимать на открытую карту
+			if ($(this).hasClass("open") || $(this).hasClass("open2")){
+				 // alert("уже жал сюда")
+			}
+			// следит за появление 2го div с классом open
+			else if ( $("div").hasClass("open") ) {
 				$(this).addClass("open2") ;
 				// alert(id1);
 			}
-			// else if ($(this).hasClass("open")){
-			// 	// $(this).addClass("open") ;
-			// 	 alert("уже жал сюда")
-			// }
+			// присваивает первой открытой карте класс
 			else {
 				$(this).addClass("open") ;
 				// alert(id1);

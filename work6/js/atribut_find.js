@@ -1,38 +1,16 @@
-// jQuery(document).ready(function(){
-// 	var id2 = $("div.open2").id
-// 	var id1 = $("div.open").id
-// 	alert(id2);
-// 	alert(id1);
-// });
-
-// сравнение 2х атрибутов
-
-// if (true) {
-// 	var id2 = this.id
-// 	var id1 = $("div.open").id
-// 	alert(id2);
-// 	alert(id1);
-// }
+// Сравнение 2х открытых карт и присвоение очков
 jQuery(document).ready(function(){
 	$(function() {
 		$(".box").click(function(event) {
-			// следит за появление 2го с классом open
+			// следит за появлением 2го с классом open
 			var id1 = $("div.open").attr("class")
 			var id2 = $("div.open2").attr("class")
-
-			// var id1 = $("div.open").id
-			// alert(id2[27]);
-			// alert(id2[28]);
-
-			// alert(id1[27]);
-			// alert(id1[28]);
 
 			// суммируем значения класса отвечающие за номер карты
 			var sum1 = id1[27] + id1[28];
 			var sum2 = id2[27] + id2[28];
-			// var obj=document.getElementById('points');
-			// alert(sum1);
-			// alert(sum2);
+			
+			// При угадывании карт добавляет очки
 			if (sum1==sum2) {
 				// классы для подсчета очков
 				$("div.open").addClass("open_forever");
@@ -45,23 +23,22 @@ jQuery(document).ready(function(){
 					var newPrice = ( +($(this).text()) + points_open );
 					$(this).text( newPrice );  
 				});
-
-
-
+				// уберает маркеры открытия
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
 			}
+			// Не угадал
 			else{
-				// alert("НЕ равны");
+				// переворачивает карты
 				$("div.open").addClass("body");
 				$("div.open2").addClass("body");
-				
+				// восстанавливает анимацию
 				$("div.open").removeClass("imageRotateHorizontal");
 				$("div.open2").removeClass("imageRotateHorizontal");
-
+				// уберает маркеры открытия
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
-
+				// подсчет очков
 				var count_open = $('.open_forever').length;//число открытых карт
 				var points_close = count_open * 21 // 42 * на число открытых пар
 				// замена очков на новое значение
