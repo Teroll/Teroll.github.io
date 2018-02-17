@@ -26,6 +26,20 @@ jQuery(document).ready(function(){
 				// уберает маркеры открытия
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
+
+				// Финальный экран
+				var count_open = $('.open_forever').length;//число открытых карт
+				if (count_open == 18){
+					// скрываем карты
+					$("div.container").addClass("hide");
+					// показываем финальный счет
+					$("div.end_game").addClass("show");
+					// берем значения счета
+					$('#points').each(function () {
+					var newPrice = $(this).text();
+					$('#final_points').text( newPrice );  
+				});
+				}
 			}
 			// Не угадал
 			else{
