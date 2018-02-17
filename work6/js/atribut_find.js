@@ -30,22 +30,26 @@ jQuery(document).ready(function(){
 			// суммируем значения класса отвечающие за номер карты
 			var sum1 = id1[27] + id1[28];
 			var sum2 = id2[27] + id2[28];
-			var obj=document.getElementById('points');
+			// var obj=document.getElementById('points');
 			// alert(sum1);
 			// alert(sum2);
 			if (sum1==sum2) {
-				// alert("равны");
-				// подсчет очков
+				// классы для подсчета очков
 				$("div.open").addClass("open_forever");
 				$("div.open2").addClass("open_forever");
-				var count_open = $('.open_forever').length;
-				alert(count_open);
+				// подсчет очков
+				var count_close = $('.body').length;//число закрытых карт
+				var points_open = count_close * 21 // 42 * на число НЕ открытых пар
+				// замена очков на новое значение
+				$('#points').each(function () {
+					var newPrice = ( +($(this).text()) + points_open );
+					$(this).text( newPrice );  
+				});
 
-				obj.innerHTML++;
+
 
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
-				
 			}
 			else{
 				// alert("НЕ равны");
@@ -57,7 +61,14 @@ jQuery(document).ready(function(){
 
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
-				obj.innerHTML--;
+
+				var count_open = $('.open_forever').length;//число открытых карт
+				var points_close = count_open * 21 // 42 * на число открытых пар
+				// замена очков на новое значение
+				$('#points').each(function () {
+					var newPrice = ( +($(this).text()) - points_close );
+					$(this).text( newPrice );  
+				});
 			}
 		})
 	});
