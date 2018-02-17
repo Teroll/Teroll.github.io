@@ -30,13 +30,22 @@ jQuery(document).ready(function(){
 			// суммируем значения класса отвечающие за номер карты
 			var sum1 = id1[27] + id1[28];
 			var sum2 = id2[27] + id2[28];
-
+			var obj=document.getElementById('points');
 			// alert(sum1);
 			// alert(sum2);
 			if (sum1==sum2) {
 				// alert("равны");
+				// подсчет очков
+				$("div.open").addClass("open_forever");
+				$("div.open2").addClass("open_forever");
+				var count_open = $('.open_forever').length;
+				alert(count_open);
+
+				obj.innerHTML++;
+
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
+				
 			}
 			else{
 				// alert("НЕ равны");
@@ -48,7 +57,7 @@ jQuery(document).ready(function(){
 
 				$("div.open").removeClass("open");
 				$("div.open2").removeClass("open2");
-				
+				obj.innerHTML--;
 			}
 		})
 	});
