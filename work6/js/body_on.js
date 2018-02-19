@@ -4,8 +4,9 @@ var obj=document.getElementById('timer_inp');
 obj.innerHTML--;
     if (obj.innerHTML==0){
     	// Скрывает карты
-    	// $(".box").addClass("imageRotateHorizontal");//анимация переворота
         $(".box").addClass("body");
+        // Добавляет атрибут для тестирования
+        $(".box").attr("data-tid" , "Card-flipped" );
         // Защита от досрочных нажатий
         $("div").removeClass("open");
         $("div").removeClass("imageRotateHorizontal");

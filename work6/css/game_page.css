@@ -27,19 +27,18 @@ body {
   top: 10vh;
   left: 0;
   width: 100%;
-  height: 90vh;
   z-index: 100;
   visibility: hidden;
 }
 
-/* line 24, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 22, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .end_game h2 {
   font-size: 28px;
   color: white;
   font-weight: bold;
 }
 
-/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 27, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .end_game a {
   width: 145px;
   height: 42px;
@@ -50,60 +49,60 @@ body {
   font-weight: bold;
 }
 
-/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 35, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .end_game a:hover {
   color: #1d7431;
 }
 
-/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .end_game a:active {
   color: #1d7431;
 }
 
-/* line 44, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .end_game a:focus {
   color: #1d7431;
 }
 
-/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 46, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .click_blocker {
   position: absolute;
-  top: 0;
+  top: 85px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 100px);
   z-index: 99;
 }
 
-/* line 59, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 55, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container p {
   font-size: 14px;
   color: white;
   font-weight: bold;
 }
 
-/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 59, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container p span {
   font-family: Krungthep;
 }
 
-/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container a {
   color: white;
 }
 
-/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 65, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container a:hover {
   color: #ddeae0;
 }
 
-/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 70, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .cardrow div {
-  height: 25vh;
+  height: 20vw;
   max-height: 300px;
   background-size: 100% 100%;
-  background-clip: content-box;
-  padding: 0 !important;
+  padding: 0px !important;
+  border: 10px solid #1d7431;
   -o-transition: transform 0.2s linear;
   -ms-transition: transform 0.2s linear;
   -moz-transition: transform 0.2s linear;
@@ -111,303 +110,307 @@ body {
   transition: transform 0.2s linear;
 }
 
-/* line 90, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .cardrow div:hover {
+  -webkit-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -webkit-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-/* line 100, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 95, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .text {
   margin-top: 55px;
 }
 
-/* line 103, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 98, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-1 {
   background: url("../img/card_0_to_51/1.png") no-repeat;
 }
 
-/* line 106, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 101, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-2 {
   background: url("../img/card_0_to_51/2.png") no-repeat;
 }
 
-/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 104, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-3 {
   background: url("../img/card_0_to_51/3.png") no-repeat;
 }
 
-/* line 112, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 107, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-4 {
   background: url("../img/card_0_to_51/4.png") no-repeat;
 }
 
-/* line 115, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 110, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-5 {
   background: url("../img/card_0_to_51/5.png") no-repeat;
 }
 
-/* line 118, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 113, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-6 {
   background: url("../img/card_0_to_51/6.png") no-repeat;
 }
 
-/* line 121, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 116, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-7 {
   background: url("../img/card_0_to_51/7.png") no-repeat;
 }
 
-/* line 124, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 119, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-8 {
   background: url("../img/card_0_to_51/8.png") no-repeat;
 }
 
-/* line 127, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 122, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-9 {
   background: url("../img/card_0_to_51/9.png") no-repeat;
 }
 
-/* line 130, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 125, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-10 {
   background: url("../img/card_0_to_51/10.png") no-repeat;
 }
 
-/* line 134, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 129, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-11 {
   background: url("../img/card_0_to_51/11.png") no-repeat;
 }
 
-/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 130, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-12 {
   background: url("../img/card_0_to_51/12.png") no-repeat;
 }
 
-/* line 136, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 131, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-13 {
   background: url("../img/card_0_to_51/13.png") no-repeat;
 }
 
-/* line 137, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 132, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-14 {
   background: url("../img/card_0_to_51/14.png") no-repeat;
 }
 
-/* line 138, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 133, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-15 {
   background: url("../img/card_0_to_51/15.png") no-repeat;
 }
 
-/* line 139, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 134, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-16 {
   background: url("../img/card_0_to_51/16.png") no-repeat;
 }
 
-/* line 140, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-17 {
   background: url("../img/card_0_to_51/17.png") no-repeat;
 }
 
-/* line 141, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 136, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-18 {
   background: url("../img/card_0_to_51/18.png") no-repeat;
 }
 
-/* line 142, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 137, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-19 {
   background: url("../img/card_0_to_51/19.png") no-repeat;
 }
 
-/* line 143, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 138, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-20 {
   background: url("../img/card_0_to_51/20.png") no-repeat;
 }
 
-/* line 146, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 141, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-21 {
   background: url("../img/card_0_to_51/21.png") no-repeat;
 }
 
-/* line 147, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 142, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-22 {
   background: url("../img/card_0_to_51/22.png") no-repeat;
 }
 
-/* line 148, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 143, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-23 {
   background: url("../img/card_0_to_51/23.png") no-repeat;
 }
 
-/* line 149, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 144, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-24 {
   background: url("../img/card_0_to_51/24.png") no-repeat;
 }
 
-/* line 150, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 145, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-25 {
   background: url("../img/card_0_to_51/25.png") no-repeat;
 }
 
-/* line 151, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 146, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-26 {
   background: url("../img/card_0_to_51/26.png") no-repeat;
 }
 
-/* line 152, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 147, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-27 {
   background: url("../img/card_0_to_51/27.png") no-repeat;
 }
 
-/* line 153, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 148, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-28 {
   background: url("../img/card_0_to_51/28.png") no-repeat;
 }
 
-/* line 154, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 149, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-29 {
   background: url("../img/card_0_to_51/29.png") no-repeat;
 }
 
-/* line 155, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 150, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-30 {
   background: url("../img/card_0_to_51/30.png") no-repeat;
 }
 
-/* line 157, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 152, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-31 {
   background: url("../img/card_0_to_51/31.png") no-repeat;
 }
 
-/* line 158, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 153, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-32 {
   background: url("../img/card_0_to_51/32.png") no-repeat;
 }
 
-/* line 159, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 154, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-33 {
   background: url("../img/card_0_to_51/33.png") no-repeat;
 }
 
-/* line 160, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 155, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-34 {
   background: url("../img/card_0_to_51/34.png") no-repeat;
 }
 
-/* line 161, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 156, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-35 {
   background: url("../img/card_0_to_51/35.png") no-repeat;
 }
 
-/* line 162, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 157, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-36 {
   background: url("../img/card_0_to_51/36.png") no-repeat;
 }
 
-/* line 163, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 158, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-37 {
   background: url("../img/card_0_to_51/37.png") no-repeat;
 }
 
-/* line 164, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 159, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-38 {
   background: url("../img/card_0_to_51/38.png") no-repeat;
 }
 
-/* line 165, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 160, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-39 {
   background: url("../img/card_0_to_51/39.png") no-repeat;
 }
 
-/* line 166, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 161, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-40 {
   background: url("../img/card_0_to_51/40.png") no-repeat;
 }
 
-/* line 168, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 163, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-41 {
   background: url("../img/card_0_to_51/41.png") no-repeat;
 }
 
-/* line 169, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 164, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-42 {
   background: url("../img/card_0_to_51/42.png") no-repeat;
 }
 
-/* line 170, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 165, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-43 {
   background: url("../img/card_0_to_51/43.png") no-repeat;
 }
 
-/* line 171, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 166, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-44 {
   background: url("../img/card_0_to_51/44.png") no-repeat;
 }
 
-/* line 172, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 167, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-45 {
   background: url("../img/card_0_to_51/45.png") no-repeat;
 }
 
-/* line 173, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 168, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-46 {
   background: url("../img/card_0_to_51/46.png") no-repeat;
 }
 
-/* line 174, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 169, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-47 {
   background: url("../img/card_0_to_51/47.png") no-repeat;
 }
 
-/* line 175, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 170, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-48 {
   background: url("../img/card_0_to_51/48.png") no-repeat;
 }
 
-/* line 176, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 171, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-49 {
   background: url("../img/card_0_to_51/49.png") no-repeat;
 }
 
-/* line 177, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 172, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-50 {
   background: url("../img/card_0_to_51/50.png") no-repeat;
 }
 
-/* line 179, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 174, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-51 {
   background: url("../img/card_0_to_51/51.png") no-repeat;
 }
 
-/* line 180, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 175, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .card-52 {
   background: url("../img/card_0_to_51/52.png") no-repeat;
 }
 
-/* line 182, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 177, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .container .body {
   background: url("../img/body.png") no-repeat;
 }
 
-/* line 185, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 180, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .hide {
   visibility: hidden;
 }
 
-/* line 186, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 181, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .show {
   visibility: visible;
 }
 
 @media (max-width: 500px) {
-  /* line 189, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 184, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .text {
     padding-bottom: 10vh;
   }
-  /* line 193, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 188, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .cardrow div {
     height: 32vw;
   }
 }
 
-/* line 200, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 195, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .imageRotateHorizontal {
   -moz-animation: spinHorizontal .3s  linear;
   -o-animation: spinHorizontal .3s  linear;
@@ -434,11 +437,11 @@ body {
 }
 
 @-ms-keyframes spinHorizontal {
-  /* line 227, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 219, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   0% {
     -ms-transform: rotateY(0deg);
   }
-  /* line 230, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 222, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   100% {
     -ms-transform: rotateY(360deg);
   }

@@ -14,15 +14,14 @@
 	<!-- Конец игры -->
 	<div class="end_game">
 		<img src="img/Group 2.png" alt="">
-		<h2>Поздравляем!<br>Ваш итоговый счет: <span id="final_points">594</span></h2>
-		<a href="game_page.html" class="btn btn-default">Еще раз</a>
+		<h2>Поздравляем!<br>Ваш итоговый счет: <span id="final_points"> </span></h2>
+		<a href="game_page.html" data-tid="EndGame-retryGame" class="btn btn-default">Еще раз</a>
 	</div>
-	
 	<!-- Основной контент -->
-	<div class="container">
+	<div data-tid="Deck" class="container">
 		<div class="row text">
 			<div class="col-xs-4">
-				<p><a href="game_page.html">Начать заново</a></p>
+				<p><a href="game_page.html" data-tid="Menu-newGame">Начать заново</a></p>
 			</div>
 			<div class="col-xs-4">
 				<p class="timer">
@@ -30,7 +29,7 @@
 				</p>
 			</div>
 			<div class="col-xs-4">
-				<p>Очки: <span id="points">0</span></p>
+				<p>Очки: <span id="points" data-tid="Menu-scores">0</span></p>
 			</div>
 		</div>
 
@@ -38,30 +37,30 @@
 		<div class="click_blocker"></div>
 		<!-- строка 1 -->
 		<div class="row cardrow">
-			<div id="box-1" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-2" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-3" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-4" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-5" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-6" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-1" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-2" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-3" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-4" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-5" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-6" class="col-xs-2 col-md-2 box"></div>
 		</div>
 		<!-- строка 2 -->
 		<div class="row cardrow">
-			<div id="box-7" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-8" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-9" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-10" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-11" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-12" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-7" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-8" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-9" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-10" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-11" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-12" class="col-xs-2 col-md-2 box"></div>
 		</div>
 		<!-- строка 3 -->
 		<div class="row cardrow">
-			<div id="box-13" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-14" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-15" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-16" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-17" class="col-xs-2 col-md-2 box"></div>
-			<div id="box-18" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-13" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-14" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-15" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-16" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-17" class="col-xs-2 col-md-2 box"></div>
+			<div data-tid="Card" id="box-18" class="col-xs-2 col-md-2 box"></div>
 		</div>
 	</div>
 
