@@ -18,7 +18,10 @@ body{
 	left: 0;
 	width: 100%;
 	z-index: 100;
-	visibility: hidden;
+	// visibility: hidden;
+	img{
+		max-width: 80vw;
+	}
 	h2{
 		font-size: 28px;
 		color: $color1;

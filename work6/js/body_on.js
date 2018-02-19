@@ -7,6 +7,7 @@ obj.innerHTML--;
         $(".box").addClass("body");
         // Добавляет атрибут для тестирования
         $(".box").attr("data-tid" , "Card-flipped" );
+        
         $("div").removeClass("open");
         $("div").removeClass("imageRotateHorizontal");
         // Скрывает таймер
