@@ -25,17 +25,26 @@ jQuery(document).ready(function(){
 					$("div.open3").addClass("body");
 					$("div.open3").attr("data-tid" , "Card-flipped" );
 					$("div.open3").removeClass("open3");
-				}
-				setTimeout(delay, 500);
 
-				// подсчет очков
-				var count_close = $('.body').length;//число закрытых карт
-				var points_open = count_close * 21 // 42 * на число НЕ открытых пар
-				// замена очков на новое значение
-				$('#points').each(function () {
-					var newPrice = ( +($(this).text()) + points_open );
-					$(this).text( newPrice );  
-				});
+					// подсчет очков
+					var count_close = $('.body').length;//число закрытых карт
+					var points_open = count_close * 21 // 42 * на число НЕ открытых пар
+					// замена очков на новое значение
+					$('#points').each(function () {
+						var newPrice = ( +($(this).text()) + points_open );
+						$(this).text( newPrice );  
+					});
+				}
+				setTimeout(delay, 300);
+
+				// // подсчет очков
+				// var count_close = $('.body').length;//число закрытых карт
+				// var points_open = count_close * 21 // 42 * на число НЕ открытых пар
+				// // замена очков на новое значение
+				// $('#points').each(function () {
+				// 	var newPrice = ( +($(this).text()) + points_open );
+				// 	$(this).text( newPrice );  
+				// });
 
 				// Финальный экран
 				var count_open = $('.open_forever').length;//число открытых карт
@@ -73,7 +82,7 @@ jQuery(document).ready(function(){
 					$("div.open3").removeClass("open3");
 				}
 				setTimeout(delay, 500);
-				
+
 				// подсчет очков
 				var count_open = $('.open_forever').length;//число открытых карт
 				var points_close = count_open * 21 // 42 * на число открытых пар

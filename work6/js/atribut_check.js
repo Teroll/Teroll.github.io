@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 		$(".box").click(function(event) {
 			var count_open2 = $('.open2').length;
 			// Не дает нажимать на открытую карту
-			if ($(this).hasClass("open") || $(this).hasClass("open2") || $(this).hasClass("open_forever")){
+			if ($(this).hasClass("open") || $(this).hasClass("open2") || $(this).hasClass("open3") || $(this).hasClass("open_forever")){
 			}
 			// следит за появление 2го div с классом open
 			else if ( $("div").hasClass("open") && count_open2 == 0 ) {
