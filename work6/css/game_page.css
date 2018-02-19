@@ -28,6 +28,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 100;
+  visibility: hidden;
 }
 
 /* line 22, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
