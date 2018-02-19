@@ -12,9 +12,26 @@ jQuery(document).ready(function(){
 			
 			// При угадывании карт добавляет очки
 			if (sum1==sum2) {
+				function delay(){
+					// классы для подсчета очков
+					$("div.open").addClass("open_forever");
+					$("div.open2").addClass("open_forever");
+					// убирает маркеры открытия
+					$("div.open").removeClass("open");
+					$("div.open2").removeClass("open2");
+					// убирает классы с 3х и последующих карт
+					// восстанавливает атрибут
+					$("div.open3").removeClass("imageRotateHorizontal");
+					$("div.open3").addClass("body");
+					$("div.open3").attr("data-tid" , "Card-flipped" );
+					$("div.open3").removeClass("open3");
+					
+
+				}
+				setTimeout(delay, 500);
 				// классы для подсчета очков
-				$("div.open").addClass("open_forever");
-				$("div.open2").addClass("open_forever");
+				// $("div.open").addClass("open_forever");
+				// $("div.open2").addClass("open_forever");
 				// подсчет очков
 				var count_close = $('.body').length;//число закрытых карт
 				var points_open = count_close * 21 // 42 * на число НЕ открытых пар
@@ -23,13 +40,13 @@ jQuery(document).ready(function(){
 					var newPrice = ( +($(this).text()) + points_open );
 					$(this).text( newPrice );  
 				});
-				// убирает маркеры открытия
-				$("div.open").removeClass("open");
-				$("div.open2").removeClass("open2");
+				// // убирает маркеры открытия
+				// $("div.open").removeClass("open");
+				// $("div.open2").removeClass("open2");
 
 				// Финальный экран
 				var count_open = $('.open_forever').length;//число открытых карт
-				if (count_open == 18){
+				if (count_open == 16){
 					// скрываем карты
 					$("div.container").addClass("hide");
 					// показываем финальный счет
@@ -57,7 +74,7 @@ jQuery(document).ready(function(){
 					$("div.open").removeClass("imageRotateHorizontal");
 					$("div.open2").removeClass("imageRotateHorizontal");
 					$("div.open3").removeClass("imageRotateHorizontal");
-					// уберает маркеры открытия
+					// убирает маркеры открытия
 					$("div.open").removeClass("open");
 					$("div.open2").removeClass("open2");
 					$("div.open3").removeClass("open3");

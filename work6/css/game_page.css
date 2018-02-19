@@ -389,17 +389,22 @@ body {
 }
 
 /* line 180, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
-.hide {
+.open_forever {
   visibility: hidden;
 }
 
 /* line 181, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+.hide {
+  visibility: hidden;
+}
+
+/* line 182, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .show {
   visibility: visible;
 }
 
 @media (min-width: 992px) {
-  /* line 188, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 189, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .cardrow div {
     height: 25vh;
     border: 1vw solid #1d7431;
@@ -407,17 +412,17 @@ body {
 }
 
 @media (max-width: 500px) {
-  /* line 197, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 198, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .text {
     padding-bottom: 10vh;
   }
-  /* line 201, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 202, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   .container .cardrow div {
     height: 24vw;
   }
 }
 
-/* line 208, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+/* line 209, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
 .imageRotateHorizontal {
   -moz-animation: spinHorizontal .3s  linear;
   -o-animation: spinHorizontal .3s  linear;
@@ -444,11 +449,11 @@ body {
 }
 
 @-ms-keyframes spinHorizontal {
-  /* line 232, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 233, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   0% {
     -ms-transform: rotateY(0deg);
   }
-  /* line 235, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
+  /* line 236, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/game_page.scss */
   100% {
     -ms-transform: rotateY(360deg);
   }
