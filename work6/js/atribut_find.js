@@ -37,15 +37,6 @@ jQuery(document).ready(function(){
 				}
 				setTimeout(delay, 300);
 
-				// // подсчет очков
-				// var count_close = $('.body').length;//число закрытых карт
-				// var points_open = count_close * 21 // 42 * на число НЕ открытых пар
-				// // замена очков на новое значение
-				// $('#points').each(function () {
-				// 	var newPrice = ( +($(this).text()) + points_open );
-				// 	$(this).text( newPrice );  
-				// });
-
 				// Финальный экран
 				var count_open = $('.open_forever').length;//число открытых карт
 				if (count_open == 16){
