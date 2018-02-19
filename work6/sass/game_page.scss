@@ -73,7 +73,7 @@ body{
 			background-size: 100% 100%;
 
 			padding: 0px!important;
-			border: 10px solid $color2;
+			// border: 10px solid $color2;
 			// background-clip: border-box;
 			// background-clip: padding-box;
 			// background-origin: padding-box;
@@ -179,6 +179,19 @@ body{
 }
 .hide{visibility: hidden;}
 .show{visibility: visible;}
+@media (min-width: 992px){
+	.container{
+		// .text{
+		// 	padding-bottom: 10vh;
+		// }
+		.cardrow{
+			div{
+				height: 25vh; //32vw;
+				border: 1vw solid $color2;
+			}
+		}
+	}
+}
 @media (max-width: 500px){
 	.container{
 		.text{
@@ -186,7 +199,7 @@ body{
 		}
 		.cardrow{
 			div{
-				height: 32vw;
+				height: 24vw; //32vw;
 			}
 		}
 	}
