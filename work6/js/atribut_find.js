@@ -25,13 +25,9 @@ jQuery(document).ready(function(){
 					$("div.open3").addClass("body");
 					$("div.open3").attr("data-tid" , "Card-flipped" );
 					$("div.open3").removeClass("open3");
-					
-
 				}
 				setTimeout(delay, 500);
-				// классы для подсчета очков
-				// $("div.open").addClass("open_forever");
-				// $("div.open2").addClass("open_forever");
+
 				// подсчет очков
 				var count_close = $('.body').length;//число закрытых карт
 				var points_open = count_close * 21 // 42 * на число НЕ открытых пар
@@ -40,9 +36,6 @@ jQuery(document).ready(function(){
 					var newPrice = ( +($(this).text()) + points_open );
 					$(this).text( newPrice );  
 				});
-				// // убирает маркеры открытия
-				// $("div.open").removeClass("open");
-				// $("div.open2").removeClass("open2");
 
 				// Финальный экран
 				var count_open = $('.open_forever').length;//число открытых карт
@@ -80,18 +73,7 @@ jQuery(document).ready(function(){
 					$("div.open3").removeClass("open3");
 				}
 				setTimeout(delay, 500);
-				// // переворачивает карты
-				// $("div.open").addClass("body");
-				// $("div.open2").addClass("body");
-				// // Добавляет атрибут для тестирования
-				// $("div.open").attr("data-tid" , "Card-flipped" );
-				// $("div.open2").attr("data-tid" , "Card-flipped" );
-				// // восстанавливает анимацию
-				// $("div.open").removeClass("imageRotateHorizontal");
-				// $("div.open2").removeClass("imageRotateHorizontal");
-				// // уберает маркеры открытия
-				// $("div.open").removeClass("open");
-				// $("div.open2").removeClass("open2");
+				
 				// подсчет очков
 				var count_open = $('.open_forever').length;//число открытых карт
 				var points_close = count_open * 21 // 42 * на число открытых пар

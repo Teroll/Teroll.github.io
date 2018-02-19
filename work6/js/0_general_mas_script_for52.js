@@ -7,7 +7,7 @@ function compareRandom(a, b) {
 }
 Ncard.sort(compareRandom);
 // Обрезаем массив карт до 9шт
-Ncard.splice(9, 43); // начиная с позиции 3, удалить 2 элементa
+Ncard.splice(9, 43);
 // создает  удвоенный  массив
 var DoubleNcard = Ncard.concat(Ncard);
 // перемешиваем удвоенный массив
@@ -15,14 +15,11 @@ function compareRandom(a, b) {
   return Math.random() - 0.5;
 }
 DoubleNcard.sort(compareRandom);
-// Вывод
-// alert( DoubleNcard );
 
 // выводит карту для бокса с id зависящим от переменной масива
 $(document).ready(function() {
 	for (var i = 0; i < DoubleNcard.length; i++) {
-		// alert( Ncard[i] );
-		// $("#box-" + Ncard[i]).addClass("card-0") ;
+
 		$("#box-" + Nslot[i]).addClass("card-" + DoubleNcard[i]) ;
 
 	}  
