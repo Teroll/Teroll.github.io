@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/contacts.css",
+	"sources": [
+		"../sass/contacts.scss"
+	],
+	"sourcesContent": [
+		".content{\r\n\ttext-align: center;\r\n\tpadding-bottom: 40px;\r\n}\r\n.sign{\r\n\ttext-align: right;\r\n}\r\nh4{\r\n\tmargin-top: 5px;\r\n\tfont-weight: bold;\r\n}\r\n.col1{\r\n\tfloat: right;\r\n\tmargin-right: 30px;\r\n\timg{\r\n\t\tmargin: 5px auto;\r\n\t}\r\n}\r\n.col2{\r\n\tdisplay: inline-block;\r\n\tfloat: left;\r\n\tmargin-left: 30px;\r\n\timg{\r\n\t\tmargin: 5px auto;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n.col1, .col2 {\r\n        float: none;\r\n        margin: auto;\r\n\r\n    }\r\n}\r\n\r\n// .content{\r\n// \t.telephone{\r\n// \t\ta{\r\n// \t\t\ttext-decoration: none!important;\r\n// \t\t\tcolor: red;\r\n// \t\t\tfont-size: 99px;\r\n// \t\t}\r\n// \t}\r\n// }"
+	],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAA;EACP,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,IAAK;CACrB;;;AACD,AAAA,KAAK,CAAA;EACJ,UAAU,EAAE,KAAM;CAClB;;;AACD,AAAA,EAAE,CAAA;EACD,UAAU,EAAE,GAAI;EAChB,WAAW,EAAE,IAAK;CAClB;;;AACD,AAAA,KAAK,CAAA;EACJ,KAAK,EAAE,KAAM;EACb,YAAY,EAAE,IAAK;CAInB;;;AAND,AAGC,KAHI,CAGJ,GAAG,CAAA;EACF,MAAM,EAAE,QAAS;CACjB;;;AAEF,AAAA,KAAK,CAAA;EACJ,OAAO,EAAE,YAAa;EACtB,KAAK,EAAE,IAAK;EACZ,WAAW,EAAE,IAAK;CAIlB;;;AAPD,AAIC,KAJI,CAIJ,GAAG,CAAA;EACF,MAAM,EAAE,QAAS;CACjB;;AAGF,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC5B,AAAA,KAAK,EAAE,AAAA,KAAK,CAAC;IACL,KAAK,EAAE,IAAK;IACZ,MAAM,EAAE,IAAK;GAEhB",
+	"names": []
+}

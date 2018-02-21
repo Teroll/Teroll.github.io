@@ -1,39 +1,49 @@
+/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .content {
   text-align: center;
   padding-bottom: 40px;
 }
 
+/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .sign {
   text-align: right;
 }
 
+/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 h4 {
   margin-top: 5px;
   font-weight: bold;
 }
 
+/* line 12, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .col1 {
   float: right;
   margin-right: 30px;
 }
 
+/* line 15, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .col1 img {
   margin: 5px auto;
 }
 
+/* line 19, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .col2 {
   display: inline-block;
   float: left;
   margin-left: 30px;
 }
 
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
 .col2 img {
   margin: 5px auto;
 }
 
 @media screen and (max-width: 768px) {
+  /* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/contacts.scss */
   .col1, .col2 {
     float: none;
     margin: auto;
   }
 }
+
+/*# sourceMappingURL=../css/contacts.map */

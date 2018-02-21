@@ -1,7 +1,9 @@
+/* line 18, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .container {
   max-width: 1000px;
 }
 
+/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .round_img {
   height: 230px;
   width: 230px;
@@ -10,6 +12,7 @@
   margin: 25px auto;
 }
 
+/* line 28, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content span {
   font-size: 14px;
   margin-top: 20px;
@@ -17,6 +20,7 @@
   display: inline-block;
 }
 
+/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul:before {
   content: url("../img/blog_icon.png");
   position: relative;
@@ -24,37 +28,45 @@
   left: 5px;
 }
 
+/* line 47, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul a {
   text-decoration: none !important;
   color: #818181 !important;
 }
 
+/* line 50, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul a:hover {
   color: #c59d5f !important;
 }
 
+/* line 54, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul li {
   list-style-type: none;
 }
 
+/* line 56, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul li:first-child {
   padding-left: 20px;
 }
 
+/* line 59, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content ul li:before {
   content: none !important;
 }
 
+/* line 65, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB {
   text-align: center;
 }
 
+/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB span {
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
+/* line 72, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB a {
   text-decoration: none !important;
   color: #4f4f4f !important;
@@ -63,15 +75,20 @@
   text-transform: uppercase;
 }
 
+/* line 78, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB a:hover {
   color: #c59d5f !important;
 }
 
+/* line 82, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB img {
   margin-top: 35px;
   margin-bottom: 5px;
 }
 
+/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blog.scss */
 .content .LastB h2 {
   margin-bottom: 0px;
 }
+
+/*# sourceMappingURL=../css/blog.map */

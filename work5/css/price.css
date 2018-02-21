@@ -1,15 +1,18 @@
+/* line 7, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content {
   padding-top: 40px;
   padding-bottom: 75px;
   text-align: center;
 }
 
+/* line 12, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .gold {
   background: url("../img/line_golden.png") 50% 100% no-repeat;
   margin-top: 40px;
   padding-bottom: 30px;
 }
 
+/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .img {
   height: 270px;
   max-width: 970px;
@@ -18,6 +21,7 @@
   margin-top: 15px;
 }
 
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .img p {
   color: white;
   font-size: 30px;
@@ -26,27 +30,32 @@
   line-height: 32px;
 }
 
+/* line 30, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .img span {
   font-size: 16px;
   position: relative;
   top: 50px;
 }
 
+/* line 36, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .bg2 {
   background: url("../img/price_2.jpg") no-repeat center top;
   width: 270px;
 }
 
+/* line 40, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .bg3 {
   background: url("../img/price_3.jpg") no-repeat center top;
   width: 270px;
 }
 
+/* line 44, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .bg4 {
   background: url("../img/price_4.jpg") no-repeat center top;
   width: 270px;
 }
 
+/* line 48, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .arrow {
   background: url("../img/price_arrow.png") no-repeat 50% 60%;
   width: 80px;
@@ -54,17 +63,20 @@
   display: inline-block;
 }
 
+/* line 54, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .flex-container {
   display: flex;
   align-items: flex-start;
   padding-bottom: 50px;
 }
 
+/* line 60, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .part3 b {
   margin-top: 60px;
   display: inline-block;
 }
 
+/* line 64, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .part3 a {
   margin-top: 25px;
   display: inline-block;
@@ -76,28 +88,35 @@
   padding: 8px 19px;
 }
 
+/* line 73, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .part3 a:hover {
   color: white;
   background: red;
   border: 2px solid red;
 }
 
+/* line 80, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .star {
   margin-top: 5px;
   margin-bottom: 15px;
 }
 
+/* line 85, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content .part3 .flex-container {
   padding-bottom: 15px;
 }
 
+/* line 90, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content span {
   font-size: 19px;
 }
 
+/* line 93, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/price.scss */
 .content h3 {
   color: #000a5f;
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
+/*# sourceMappingURL=../css/price.map */

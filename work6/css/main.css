@@ -1,19 +1,15 @@
-/* line 4, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 a {
   text-decoration: none !important;
 }
 
-/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 button:focus, a:focus, input:focus, select:focus {
   outline: none !important;
 }
 
-/* line 6, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 li {
   list-style-type: none;
 }
 
-/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 body {
   background-color: #1d7431;
   height: 100vh;
@@ -21,21 +17,18 @@ body {
   font-family: Open Sans;
 }
 
-/* line 16, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container img {
   margin-top: 95px;
   width: 70%;
   max-width: 501px;
 }
 
-/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container h2 {
   font-size: 28px;
   color: white;
   font-weight: bold;
 }
 
-/* line 26, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container a {
   width: 145px;
   height: 42px;
@@ -46,19 +39,14 @@ body {
   font-weight: bold;
 }
 
-/* line 35, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container a:hover {
   color: #1d7431;
 }
 
-/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container a:active {
   color: #1d7431;
 }
 
-/* line 41, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work6/sass/main.scss */
 .container a:focus {
   color: #1d7431;
 }
-
-/*# sourceMappingURL=../css/main.map */

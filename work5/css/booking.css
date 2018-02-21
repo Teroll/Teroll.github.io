@@ -1,16 +1,20 @@
+/* line 7, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content {
   padding-top: 30px;
   padding-bottom: 45px;
 }
 
+/* line 10, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .pretty {
   margin-bottom: 12px;
 }
 
+/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .formFirst {
   width: 90%;
 }
 
+/* line 16, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .formLine {
   display: inline-block;
   width: 10%;
@@ -18,6 +22,7 @@
   background: url("../img/formLine.png") no-repeat center;
 }
 
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .calendar:after {
   content: url("../img/calendar.png");
   position: absolute;
@@ -26,10 +31,12 @@
   right: 6px;
 }
 
+/* line 32, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .cal1:after {
   right: calc(10% + 6px);
 }
 
+/* line 36, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content button {
   color: red;
   border: 2px solid red;
@@ -39,66 +46,79 @@
   font-size: 19px;
 }
 
+/* line 43, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content button:hover {
   color: white;
   background: red;
   border: 2px solid red;
 }
 
+/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row {
   margin-right: 0px;
   margin-left: 0px;
   padding-top: 15px;
 }
 
+/* line 54, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row div {
   padding: 0;
 }
 
+/* line 58, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .container {
   max-width: 1200px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .form_name {
   padding: 0;
 }
 
+/* line 66, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .form {
   padding: 0;
 }
 
+/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content h2 {
   margin-top: 0px;
   font-size: 30px;
   color: #000a5f;
 }
 
+/* line 73, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content h2:before {
   content: url("../img/booking_ico.png");
   margin-right: 15px;
 }
 
+/* line 78, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content b {
   color: red;
   width: 100%;
 }
 
+/* line 82, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content b span {
   color: #4f4f4f;
 }
 
+/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .title {
   text-align: center;
 }
 
+/* line 89, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content label {
   margin-right: 20px;
   margin-bottom: 0px;
   margin-top: 7px;
 }
 
+/* line 98, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content input {
   width: 100%;
   max-width: 570px;
@@ -107,79 +127,95 @@
   height: 42px;
 }
 
+/* line 106, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content p {
   margin-bottom: 15px;
 }
 
+/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row1 {
   padding-top: 25px;
   padding-bottom: 15px;
 }
 
+/* line 113, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row2 {
   padding-top: 20px;
   padding-bottom: 25px;
 }
 
+/* line 116, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row2 input[type="checkbox"] {
   height: 16px;
   padding: 10px;
 }
 
+/* line 120, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row2 input[type="text"] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+/* line 124, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row2 .blabel {
   width: 100%;
   padding-right: 20px;
 }
 
+/* line 129, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row3 {
   padding-bottom: 20px;
 }
 
+/* line 131, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row3 input[type="checkbox"] {
   height: 16px;
   padding: 10px;
 }
 
+/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row3 input[type="text"] {
   padding-right: 30px;
 }
 
+/* line 138, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row3 p {
   font-size: 14px;
   margin-bottom: 5px;
   line-height: 16px;
 }
 
+/* line 145, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row4 h2 {
   white-space: nowrap;
 }
 
+/* line 148, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row4 p {
   margin-right: 20px;
   font-size: 14px;
   line-height: 16px;
 }
 
+/* line 153, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row4 textarea {
   height: 215px;
   width: 100%;
   resize: none;
 }
 
+/* line 159, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .row5 {
   text-align: center;
   padding-top: 70px;
 }
 
+/* line 163, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content hr {
   display: inline-block;
 }
 
+/* line 167, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .line {
   border-top: 1px solid #d8d8d8;
   position: relative;
@@ -187,6 +223,7 @@
   color: #d8d8d8;
 }
 
+/* line 172, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .line span {
   display: inline-block;
   vertical-align: top;
@@ -197,28 +234,35 @@
   font-size: 20px;
 }
 
+/* line 182, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .checkbox1 {
   min-height: 160px;
 }
 
+/* line 184, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .content .checkbox1 .pretty {
   margin-bottom: 10px;
 }
 
+/* line 190, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
 .pretty input:checked ~ .state.p-primary label:after {
   background-color: #000a5f !important;
 }
 
 @media (max-width: 739px) {
+  /* line 195, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .form {
     text-align: left !important;
   }
+  /* line 198, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   input {
     max-width: 740px !important;
   }
+  /* line 201, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .form_name {
     text-align: center;
   }
+  /* line 204, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .row {
     margin-right: 0;
     margin-left: 0;
@@ -226,19 +270,24 @@
 }
 
 @media (min-width: 740px) {
+  /* line 211, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .content .container {
     padding: 0 2px;
   }
+  /* line 215, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .blabel {
     text-align: right;
   }
+  /* line 218, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .form_name {
     text-align: center;
   }
+  /* line 221, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .row {
     margin-right: 0;
     margin-left: 0;
   }
+  /* line 226, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .row3 p {
     max-width: 560px;
     float: right;
@@ -247,12 +296,15 @@
 }
 
 @media (min-width: 960px) {
+  /* line 235, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .container {
     width: 930px;
   }
+  /* line 238, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   input {
     max-width: 620px !important;
   }
+  /* line 242, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .row3 p {
     max-width: 260px;
     float: right;
@@ -261,14 +313,19 @@
 }
 
 @media (min-width: 1200px) {
+  /* line 250, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .container {
     width: 1170px;
   }
+  /* line 253, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   input {
     max-width: 570px !important;
   }
+  /* line 257, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/booking.scss */
   .row4 p {
     max-width: 235px;
     float: right;
   }
 }
+
+/*# sourceMappingURL=../css/booking.map */

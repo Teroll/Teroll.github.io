@@ -1,35 +1,43 @@
+/* line 7, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content {
   padding-bottom: 0px;
   text-align: center;
   padding-top: 40px;
 }
 
+/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .container {
   max-width: 1200px;
 }
 
+/* line 14, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content i {
   text-align: right;
 }
 
+/* line 16, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content i p {
   margin-right: 0px !important;
 }
 
+/* line 20, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content img {
   margin-top: 5px;
   margin-bottom: 25px;
   width: 100%;
 }
 
+/* line 26, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .col-xs-12 {
   margin-bottom: 70px;
 }
 
+/* line 31, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .row a {
   text-decoration: none !important;
 }
 
+/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .row a h2 {
   max-width: 430px;
   margin-right: auto;
@@ -37,62 +45,76 @@
   margin-bottom: 10px;
 }
 
+/* line 38, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .row a h2:hover {
   color: #dfa750;
 }
 
+/* line 43, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content .row p {
   max-width: 430px;
   margin: 0 auto 20px auto;
 }
 
+/* line 48, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content a {
   color: #c59d5f;
 }
 
+/* line 50, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .content a:hover {
   color: #dfa750;
 }
 
+/* line 55, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback {
   min-height: 755px;
 }
 
+/* line 57, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback a {
   color: #000a5f;
 }
 
+/* line 59, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback a:hover {
   color: #2c3d97 !important;
 }
 
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback p {
   max-width: 870px !important;
 }
 
+/* line 66, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback b {
   color: red;
 }
 
+/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback h2 {
   margin-bottom: 30px !important;
 }
 
+/* line 72, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback label {
   color: #212121;
   line-height: 20px;
 }
 
+/* line 76, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .content {
   padding-top: 0px;
   text-align: left !important;
 }
 
+/* line 80, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback span {
   font-size: 14px;
   color: #4f4f4f;
 }
 
+/* line 84, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback textarea {
   max-width: 770px;
   margin: 10px auto 10px auto;
@@ -100,12 +122,14 @@
   resize: none;
 }
 
+/* line 90, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .textarea {
   min-height: 215px;
   max-width: 880px;
   margin-bottom: 75px;
 }
 
+/* line 95, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback button {
   color: red;
   border: 2px solid red;
@@ -115,25 +139,30 @@
   font-size: 19px;
 }
 
+/* line 102, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback button:hover {
   color: white;
   background: red;
   border: 2px solid red;
 }
 
+/* line 108, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .button {
   text-align: center;
 }
 
+/* line 111, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .form {
   max-width: 800px;
   margin: 0 auto;
 }
 
+/* line 114, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .form .col-md-6 {
   margin-bottom: 30px;
 }
 
+/* line 118, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback #download {
   width: 0.1px;
   height: 0.1px;
@@ -143,6 +172,7 @@
   z-index: -999;
 }
 
+/* line 127, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .download {
   color: red;
   border: 1px solid  #bdbdbd;
@@ -150,6 +180,7 @@
   height: 43px;
 }
 
+/* line 133, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .download div:first-child {
   color: #bdbdbd;
   width: 125px;
@@ -160,6 +191,7 @@
   font-weight: normal;
 }
 
+/* line 143, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .download div:last-child {
   color: red;
   width: 105px;
@@ -174,21 +206,27 @@
   font-weight: normal;
 }
 
+/* line 155, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .download div:last-child:hover {
   background: red;
   color: white;
 }
 
+/* line 162, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .form-group {
   height: 90px;
 }
 
+/* line 165, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback .name {
   margin-bottom: 23px;
 }
 
+/* line 168, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/reviews.scss */
 .feedback #name {
   max-width: 370px;
   height: 43px;
   border-radius: 0px;
 }
+
+/*# sourceMappingURL=../css/reviews.map */

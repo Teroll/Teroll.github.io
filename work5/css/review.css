@@ -1,7 +1,9 @@
+/* line 1, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content {
   padding-top: 35px;
 }
 
+/* line 3, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content .round_img {
   height: 230px;
   width: 230px;
@@ -10,24 +12,31 @@
   margin: 25px auto;
 }
 
+/* line 10, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content p {
   margin-bottom: 20px;
 }
 
+/* line 13, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content b {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content b p {
   margin-bottom: 0px;
 }
 
+/* line 21, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content h2 {
   margin-bottom: 50px !important;
 }
 
+/* line 24, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/review.scss */
 .content span {
   margin-top: 0px;
 }
+
+/*# sourceMappingURL=../css/review.map */

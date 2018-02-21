@@ -99,7 +99,7 @@ header{
 		font-size: 18px;
 		font-family: 'Source Sans Pro';
 		&:hover{
-			color: $color1;
+			color: $color2;
 		}
 		&:focus{
 			color: $color2;
@@ -107,7 +107,9 @@ header{
 	}
 
 }
-
+.logo2{
+		display: none;
+	}
 // france_for_you------------------------------------
 #france_for_you{
 	.star:before{
@@ -147,6 +149,18 @@ header{
 }
 // how_we_work_bottom----------------------------------------
 #how_we_work_bottom{
+	padding-bottom: 40px;
+	.col-md-6{
+		margin-bottom: 40px;
+	}
+	.col-md-3{
+		a{
+			&:last-child{
+				display: block;
+				margin-top: 20px;
+			}
+		}
+	}
 	img{	
 		height: 410px;
 	}
@@ -155,9 +169,8 @@ header{
 	}
 	p{
 		a{
-		
-		text-decoration:underline!important;
-	}
+			text-decoration:underline!important;
+		}
 	}
 }
 // book-----------------------------------------
@@ -276,8 +289,9 @@ footer{
 // 	}
 // }
 @media (max-width: 479px) {
-	.logo{
+	.logo,.logo2{
 		max-height: 55px!important;
+		padding-left: 50px;
 	}
 }
 @media (max-width: 959px) {
@@ -310,11 +324,13 @@ footer{
 .logo{
 	// width: 50%;
 	max-height: 80px;
-	padding-left: 50px;
+	// padding-left: 50px;
 }
 .logo1{
 		// width: 300px;
 		display: inline-block;
+		// background: url("../img/logoHAT1.png") 0 0 no-repeat;
+		// background-size: contain;
 		
 	}
 #navbar {
@@ -325,12 +341,16 @@ footer{
  	width: 100vw;
  	height: 120px;
  	padding: 20px 0;
+ 	margin: 0!important;
 }
 #navbar.fixedattop {
 	box-shadow: 0px 3px 3px -3px #000000;
 	background: white;
 	a{
 		color: $color4;
+		&:hover{
+			color: #d51313;
+		}
 	}
 	.pushy{
 		a{
@@ -338,12 +358,16 @@ footer{
 		}
 	}
 	.logo{
-		opacity: 0;
+		// opacity: 0;
+		display: none;
 	}
-	.logo1{
-		background: url("../img/logoHAT2.png") 0 0 no-repeat;
-		background-size: contain;
+	.logo2{
+		display: block;
 	}
+	// .logo1{
+	// 	background: url("../img/logoHAT2.png") 0 0 no-repeat;
+	// 	background-size: contain;
+	// }
 	#container{
 		div{
 			background: url("../img/menu_ico3.png");

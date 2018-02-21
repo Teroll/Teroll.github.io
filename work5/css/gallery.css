@@ -1,46 +1,100 @@
+/* line 8, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content img {
   height: 340px;
   margin: 0;
   width: auto;
 }
 
+/* line 14, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content .tags {
+  text-align: center;
+}
+
+/* line 24, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul a {
+  text-decoration: none !important;
+  color: #818181 !important;
+}
+
+/* line 27, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul a:hover {
+  color: #c59d5f !important;
+}
+
+/* line 31, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul li {
+  list-style-type: none;
+}
+
+/* line 33, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul li:first-child {
+  padding-left: 20px;
+}
+
+/* line 36, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul li:before {
+  content: none !important;
+}
+
+/* line 40, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul b {
+  color: #4f4f4f;
+}
+
+/* line 42, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content ul b:hover {
+  color: #c59d5f !important;
+}
+
+/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .row div {
   padding: 15px 15px;
 }
 
+/* line 53, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box1, .content .box2, .content .box3, .content .box4, .content .box5, .content .box6, .content .box7, .content .box8 {
   background-clip: content-box !important;
   height: 340px;
 }
 
+/* line 57, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box1 {
   background: url("../img/gallery1.jpg") center;
 }
 
+/* line 60, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box2 {
   background: url("../img/gallery2.jpg") center no-repeat;
 }
 
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box3 {
   background: url("../img/gallery3.jpg") center no-repeat;
 }
 
+/* line 66, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box4 {
   background: url("../img/gallery4.jpg") center no-repeat;
 }
 
+/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box5 {
   background: url("../img/gallery5.jpg") center no-repeat;
 }
 
+/* line 72, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box6 {
   background: url("../img/gallery6.jpg") center no-repeat;
 }
 
+/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box7 {
   background: url("../img/gallery7.jpg") center no-repeat;
 }
 
+/* line 78, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box8 {
   background: url("../img/gallery8.jpg") center no-repeat;
 }
+
+/*# sourceMappingURL=../css/gallery.map */

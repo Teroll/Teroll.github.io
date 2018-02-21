@@ -1,20 +1,25 @@
+/* line 7, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content {
   text-align: center;
 }
 
+/* line 18, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content p {
   max-width: 435px;
   margin: 15px auto 15px auto;
 }
 
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .row div {
   padding: 0;
 }
 
+/* line 26, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .row a {
   color: #c59d5f;
 }
 
+/* line 29, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .row span {
   font-size: 14px;
   color: #4f4f4f;
@@ -22,58 +27,71 @@
   display: inline-block;
 }
 
+/* line 36, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog1, .content .blog2, .content .blog3, .content .blog4, .content .blog5 {
   background-clip: content-blog !important;
   min-height: 380px;
 }
 
+/* line 40, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog1 {
   background: url("../img/blog1.jpg") center no-repeat;
 }
 
+/* line 43, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog2 {
   background: url("../img/blog2.jpg") center no-repeat;
 }
 
+/* line 46, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog3 {
   background: url("../img/blog3.jpg") center no-repeat;
 }
 
+/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog4 {
   background: url("../img/blog4.jpg") center no-repeat;
 }
 
+/* line 52, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .content .blog5 {
   background: url("../img/blog5.jpg") center no-repeat;
 }
 
+/* line 58, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags ul {
   margin-top: -10px;
   margin-bottom: 5px;
 }
 
+/* line 62, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags li {
   list-style-type: none;
 }
 
+/* line 64, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags li:before {
   content: none !important;
 }
 
+/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags li:last-child {
   color: #4f4f4f;
   font-weight: bold;
 }
 
+/* line 72, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags a {
   text-decoration: none !important;
   color: #818181 !important;
 }
 
+/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags a:hover {
   color: #c59d5f !important;
 }
 
+/* line 80, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags p {
   margin: 0;
   max-width: 1200px;
@@ -82,18 +100,23 @@
   line-height: 21px;
 }
 
+/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
 .tags p span {
   color: #d51313 !important;
   font-size: 20px !important;
 }
 
 @media screen and (max-width: 767px) {
+  /* line 116, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
   .content .row {
     border-bottom: 1px solid gray;
     padding-bottom: 30px;
   }
+  /* line 121, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/blogs.scss */
   .content .row:first-child, .content .row:last-child {
     border-bottom: none;
     padding-bottom: 0px;
   }
 }
+
+/*# sourceMappingURL=../css/blogs.map */
