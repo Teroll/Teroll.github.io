@@ -522,4 +522,11 @@ footer .telephone {
   bottom: -270px;
 }
 
+/* line 440, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+.dotstyle {
+  position: fixed;
+  right: 50px;
+  top: 50vh;
+}
+
 /*# sourceMappingURL=../css/main.map */
