@@ -50,11 +50,7 @@ $color6: #d51313;//red for a:focus in nav
 			padding: 15px 15px;
 		}
 	}
-	.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,{
-		background-clip: content-box!important;
-		height: 340px;
-		height: 28vw;
-	}
+
 	.box1{
 		background: url("../img/gallery1.jpg")center no-repeat;
 	}
@@ -78,6 +74,12 @@ $color6: #d51313;//red for a:focus in nav
 	}
 	.box8{
 		background: url("../img/gallery8.jpg")center no-repeat;
+	}
+	.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,{
+		background-clip: content-box!important;
+		background-size: cover;
+		height: 340px;
+		height: 28vw;
 	}
 }
 // hover style

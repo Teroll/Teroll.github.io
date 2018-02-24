@@ -44,54 +44,55 @@
   padding: 15px 15px;
 }
 
-/* line 53, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
-.content .box1, .content .box2, .content .box3, .content .box4, .content .box5, .content .box6, .content .box7, .content .box8 {
-  background-clip: content-box !important;
-  height: 340px;
-  height: 28vw;
-}
-
-/* line 58, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 54, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box1 {
   background: url("../img/gallery1.jpg") center no-repeat;
 }
 
-/* line 61, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 57, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box2 {
   background: url("../img/gallery2.jpg") center no-repeat;
 }
 
-/* line 64, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 60, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box3 {
   background: url("../img/gallery3.jpg") center no-repeat;
 }
 
-/* line 67, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box4 {
   background: url("../img/gallery4.jpg") center no-repeat;
 }
 
-/* line 70, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 66, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box5 {
   background: url("../img/gallery5.jpg") center no-repeat;
 }
 
-/* line 73, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box6 {
   background: url("../img/gallery6.jpg") center no-repeat;
 }
 
-/* line 76, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 72, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box7 {
   background: url("../img/gallery7.jpg") center no-repeat;
 }
 
-/* line 79, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .content .box8 {
   background: url("../img/gallery8.jpg") center no-repeat;
 }
 
-/* line 126, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 78, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+.content .box1, .content .box2, .content .box3, .content .box4, .content .box5, .content .box6, .content .box7, .content .box8 {
+  background-clip: content-box !important;
+  background-size: cover;
+  height: 340px;
+  height: 28vw;
+}
+
+/* line 128, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover .bubba {
   width: 100%;
   height: 100%;
@@ -102,7 +103,7 @@
   color: white;
 }
 
-/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 137, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover .bubba_top {
   width: 100%;
   height: 100%;
@@ -118,25 +119,25 @@
   transform: translate3d(0, 20px, 0);
 }
 
-/* line 149, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 151, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover .bubba_top div {
   width: 100%;
   text-align: center;
 }
 
-/* line 152, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 154, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover .bubba_top div img {
   margin: 0;
   margin-top: 5vh;
 }
 
-/* line 158, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 160, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover:hover .bubba {
   visibility: visible;
   opacity: 0.5;
 }
 
-/* line 162, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
+/* line 164, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/gallery.scss */
 .hover:hover .bubba_top {
   visibility: visible;
   opacity: 1;
