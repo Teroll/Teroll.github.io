@@ -105,6 +105,13 @@ li img{
 .aboutMe li p{
 	margin-bottom: 20px;
 }
+.aboutMe a{
+	color: black;
+}
+.aboutMe a:hover{
+	color: gray;
+	text-decoration: underline!important;
+}
 /*В разработке*/
 .inWork:before{
 	content: "Страница в разработке";
