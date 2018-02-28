@@ -81,6 +81,10 @@ li{list-style-type: none;}
 	}
 	.box{
 		color: white;
+		// transition: border .3s;
+		&:hover{
+			border: 3px solid red;
+		}
 	}
 	.item_1{
 		// background: url("../img/movie-2.jpg");
@@ -103,6 +107,13 @@ li{list-style-type: none;}
 		grid-row:3/5;
 	}
 	.big_box_vertical{
+		&:hover{
+			border: 3px solid red;
+			border-radius: 9px;
+			.play{
+				background: red!important;
+			}
+		}
 		.box_info{
 			position: absolute;
 			top: 0;
