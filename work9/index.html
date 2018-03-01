@@ -80,12 +80,34 @@
 		<!-- search -->
 		<section class="search">
 			<!-- col 1 -->
-			<div class="col_1">FEATURED MOVIES</div>
+			<div class="col_1">
+				<a class="sort" data-sort="myorder:desc" >
+					Old
+				</a>
+				/
+				<a class="sort" data-sort="myorder:asc" >
+					New
+				</a>
+			</div>
 			<!-- col 2 -->
 			<div class="col_2">
-				<span>New Realised </span>
+				<span>
+					<a class="filter" data-filter=".category-1" href="#1">
+						New Realised 
+					</a>
+				</span>
 				<span>/</span>
-				<span>Trailers & Clips</span>
+				<span>
+					<a class="filter" data-filter=".category-2" href="#2">
+						Trailers & Clips
+					</a>
+				</span>
+				<span>/</span>
+				<span>
+					<a class="filter" data-filter="all" href="#2">
+						All
+					</a>
+				</span>
 			</div>
 			<!-- col 3 -->
 			<div class="col_3">
@@ -93,9 +115,9 @@
 			</div>
 		</section>
 		<!-- Page_1 -->
-		<section class="Page_1">
+		<section id="Page_1" class="Page_1">
 			<!-- Big box 1 -->
-			<div class="item_1 big_box_vertical">
+			<div class="mix item_1 big_box_vertical">
 				<div class="box_info">
 					<!-- like -->
 					<div class="like_big">
@@ -145,7 +167,7 @@
 				</div>
 			</div>
 			<!-- Big box 2 -->
-			<div class="item_2 big_box_horizontal">
+			<div class="mix item_2 big_box_horizontal">
 				<div class="play hide_tab">
 					<a href="#">
 						<img src="img/body_play.png" alt="">
@@ -171,7 +193,7 @@
 				</div>
 			</div>
 			<!-- Big box 3 -->
-			<div class="item_3 big_box_horizontal">
+			<div class="mix item_3 big_box_horizontal">
 				<div class="play">
 					<a href="#">
 						<img src="img/body_play.png" alt="">
@@ -179,7 +201,7 @@
 				</div>
 			</div>
 			<!-- Big box 4 -->
-			<div class="item_4 big_box_vertical">
+			<div class="mix item_4 big_box_vertical">
 				<div class="box_info">
 					<!-- like -->
 					<div class="like_big">
@@ -230,7 +252,7 @@
 			</div>
 
 			<!-- box 1 -->
-			<div class="box box1">
+			<div data-myorder="1" class="mix category-2 box box1">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -249,7 +271,7 @@
 				</div>
 			</div>
 			<!-- box 2 -->
-			<div class="box box2">
+			<div data-myorder="2" class="mix category-2 box box2">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -268,7 +290,7 @@
 				</div>
 			</div>
 			<!-- box 3 -->
-			<div class="box box3">
+			<div data-myorder="3" class="mix category-2 box box3">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -287,7 +309,7 @@
 				</div>
 			</div>
 			<!-- box 4 -->
-			<div class="box box4">
+			<div data-myorder="4" class="mix category-2 box box4">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -306,7 +328,7 @@
 				</div>
 			</div>
 			<!-- box 5 -->
-			<div class="box box5">
+			<div data-myorder="5" class="mix category-2 box box5">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -325,7 +347,7 @@
 				</div>
 			</div>
 			<!-- box 6 -->
-			<div class="box box6">
+			<div data-myorder="6" class="mix category-2 box box6">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -344,7 +366,7 @@
 				</div>
 			</div>
 			<!-- box 7 -->
-			<div class="box box7">
+			<div data-myorder="7" class="mix category-1 box box7">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -363,7 +385,7 @@
 				</div>
 			</div>
 			<!-- box 8 -->
-			<div class="box box8">
+			<div data-myorder="8" class="mix category-1 box box8">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -382,7 +404,7 @@
 				</div>
 			</div>
 			<!-- box 9 -->
-			<div class="box box9">
+			<div data-myorder="9" class="mix category-1 box box9">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -401,7 +423,7 @@
 				</div>
 			</div>
 			<!-- box 10 -->
-			<div class="box box10">
+			<div data-myorder="10" class="mix category-1 box box10">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -420,7 +442,7 @@
 				</div>
 			</div>
 			<!-- box 11 -->
-			<div class="box box11">
+			<div data-myorder="11" class="mix category-1 box box11">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -439,7 +461,7 @@
 				</div>
 			</div>
 			<!-- box 12 -->
-			<div class="box box12">
+			<div data-myorder="12" class="mix category-1 box box12">
 				<div class="like">
 					<span>
 						<a href="#">
@@ -477,6 +499,10 @@
 
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	<!-- Фильтр по категориям -->
+	<script src="js/jquery.mixitup.js"></script>
+	<!-- Настройки фильтра -->
+	<script src="js/mixitup_options.js"></script>
 </body>
 </html>
