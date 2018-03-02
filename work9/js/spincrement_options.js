@@ -6,9 +6,9 @@
 //     // thousandSeparator: ",", // Разделитель тыcячных
 //     duration: 4000          // Продолжительность анимации в миллисекундах
 // });
-$(document).ready(function(){
+// $(document).ready(function(){
     var show = true;
-	var countbox = "#footer";
+	var countbox = "#count";
 	$(window).on("scroll load resize", function(){
 		if(!show) return false;                   // Отменяем показ анимации, если она уже была выполнена
 		var w_top = $(window).scrollTop();        // Количество пикселей на которое была прокручена страница
@@ -16,12 +16,12 @@ $(document).ready(function(){
 		var w_height = $(window).height();        // Высота окна браузера
 		var d_height = $(document).height();      // Высота всего документа
 		var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
-		if(w_top + 200 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
+		if(w_top + 510 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
 			$(".spincrement").spincrement({
 				// thousandSeparator: "",
-				duration: 4200
+				duration: 6200
 			});
 			show = false;
 		}
 	});
-});
+// });

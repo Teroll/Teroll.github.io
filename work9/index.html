@@ -78,35 +78,34 @@
 			<img src="img/slider.jpg" alt="">
 		</section>
 		<!-- search -->
-		<section class="search">
+		<section id="count" class="search">
 			<!-- col 1 -->
 			<div class="col_1">
 				<button class="sort" data-sort="myorder:desc" >
-					Old
+					<span>Old</span>
 				</button>
-				/
 				<button class="sort" data-sort="myorder:asc" >
-					New
+					<span>New</span>
 				</button>
-				<span class="spincrement">1089</span>
+				<span class="spincrement">389</span>
 			</div>
 			<!-- col 2 -->
 			<div class="col_2">
 				<span>
 					<button class="filter" data-filter=".category-1">
-						New Realised 
+						<span>New Realised</span>
 					</button>
 				</span>
-				<span>/</span>
+				<!-- <span>/</span> -->
 				<span>
 					<button class="filter" data-filter=".category-2">
-						Trailers & Clips
+						<span>Trailers & Clips</span>
 					</button>
 				</span>
-				<span>/</span>
+				<!-- <span>/</span> -->
 				<span>
 					<button class="filter" data-filter="all">
-						All
+						<span>All</span>
 					</button>
 				</span>
 			</div>
@@ -172,7 +171,7 @@
 				<div class="play hide_tab">
 					<!-- video -->
 					<video controls="controls" autoplay muted loop>
-						<source src="img/vid_1.mp4">
+						<source src="http://videos.hd-trailers.net/Mad_Max_Fury_Road_2015_Trailer_F4_5.1-480p-HDTN.mp4">
 					</video>
 				</div>
 				<div class="show_tab play">
@@ -191,16 +190,32 @@
 					</div>
 					<!-- video -->
 					<video controls="controls" autoplay muted loop>
-						<source src="img/vid_1.mp4">
+						<source src="http://videos.hd-trailers.net/Mad_Max_Fury_Road_2015_Trailer_F4_5.1-480p-HDTN.mp4">
 					</video>
 				</div>
 			</div>
-			<!-- Big box 3 -->
+			<!-- Big box 3 video -->
 			<div class="mix item_3 big_box_horizontal">
-				<div class="play">
-					<a href="#">
-						<img src="img/body_play.png" alt="">
-					</a>
+				<div class="play hide_tab">
+					<!-- video -->
+					<iframe src="https://www.youtube.com/embed/ue80QwXMRHg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="show_tab play">
+					<div class="like">
+						<span>
+							<a href="#">
+								<img src="img/like_red.png" alt="">
+							</a>
+						</span>
+						<span class="value">3,542</span>
+					</div>
+					<div class="download">
+						<a href="#">
+							<img src="img/download_red.png" alt="">
+						</a>
+					</div>
+					<!-- video -->
+					<iframe src="https://www.youtube.com/embed/ue80QwXMRHg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 			<!-- Big box 4 -->
@@ -494,9 +509,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 	<!-- Фильтр по категориям -->
-	<!-- <script src="js/jquery.mixitup.js"></script> -->
+	<script src="js/jquery.mixitup.js"></script>
 	<!-- Настройки фильтра -->
-	<!-- <script src="js/mixitup_options.js"></script> -->
+	<script src="js/mixitup_options.js"></script>
 	<!-- Анимация чисел -->
 	<script src="js/jquery.spincrement.min.js"></script>
 	<!-- Включение анимации чисел -->
