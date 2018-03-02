@@ -85,9 +85,10 @@ a{
 	}
 	.col_3{
 		text-align: right;
-		input{
-			width: 100%;
-		}
+		position: relative;
+		// input{
+		// 	width: 170px;
+		// }
 	}
 	.col_1{
 		padding-left: 15px;

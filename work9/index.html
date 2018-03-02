@@ -111,7 +111,14 @@
 			</div>
 			<!-- col 3 -->
 			<div class="col_3">
-				<input type="text">
+				<!-- <input type="text"> -->
+				<!-- input slider -->
+				<p>
+					<label for="amount">Release date:</label>
+					<input type="text" id="amount" readonly>
+				</p>
+
+				<div id="slider-range"></div>
 			</div>
 		</section>
 		<!-- Page_1 -->
@@ -521,5 +528,10 @@
 	<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
 	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},500);};</script>
 	<!-- HelloPreload http://hello-site.ru/preloader/ -->
+	<!-- Подключение библиотеки jquery-ui для ползунков -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<!-- Инпут слайдер(ползунки) -->
+	<script src="js/input_slider.js"></script>
 </body>
 </html>
