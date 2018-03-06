@@ -370,7 +370,12 @@ footer{
 	// }
 	#container{
 		div{
-			background: url("../img/menu_ico3.png");
+			background: url("../img/menu_ico4.png")no-repeat;
+		}
+		.is-active{
+			div{
+				background: url("../img/menu_ico.png")no-repeat;
+			}
 		}
 	}
 }
@@ -379,9 +384,13 @@ footer{
 	z-index: 99999;
 	left: 20px;
 	div{
-		height: 16px;
+		height: 6px;
 		width: 23px;
-		background: url("../img/menu_ico2.png");
+		background: url("../img/menu_ico.png") no-repeat;
+		-webkit-transition: 0.5s ease-out ;
+		-moz-transition: 0.5s ease-out ;
+		-o-transition: 0.5s ease-out ;
+		transition: 0.5s ease-out ;
 	}
 }
 .pushy li{
@@ -389,7 +398,22 @@ footer{
 }
 .is-active{
 	div{
-		background: url("../img/menu_ico22.png") center!important;
+		// background: url("../img/menu_ico22.png") center!important;
+		&:nth-child(1){
+			transform: rotate(-35deg);
+			-webkit-transform-origin: 100% 1%; 
+			-ms-transform-origin: 100% 1%; 
+			transform-origin: 100% 1%;
+		}
+		&:nth-child(2){
+			opacity: 0;
+		}
+		&:nth-child(3){
+			transform: rotate(35deg);
+			-webkit-transform-origin: 100% 99%; 
+			-ms-transform-origin: 100% 99%; 
+			transform-origin: 100% 99%;
+		}
 	}
 }
 // Animated

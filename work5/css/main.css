@@ -440,53 +440,78 @@ footer .telephone {
 
 /* line 372, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 #navbar.fixedattop #container div {
-  background: url("../img/menu_ico3.png");
+  background: url("../img/menu_ico4.png") no-repeat;
 }
 
-/* line 377, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 376, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+#navbar.fixedattop #container .is-active div {
+  background: url("../img/menu_ico.png") no-repeat;
+}
+
+/* line 382, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 #container {
   position: absolute;
   z-index: 99999;
   left: 20px;
 }
 
-/* line 381, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 386, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 #container div {
-  height: 16px;
+  height: 6px;
   width: 23px;
-  background: url("../img/menu_ico2.png");
+  background: url("../img/menu_ico.png") no-repeat;
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
-/* line 387, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 396, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .pushy li {
   text-align: center;
 }
 
-/* line 391, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
-.is-active div {
-  background: url("../img/menu_ico22.png") center !important;
+/* line 402, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+.is-active div:nth-child(1) {
+  transform: rotate(-35deg);
+  -webkit-transform-origin: 100% 1%;
+  -ms-transform-origin: 100% 1%;
+  transform-origin: 100% 1%;
 }
 
-/* line 396, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 408, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+.is-active div:nth-child(2) {
+  opacity: 0;
+}
+
+/* line 411, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+.is-active div:nth-child(3) {
+  transform: rotate(35deg);
+  -webkit-transform-origin: 100% 99%;
+  -ms-transform-origin: 100% 99%;
+  transform-origin: 100% 99%;
+}
+
+/* line 420, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .animated {
   animation-duration: 1.1s !important;
 }
 
-/* line 400, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 424, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .scroll {
   position: absolute;
   bottom: 20px;
   left: 50vw;
 }
 
-/* line 405, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 429, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .scroll2 {
   position: absolute;
   bottom: -170px;
   left: 50%;
 }
 
-/* line 411, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 435, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .f1 {
   position: absolute;
   z-index: -2;
@@ -495,7 +520,7 @@ footer .telephone {
   top: -170px;
 }
 
-/* line 418, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 442, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .f2 {
   position: absolute;
   z-index: -2;
@@ -504,7 +529,7 @@ footer .telephone {
   top: -240px;
 }
 
-/* line 425, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 449, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .f3 {
   position: absolute;
   z-index: -2;
@@ -513,7 +538,7 @@ footer .telephone {
   bottom: -220px;
 }
 
-/* line 432, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 456, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .f4 {
   position: absolute;
   z-index: -2;
@@ -522,7 +547,7 @@ footer .telephone {
   bottom: -270px;
 }
 
-/* line 440, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
+/* line 464, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work5/sass/main.scss */
 .dotstyle {
   position: fixed;
   right: 50px;
