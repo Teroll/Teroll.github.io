@@ -7,7 +7,7 @@ body{
 }
 a{text-decoration: none!important;}
 button:focus,a:focus,option:focus,
-input:focus,select:focus{outline:none!important;}
+button:focus,a:focus,input:focus,select:focus{outline:none!important;}
 /*Header*/
 
 .BG1{
@@ -105,7 +105,11 @@ input:focus,select:focus{outline:none!important;}
 	background:  rgba(147,147,147, 0.2);
 	font-size: 18px;
 	padding-left: 23px;
-	font-family: Myriad Pro;	
+	font-family: Myriad Pro;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+	appearance:none;
+	position: relative;
 }
 .search-block option{
 	color: white;
@@ -168,6 +172,9 @@ input:focus,select:focus{outline:none!important;}
 	padding-left: 23px;
 	font-family: Myriad Pro;
 	margin-top: 16px;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+	appearance:none;
 }
 .navi-block button{
 	width: 45%;

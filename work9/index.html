@@ -9,6 +9,9 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
 	<!-- css -->
+	<!-- slick menu -->
+	<link rel="stylesheet" href="css/slicknav.css">
+
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/movie.css">
 	
@@ -111,12 +114,10 @@
 			</div>
 			<!-- col 3 -->
 			<div class="col_3">
-				<!-- <input type="text"> -->
-				<!-- input slider -->
-				<p>
-					<label for="amount">Release date:</label>
+				<div class="form">
+					<!-- <label for="amount">Release date:</label> -->
 					<input type="text" id="amount" readonly>
-				</p>
+				</div>
 
 				<div id="slider-range"></div>
 			</div>
@@ -506,10 +507,24 @@
 			</div>
 		</section>
 		<section class="footer_download">
-			
+		<!-- 	<ul class="list-inline menu_list" id="menu">
+				<li>
+					<li><a href="#">item 1</a></li>
+					<ul>
+						<li><a href="#">item 12</a></li>
+						<li><a href="#">item 13</a></li>
+						<li><a href="#">item 14</a></li>
+					</ul>
+				</li>
+				<li><a href="#">item 2</a></li>
+				<li><a href="#">item 3</a></li>
+				<li><a href="#">item 4</a></li>
+			</ul> -->
 		</section>
 		<footer id="footer" class="footer">
-			<!-- <span class="spincrement">3089</span> -->
+			<div id="YMapsID" class="map">
+				<!-- <iframe  src="https://yandex.ru/map-widget/v1/?um=constructor%3A8b40d24679893cfcfe314791b48e9e0c77094d387cfe1d56e5707eecb218c0a8&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe> -->
+			</div>
 		</footer>
 	</div>
 	<!-- Scripts -->
@@ -533,5 +548,26 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<!-- Инпут слайдер(ползунки) -->
 	<script src="js/input_slider.js"></script>
+	<!-- yandex map -->
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<!-- yandex map ON -->
+	<script type="text/javascript">
+	    // Создает обработчик события window.onLoad
+	    YMaps.jQuery(function () {
+	        // Создает экземпляр карты и привязывает его к созданному контейнеру
+	        var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+	        // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+	        map.setCenter(new YMaps.GeoPoint(37.64, 55.76), 10);
+	    })
+	</script>
+	<!-- Slick menu -->
+	<script src="js/jquery.slicknav.js"></script>
+	<!-- Slick menu ON -->
+	<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
 </body>
 </html>

@@ -1,30 +1,40 @@
-/* line 3, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 4, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe,
+blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, input, select, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 a {
   text-decoration: none !important;
 }
 
-/* line 4, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 10, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 button:focus, a:focus, input:focus, select:focus {
   outline: none !important;
 }
 
-/* line 5, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 11, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 li {
   list-style-type: none;
 }
 
-/* line 10, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 16, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 a:hover img {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-/* line 17, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 23, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .container1 {
   background-color: #edeff0;
 }
 
-/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 31, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav {
   position: fixed;
   top: 0;
@@ -38,50 +48,51 @@ a:hover img {
   padding: 0 30px;
 }
 
-/* line 37, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 43, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav .round_frame {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
   overflow: hidden;
+  border: 2px solid gray;
 }
 
-/* line 44, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 50, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav .round_frame img {
   margin-top: -5px;
   margin-left: -15px;
 }
 
-/* line 49, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 55, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav .col_1, .nav .col_2, .nav .col_3, .nav .col_4, .nav .col_5 {
   align-self: center;
 }
 
-/* line 52, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 58, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav .col_2, .nav .col_4 {
   text-align: center;
 }
 
-/* line 55, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 61, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .nav .col_3 {
   text-align: right;
 }
 
-/* line 65, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 71, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .slider {
   margin-top: 80px;
   height: 50vw;
   overflow: hidden;
 }
 
-/* line 69, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .slider img {
   height: 100%;
   width: 100%;
 }
 
-/* line 75, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 81, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search {
   display: grid;
   grid-template-columns: auto auto 180px;
@@ -89,28 +100,42 @@ a:hover img {
   padding: 0 30px;
 }
 
-/* line 80, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .col_1, .search .col_2, .search .col_3 {
   align-self: center;
 }
 
-/* line 83, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 89, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .col_2 {
   text-align: center;
 }
 
-/* line 86, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 92, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .col_3 {
   text-align: right;
   position: relative;
 }
 
-/* line 93, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 95, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.search .col_3 .form {
+  margin-bottom: 10px;
+}
+
+/* line 97, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.search .col_3 .form input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* line 106, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .col_1 {
   padding-left: 15px;
 }
 
-/* line 96, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 109, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .spincrement {
   background-color: #dddddd;
   height: 60px;
@@ -124,7 +149,7 @@ a:hover img {
   z-index: 44;
 }
 
-/* line 108, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 121, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search .spincrement:after {
   content: "";
   position: absolute;
@@ -137,7 +162,7 @@ a:hover img {
   z-index: -1;
 }
 
-/* line 122, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 135, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search button {
   height: 60px;
   padding: 0 24px;
@@ -146,19 +171,19 @@ a:hover img {
   font-weight: bold;
 }
 
-/* line 128, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 141, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search button span {
   display: block;
   transform: skewX(20deg);
 }
 
-/* line 132, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 145, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .search button:hover {
   background-color: red;
   color: white;
 }
 
-/* line 139, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 152, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -167,43 +192,43 @@ a:hover img {
   padding: 0 30px;
 }
 
-/* line 146, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 159, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 div {
   background-size: cover;
   border-radius: 8px;
   position: relative;
 }
 
-/* line 154, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 167, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .box {
   color: white;
   border: 3px solid #edeff0;
   transition: 0.5s;
 }
 
-/* line 158, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 171, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .box:hover {
   border: 3px solid red;
 }
 
-/* line 166, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 179, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical {
   border: 3px solid #edeff0;
   transition: 0.5s;
 }
 
-/* line 169, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 182, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical:hover {
   border: 3px solid red;
   border-radius: 9px;
 }
 
-/* line 172, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 185, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical:hover .play {
   background: red !important;
 }
 
-/* line 176, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 189, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info {
   position: absolute;
   top: 0;
@@ -216,12 +241,12 @@ a:hover img {
   padding: 20px;
 }
 
-/* line 186, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 199, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info div {
   background: transparent;
 }
 
-/* line 189, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 202, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info .rating {
   position: absolute;
   bottom: 20px;
@@ -229,12 +254,12 @@ a:hover img {
   width: 100%;
 }
 
-/* line 194, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 207, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info .rating img {
   height: 13px;
 }
 
-/* line 198, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 211, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info .play {
   background: #3f444e;
   position: absolute;
@@ -245,12 +270,12 @@ a:hover img {
   border-radius: 0 5px;
 }
 
-/* line 206, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 219, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_info .play img {
   margin: 10px;
 }
 
-/* line 211, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 224, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_vertical .box_img {
   background-size: cover;
   position: absolute;
@@ -261,7 +286,7 @@ a:hover img {
   border-radius: 0 0 5px 5px;
 }
 
-/* line 221, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 234, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_horizontal {
   border: 3px solid #edeff0;
   transition: 0.5s;
@@ -269,20 +294,20 @@ a:hover img {
   color: red;
 }
 
-/* line 226, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 239, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_horizontal:hover {
   border: 3px solid red;
   border-radius: 11px;
 }
 
-/* line 231, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 244, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_horizontal .play {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-/* line 235, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 248, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_horizontal .play video {
   position: absolute;
   bottom: 0;
@@ -291,7 +316,7 @@ a:hover img {
   width: 100%;
 }
 
-/* line 242, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 255, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .big_box_horizontal .play iframe {
   position: absolute;
   bottom: 0;
@@ -301,7 +326,7 @@ a:hover img {
   background-color: white;
 }
 
-/* line 252, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 265, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .like {
   display: inline-block;
   position: absolute;
@@ -310,7 +335,7 @@ a:hover img {
   z-index: 10;
 }
 
-/* line 259, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 272, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .download {
   display: inline-block;
   position: absolute;
@@ -319,7 +344,7 @@ a:hover img {
   z-index: 10;
 }
 
-/* line 266, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 279, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .Page_1 .box_name {
   text-align: center;
   width: 100%;
@@ -328,91 +353,126 @@ a:hover img {
   bottom: 20px;
 }
 
+/* line 290, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.footer_download {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 299, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.footer_download .menu_list a {
+  color: red;
+}
+
+/* line 305, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.footer {
+  padding: 20px 30px;
+}
+
+/* line 307, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.footer .map {
+  border: 3px solid #edeff0;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+/* line 313, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+.footer .map:hover {
+  border: 3px solid red;
+}
+
 @media only screen and (min-width: 1200px) {
-  /* line 282, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 321, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .Page_1 {
     grid-auto-rows: calc(17vw - 60px);
   }
 }
 
 @media only screen and (min-width: 980px) {
-  /* line 287, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 326, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_1 {
     grid-column: 2;
     grid-row: 1/3;
   }
-  /* line 291, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 330, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 {
     grid-column: 3/5;
     grid-row: 2;
   }
-  /* line 295, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 334, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_3 {
     grid-column: 1/3;
     grid-row: 3;
   }
-  /* line 299, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 338, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_4 {
     grid-column: 3;
     grid-row: 3/5;
   }
-  /* line 303, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 342, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .show_tab {
     display: none;
   }
-  /* line 306, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 345, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .hide_tab {
     display: block;
   }
 }
 
 @media only screen and (max-width: 979px) {
-  /* line 311, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 350, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .show_tab {
     display: block;
   }
-  /* line 314, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 353, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .hide_tab {
     display: none;
   }
-  /* line 317, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 356, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_1 {
     grid-column: 1;
     grid-row: 1/3;
   }
-  /* line 321, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 360, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 {
     grid-column: 2/4;
     grid-row: 1;
   }
-  /* line 325, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 364, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_4 {
     grid-column: 3;
     grid-row: 3/5;
   }
-  /* line 329, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 368, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_3 {
     grid-column: 1/3;
     grid-row: 3;
   }
-  /* line 333, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 372, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .Page_1 {
     grid-auto-rows: calc(33vw - 60px);
   }
-  /* line 336, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 375, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .nav {
     grid-template-columns: 0 auto 70px 70px 70px 70px 70px 70px auto;
   }
-  /* line 339, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 378, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search {
     grid-template-columns: 270px auto;
   }
-  /* line 341, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 380, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search .col_2 {
     text-align: right;
     padding-right: 15px;
   }
-  /* line 345, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 384, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search .col_3 {
     grid-column: 1/3;
     grid-row: 2;
@@ -420,21 +480,21 @@ a:hover img {
 }
 
 @media only screen and (max-width: 720px) {
-  /* line 352, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 391, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_1 {
     grid-column: 1;
     grid-row: 1/3;
   }
-  /* line 356, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 395, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 {
     grid-column: 2;
     grid-row: 1;
   }
-  /* line 359, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 398, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 .play {
     background-color: white;
   }
-  /* line 362, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 401, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 video {
     position: absolute;
     bottom: 0;
@@ -442,38 +502,38 @@ a:hover img {
     height: auto;
     width: 100%;
   }
-  /* line 370, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 409, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_4 {
     grid-column: 2;
     grid-row: 4/6;
   }
-  /* line 374, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 413, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_3 {
     grid-column: 1/3;
     grid-row: 3;
   }
-  /* line 378, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 417, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .Page_1 {
     grid-auto-rows: calc(50vw - 60px);
   }
-  /* line 381, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 420, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .nav {
     grid-template-columns: 0 114px repeat(7, auto);
   }
-  /* line 383, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 422, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .nav .col_3 {
     text-align: center;
   }
-  /* line 387, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 426, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search {
     grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
   }
-  /* line 389, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 428, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search .col_2 {
     text-align: center;
     padding-right: 15px;
   }
-  /* line 393, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 432, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .search .col_3 {
     grid-column: 1/3;
     grid-row: 3;
@@ -481,41 +541,41 @@ a:hover img {
 }
 
 @media only screen and (max-width: 500px) {
-  /* line 400, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 439, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .hide_mobile {
     display: none;
   }
-  /* line 403, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 442, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_1 {
     grid-column: 1;
     grid-row: 1/3;
   }
-  /* line 407, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 446, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_2 {
     grid-column: 1;
     grid-row: 4;
   }
-  /* line 411, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 450, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_4 {
     grid-column: 1;
     grid-row: 5/7;
   }
-  /* line 415, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 454, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .item_3 {
     grid-column: 1;
     grid-row: 3;
   }
-  /* line 419, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 458, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .Page_1 {
     grid-auto-rows: calc(100vw - 60px);
   }
-  /* line 422, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+  /* line 461, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
   .nav {
     grid-template-columns: 0 114px repeat(1, auto) 30px;
   }
 }
 
-/* line 427, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
+/* line 466, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work9/scss/main.scss */
 .mix {
   display: none;
 }
