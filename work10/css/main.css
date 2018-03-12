@@ -1,0 +1,76 @@
+/* line 9, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 10, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+button:focus, a:focus, input:focus, select:focus {
+  outline: none !important;
+}
+
+/* line 11, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 15, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.row {
+  border: 1px solid red;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 20, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.row > .col,
+.row > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 25, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.row div {
+  background: green;
+  border: 1px solid gray;
+}
+
+/* line 35, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.header {
+  min-height: 95px;
+}
+
+/* line 39, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.slider {
+  height: 590px;
+}
+
+/* line 43, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.our_services {
+  height: 920px;
+}
+
+/* line 47, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.about_us {
+  height: 620px;
+}
+
+/* line 51, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.price {
+  height: 900px;
+}
+
+/* line 55, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.how_it_works {
+  height: 850px;
+}
+
+/* line 59, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.clients {
+  height: 910px;
+}
+
+/* line 63, C:/Users/Serg/Documents/GitHub/Teroll.github.io/work10/scss/main.scss */
+.newsletter {
+  height: 1160px;
+}
+
+/*# sourceMappingURL=../css/main.map */

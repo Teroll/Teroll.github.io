@@ -1,0 +1,65 @@
+//font-family: 'Playfair Display', serif;
+//font-family: Source Sans Pro;
+//font-family: 'Cuprum', sans-serif;
+$color1: white;
+$color2: #c59d5f;//gold for h1
+$color3: #4f4f4f;//gray for 
+$color4: #000a5f;//blue for a
+$color5: #2c3d97;//blue for a:hover
+a{text-decoration: none!important;}
+button:focus,a:focus,input:focus,select:focus{outline:none!important;}
+li{list-style-type: none;}
+// bootstrap
+
+// General style-----------------------------------------------
+.row{
+	border: 1px solid red;
+
+	margin-right: 0;
+	margin-left: 0;
+	> .col,
+	> [class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	div{
+		background: green;
+		border: 1px solid gray;
+	}
+}
+
+
+
+
+// header------------------------------------
+.header{
+	min-height: 95px;
+}
+// slider------------------------------------
+.slider{
+	height: 590px;
+}
+// our_services-------------------------------
+.our_services{
+	height: 920px;
+}
+// about_us----------------------------------
+.about_us{
+	height: 620px;
+}
+// price------------------------------------
+.price{
+	height: 900px;
+}
+// how_it_works-------------------------------
+.how_it_works{
+	height: 850px;
+}
+// clients------------------------------------
+.clients{
+	height: 910px;
+}
+// newsletter---------------------------------
+.newsletter{
+	height: 1160px;
+}
