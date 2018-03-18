@@ -112,6 +112,17 @@ var Piechart = function(options){
  
     }
 }
+
+var img = new Image(); 
+    img.src = "../img/kontact3.png"; 
+    img.onload = function(){
+        ctx.drawImage(img, 0, 0);
+        ctx.drawImage(img, 220, 0);
+        ctx.drawImage(img, 0, 220);
+        ctx.drawImage(img, 220, 220);
+        // ctx.drawImage(img, 0, 0, 25, 25, 13, 15, 25, 25);
+    }
+
 var myPiechart = new Piechart(
     {
         canvas:myCanvas,
