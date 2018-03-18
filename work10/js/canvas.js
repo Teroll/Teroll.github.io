@@ -122,7 +122,8 @@ var img = new Image();
         ctx.drawImage(img, 220, 220);
         // ctx.drawImage(img, 0, 0, 25, 25, 13, 15, 25, 25);
     }
-
+ctx.translate(0, 400);
+ctx.rotate(Math.PI * (-0.5)); // 45 degrees
 var myPiechart = new Piechart(
     {
         canvas:myCanvas,
