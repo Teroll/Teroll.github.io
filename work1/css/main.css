@@ -130,10 +130,10 @@ nav{
 	white-space: nowrap;
 	padding: 15px;
 	font-size: 18px;
-	-webkit-transform: translateX(-100%);
-	-ms-transform: translateX(-100%);
-	-o-transform: translateX(-100%);
-	transform: translateX(-100%);
+	-webkit-transform: translateX(-110%);
+	-ms-transform: translateX(-110%);
+	-o-transform: translateX(-110%);
+	transform: translateX(-110%);
 }
 .head_tel:hover:before{
 	-webkit-transform: translateX(0);
@@ -155,10 +155,10 @@ nav{
 	white-space: nowrap;
 	padding: 15px;
 	font-size: 18px;
-	-webkit-transform: translateX(100%);
-	-ms-transform: translateX(100%);
-	-o-transform: translateX(100%);
-	transform: translateX(100%);
+	-webkit-transform: translateX(110%);
+	-ms-transform: translateX(110%);
+	-o-transform: translateX(110%);
+	transform: translateX(110%);
 }
 .head_download:hover:before{
 	-webkit-transform: translateX(0);
