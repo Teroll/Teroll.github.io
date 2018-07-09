@@ -326,7 +326,9 @@ li img{
     padding-left: 32px;
     text-align: left;  
 }
-
+.aboutMe h2{
+	text-align: left;
+}
 /*aboutMe
 /*Back*/
 .back{
