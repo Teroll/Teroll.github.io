@@ -203,6 +203,7 @@ nav{
 }
 .top-block h1{
 	font-family: Vollkorn SC;
+	padding: 0 15px
 }
 .top-block p{
 	font-family: Vollkorn SC;
@@ -398,5 +399,8 @@ li img{
 	}
 	.menu a{
 		font-size: 2.9vw;
+	}
+	.top-block h1{
+		font-size: 27px
 	}
 }
