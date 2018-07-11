@@ -258,6 +258,7 @@ h2{
 }
 .stanki ul{
 	padding-left: 0px;
+	column-count: 3;
 }
 .stan{
 	border-top: 1px solid gray;
@@ -389,6 +390,9 @@ li img{
 		font-size: 2.2vw;
 		white-space: nowrap;
 	}
+	.stanki ul{
+		column-count: 2;
+	}
 }
 @media screen and (max-width:480px){
 	nav{
@@ -402,5 +406,8 @@ li img{
 	}
 	.top-block h1{
 		font-size: 27px
+	}
+	.stanki ul{
+		column-count: 1;
 	}
 }
