@@ -7,7 +7,7 @@
 	<title>calc</title>
 </head>
 <body>
-	
+
 <!-- 	<div id="mp_calc" style="width:300px;"><iframe id="mp_calc_fr" src="http://metallicheckiy-portal.ru/servis/calcn_v2.php?tp=4&stil=13&pmet=st&pprok=protru&wi=300&he=490&fi=B2B2B2&fz=B2B2B2&tz=ffffff&tt=000000&kwi=47&khe=47&swi=136&she=46&sit=14&rpr=4&rvp=80&sz=on&nn=on&nk=on&adr=metallicheckiy-portal.ru/imgcalc/calc4" scrolling="no" height="490px" width="300px" frameborder="0" marginheight="0" marginwidth="0"></iframe></div> -->
 
 	<br>
@@ -19,7 +19,7 @@
 
 <!--/MP calculator-->
 	<br>
-	<h1>Тест</h1>
+	<h1>Тест2</h1>
 	<div class="calc">
 		<select>
 			<option value="1">сталь</option>
@@ -38,7 +38,7 @@
 		<!-- <div class="sum">0</div> -->
 		<button>Посчитать</button>
 	</div>
-	
+	<script>$(document).ready(function(){ $('#pmet').change(function(){ $.ajax({ url: "http://metallicheckiy-portal.ru/servis/calcajaxmarki.php",data: "tp=4&rpr=4&adr=metallicheckiy-portal.ru/imgcalc/calc4&tip=1&gvid=0&pmet=" + $("#pmet").val() + "", cache: false, success: function(html){ $("#dmarka").html(html); }   });  });  });</script>
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 	<script src="js/main.js"></script>
