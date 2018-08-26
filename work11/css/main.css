@@ -1,0 +1,63 @@
+.calc{
+	border: 1px solid black;
+}
+.calc-block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	/*margin-bottom: 40px;*/
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	padding: 20px;
+}
+.calc-block_title{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+.calc-item{
+	cursor: pointer;
+	font-size: 18px
+}
+.calc-otvet{
+	width: 100%;
+}
+.calc-otvet table{
+	width: 100%;
+	border-collapse: collapse ;
+	text-align: center;
+}
+.calc-otvet table td{
+	border: 1px solid gray;
+
+}
+.active{
+	background-color: green;
+	color: #fff;
+	transition: 0.4s;
+}
+.calc-otvet{
+	display: none;
+}
+.calc-otvet_btn{
+	cursor: pointer;
+	background-color: gray;
+	min-height: 25px;
+	min-width: 100px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
