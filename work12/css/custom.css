@@ -1,0 +1,37 @@
+.radio__label{
+	color: #E8D100;
+	/*background-color: #000;*/
+	background: linear-gradient(to top, #000 40%, rgb(62, 62, 62) 100%);
+	box-shadow: rgba(255, 255, 255, 0.3) 0 3px 6px 0 inset, rgba(0, 0, 0, 0.6) -2px -3px 6px 0 inset, rgba(0, 0, 0, 0.6) 1px 1px 6px 1px, rgb(62, 62, 62) 1px 1px 3px 0;
+	border: #000;
+	border-radius: 20px;
+	/*font-family: 'Jura', sans-serif;*/
+	font-size: 20px;
+	padding: 5px 15px 10px 15px;
+	min-height: 40px
+}
+.app{
+	background-color: #E8D100;
+	border: 5px solid #000;
+	font-family: 'Jura', sans-serif;
+}
+.radio__input:checked + label{
+	background-color: rgba(139, 0, 0, 1);
+}
+.mode__table table td, th{
+	border: 1px solid  #000 !important;
+}
+.diameter__input{
+	border: 2px solid black;
+	border-radius: 20px;
+	min-height: 40px;
+
+	background-color: #E8D100;
+	font-size: 22px;
+	width: 125px;
+	text-align: center;
+	padding-left: 27px;
+}
+.app__title{
+	margin-bottom: 20px;
+}
