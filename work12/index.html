@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Калькульятор режимо резания</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/base64.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <main id="app">
+      <div class="wrapper" v-cloak="v-cloak">
+        <div class="app">
+          <div class="app__tools">
+            <div class="app__title">Инструмент</div>
+            <div class="tools">
+              <div class="radio-group">
+                <div class="radio-group__item" v-for="(tool, i) in inputData">
+                  <div class="radio">
+                    <input class="radio__input" type="radio" :value="tool.id" v-model="currentTool" name="tool" :id="'tool-'+i"/>
+                    <label class="radio__label" :for="'tool-'+i">{{ tool.name }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app__material">
+            <div class="app__title">Материал</div>
+            <div class="materials">
+              <div class="radio-group">
+                <div class="radio-group__item" v-for="(mat, i) in material">
+                  <div class="radio">
+                    <input class="radio__input" type="radio" :value="mat.id" v-model="currentMaterial" name="mat" :id="'mat-'+i"/>
+                    <label class="radio__label" :for="'mat-'+i">{{ mat.name }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app__diameter">
+            <div class="app__title">Диаметр заготовки / инструмента</div>
+            <div class="diameter">
+              <input class="diameter__input" v-model="diameter" type="number"/>
+            </div>
+          </div>
+          <div class="app__result">
+            <div class="app__title">Режимы отбработки</div>
+            <div class="mode">
+              <div class="mode__table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th> </th>
+                      <th>Чистовые режимы</th>
+                      <th>Черновые режимы</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Обороты</td>
+                      <td>{{ turnoverClean }}</td>
+                      <td>{{ turnoverBlack }}</td>
+                    </tr>
+                    <tr>
+                      <td>Подача</td>
+                      <td>{{ material[currentMaterial].supplyClean }}</td>
+                      <td>{{ material[currentMaterial].supply }}</td>
+                    </tr>
+                    <tr>
+                      <td>Съём</td>
+                      <td>{{ material[currentMaterial].removalClean }}</td>
+                      <td>{{ material[currentMaterial].removal }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
